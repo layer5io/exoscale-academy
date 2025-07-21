@@ -1,0 +1,49 @@
+name: Build and publish academy
+
+on:
+  release:
+    types: [published]
+
+  workflow_dispatch:
+    inputs:
+      orgId:
+        description: 'Organization ID'
+        required: true
+      token:
+        description: 'Bearer token'
+        required: true
+      version:
+        description: 'Module version'
+        required: false
+        default: ''
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo Extended
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.9'
+          extended: true
+
+      - name: Install dependencies
+        run: make setup
+
+      - name: Run production build test
+        run: make build
+
+      - name: Publish to layer5 academy
+        id: academy
+        uses: layer5io/academy-build@v0.1.3
+        with:
+          orgId: ${{ github.event.inputs.orgId || secrets.ACADEMY_ORG_ID }}
+          token: ${{ github.event.inputs.token || secrets.ACADEMY_TOKEN }}
+          version: ${{ github.event.inputs.version != '' && github.event.inputs.version || github.ref_name }}
+
+      - name: Show response
+        run: echo "${{ steps.academy.outputs.response }}"

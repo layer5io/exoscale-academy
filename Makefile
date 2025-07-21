@@ -14,24 +14,19 @@
 
 #include .github/build/Makefile.show-help.mk
 
-## Install docs.layer5.io dependencies on your local machine.
+## Install academy-example dependencies on your local machine.
 ## See https://gohugo.io/categories/installation
 setup:
 	npm install
 
-## Run docs.layer5.io on your local machine with draft and future content enabled.
+## Run on your local machine with draft and future content enabled.
 site: check-go
 	hugo server -D -F
 	
-## Run docs.layer5.io on your local machine. Alternate method.
-site-fast:
-	gatsby develop
-
-## Build docs.layer5.io on your local machine.
 build:
 	hugo
 
-## Empty build cache and run docs.layer5.io on your local machine.
+## Empty build cache and run on your local machine.
 clean: 
 	hugo --cleanDestinationDir
 	make site
@@ -42,6 +37,3 @@ check-go:
 	@echo "Checking if Go is installed..."
 	@command -v go > /dev/null || (echo "Go is not installed. Please install it before proceeding."; exit 1)
 	@echo "Go is installed."
-
-docker:
-	docker compose watch

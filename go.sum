@@ -1,7 +1,17 @@
+github.com/FortAwesome/Font-Awesome v0.0.0-20241216213156-af620534bfc3 h1:/iluJkJiyTAdnqrw3Yi9rH2HNHhrrtCmj8VJe7I6o3w=
 github.com/FortAwesome/Font-Awesome v0.0.0-20241216213156-af620534bfc3/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/google/docsy v0.12.0 h1:CddZKL39YyJzawr8GTVaakvcUTCJRAAYdz7W0qfZ2P4=
 github.com/google/docsy v0.12.0/go.mod h1:1bioDqA493neyFesaTvQ9reV0V2vYy+xUAnlnz7+miM=
 github.com/layer5io/academy-theme v0.1.2 h1:6t7CkMyyJImuxKdE70VB6+vCTuBWLd/YcGu1voUdp1k=
 github.com/layer5io/academy-theme v0.1.2/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
+github.com/layer5io/academy-theme v0.1.3 h1:n7LcoSV9Wd5CHp/UONzagAx1DNB8n9V0qKyOq0GjJX8=
+github.com/layer5io/academy-theme v0.1.3/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
+github.com/layer5io/academy-theme v0.1.5 h1:QroyZIVIqM9NS4Wy8+mTdS4l88uH5BKdHgf1laVWd3g=
+github.com/layer5io/academy-theme v0.1.5/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
+github.com/layer5io/academy-theme v0.1.6 h1:BY86IBXPaoJyseLFiW6lkAnECt/oXtsQuvHU5ycCf2A=
+github.com/layer5io/academy-theme v0.1.6/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
 github.com/layer5io/hugo-academy-theme v0.0.0-20250715053027-36f46b5c4741 h1:ATysCRr0Rqm69xwYRRsg/uVcYW1MdV6AqinROKsg4BE=
 github.com/layer5io/hugo-academy-theme v0.0.0-20250715053027-36f46b5c4741/go.mod h1:Kp2xgJUAqGztDN/j6T30ApwSaK1Yxs1IvrSgOoRFKnI=
 github.com/twbs/bootstrap v5.3.6+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.7+incompatible h1:ea1W8TOWZFkqSK2M0McpgzLiUQVru3bz8aHb0j/XtuM=
+github.com/twbs/bootstrap v5.3.7+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
