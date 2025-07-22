@@ -6,7 +6,7 @@ weight: 2
 ---
 
 
-### **Explained**
+### Explained
 
 Cloud services models refer to how cloud computing services are delivered to users. The three main cloud services models are:
 
@@ -26,7 +26,7 @@ Each cloud services model offers different levels of control and flexibility, al
 
 ![pyramid](pyramid.png)
 
-### **Service Model - SaaS**
+### Service Model - SaaS
 
 ![saas](saas.png)
 
@@ -34,7 +34,7 @@ SaaS applications are typically hosted on the cloud provider's servers and deliv
 
 Overall, SaaS is a cost-effective and flexible solution for organizations of all sizes, providing easy access to powerful software applications without complex installation, maintenance, or support.
 
-### **Service Model - PaaS**
+### Service Model - PaaS
 
 ![paas](paas.png)
 
@@ -44,7 +44,7 @@ PaaS benefits organizations with limited IT resources, allowing developers to fo
 
 PaaS is a powerful and flexible application development and deployment solution, providing developers with the resources and tools they need to create and deliver applications quickly and efficiently.
 
-### **Service Model - IaaS**
+### Service Model - IaaS
 
 ![iaas](iaas.png)
 

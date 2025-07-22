@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-### **Overview**
+### Overview
 
 Block storage provides high-performance, flexible, and scalable solutions for applications requiring direct access to storage devices. It is well-suited for databases, virtualized environments, and other performance-critical workloads. Block storage offers several benefits compared to other storage systems.
 

@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-### **Overview**
+### Overview
 
 Cloud file storage provides the flexibility to support and integrate with existing applications, plus the ease of deploying, managing, and maintaining all your files in the cloud. These two key advantages allow organizations to support various applications and verticals. Use cases such as large content repositories, development environments, media stores, and user home directories are ideal workloads for cloud-based file storage.
 

@@ -7,11 +7,11 @@ tags: [kubernetes]
 categories: [intermediate]
 ---
 
-### **Imperative vs Declarative**
+### Imperative vs Declarative
 
 Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services that facilitates both automation and declarative configuration."
 
-#### **Configuration Differences**
+#### Configuration Differences
 
 What a difference a configuration makes :).
 

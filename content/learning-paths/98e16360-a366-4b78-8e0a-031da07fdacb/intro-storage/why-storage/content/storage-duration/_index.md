@@ -4,7 +4,7 @@ description: ""
 title: "Storage Duration"
 weight: 3
 ---
-### **Explained**
+### Explained
 
 Storage Duration or Data Retention refers to the period of time that data is stored and maintained in a system or storage medium. It represents the duration for which data is preserved and remains accessible for retrieval or reference.
 

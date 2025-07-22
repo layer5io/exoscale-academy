@@ -5,7 +5,7 @@ title: "Namespace Theory"
 weight: 8
 ---
 
-### **Namespace Theory**
+### Namespace Theory
 
 Namespaces provide separation of components and are a construct to introduce additional structure to your configurations.
 
@@ -13,7 +13,7 @@ Namespaces provide separation of components and are a construct to introduce add
 
 How the construct namespace works is shown in the video below.
 
-#### **Namespace Theory**
+#### Namespace Theory
 {{< card 
 title="Video: Namespace Theory">}}
 <video width="100%" height="100%" controls>

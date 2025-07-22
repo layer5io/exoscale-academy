@@ -5,7 +5,7 @@ title: "Ingress Config"
 weight: 3
 ---
 
-### **Ingress Config**
+### Ingress Config
 
 How to configure an Ingress? The Ingress service consists of two parts, first, the Ingress Controller and second, the Ingress Configuration (called Ingress in Kubernetes). Kubernetes is reading the configuration and deploying it to the controller.
 
@@ -13,7 +13,7 @@ How to configure an Ingress? The Ingress service consists of two parts, first, t
 
 The video below shows the flow of the configuration process.
 
-#### **Ingress Config**
+#### Ingress Config
 {{< card 
 title="Video: Ingress Config">}}
 <video width="100%" height="100%" controls>

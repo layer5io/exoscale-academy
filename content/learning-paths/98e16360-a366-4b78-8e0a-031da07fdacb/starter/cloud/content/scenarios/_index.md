@@ -8,22 +8,22 @@ weight: 4
 ---
 
 
-### **Generic IaaS Use Cases**
+### Generic IaaS Use Cases
 
 ![cloud-computing](generic.png)
 
-#### **Lift & Shift**
+#### Lift & Shift
 One speaks of Lift & Shift when moving existing, traditional workloads into an IaaS cloud as unaltered as possible is unavoidable. Management Tools for IT Operations are, as far as possible, supported by the existing Data Center Operation taken over and implemented. Cloud-native functions have little or no application.
 
-#### **Improve & Move**
+#### Improve & Move
 One speaks of Improve & Move if you adapt and modify IT processes in this approach to take advantage of cloud-native functions at least partially. You should use the migration process to achieve a more substantial standardization, a higher degree of automation, and free existing processes from legacy burdens.
 
-#### **Design & Build**
+#### Design & Build
 One speaks of Design & Build if you redefine all or all new business and IT processes. Further, you use agile, cloud-native methods in your developments wherever possible. Tools used are cloud-native and DevOps-oriented throughout the application life cycle, focusing strongly on Infrastructure as Code (IaC) and automation.
 
-### **Specific IaaS Use Cases**
+### Specific IaaS Use Cases
 
-#### **Test Cloud**
+#### Test Cloud
 
 ![test-cloud](test-cloud.png)
 
@@ -33,7 +33,7 @@ One speaks of Design & Build if you redefine all or all new business and IT proc
 
 **Advantages**: The high degree of automation provided by Exoscale makes such a modern and performance test scenario possible. This solution eliminates the expensive acquisition of servers and complex internal procurement. With the Pay-Per-Use principle, the second charges the customer for used server resources.
 
-#### **Productivity**
+#### Productivity
 
 ![productivity](productivity.png)
 
@@ -43,7 +43,7 @@ One speaks of Design & Build if you redefine all or all new business and IT proc
 
 **Advantages**: Due to the need for a flexible number of servers, NoName Ltd would have to purchase a large pool of servers. Exoscale flexibility contributes to risk minimization and resource management by providing components in a Pay-Per-Use model billed by the second. Creating more servers for digital meetings is easy if more customers decide to use the platform.
 
-#### **Image Analysis**
+#### Image Analysis
 
 ![image-analysis](image-analysis.png)
 

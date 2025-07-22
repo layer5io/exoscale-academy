@@ -8,7 +8,7 @@ weight: 3
 ---
 
 
-### **Object Storage**
+### Object Storage
 Exoscale's Simple Object Storage (SOS) is a scalable and cost-effective solution for storing and managing large amounts of data. It offers highly available multi-redundancy storage, ensuring data safety and accessibility. You can store various files and objects, such as assets, backups, and media files. Your data remains in the exact location you store it, and Exoscale replicates it in at least three physical copies for maximum safety.
 
 **Features Overview:**
@@ -25,7 +25,7 @@ The S3-compatible API allows for easy integration with existing workflows and ap
 
 NOTE! Here, you can find all the details in the online documentation for [STORAGE](https://community.exoscale.com/product/storage/).
 
-### **CDN**
+### CDN
 Exoscale's CDN service, developed with Ducksify, makes distributing your assets globally with Akamai's delivery network simple. It improves performance and user experience by caching assets in multiple locations. You can easily integrate it with our SOS service to make content available through the CDN endpoint.
 
 **Features Overview:**

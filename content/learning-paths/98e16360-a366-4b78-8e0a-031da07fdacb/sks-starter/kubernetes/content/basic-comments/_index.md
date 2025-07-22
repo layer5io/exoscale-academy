@@ -7,7 +7,7 @@ tags: [kubernetes, concepts]
 categories: [intermediate]
 ---
 
-### **Basic Concepts**
+### Basic Concepts
 
 The four foundational Kubernetes concepts listed below are essential to run your modern applications on scalable cloud infrastructure.
 
@@ -20,7 +20,7 @@ These four concepts are explained in more detail in the videos below.
 
 ![basic-concepts](basic-concepts.png)
 
-#### **PODs**
+#### PODs
 {{< card 
 title="Video: PODs">}}
 <video width="100%" height="100%" controls>
@@ -29,7 +29,7 @@ title="Video: PODs">}}
 </video>
 {{< /card >}}
 
-#### **DEPLOYMENTs**
+#### DEPLOYMENTs
 {{< card 
 title="Video: DEPLOYMENTs">}}
 <video width="100%" height="100%" controls>
@@ -38,7 +38,7 @@ title="Video: DEPLOYMENTs">}}
 </video>
 {{< /card >}}
 
-#### **STATEFULSETs**
+#### STATEFULSETs
 {{< card 
 title="Video: STATEFULSETs">}}
 <video width="100%" height="100%" controls>
@@ -47,7 +47,7 @@ title="Video: STATEFULSETs">}}
 </video>
 {{< /card >}}
 
-#### **SERVICEs**
+#### SERVICEs
 {{< card 
 title="Video: SERVICEs">}}
 <video width="100%" height="100%" controls>

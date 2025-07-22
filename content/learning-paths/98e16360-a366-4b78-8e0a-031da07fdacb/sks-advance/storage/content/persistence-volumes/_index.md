@@ -5,13 +5,13 @@ title: "Persistent Volumes"
 weight: 3
 ---
 
-### **Persistent Volumes**
+### Persistent Volumes
 
 If you want to run stateful workloads, temporary storage managed by volumes is not suitable for this application category. Running a database, for example, needs persistent volumes and storage technologies like, e.g., Block Storage, iSCSI, NFS.
 
 Under no circumstances should you use non-persistent local storage types for this category of data applications. Kubernetes uses highly dynamic resource scheduling to optimize existing physical resources, which are provided via nodes. Pods get moved around, recycled, deleted, and with this, local data can get lost.
 
-#### **Persistent Volumes**
+#### Persistent Volumes
 {{< card 
 title="Video: Persistent Volumes">}}
 <video width="100%" height="100%" controls>

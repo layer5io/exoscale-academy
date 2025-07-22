@@ -5,7 +5,7 @@ title: "Ingress"
 weight: 2
 ---
 
-### **Ingress**
+### Ingress
 
 We already know the LoadBalancer service in Kubernetes from the SKS starter course. However, LoadBalancer works only on network layer 4; it can not distinguish between different hostnames and paths and cannot terminate SSL traffic. These additional capabilities are provided in Kubernetes by the Ingress service.
 
@@ -13,7 +13,7 @@ The Ingress uses a reverse proxy, like Nginx, to handle network layer 7 balancin
 
 ![ingress](ingress.png)
 
-#### **Ingress**
+#### Ingress
 {{< card 
 title="Video: Ingress">}}
 <video width="100%" height="100%" controls>

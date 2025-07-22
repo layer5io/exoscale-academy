@@ -6,7 +6,7 @@ weight: 2
 ---
 
 
-### **Explained**
+### Explained
 
 
 ![devops](devops.png)

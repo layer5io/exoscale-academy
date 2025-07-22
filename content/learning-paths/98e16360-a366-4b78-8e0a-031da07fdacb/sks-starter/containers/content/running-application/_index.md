@@ -8,21 +8,21 @@ categories: [intermediate]
 ---
 
 
-### **What do I need ...**
+### What do I need ...
 
 Considering the next steps based on the Node.js sample app from before.
 
-### **What do I need to run apps in container?**
+### What do I need to run apps in container?
 
 - Node.js – in the correct Version
 - All dependencies of the App (e.g. via Package Manager NPM)
 
-### **Possibly … when the Application gets bigger ...**
+### Possibly … when the Application gets bigger ...
 
 - Database (and its requirements …)
 - Private Network
 
-#### **Running Apps**
+#### Running Apps
 
 {{< card 
 title="Video: Running App">}}

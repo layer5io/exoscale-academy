@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-### **GDPR vs. CLOUD Act**
+### GDPR vs. CLOUD Act
 
 ![GDPRvsCLOUDact](GDPRvsCLOUDact.png)
 
@@ -15,7 +15,7 @@ weight: 3
 **CLOUD Act**: hand over personal data to the US government, valid for all US-owned companies, fines or prison at non-compliance
 
 
-### **Exoscale's Compliance - Frameworks / Web / Centers**
+### Exoscale's Compliance - Frameworks / Web / Centers
 
 ![exoscale-compliance](exoscale-compliance.png)
 

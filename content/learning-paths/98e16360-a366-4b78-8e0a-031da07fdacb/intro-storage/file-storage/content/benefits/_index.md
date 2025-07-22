@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-### **Overview**
+### Overview
 
 Suppose your organization requires a centralized, easily accessible, affordable way to store files and folders. In that case, file-level storage is a good approach.
 

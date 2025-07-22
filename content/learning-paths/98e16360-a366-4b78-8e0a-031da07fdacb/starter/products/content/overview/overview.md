@@ -6,14 +6,14 @@ weight: 1
 ---
 
 
-### **IaaS+**
+### IaaS+
 
 Infrastructure as a Service is the cloud service model we support with the Exoscale platform and a bit more, hence, IaaS+.
 
 ![iaas-arch](iaas-arch.png)
 
 
-### **Platform**
+### Platform
 
 A state-of-the-art IaaS platform providing the building blocks for your application infrastructure.
 
@@ -26,7 +26,7 @@ The following questions arise if you think about the breadth of the cloud offeri
 - Why Exoscale?
 
 
-#### **Why IaaS?**
+#### Why IaaS?
 
 It is the cloud computing model to extend or replace your data center.
 
@@ -41,7 +41,7 @@ The IDC figures show clearly that the infrastructure game is changing. Even thou
 - **public cloud** (cloud & shared) part will be **up** from 49.0% to **58.1%**
 - **on-premises** part (non-cloud & dedicated) will be **down** from 35.3% **to 25.0%**
 
-#### **Who uses IaaS?**
+#### Who uses IaaS?
 IaaS users, in general, are looking for TWO significant benefits:
 
 - **MORE DYNAMIC**, servers can be started and stopped as needed without the up-front cost.
@@ -55,7 +55,7 @@ Which audiences apply IaaS functions to solve their IT tasks?
 
 ![customers](customers.png)
 
-#### **Why Exoscale?**
+#### Why Exoscale?
 
 - **Trusted by engineers across Europe and beyond** - A reliable partner is key for mission-critical cloud workloads. Our customer success engineers have supported hundreds of European clients in migrating, running, and scaling cloud-native applications.
 

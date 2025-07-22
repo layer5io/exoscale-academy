@@ -8,7 +8,7 @@ categories: [intermediate]
 ---
 
 
-### **Dockerfile**
+### Dockerfile
 
 ```yaml
 FROM node:12-alpine * to be based on which other Docker image?
@@ -23,7 +23,7 @@ RUN npm install * dependencies for the application
 
 CMD ["node", "src/index.js"] * run the app - just like when running outside a container
 ```
-#### **Dockerfile Theory**
+#### Dockerfile Theory
 {{< card 
 title="Video: Dockerfile Theory">}}
 <video width="100%" height="100%" controls>
@@ -33,7 +33,7 @@ title="Video: Dockerfile Theory">}}
 {{< /card >}}
 
 
-#### **Dockerfile Practice**
+#### Dockerfile Practice
 {{< card 
 title="Video: Dockerfile Practice">}}
 <video width="100%" height="100%" controls>

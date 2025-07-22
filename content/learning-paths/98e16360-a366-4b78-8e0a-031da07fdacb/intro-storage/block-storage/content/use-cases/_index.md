@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-### **Overview**
+### Overview
 
 These are just a few examples of the many uses of block storage. Its versatility and scalability make it a crucial component in various IT environments, enabling efficient data storage and management for multiple applications and workloads. Block storage has many uses in cloud computing and other IT environments.
 

@@ -6,7 +6,7 @@ weight: 1
 ---
 
 
-### **Definition**
+### Definition
 
 Cloud computing is a technology that allows users to access computing resources, such as servers, storage, and applications, over the Internet, without the need for on-site hardware or infrastructure.
 

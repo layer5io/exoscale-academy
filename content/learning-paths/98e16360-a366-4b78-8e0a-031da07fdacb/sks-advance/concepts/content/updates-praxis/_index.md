@@ -5,7 +5,7 @@ title: "Updates Praxis"
 weight: 11
 ---
 
-### **Updates Praxis**
+### Updates Praxis
 
 The **kubectl** command provides rollout and update capabilities for containerized applications and the associated Kubernetes constructs. Users expect applications to be available all the time, and developers deploy new versions of them several times a day.
 
@@ -17,7 +17,7 @@ The declarative nature of Kubernetes and the tracking of your actions makes undo
 
 The video below demonstrates this rather complex sounding process in some of its possible variations. Therefore, a more extended sequence was necessary to show all the essential concepts coming together and let you experience the flexibility and stability of a Kubernetes environment.
 
-#### **Updates Praxis**
+#### Updates Praxis
 {{< card 
 title="Video: Updates Praxis">}}
 <video width="100%" height="100%" controls>

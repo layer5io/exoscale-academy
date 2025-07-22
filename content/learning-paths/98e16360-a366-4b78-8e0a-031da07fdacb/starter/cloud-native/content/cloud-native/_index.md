@@ -6,7 +6,7 @@ weight: 1
 ---
 
 
-### **Explained**
+### Explained
 
 Cloud-native refers to a software development approach that leverages cloud computing services and infrastructure to build and deploy applications. It involves designing applications as a collection of microservices that can run independently and scale dynamically, using containerization and orchestration technologies like Kubernetes.
 
@@ -14,7 +14,7 @@ Cloud-native applications are built to be resilient, scalable, and highly availa
 
 ![cloud-native](cloud-native.png)
 
-### **Why Cloud-Native?**
+### Why Cloud-Native?
 **Scalability**: Cloud-native applications are designed to scale dynamically, allowing organizations to handle increased traffic and demand without downtime or performance issues.
 
 **Agility**: Cloud-native applications can be developed, tested, and deployed quickly, allowing organizations to respond rapidly to changing market needs and customer feedback.

@@ -5,7 +5,7 @@ title: "Manifest Theory"
 weight: 5
 ---
 
-### **Manifest Theory**
+### Manifest Theory
 
 The beauty of Kubernetes lies in its descriptive/declarative nature of infrastructure management and operation. Instead of writing a series of single commands on the CLI, you write it down in a stateless manifest; the format used is a .yaml - file.
 
@@ -13,7 +13,7 @@ The beauty of Kubernetes lies in its descriptive/declarative nature of infrastru
 
 The manifest concept details and how to compose them are laid out in the video below.
 
-#### **Manifest Theory**
+#### Manifest Theory
 {{< card 
 title="Video: Manifest Theory">}}
 <video width="100%" height="100%" controls>

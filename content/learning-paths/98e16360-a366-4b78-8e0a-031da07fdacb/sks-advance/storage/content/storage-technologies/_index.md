@@ -5,7 +5,7 @@ title: "Storage Technologies"
 weight: 4
 ---
 
-### **Storage Technologies**
+### Storage Technologies
 
 Kubernetes, due to its extensible nature, can leverage a multitude of storage technologies. Especially for the persistent volume scenarios, there are various solutions available. Of course, there are also open-source variants.
 

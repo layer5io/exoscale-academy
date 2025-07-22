@@ -9,10 +9,10 @@ categories: [intermediate]
 
 
 
-### **Containers**
+### Containers
 ![container](container.png)
 
-#### **Containers**
+#### Containers
 
 {{< card 
 title="Video: Containers">}}

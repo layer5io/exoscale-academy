@@ -5,7 +5,7 @@ title: "Use Cases - Object Storage"
 weight: 3
 ---
 
-### **Overview**
+### Overview
 
 These are just a few examples of the many uses of object storage. Its scalability, durability, and cost-effectiveness make it a popular choice for storing and managing large volumes of unstructured data in various industries and applications. Object storage is a versatile solution that finds applications in multiple industries and use cases.
 

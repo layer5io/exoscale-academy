@@ -6,9 +6,9 @@ weight: 7
 ---
 
 
-### **Overview**
+### Overview
 
-#### **CERN - powered by Exoscale**
+#### CERN - powered by Exoscale
 
 scientific computing at scale
 
@@ -19,7 +19,7 @@ scientific computing at scale
 - An environment for 1.7 million scientists
 - Storing, sharing, analyzing, and reusing research data
 
-#### **whalebone - powered by Exoscale**
+#### whalebone - powered by Exoscale
 
 keep the malware out
 
@@ -30,7 +30,7 @@ keep the malware out
 - Backups and Data Storage
 - Servers are dynamically started on demand
 
-#### **SchoolFox - powered by Exoscale**
+#### SchoolFox - powered by Exoscale
 
 safe and compliant school communication
 

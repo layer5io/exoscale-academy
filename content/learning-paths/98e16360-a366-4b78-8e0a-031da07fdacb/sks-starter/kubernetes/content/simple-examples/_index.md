@@ -7,7 +7,7 @@ tags: [kubernetes, containers]
 categories: [intermediate]
 ---
 
-### **Simple Examples**
+### Simple Examples
 
 Let's look at two examples. First, a simple hello-world container and second, a simple Ubuntu container.
 
@@ -21,7 +21,7 @@ Let's look at two examples. First, a simple hello-world container and second, a 
 
 Watch these two examples below in the videos.
 
-#### **Simple Hello-World Container**
+#### Simple Hello-World Container
 {{< card 
 title="Video: Simple Hello-World Container">}}
 <video width="100%" height="100%" controls>
@@ -30,7 +30,7 @@ title="Video: Simple Hello-World Container">}}
 </video>
 {{< /card >}}
 
-#### **Simple Ubuntu Container**
+#### Simple Ubuntu Container
 {{< card 
 title="Video: Simple Ubuntu Container">}}
 <video width="100%" height="100%" controls>

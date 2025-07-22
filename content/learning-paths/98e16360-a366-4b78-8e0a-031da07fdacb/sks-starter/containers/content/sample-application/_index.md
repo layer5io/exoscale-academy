@@ -10,7 +10,7 @@ categories: [intermediate]
 
 
 
-### **Sample Application using Node.js**
+### Sample Application using Node.js
 
 This sample app demonstration shows how traditional software deployment looks. A little JavaScript spins up a web server and runs the sample app on the server. It demonstrates how easy it is to run web-based applications, but still, you need to install and run Node.js beforehand. In addition, you have to use the proper versions of the software components in place and take care of all dependencies (runtime environments, libraries, ...). Otherwise, the app will not run or will not run properly.
 

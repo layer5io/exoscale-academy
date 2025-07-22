@@ -6,11 +6,11 @@ weight: 1
 ---
 
 
-### **Welcome**
+### Welcome
 
 In this SKS Starter training, we cover how Kubernetes (K8s) works, why we want to use K8s, and, very importantly, we will take a practical approach to K8s to show you the real magic of the technology.
 
-#### **Welcome**
+#### Welcome
 
 {{< card 
 title="Video: Welcome">}}

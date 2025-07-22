@@ -7,7 +7,7 @@ tags: [kubernetes, introduction]
 categories: [intermediate]
 ---
 
-### **What is it?**
+### What is it?
 
 ![what-it-is](what-it-is.png)
 

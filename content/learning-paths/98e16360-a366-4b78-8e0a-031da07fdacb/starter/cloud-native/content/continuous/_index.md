@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-### **Explained**
+### Explained
 
 ![cont-delivery](cont-delivery.png)
 

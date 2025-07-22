@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-### **Overview**
+### Overview
 
 Overall, object storage provides a scalable, durable, and cost-effective solution for storing and managing large volumes of data. It is suitable for various use cases, including backup and recovery, content distribution, data archiving, and big data analytics. Object storage offers several benefits compared to traditional storage systems.
 

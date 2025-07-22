@@ -5,11 +5,11 @@ title: "Details - Object Storage"
 weight: 3
 ---
 
-### **Explained**
+### Explained
 
 Object storage has become the foundation for web-scale architectures in public or private clouds. Its appeal is due to its potential to handle massive scale while minimizing complexity and cost. It allows application developers and users to focus more on their workflow and logic and not worry about managing file storage and file locations. Customers struggling with large-scale data storage deployments are turning to object storage to overcome the limitations that legacy storage systems face at scale.
 
-### **Definiton**
+### Definiton
 
 Object storage is an architecture that manages data as distinct units, known as objects. Each object contains the actual data, metadata, and a unique identifier. The metadata stored alongside the data can include information such as creation date, size, and custom attributes. This technique manages and manipulates data storage using objects in a central location, not structured as files within folders. This approach to data storage offers substantial benefits in terms of scalability, cost-efficiency, and ease of use. It is a primary form of storage used in cloud computing infrastructure.
 
