@@ -5,7 +5,7 @@ title: "Storage Criteria"
 weight: 3
 ---
 
-### **Overview**
+### Overview
 
 ![criteria](criteria.png)
 
