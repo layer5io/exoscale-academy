@@ -5,6 +5,6 @@ title: "Packaging & Pricing"
 weight: 2
 ---
 
-### **Packaging & Pricing**
+### Packaging & Pricing
 
 ![image](pricing.png)

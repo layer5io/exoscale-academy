@@ -5,7 +5,7 @@ title: "Kubernetes ..."
 weight: 3
 ---
 
-### **Kubernetes is...**
+### Kubernetes is...
 
 ... providing the building blocks for creating developer and infrastructure platforms but preserves user choice and flexibility where it is essential.
 
@@ -13,7 +13,7 @@ weight: 3
 
 ![image](kubernetes4.png)
 
-### **Kubernetes does NOT ...**
+### Kubernetes does NOT ...
 **... limit the types of applications supported.**
 
 Kubernetes aims to support a highly diverse workload, including stateless, stateful, and data-processing workloads. If an application can run in a container, it should run great on Kubernetes.
@@ -30,7 +30,7 @@ such as middleware, data-processing frameworks, databases, caches, nor cluster s
 
 The task requires additional components for system configuration, system management & maintenance, etc...
 
-### **Kubernetes is NOT ...**
+### Kubernetes is NOT ...
 **... a traditional, all-inclusive PaaS system.**
 
 Kubernetes operates at the container level rather than at the hardware level. It provides some generally helpful features common to PaaS offerings, such as deployment, scaling, load balancing.
