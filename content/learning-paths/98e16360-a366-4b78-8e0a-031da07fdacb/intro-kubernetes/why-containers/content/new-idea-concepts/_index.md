@@ -5,7 +5,7 @@ title: "New Ideas & Concepts"
 weight: 2
 ---
 
-### **New Ideas & Concepts**
+### New Ideas & Concepts
 
 As often in IT, great "new" ideas and concepts are recycled or borrowed from others. So it happened that the shipping industry was a big inspiration for optimizing IT infrastructure operations more than two decades ago.
 

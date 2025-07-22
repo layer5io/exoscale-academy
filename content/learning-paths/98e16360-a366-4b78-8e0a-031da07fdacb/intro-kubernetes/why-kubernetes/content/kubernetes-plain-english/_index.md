@@ -5,7 +5,7 @@ title: "Kubernetes in Plain English"
 weight: 2
 ---
 
-### **Kubernetes in Plain English**
+### Kubernetes in Plain English
 
 ![image](kubernetes2.png)
 

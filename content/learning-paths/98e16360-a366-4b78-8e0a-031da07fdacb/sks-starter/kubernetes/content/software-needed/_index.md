@@ -4,30 +4,31 @@ description: ""
 title: "Software Needed"
 weight: 2
 tags: [kubernetes, software]
-categories: [intermediate]
+level: [intermediate]
+categories: [exoscale,kubernetes]
 ---
 
-### **Software Needed**
+### Software Needed
 
-#### **Kubernetes**
+#### Kubernetes
 
 **kubectl** – for accessing clusters
 
 https://kubernetes.io/de/docs/tasks/tools/install-kubectl/
 
-#### **Local Test Cluster**
+#### Local Test Cluster
 
 **minikube** – tool to create a cluster on your local computer
 
 https://kubernetes.io/de/docs/setup/minikube/
 
-#### **Exoscale Cluster**
+#### Exoscale Cluster
 
 **exoscale**-CLI or exoscale-UI – used to create HA-Clusters on Exoscale
 
 https://community.exoscale.com/documentation/compute/quick-start/
 
-#### **K8s Software**
+#### K8s Software
 
 {{< card 
 title="Video: Kubernetes Software">}}

@@ -5,7 +5,7 @@ title: "Manifest Praxis"
 weight: 6
 ---
 
-### **Manifest Praxis**
+### Manifest Praxis
 
 Let's look at the actual usage of the manifest concept and how to apply it to a Kubernetes cluster and create, configure, and re-configure resources with it.
 
@@ -13,7 +13,7 @@ Let's look at the actual usage of the manifest concept and how to apply it to a 
 
 The manifest usage details and how to execute them are laid out in the video below.
 
-#### **Manifest Praxis**
+#### Manifest Praxis
 {{< card 
 title="Video: Manifest Praxis">}}
 <video width="100%" height="100%" controls>

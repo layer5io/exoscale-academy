@@ -5,7 +5,7 @@ title: "Managed Kubernetes"
 weight: 1
 ---
 
-### **Managed Kubernetes**
+### Managed Kubernetes
 
 Suppose you don't have the time, the budget, and the human resources to master all the complexity of Kubernetes on your own. In that case, your best option is to select a managed alternative to benefit from the power of Kubernetes in your developer and infrastructure platforms.
 

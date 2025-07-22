@@ -6,7 +6,7 @@ weight: 4
 ---
 
 
-### **Cloud Automation**
+### Cloud Automation
 
 Start a virtual computer in seconds, and integrate current on-premises or hybrid-cloud deployments using standard DevOps tooling.
 

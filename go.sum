@@ -12,6 +12,8 @@ github.com/layer5io/academy-theme v0.1.6 h1:BY86IBXPaoJyseLFiW6lkAnECt/oXtsQuvHU
 github.com/layer5io/academy-theme v0.1.6/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
 github.com/layer5io/academy-theme v0.1.7 h1:racJSgGmihy4C2+qZzCTSfjrR9hbv4QLnSrceTfciIo=
 github.com/layer5io/academy-theme v0.1.7/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
+github.com/layer5io/academy-theme v0.1.10 h1:IsCKKmXxcnXX9nnaJX016jRlUzy8wKcuDJhV0nofbSs=
+github.com/layer5io/academy-theme v0.1.10/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
 github.com/layer5io/hugo-academy-theme v0.0.0-20250715053027-36f46b5c4741 h1:ATysCRr0Rqm69xwYRRsg/uVcYW1MdV6AqinROKsg4BE=
 github.com/layer5io/hugo-academy-theme v0.0.0-20250715053027-36f46b5c4741/go.mod h1:Kp2xgJUAqGztDN/j6T30ApwSaK1Yxs1IvrSgOoRFKnI=
 github.com/twbs/bootstrap v5.3.6+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

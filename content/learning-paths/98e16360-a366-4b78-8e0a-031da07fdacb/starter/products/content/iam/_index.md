@@ -5,7 +5,7 @@ title: "IAM"
 weight: 6
 ---
 
-### **Details**
+### Details
 
 Exoscale provides various interaction methods with its platform, including programmatic access via the command line, your preferred programming language, integrations with third-party tools, and a user-friendly web portal. Regardless of the method, Identity and Access Management (IAM) will define permissions and actions for individuals and services on your platform.
 
@@ -24,7 +24,7 @@ Exoscale IAM enables administrators to control who has access to specific resour
 - **API Access**
 Using Exoscale IAM, organizations can effectively safeguard their cloud resources, comply with regulatory requirements, and streamline user access management, ultimately enhancing the security and efficiency of their cloud operations.
 
-### **IAM Users**
+### IAM Users
 So far, IAM has allowed you to create keys that could be restricted and fine-tuned according to their permissions. While practical and powerful, IAM Keys have always been intended for programmatic usage, while users could not be limited in scope beyond the predefined roles:
 
 - **Owner**

@@ -4,14 +4,15 @@ description: ""
 title: "Basic Commands"
 weight: 6
 tags: [kubernetes]
-categories: [intermediate]
+level: [intermediate]
+categories: [exoscale,kubernetes]
 ---
 
-### **Basic Commands**
+### Basic Commands
 
 To get a feeling for this new world, let's have a look at some simple applications of the kubectl command.
 
-#### **Basic K8s Commands**
+#### Basic K8s Commands
 
 {{< card 
 title="Video: Basic K8s Commands">}}

@@ -5,13 +5,13 @@ title: "Longhorn Praxis"
 weight: 6
 ---
 
-### **Longhorn Praxis**
+### Longhorn Praxis
 
 This section explains how to install Longhorn with a manifest using kubectl and looks at Longhorn's graphical UI— using the CLI and the UI to do configurations and learn about the management of the solution.
 
 ![longhorn-praxis](longhorn-praxis.png)
 
-#### **Longhorn Praxis**
+#### Longhorn Praxis
 {{< card 
 title="Video: Longhorn Praxis">}}
 <video width="100%" height="100%" controls>

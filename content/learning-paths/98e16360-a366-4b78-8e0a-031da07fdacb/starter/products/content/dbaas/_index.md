@@ -5,7 +5,7 @@ title: "DBaaS"
 weight: 4
 ---
 
-### **Details**
+### Details
 Exoscale's end-to-end encrypted database as a service (DBaaS) offering is a powerful solution for businesses to host their data and databases in the cloud securely. With this service, users can start within minutes, making it easy to quickly deploy and manage their databases without any delays or downtime. In addition, Exoscale's DBaaS offering is entirely GDPR-compliant, ensuring businesses can meet regulatory requirements and keep their data safe and secure. Furthermore, as a fully managed service, Exoscale takes care of all the maintenance and management of the databases, allowing users to focus on their core business activities.
 
 **Features Overview:**
@@ -17,7 +17,7 @@ Exoscale's end-to-end encrypted database as a service (DBaaS) offering is a powe
 - Dedicated instances
 Finally, Exoscale's DBaaS offering supports a wide range of open-source databases, allowing users to choose the best database and providing a robust and secure solution for businesses that host their data and databases in the cloud.
 
-#### **DBaaS Overview**
+#### DBaaS Overview
 **Managed PostgreSQL Service** often referred to as Postgres is an advanced, open-source relational database management system (RDBMS). Renowned for its robustness, performance, and extensive feature set, it supports complex queries, transactions, and advanced data types. PostgreSQL is highly extensible and standards-compliant with SQL. Due to its reliability, data integrity, and concurrency features, it is widely used in various environments, from small-scale applications to large-scale enterprise systems. Additionally, it supports numerous programming languages and can handle massive amounts of data efficiently.
 
 **Managed MySQL Servic**e is a widely used, open-source relational database management system (RDBMS) known for its speed, reliability, and ease of use. MySQL, developed by Oracle Corporation, supports standard SQL and provides a powerful, flexible, scalable database management solution. It is commonly used for web applications, often in conjunction with PHP, due to its integration with various platforms and ability to handle large volumes of data efficiently. MySQL offers strong support for transactional processing, data replication, and security, making it a popular choice for developers and enterprises seeking robust database performance.

@@ -6,9 +6,9 @@ weight: 8
 ---
 
 
-### **Cases**
+### Cases
 
-#### **wintercloud - powered by Exoscale**
+#### wintercloud - powered by Exoscale
 
 **Exoscale scores with an open-source approach**
 
@@ -17,7 +17,7 @@ The German company wintercloud accompanies its customers to the cloud and shows 
 ![wintercloud](wintercloud.png)
 
 
-#### **VSHN - powered by Exoscale**
+#### VSHN - powered by Exoscale
 
 Exoscale for the container platform APPUiO
 
@@ -25,7 +25,7 @@ VSHN AG is the leading Swiss partner for DevOps, Docker, Kubernetes, OpenShift, 
 
 ![vshn](vshn.png)
 
-#### **embedded data - powered by Exoscale**
+#### embedded data - powered by Exoscale
 
 Exoscale convinces with services and support
 

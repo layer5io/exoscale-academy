@@ -4,18 +4,19 @@ description: ""
 title: "Docker Hub"
 weight: 8
 tags: [docker, containers]
-categories: [intermediate]
+level: [intermediate]
+categories: [exoscale,kubernetes]
 ---
 
 
-### **Docker Hub**
+### Docker Hub
 
 Using a publicly available repository to manage, store, retrieve, and share (if you want to) your container images is a real added value. In traditional IT scenarios, such a solution has to be custom-built most of the time. In the container world, such solutions are part of the ecosystem. With docker containers, the Docker Hub is a natural solution as a repository for our scenarios.
 
 ![docker-hub](docker-hub.png)
 
 
-#### **Docker Hub**
+#### Docker Hub
 
 {{< card 
 title="Video: Docker Hub">}}

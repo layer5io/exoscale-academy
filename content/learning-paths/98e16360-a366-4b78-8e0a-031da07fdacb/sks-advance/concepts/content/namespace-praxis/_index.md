@@ -5,7 +5,7 @@ title: "Namespace Praxis"
 weight: 9
 ---
 
-### **Namespace Praxis**
+### Namespace Praxis
 
 How does this separation look like in praxis, and how to leverage the namespace concept for better orchestration.
 
@@ -13,7 +13,7 @@ How does this separation look like in praxis, and how to leverage the namespace 
 
 See the application of this construct in praxis in the video below.
 
-#### **Namespace Praxis**
+#### Namespace Praxis
 {{< card 
 title="Video: Namespace Praxis">}}
 <video width="100%" height="100%" controls>

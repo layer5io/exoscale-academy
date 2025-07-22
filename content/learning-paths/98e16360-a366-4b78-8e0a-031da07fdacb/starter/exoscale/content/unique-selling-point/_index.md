@@ -6,32 +6,32 @@ weight: 2
 ---
 
 
-### **USPs**
+### USPs
 
 ![exo-history](exo-history.png)
 
-#### **Performance**
+#### Performance
 **Larger bar is better**
 - Single Score - CPU Performance
 - Multi Score - System Performance (transparent bars)
 
 ![performance2](performance2.png)
 
-#### **European**
+#### European
 
 ![zones](zones.png)
 
-#### **Affordable**
+#### Affordable
 
 ![price-compare](price-compare.png)
 
-#### **Transparent**
+#### Transparent
 
 ![trans_pricing](trans_pricing.png)
 
 ![free-traffic](free-traffic.png)
 
-#### **Compliant**
+#### Compliant
 - Your data processing and storing with Exoscale is **fully GDPR-compliant**.
 - Exoscale is **not** effected by the **US Cloud Act**.
 - GDPR non-compliance **fines** up to **€ 20.000.000** or **4 % of global turnover**.

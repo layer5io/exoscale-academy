@@ -5,7 +5,7 @@ title: "Longhorn Theory"
 weight: 5
 ---
 
-### **Longhorn Theory**
+### Longhorn Theory
 
 Longhorn provides a storage class that Kubernetes can use to define a persistent volume claim (PVC).
 
@@ -15,7 +15,7 @@ Longhorn is a technology that enables local, non-persistent storage provided by 
 
 ![longhorn-theory](longhorn2.png)
 
-#### **Longhorn Theory**
+#### Longhorn Theory
 {{< card 
 title="Video: Longhorn Theory">}}
 <video width="100%" height="100%" controls>

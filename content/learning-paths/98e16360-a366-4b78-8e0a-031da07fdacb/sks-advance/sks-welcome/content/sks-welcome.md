@@ -6,11 +6,11 @@ weight: 1
 ---
 
 
-### **Welcome**
+### Welcome
 
 In this SKS Advanced training, we shift gears and dig into the more advanced Kubernetes (K8s) areas: storage, routing, and debugging. Again, we will take a practical approach to these advanced K8s topics and show you more of the technology's magic.
 
-#### **Welcome**
+#### Welcome
 
 {{< card 
 title="Video: Welcome">}}

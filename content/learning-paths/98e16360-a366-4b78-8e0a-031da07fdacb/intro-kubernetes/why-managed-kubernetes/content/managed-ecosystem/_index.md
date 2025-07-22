@@ -5,7 +5,7 @@ title: "Managed Ecosystems"
 weight: 2
 ---
 
-### **Container Orchestration Ecosystem**
+### Container Orchestration Ecosystem
 
 While Kubernetes solves the orchestration part, additional components are needed to deploy and run containers smoothly in production.
 
@@ -15,7 +15,7 @@ K8s comes with multiple options and plugins for each layer. Each team has its pr
 
 ![image](ecosystem.png)
 
-### **Managed Container Orchestration Ecosystems**
+### Managed Container Orchestration Ecosystems
 
 **SKS**
 

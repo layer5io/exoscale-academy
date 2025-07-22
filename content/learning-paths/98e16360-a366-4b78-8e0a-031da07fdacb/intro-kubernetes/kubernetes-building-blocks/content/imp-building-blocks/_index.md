@@ -5,7 +5,7 @@ title: "Important Building Blocks"
 weight: 1
 ---
 
-### **Important Building Blocks**
+### Important Building Blocks
 
 An application running on Kubernetes is a workload. Whether your workload is a single component or several that work together, on Kubernetes, you run it inside a set of Pods. In Kubernetes, a Pod represents a set of running containers on your cluster.
 

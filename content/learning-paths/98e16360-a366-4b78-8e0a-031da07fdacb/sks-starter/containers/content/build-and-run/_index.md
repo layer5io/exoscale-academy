@@ -4,11 +4,12 @@ description: ""
 title: "Build & Run"
 weight: 7
 tags: [docker, containers]
-categories: [intermediate]
+level: [intermediate]
+categories: [exoscale,kubernetes]
 ---
 
 
-### **Build & Run**
+### Build & Run
 
 ```bash
 docker build
@@ -24,7 +25,7 @@ In our example, the second step is to run the hello-world container with the > d
 
 ![docker-run](docker-run.png)
 
-#### **Build & Run**
+#### Build & Run
 
 {{< card 
 title="Video: Build & Run">}}

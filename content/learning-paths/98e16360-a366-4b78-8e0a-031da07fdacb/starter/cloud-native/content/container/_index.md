@@ -6,7 +6,7 @@ weight: 4
 ---
 
 
-### **Explained**
+### Explained
 
 ![container](container.png)
 

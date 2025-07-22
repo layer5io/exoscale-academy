@@ -5,7 +5,7 @@ title: "Challenges"
 weight: 4
 ---
 
-### **Watch out!**
+### Watch out!
 
 - Initial Costs
 - Evolving Expectations

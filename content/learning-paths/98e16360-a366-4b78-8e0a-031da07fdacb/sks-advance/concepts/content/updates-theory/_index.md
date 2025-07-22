@@ -5,7 +5,7 @@ title: "Updates Theory"
 weight: 10
 ---
 
-### **Updates Theory**
+### Updates Theory
 
 The manifest concept is very versatile for creating and orchestrating Kubernetes structures but also updating. Declaring the new situation and triggering the update, Kubernetes takes care of the rest, which means following a clearly defined workflow of process steps to update all distributed components and safely removing old versions.
 
@@ -13,7 +13,7 @@ The manifest concept is very versatile for creating and orchestrating Kubernetes
 
 The details are explained in the video below.
 
-#### **Updates Theory**
+#### Updates Theory
 {{< card 
 title="Video: Updates Theory">}}
 <video width="100%" height="100%" controls>

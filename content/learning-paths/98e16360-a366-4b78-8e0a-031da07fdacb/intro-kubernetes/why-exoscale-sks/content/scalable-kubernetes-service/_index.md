@@ -5,13 +5,13 @@ title: "Scalable Kubernetes Service"
 weight: 1
 ---
 
-### **Scalable, On-demand Kubernetes Cluster**
+### Scalable, On-demand Kubernetes Cluster
 
 Start with a privacy-minded public cloud to host from single applications to complex architectures. Deploy a production-ready cluster in 90 seconds and manage it with a simple web portal, CLI, API or your choice of tools (Terraform).
 
 ![image](exoscale.png)
 
-### **SKS Features**
+### SKS Features
 **Access to all compute instance types**
 
 It is your cluster on your terms. Size the Node-Pools as needed, using all instance types available. Attach one Node-Pool with Memory-Optimized instances and another one with CPU-Optimized ones.

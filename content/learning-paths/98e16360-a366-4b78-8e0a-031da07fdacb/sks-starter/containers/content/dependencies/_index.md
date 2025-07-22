@@ -4,10 +4,11 @@ description: ""
 title: "Dealing with Dependencies"
 weight: 4
 tags: [docker, dependencies, containers]
-categories: [intermediate]
+level: [intermediate]
+categories: [exoscale,kubernetes]
 ---
 
-### **Installing Dependencies ...**
+### Installing Dependencies ...
 ... on Ubuntu
 
 ```bash
@@ -18,7 +19,7 @@ $ sudo apt-get install -y nodejs
 # Install Dependencies of the app
 $ npm install
 ```
-### **Running ...**
+### Running ...
 ... the application
 
 ```bash
@@ -27,7 +28,7 @@ $ npm install
 $ node app.js
 ```
 
-#### **Dependencies**
+#### Dependencies
 
 {{< card 
 title="Video: Dependencies">}}

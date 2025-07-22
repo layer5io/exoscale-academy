@@ -5,7 +5,7 @@ title: "DNS"
 weight: 5
 ---
 
-### **Details**
+### Details
 Exoscale's cloud-native DNS provides a powerful solution for businesses looking to take complete control of their DNS and automate deployments. With Exoscale's DNS, users can easily manage new records and zones, giving them complete control over their infrastructure. Exoscale's DNS is also built on an anycast network, providing low-latency resolution for users worldwide. This ensures users can access their applications quickly and easily without delays or interruptions.
 
 **Features Overview:**

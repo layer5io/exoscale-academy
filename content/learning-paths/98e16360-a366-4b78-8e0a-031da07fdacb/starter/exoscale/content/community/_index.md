@@ -8,7 +8,7 @@ weight: 5
 ---
 
 
-### **Documentation**
+### Documentation
 
 Learn how to use Exoscale's cloud services in our community section.
 

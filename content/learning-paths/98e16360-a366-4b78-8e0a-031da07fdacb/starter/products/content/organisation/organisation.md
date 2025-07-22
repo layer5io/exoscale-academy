@@ -5,7 +5,7 @@ title: "Organization"
 weight: 8
 ---
 
-### **Overview**
+### Overview
 
 In this section of the Portal, you find:
 
@@ -17,7 +17,7 @@ In this section of the Portal, you find:
 - Quotas
 - Legal
 
-### **Billing Info**
+### Billing Info
 **Billing Details**
 The organization display name is used for invoices. It must be between 4 and 225 characters, cannot be composed of only numbers, and cannot be a UUID. It is not currently possible to modify the country associated with your organization. Please contact support if you need assistance. It is not currently possible to modify your organization's VAT number.
 
@@ -29,7 +29,7 @@ Usage Overview: outlines your consumption for a specific time frame and your cur
 
 **Usage Detail**: provides itemized views of your consumption for the same time frame stated under Usage Overview.
 
-#### **Billing Mode**
+#### Billing Mode
 **Post-Paid**: You will receive an invoice based on your consumption every month. Your default credit card will then be charged for the due amount. To activate the Post-Paid billing mode, you need to meet the following requirements:
 
 Your account must be older than 90 days
@@ -39,22 +39,22 @@ You need to have a saved credit card and set it as the default
 
 NOTE! The Wire-Transfer billing mode is activated upon request after a case-by-case examination.
 
-#### **Redeem Coupon**
+#### Redeem Coupon
 If you have a promotional coupon, you can redeem it by entering the code in the Coupon Code field.
 
-### **Credit Cards**
+### Credit Cards
 It is the location for determining which credit card is associated with the organization. Our payment processing partner, Adyen, safely stores credit card details.
 
-### **Invoices**
+### Invoices
 You can look up all your invoices in excellent tabular form (Invoice Number, Total, Emission Date, Due Date, Status, Actions). Clicking on the table headers enables a different sorted view of the invoices.
 
-### **Subscriptions**
+### Subscriptions
 It is the location where you can view and manage your DNS Zones and Support Plans subscriptions in excellent tabular form.
 
-### **Audit-Trail**
+### Audit-Trail
 You can see all the tracked security-relevant user activity and API usage here. The tool allows you to list and search for events that interact with Exoscale resources.
 
-### **Quotas**
+### Quotas
 Is the location where you can view and manage quotas on the following specific resources:
 
 - Instances
@@ -72,7 +72,7 @@ Is the location where you can view and manage quotas on the following specific r
 - Block Storage cumulative size (GiB)
 - Max size of a Block Storage Volume (GiB)
 
-### **Legal**
+### Legal
 It is structured into two Tabs:
 
 - **Terms**: Here, you find the Legal Documents for your organization, including the Terms & Conditions you excepted and when, as well as the version of the Data Processing Addendum you excepted and when.

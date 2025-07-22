@@ -4,15 +4,16 @@ description: ""
 title: "Containers"
 weight: 5
 tags: [containers]
-categories: [intermediate]
+level: [intermediate]
+categories: [exoscale,kubernetes]
 ---
 
 
 
-### **Containers**
+### Containers
 ![container](container.png)
 
-#### **Containers**
+#### Containers
 
 {{< card 
 title="Video: Containers">}}

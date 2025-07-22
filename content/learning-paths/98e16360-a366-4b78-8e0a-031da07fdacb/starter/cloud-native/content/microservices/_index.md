@@ -6,7 +6,7 @@ weight: 5
 ---
 
 
-### **Explained**
+### Explained
 
 ![microservices](microservices.png)
 

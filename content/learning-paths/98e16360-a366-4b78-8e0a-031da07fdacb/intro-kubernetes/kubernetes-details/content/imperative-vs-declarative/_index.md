@@ -5,7 +5,7 @@ title: "Imperative vs Declarative"
 weight: 2
 ---
 
-### **Configuration Differences**
+### Configuration Differences
 
 What a difference a configuration make :).
 

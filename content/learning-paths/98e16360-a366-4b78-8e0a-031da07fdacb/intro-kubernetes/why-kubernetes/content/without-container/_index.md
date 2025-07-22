@@ -5,13 +5,13 @@ title: "Without Container Orchestration"
 weight: 1
 ---
 
-### **Why Kubernetes?**
+### Why Kubernetes?
 
 Running services in containers tend to produce numerous containers pretty quick. Handling many containers with no additional aid is a very cumbersome job. Hence, an orchestration solution is necessary to run services in containers efficiently.
 
 ![image](containers2.png)
 
-### **Without Container Orchestration**
+### Without Container Orchestration
 
 - Think about scaling up services; it **increases manual work**.
 - Think about fixing crashing nodes; it **increases manual work**.

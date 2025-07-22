@@ -6,13 +6,13 @@ weight: 6
 ---
 
 
-### **Available for Exoscale**
+### Available for Exoscale
 
 DevOps and Automation Tools we use and support.
 
 ![integration](integration.png)
 
-#### **Container Orchestration**
+#### Container Orchestration
 Cloud native tools are embracing containers as a great way to build, ship, and run applications.
 
 **Kubernetes**: One of the most active open-source projects, Kubernetes or k8s for short, offers container cluster management with powerful yet simple concepts. Exoscale provides a managed Kubernetes offering.
@@ -21,7 +21,7 @@ Cloud native tools are embracing containers as a great way to build, ship, and r
 
 **NGINX Ingress Controller**: The official way of deploying the NGINX Ingress Controller on Exoscale.
 
-#### **Automation and Configuration Management**
+#### Automation and Configuration Management
 As DevOps ourselves, we use automation and configuration management tools every day. On our platform you will be able to use the best tools available.
 
 **Terraform**: Written in GO, Terraform enables you to configure the full spectrum of your infrastructure from compute instances to their DNS entries. It takes your infrastructure and makes it converge towards its desired configuration state.
@@ -34,7 +34,7 @@ As DevOps ourselves, we use automation and configuration management tools every 
 
 **Crossplane**: Crossplane is a cloud native control plane framework to easily build control planes without needing to write code. The integration is provided by VSHN on the Marketplace.
 
-#### **Clients and Libraries**
+#### Clients and Libraries
 We support some of the best clients out there. Follow the link and find out how to integrate them your workflow with the Exoscale cloud platform.
 
 **Traefik**: Traefik is a modern HTTP reverse proxy and load balancer that easily integrates with your existing infrastructure components and runs smoothly on Exoscale.
@@ -47,14 +47,14 @@ We support some of the best clients out there. Follow the link and find out how 
 
 **Lego**: Lego is an ACME library and standalone application written in Go, enabling you to automate ACME challenges and certificates deployments on Exoscale, eventually using our DNS service.
 
-#### **Third party platforms integration**
+#### Third party platforms integration
 Discover how to integrate our cloud services with some great third-party platforms.
 
 **GuruSquad**: GS RichCopy 360 Enterprise provides enterprise-class unstructured data backup, data migration, and data replication. Whether the data is being migrated from another cloud provider or on-premise, GuruSquad can simplify all the data migration and backup jobs from a single pane of glass.
 
 **Nuvla.io**: Nuvla.io, by technology partner Sixsq, is an edge-to-cloud application deployment platform. Real edge and multi-cloud solution built on open source software, Nuvla.io can deploy simple to complex containerized applications repeatedly with orchestration.
 
-#### **Extend Simple Object Storage**
+#### Extend Simple Object Storage
 Using these set of certified tools with SOS, you can browse, backup or map object storage from various OS and environments.
 
 **Cyberduck**: This free software provides a versatile GUI for S3 compatible transfers as well as Duck, a CLI tool for power users. Both are available on Windows, Linux and macOS platforms.
