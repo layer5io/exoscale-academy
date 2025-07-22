@@ -5,7 +5,7 @@ title: "Value Chain of Data"
 weight: 3
 ---
 
-### Value Chain of Data
+### **Value Chain of Data**
 
 "Like water, data needs to be accessible, it needs to be clean, and it is needed to survive." - Dan Vesset (IDC)
 

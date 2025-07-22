@@ -5,7 +5,7 @@ title: "Evolution of Data Services"
 weight: 3
 ---
 
-### Evolution of Data Services
+### **Evolution of Data Services**
 
 There is a rapidly increasing popularity of managed data services, and many companies are on the lookout to find the most fitting service for the tasks at hand. So, not over stressing running a data center but still trying to drive this essential message home. Questions like:
 

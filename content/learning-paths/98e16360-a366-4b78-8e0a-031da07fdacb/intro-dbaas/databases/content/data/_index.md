@@ -5,7 +5,7 @@ title: "Data"
 weight: 1
 ---
 
-### Data
+### **Data**
 
 Data is the fuel of our society. Can we agree on that? There were many bold statements over the years to underline the importance of data. Data is the new oil; Data is the new gold; all variations you have probably come across if you follow the news, media, or social media. Data is the new water - is a fresh analogy you can find in researching the data topic.
 

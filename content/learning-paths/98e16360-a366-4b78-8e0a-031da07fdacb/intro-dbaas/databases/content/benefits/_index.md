@@ -5,11 +5,11 @@ title: "Benefits of Databases"
 weight: 6
 ---
 
-### Benefits of Databases
+### **Benefits of Databases**
 
 ![db-icon-1](db-icon-1.png) 
 
-### Why use computerized Databases?
+#### **Why use computerized Databases?**
 
 Because it makes it easier to:
 - sort data
@@ -23,7 +23,7 @@ If there are advantages, then there are also disadvantages, and to get a complet
 
 ![db-icon-2](db-icon-2.png) 
 
-### Advantages of Databases:
+#### **Advantages of Databases:**
 
 - Data Sharing
 - Data Security
@@ -36,7 +36,7 @@ If there are advantages, then there are also disadvantages, and to get a complet
 
 ![db-icon-3](db-icon-3.png)
 
-### Disadvantages of Databases:
+#### **Disadvantages of Databases:**
 
 - Cost of Software
 - Cost of Hardware

@@ -5,7 +5,7 @@ title: "Powered by Aiven"
 weight: 3
 ---
 
-### Powered by Aiven
+### **Powered by Aiven**
 
 - Our DBaaS is powered by Aiven, one of the leading European companies for managing Open Source data infrastructure in the cloud.
 - The partnership offers Exoscale customers an integrated environment for their complete cloud infrastructure – without any security compromise.
@@ -13,11 +13,11 @@ weight: 3
 
 ![aiven-exoscale](aiven-exoscale.png) 
 
-### About Aiven
+### **About Aiven**
 
 ![about-aiven](about-aiven.png) 
 
-### Fast Facts Aiven
+#### **Fast Facts Aiven**
 
 - aiven.io
 - founded in 2016

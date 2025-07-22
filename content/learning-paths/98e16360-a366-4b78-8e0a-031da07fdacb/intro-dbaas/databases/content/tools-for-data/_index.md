@@ -5,7 +5,7 @@ title: "Tools for Data"
 weight: 4
 ---
 
-### Tools for Data
+### **Tools for Data**
 
 ![db-cloud](db-word-cloud.png) 
 

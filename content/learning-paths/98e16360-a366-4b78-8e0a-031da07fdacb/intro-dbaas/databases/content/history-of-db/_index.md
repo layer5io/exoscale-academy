@@ -5,7 +5,7 @@ title: "History of Databases"
 weight: 5
 ---
 
-### History of Databases
+### **History of Databases**
 
 **Part 1** of the History of Database Evolution covers the events until the initiation of an industry around database technologies. This was also illustrated in the last unit and the linked History of Databases YouTube video. 
 

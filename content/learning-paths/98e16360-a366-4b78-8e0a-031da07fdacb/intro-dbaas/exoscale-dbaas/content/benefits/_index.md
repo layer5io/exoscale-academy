@@ -5,7 +5,7 @@ title: "Exoscale DBaaS Benefits"
 weight: 1
 ---
 
-### Exoscale DBaaS Benefits
+### **Exoscale DBaaS Benefits**
 
 Exoscale DBaaS is an excellent solution for everyone looking for a diverse portfolio of open-source data services used in all types of applications and business solutions.
 
@@ -15,7 +15,7 @@ If you want to know more about the actual service offers, please go to [Exoscale
 
 Exoscale DBaaS is deeply integrated into the Infrastructure as a Service platform and is easy to use with well-known user interfaces like the CLI, the API, and Terraform automation to-do your Infrastructure as Code (IaC) as usual.
 
-### Quick Start
+#### **Quick Start**
 
 Set up your database within minutes. Focus on your application; we take care of the rest.
 Open Source

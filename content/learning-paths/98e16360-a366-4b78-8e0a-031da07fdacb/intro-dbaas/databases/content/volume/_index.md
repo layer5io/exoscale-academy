@@ -5,7 +5,7 @@ title: "Volume of Data"
 weight: 2
 ---
 
-### Volume of Data
+### **Volume of Data**
 
 Statista provides incredible insights into our world via the looking glass of statistics. The mind-boggling statistic about the created volume of data we make worldwide every year can be found just below this paragraph.
 

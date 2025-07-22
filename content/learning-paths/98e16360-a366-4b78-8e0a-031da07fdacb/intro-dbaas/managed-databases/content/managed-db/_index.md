@@ -5,7 +5,7 @@ title: "Managed Databases"
 weight: 2
 ---
 
-### Managed Databases
+### **Managed Databases**
 
 Looking at managed databases specifically, we see the benefits of simplifying the tasks associated with provisioning and maintaining a database. However, it is still likely that you need some level of experience working with databases to interact with them as you build and scale your app.
 
