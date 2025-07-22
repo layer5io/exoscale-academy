@@ -4,7 +4,8 @@ description: "Create Local kubernetes cluster"
 weight: 2
 banner: "98e16360-a366-4b78-8e0a-031da07fdacb/images/kubernetes-icon.svg"
 tags: [kubernetes]
-categories: [introductory]
+level: [introductory]
+categories: [kubernetes]
 ---
 
 Using a local cluster is very handy to get started with Kubernetes, or to test things quickly. In this example, we'll use [K3s](https://k3s.io), a lightweight Kubernetes distribution (5 's' fewer than k8s :) ). K3s is a certified distribution, well-suited for IoT, Edge computing, and which works well with huge servers.
