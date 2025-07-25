@@ -1,0 +1,160 @@
+{{ $type := .Get "type" | default "single" }}
+<div class="quiz-question" id="{{ .Get "id" }}" data-type="{{ $type }}">
+  <div class="question-header">
+    <h3>{{ .Get "text" | markdownify }}</h3>
+    {{ if .Get "hint" }}
+    <div class="hint-wrapper">
+      <button class="hint-toggle" onclick="toggleHint(this)">Hint</button>
+      <div class="hint-content">{{ .Get "hint" | markdownify }}</div>
+    </div>
+    {{ end }}
+  </div>
+  
+  <div class="options">
+    {{ $options := split (.Get "options") "|" }}
+    {{ $correct := split (.Get "correct") "," }}
+    {{ range $index, $option := $options }}
+      <div class="option">
+        <input type="{{ if eq $type "single" }}radio{{ else }}checkbox{{ end }}"
+               id="{{ $.Get "id" }}-{{ $index }}"
+               name="{{ $.Get "id" }}"
+               value="{{ $index }}"
+               {{ if in $correct (string $index) }}data-correct="true"{{ end }}>
+        <label for="{{ $.Get "id" }}-{{ $index }}">{{ $option | markdownify }}</label>
+      </div>
+    {{ end }}
+  </div>
+  
+  <div class="quiz-footer">
+    <button class="check-answer" onclick="checkAnswer(this)">Submit Answer</button>
+    <div class="feedback"></div>
+  </div>
+</div>
+
+<style>
+.quiz-question {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  background: white;
+}
+.question-header {
+  margin-bottom: 1rem;
+}
+.hint-wrapper {
+  position: relative;
+  margin: 0.5rem 0;
+}
+.hint-toggle {
+  background: none;
+  border: none;
+  color: #57606a;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.9em;
+}
+.hint-toggle:hover {
+  text-decoration: underline;
+}
+.hint-content {
+  display: none;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  background: #f6f8fa;
+  border-radius: 6px;
+  border-left: 3px solid #54aeff;
+}
+.options {
+  margin: 1rem 0;
+}
+.option {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+.option:hover {
+  background-color: #f6f8fa;
+}
+.quiz-footer {
+  margin-top: 1rem;
+}
+.check-answer {
+  padding: 0rem 0.5rem;
+  background: #2ea44f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.check-answer:hover {
+  background: #22863a;
+}
+.feedback {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  display: none;
+}
+.feedback.correct {
+  background: #e6ffec;
+  border-left: 3px solid #2ea44f;
+}
+.feedback.incorrect {
+  background: #ffebe9;
+  border-left: 3px solid #cf222e;
+}
+</style>
+
+<script>
+window.toggleHint = function(button) {
+  const hintContent = button.nextElementSibling;
+  hintContent.style.display = hintContent.style.display === 'block' ? 'none' : 'block';
+};
+
+window.checkAnswer = function(button) {
+  const questionDiv = button.closest('.quiz-question');
+  const isSingle = questionDiv.dataset.type === 'single';
+  const feedback = questionDiv.querySelector('.feedback');
+  feedback.style.display = 'block';
+  
+  if (isSingle) {
+    const selected = questionDiv.querySelector('input:checked');
+    if (!selected) {
+      feedback.textContent = 'Please select an answer';
+      feedback.className = 'feedback incorrect';
+      return;
+    }
+    feedback.textContent = selected.dataset.correct === 'true' 
+      ? '✅ Correct!' : '❌ Incorrect. Try again!';
+    feedback.className = selected.dataset.correct === 'true' 
+      ? 'feedback correct' : 'feedback incorrect';
+  } else {
+    const selected = Array.from(questionDiv.querySelectorAll('input:checked'));
+    const correctOptions = Array.from(questionDiv.querySelectorAll('[data-correct="true"]'));
+    
+    const allCorrectSelected = correctOptions.every(opt => selected.includes(opt));
+    const onlyCorrectSelected = selected.every(opt => opt.dataset.correct === 'true');
+    
+    if (selected.length === 0) {
+      feedback.textContent = 'Please select at least one answer';
+      feedback.className = 'feedback incorrect';
+    } else if (allCorrectSelected && onlyCorrectSelected) {
+      feedback.textContent = '✅ Perfect! All correct answers selected.';
+      feedback.className = 'feedback correct';
+    } else if (allCorrectSelected) {
+      feedback.textContent = '⚠️ You selected all correct answers, but also some incorrect ones.';
+      feedback.className = 'feedback incorrect';
+    } else {
+      feedback.textContent = '❌ Not quite right. Check your selections.';
+      feedback.className = 'feedback incorrect';
+    }
+  }
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.hint-content').forEach(hint => {
+    hint.style.display = 'none';
+  });
+});
+</script>
