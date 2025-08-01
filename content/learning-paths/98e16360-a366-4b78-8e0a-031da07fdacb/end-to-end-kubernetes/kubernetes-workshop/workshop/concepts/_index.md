@@ -84,8 +84,12 @@ A Pod can use several resources
 
 ## An application runs in a Namespace
 
+<!-- ![namespace](namespace.png) -->
+{{< meshery-design-embed
+id="embedded-design-294946e9-2079-4e6e-8a44-489fbdcf9e3f"
+src="image-7-namespace.js"
+>}}
 
-![namespace](namespace.png)
 
 ## Resource creation
 
