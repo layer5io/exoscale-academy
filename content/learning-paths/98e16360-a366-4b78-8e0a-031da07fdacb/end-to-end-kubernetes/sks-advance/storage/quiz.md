@@ -19,7 +19,7 @@ questions:
           is_correct: true
         - id: "d"
           text: "Ephemeral Storage"
-    
+
     - id: "q2"
       text: "You deploy a database with possibly multiple replicas; each replica should get its volume. Which of the following options do you use?"
       type: "mcq"
@@ -34,6 +34,6 @@ questions:
           text: "VolumeSet"
         - id: "d"
           text: "DataSet"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

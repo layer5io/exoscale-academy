@@ -44,7 +44,7 @@ questions:
         text: "CSA CSTAR"
       - id: "f"
         text: "C5"
-  
+
   - id: "q3"
     text: "Which items of the following are in the Specific Compliance Framework?"
     type: "mcq"
@@ -130,6 +130,6 @@ questions:
       - id: "h"
         text: "Zurich"
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

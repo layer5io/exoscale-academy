@@ -19,6 +19,6 @@ questions:
         text: "Pro"
       - id: "d"
         text: "Enterprise"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

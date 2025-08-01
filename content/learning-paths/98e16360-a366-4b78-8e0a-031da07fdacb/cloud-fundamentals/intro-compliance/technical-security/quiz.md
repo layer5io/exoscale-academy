@@ -27,6 +27,6 @@ questions:
       - id: "f"
         text: "timeboxed assessments"
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

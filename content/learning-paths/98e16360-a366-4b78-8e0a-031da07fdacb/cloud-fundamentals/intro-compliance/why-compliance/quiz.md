@@ -61,6 +61,6 @@ questions:
       - id: "f"
         text: "Compliance can improve internal processes."
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

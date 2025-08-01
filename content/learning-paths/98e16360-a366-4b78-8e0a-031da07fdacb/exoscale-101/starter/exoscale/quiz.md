@@ -45,6 +45,6 @@ questions:
       - id: "h"
         text: "GPUs"
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

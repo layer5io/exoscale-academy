@@ -54,6 +54,6 @@ questions:
       - id: "d"
         text: "A method of storing and managing data as objects in a distributed system."
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

@@ -39,6 +39,6 @@ questions:
         is_correct: true
       - id: "e"
         text: "Cloud compliance is optional for businesses that use cloud services."
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

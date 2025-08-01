@@ -44,6 +44,6 @@ questions:
       - id: "c"
         text: "A tool to run an automated program at the start of an instance."
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

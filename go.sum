@@ -2,5 +2,7 @@ github.com/FortAwesome/Font-Awesome v0.0.0-20241216213156-af620534bfc3 h1:/iluJk
 github.com/FortAwesome/Font-Awesome v0.0.0-20241216213156-af620534bfc3/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/layer5io/academy-theme v0.1.27 h1:vVHBtZMOLJn9CbBG9iIcxxv6+TAmD3d7UusKH0a5KcE=
 github.com/layer5io/academy-theme v0.1.27/go.mod h1:Dv72UWsREOvX4Zg4mJjrpoyDxdgxxpiDotxqYBXMjXo=
+github.com/layer5io/academy-theme v0.2.0 h1:A95TZnGydXh8NF6DGITpooGxoTJTYOv8xMyIY0Gy3MQ=
+github.com/layer5io/academy-theme v0.2.0/go.mod h1:Dv72UWsREOvX4Zg4mJjrpoyDxdgxxpiDotxqYBXMjXo=
 github.com/twbs/bootstrap v5.3.7+incompatible h1:ea1W8TOWZFkqSK2M0McpgzLiUQVru3bz8aHb0j/XtuM=
 github.com/twbs/bootstrap v5.3.7+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

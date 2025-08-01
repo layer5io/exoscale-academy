@@ -24,7 +24,7 @@ questions:
           is_correct: true
         - id: "f"
           text: "Drivers"
-    
+
     - id: "q2"
       text: "You can create multiple Containers from an image? (true/false)"
       type: "mcq"
@@ -49,6 +49,6 @@ questions:
           is_correct: true
         - id: "c"
           text: "Host and run a container inside the container registry provider (e.g., Docker Hub)"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

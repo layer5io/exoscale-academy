@@ -47,6 +47,6 @@ questions:
       - id: "f"
         text: "import and export data from and to other applications"
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

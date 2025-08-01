@@ -46,6 +46,6 @@ questions:
         is_correct: true
       - id: "c"
         text: "Scalable Object Storage"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

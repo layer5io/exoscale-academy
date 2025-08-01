@@ -48,6 +48,6 @@ questions:
       - id: "c"
         text: "Terraform"
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

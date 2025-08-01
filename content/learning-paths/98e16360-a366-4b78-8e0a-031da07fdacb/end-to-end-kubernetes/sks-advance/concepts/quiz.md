@@ -22,7 +22,7 @@ questions:
           text: "... guarantee high-availability"
         - id: "e"
           text: "... expose arbitrary ports or protocols"
-    
+
     - id: "q2"
       text: "On which layer(s) does an Exoscale Network Load Balancer process traffic?"
       type: "mcq"
@@ -86,6 +86,6 @@ questions:
           is_correct: true
         - id: "d"
           text: "One or More Pods"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

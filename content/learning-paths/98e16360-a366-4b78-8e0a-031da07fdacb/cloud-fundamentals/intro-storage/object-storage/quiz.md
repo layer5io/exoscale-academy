@@ -35,7 +35,7 @@ questions:
           text: "Object storage requires complex storage architectures to scale"
         - id: "d"
           text: "It is limited to a specific file system hierarchy for data organization"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---
 This knowledge check section allows you to review your educational progress. It's not a test or an exam; it's a location determination in your learning journey. Give it a try!

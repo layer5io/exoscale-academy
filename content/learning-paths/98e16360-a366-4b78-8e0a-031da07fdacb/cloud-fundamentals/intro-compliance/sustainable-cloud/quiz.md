@@ -81,7 +81,7 @@ questions:
       - id: "e"
         text: "We consume less energy to power and cool our data centers."
         is_correct: true
-  
+
   - id: "q5"
     text: "How do we tackle energy efficiency in our data center design?"
     type: "mcq"
@@ -115,6 +115,6 @@ questions:
       - id: "e"
         text: "Efficient use of resources."
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

@@ -15,7 +15,7 @@ questions:
           text: "Kubernetes throw errors in regard to the Pod"
         - id: "c"
           text: "Data of the Pod - like the number of replicas"
-    
+
     - id: "q2"
       text: "The Pod frontend in the namespace webapp doesn’t work as expected. Which commands can you use to get more information about that?"
       type: "mcq"
@@ -38,6 +38,6 @@ questions:
           text: "kubectl get events"
         - id: "f"
           text: "kubectl get errors -n webapp"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

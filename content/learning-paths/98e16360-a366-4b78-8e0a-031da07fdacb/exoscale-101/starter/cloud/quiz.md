@@ -36,6 +36,6 @@ questions:
         is_correct: true
       - id: "d"
         text: "Decreased security compared to on-premises infrastructure"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

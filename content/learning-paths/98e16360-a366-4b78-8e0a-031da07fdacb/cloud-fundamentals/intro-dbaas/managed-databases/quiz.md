@@ -49,6 +49,6 @@ questions:
         is_correct: true
       - id: "i"
         text: "domain expertise"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

@@ -45,7 +45,7 @@ questions:
       - id: "f"
         text: "available in all Exoscale zones"
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---
 This knowledge check section allows you to review your educational progress. It's not a test or an exam; it's a location determination in your learning journey. Give it a try!

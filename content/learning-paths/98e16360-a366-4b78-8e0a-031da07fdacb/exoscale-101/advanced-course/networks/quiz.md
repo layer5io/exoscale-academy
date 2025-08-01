@@ -46,6 +46,6 @@ questions:
       - id: "c"
         text: "... can be observed on Network Load Balancers."
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

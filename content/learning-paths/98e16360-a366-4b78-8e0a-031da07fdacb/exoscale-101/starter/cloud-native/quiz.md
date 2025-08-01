@@ -30,6 +30,6 @@ questions:
       - id: "c"
         text: "A lightweight, isolated environment for running applications."
         is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---

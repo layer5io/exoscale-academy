@@ -128,8 +128,8 @@ questions:
         is_correct: true
       - id: "d"
         text: "configMap"
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---
 
 This quiz will test your understanding of basic Kubernetes concepts, commands, and architecture.

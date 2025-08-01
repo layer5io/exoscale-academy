@@ -13,7 +13,7 @@ questions:
         - id: "b"
           text: "One or more Pods"
           is_correct: true
-    
+
     - id: "q2"
       text: "What is a Pod?"
       type: "mcq"
@@ -63,8 +63,8 @@ questions:
         - id: "d"
           text: "Logs of the Pod"
         - id: "e"
-          text: "Events of the Pod"   
+          text: "Events of the Pod"
           is_correct: true
-layout: "quiz"
-type: "quiz"
+layout: "test"
+type: "test"
 ---
