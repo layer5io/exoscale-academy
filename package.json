@@ -49,5 +49,8 @@
   "prettier": {
     "proseWrap": "always",
     "singleQuote": true
+  },
+  "dependencies": {
+    "hugo": "^0.0.3"
   }
 }
