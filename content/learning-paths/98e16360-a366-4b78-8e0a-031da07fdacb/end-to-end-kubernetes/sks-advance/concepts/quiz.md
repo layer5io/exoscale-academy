@@ -39,6 +39,7 @@ questions:
     - id: "q3"
       text: "Which of the following Kubernetes components does Exoscale SKS manage or at least deploy?"
       type: "mcq"
+      multiple_answers: true
       marks: 2
       options:
         - id: "a"
