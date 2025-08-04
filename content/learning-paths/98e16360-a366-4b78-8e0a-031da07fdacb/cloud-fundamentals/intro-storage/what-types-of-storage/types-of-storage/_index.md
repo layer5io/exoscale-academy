@@ -25,7 +25,11 @@ The choice between these storage types depends on your specific requirements and
 Let's take a closer look at each of them.
 
 
-![file-object-block](file-object-block.png)
+<!-- ![file-object-block](file-object-block.png) -->
+{{< meshery-design-embed
+  id="embedded-design-bc14c3b6-82cd-4ace-800f-314fc8fe6ec6"
+  src="embedded-design-exoscale-storage-image1.js"
+>}}
 
 ### Files Storage
 

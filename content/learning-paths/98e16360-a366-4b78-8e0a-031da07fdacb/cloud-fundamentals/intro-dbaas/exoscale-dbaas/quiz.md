@@ -45,7 +45,6 @@ questions:
         is_correct: true
       - id: "h"
         text: "Completely Integrated"
-        is_correct: false
       - id: "i"
         text: "No Vendor Lock-In"
         is_correct: true
@@ -54,10 +53,8 @@ questions:
         is_correct: true
       - id: "k"
         text: "Automate Everything"
-        is_correct: false
       - id: "l"
         text: "99.99% Uptime SLA"
-        is_correct: false
 layout: "test"
 type: "test"
 ---
