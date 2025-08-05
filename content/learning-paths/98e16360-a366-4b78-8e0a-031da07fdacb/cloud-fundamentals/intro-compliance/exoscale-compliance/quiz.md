@@ -1,11 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "Which items of the following list are part of 'The Five Pillars'?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -23,8 +22,7 @@ questions:
 
   - id: "q2"
     text: "Which items of the Standard Compliance Framework are externally audited?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -46,8 +44,7 @@ questions:
 
   - id: "q3"
     text: "Which items of the following are in the Specific Compliance Framework?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -68,8 +65,7 @@ questions:
 
   - id: "q4"
     text: "Risks are grouped into three categories, which are the ones we listed:"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -90,7 +86,7 @@ questions:
 
   - id: "q5"
     text: "The Security Referential Is:"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -103,8 +99,7 @@ questions:
 
   - id: "q6"
     text: "Pick the cities where Exoscale Zones are operated:"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

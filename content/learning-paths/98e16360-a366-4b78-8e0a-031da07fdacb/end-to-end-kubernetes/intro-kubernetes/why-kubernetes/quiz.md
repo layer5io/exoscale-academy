@@ -1,11 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "why-kubernetes"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "If you start using containers, what will happen?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -18,8 +18,7 @@ questions:
 
   - id: "q2"
     text: "What happens if you run services at scale in containers without Kubernetes?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

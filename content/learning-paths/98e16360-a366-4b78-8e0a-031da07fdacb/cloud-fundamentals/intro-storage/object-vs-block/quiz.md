@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "object-vs-block"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "Which statements accurately describe cost considerations for object and block storage?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -22,8 +21,7 @@ questions:
           is_correct: true
     - id: "q2"
       text: "When should you consider using object storage over block storage?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -38,8 +36,7 @@ questions:
           is_correct: true
     - id: "q3"
       text: "What are the key performance characteristics of object and block storage?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

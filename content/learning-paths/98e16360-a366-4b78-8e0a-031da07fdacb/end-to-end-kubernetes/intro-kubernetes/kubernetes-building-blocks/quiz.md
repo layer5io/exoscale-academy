@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "kubernetes-building-blocks"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "What is true about Pods in Kubernetes?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -29,8 +28,7 @@ questions:
           is_correct: true
     - id: "q2"
       text: "What is true about Deployments in Kubernetes?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

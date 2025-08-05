@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "csrd"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "Which of the following is true about the Corporate Sustainability Reporting Directive (CSRD)?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -22,8 +21,7 @@ questions:
         is_correct: true
   - id: "q2"
     text: "What are the requirements under the CSRD for companies in terms of sustainability reporting?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -39,8 +37,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "Identify the correct statements about the advancements introduced by the CSRD."
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

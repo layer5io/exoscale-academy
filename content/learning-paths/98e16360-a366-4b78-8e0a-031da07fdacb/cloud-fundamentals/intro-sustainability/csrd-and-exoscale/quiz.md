@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "csrd-and-exoscale"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What are the objectives of using CloudAssess in cloud services?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -22,8 +21,7 @@ questions:
         is_correct: true
   - id: "q2"
     text: "What challenges were faced in implementing CloudAssess?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -38,8 +36,7 @@ questions:
         text: "High costs of Life Cycle Analysis (LCA) tools"
   - id: "q3"
     text: "Which features does CloudAssess offer to enhance sustainability in cloud computing?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

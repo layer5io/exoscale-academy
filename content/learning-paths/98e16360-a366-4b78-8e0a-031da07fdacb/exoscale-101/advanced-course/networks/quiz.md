@@ -1,10 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What is a load balancer in Exoscale?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -19,7 +19,7 @@ questions:
 
   - id: "q2"
     text: "What is true about managed Elastic IPs?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -32,7 +32,7 @@ questions:
 
   - id: "q3"
     text: "Health checks ..."
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"

@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "corporate-sustainability"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "Which of the following are reasons why businesses might prioritize corporate sustainability?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -22,8 +21,7 @@ questions:
         is_correct: true
   - id: "q2"
     text: "What does corporate sustainability focus on?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -39,8 +37,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "How do corporates ensure economic viability in the context of sustainability?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

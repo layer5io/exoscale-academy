@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "cs-and-cloud"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What are the benefits of cloud computing for corporate sustainability?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -22,8 +21,7 @@ questions:
         is_correct: true
   - id: "q2"
     text: "How does cloud computing contribute to resource optimization?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -39,8 +37,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "How does cloud computing impact remote work and contribute to environmental sustainability?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

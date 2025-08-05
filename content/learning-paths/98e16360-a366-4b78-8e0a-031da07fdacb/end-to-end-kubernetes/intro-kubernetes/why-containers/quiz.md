@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "why-containers"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "For whom can a container approach ease the daily professional life?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 1
     options:
       - id: "a"
@@ -23,8 +22,7 @@ questions:
 
   - id: "q2"
     text: "What are the benefits of Container Deployment?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 1
     options:
       - id: "a"

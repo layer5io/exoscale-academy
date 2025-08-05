@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "why-storage"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "Which storage types retain data without power?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -21,8 +20,7 @@ questions:
           is_correct: true
     - id: "q2"
       text: "Which storage type is primarily used for archival purposes?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -37,8 +35,7 @@ questions:
           text: "Network Storage"
     - id: "q3"
       text: "What influences data retention policies?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

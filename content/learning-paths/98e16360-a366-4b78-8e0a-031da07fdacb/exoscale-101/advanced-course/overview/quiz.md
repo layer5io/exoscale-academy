@@ -1,11 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What are Exoscale products in the following list?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -35,8 +34,7 @@ questions:
 
   - id: "q2"
     text: "Which of the following are ways to automate your Exoscale cloud infrastructure?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

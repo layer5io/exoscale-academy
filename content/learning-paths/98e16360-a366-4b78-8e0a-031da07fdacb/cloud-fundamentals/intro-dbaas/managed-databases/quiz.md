@@ -1,11 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What is the trend in Database/Data Services usage in modern applications?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -22,8 +21,7 @@ questions:
 
   - id: "q2"
     text: "What are the Infrastructure Expenses running a Database self-hosted?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

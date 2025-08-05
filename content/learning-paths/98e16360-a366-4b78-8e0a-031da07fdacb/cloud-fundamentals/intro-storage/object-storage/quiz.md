@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "object-storage"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "How do object storage systems handle data storage and manipulation?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -21,8 +20,7 @@ questions:
           is_correct: true
     - id: "q2"
       text: "Which features of object storage contribute to its scalability and reliability?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

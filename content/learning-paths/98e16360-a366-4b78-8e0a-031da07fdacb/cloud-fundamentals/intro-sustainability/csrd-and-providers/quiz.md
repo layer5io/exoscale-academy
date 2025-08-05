@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "csrd-and-providers"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What does CSRD require from cloud computing providers in terms of reporting?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -21,8 +20,7 @@ questions:
         text: "Generic statements about sustainability intentions without the need for verification"
   - id: "q2"
     text: "How must cloud providers prepare for compliance with the CSRD?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -37,8 +35,7 @@ questions:
         text: "Limit the role of eco-focused management systems in their operation"
   - id: "q3"
     text: "What opportunities does the CSRD offer to cloud providers?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

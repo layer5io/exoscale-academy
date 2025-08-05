@@ -1,10 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "Which of the following is a cloud computing service model that provides virtualized computing resources over the internet?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -19,8 +19,7 @@ questions:
 
   - id: "q2"
     text: "What are some advantages of using Infrastructure as a Service (IaaS)?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

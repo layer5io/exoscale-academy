@@ -1,11 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "Which items of the following list are part of our focus areas for 'Sustainable Cloud'?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -29,8 +28,7 @@ questions:
 
   - id: "q2"
     text: "What is important to us in sourcing energy?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -49,7 +47,7 @@ questions:
 
   - id: "q3"
     text: "What do we do with old server hardware?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -62,8 +60,7 @@ questions:
 
   - id: "q4"
     text: "High-Density Racks at Exoscale:"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -82,7 +79,7 @@ questions:
 
   - id: "q5"
     text: "How do we tackle energy efficiency in our data center design?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -95,8 +92,7 @@ questions:
 
   - id: "q6"
     text: "What is the benefit of a Direct Shipping approach?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "file-storage"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "What types of cloud file storage delivery methods are available?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -24,8 +23,7 @@ questions:
           text: "CLoud file storage that operates exclusively offline"
     - id: "q2"
       text: "What advantages does cloud-based file storage provide?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "why-cloud-storage"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "What features of cloud storage contribute to its cost-effectiveness?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -24,8 +23,7 @@ questions:
           is_correct: true
     - id: "q2"
       text: "Which of the following are benefits of cloud storage?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -43,8 +41,7 @@ questions:
           is_correct: true
     - id: "q3"
       text: "How does cloud storage facilitate collaboration and data management?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

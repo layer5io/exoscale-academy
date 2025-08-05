@@ -1,11 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "Why Compliance?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -24,8 +23,7 @@ questions:
 
   - id: "q2"
     text: "Why is Compliance essential for businesses?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -41,8 +39,7 @@ questions:
 
   - id: "q3"
     text: "Positive aspects of Compliance on businesses:"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

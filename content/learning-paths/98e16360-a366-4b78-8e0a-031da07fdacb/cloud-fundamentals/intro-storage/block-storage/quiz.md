@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "block-storage"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "For which scenarios is block storage considered an ideal choice?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -21,8 +20,7 @@ questions:
           text: "Storage of unstructured data like photos and videos"
     - id: "q2"
       text: "Which of the following statements correctly describe the advantages of block storage?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -37,8 +35,7 @@ questions:
           text: "Block storage performs poorly in virtualized enviornments"
     - id: "q3"
       text: "What roles does block storage play in data management and IT infrastructures?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

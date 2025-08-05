@@ -1,11 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "An Ingress Controller can ..."
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -24,7 +23,7 @@ questions:
 
     - id: "q2"
       text: "On which layer(s) does an Exoscale Network Load Balancer process traffic?"
-      type: "mcq"
+      type: "single-answer"
       marks: 2
       options:
         - id: "a"
@@ -38,8 +37,7 @@ questions:
 
     - id: "q3"
       text: "Which of the following Kubernetes components does Exoscale SKS manage or at least deploy?"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
@@ -63,7 +61,7 @@ questions:
 
     - id: "q4"
       text: "A Kubernetes Manifest is:"
-      type: "mcq"
+      type: "single-answer"
       marks: 2
       options:
         - id: "a"
@@ -74,7 +72,7 @@ questions:
 
     - id: "q5"
       text: "One Replica in a StatefulSet consists of:"
-      type: "mcq"
+      type: "single-answer"
       marks: 2
       options:
         - id: "a"

@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "csrd-and-cloud"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "Which of the following are reasons that cloud computing plays a significant role in the context of the Corporate Sustainability Reporting Directive (CSRD)?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -24,8 +23,7 @@ questions:
         text: "Digital Marketing Strategies"
   - id: "q2"
     text: "How does cloud computing improve the sustainability reporting process according to the CSRD requirements?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -43,8 +41,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "What benefits does cloud computing offer to companies looking to comply with the CSRD?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

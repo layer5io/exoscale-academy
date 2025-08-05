@@ -4,8 +4,7 @@ passing_percentage: 70
 questions:
   - id: "q1"
     text: "On Exoscale, I can ..."
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -24,7 +23,7 @@ questions:
 
   - id: "q2"
     text: "What is an Anti-Affinity Group in cloud computing?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -39,7 +38,7 @@ questions:
 
   - id: "q3"
     text: "What is object storage?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"

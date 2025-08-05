@@ -1,10 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
     - id: "q1"
       text: "A Deployment consists of:"
-      type: "mcq"
+      type: "single-answer"
       marks: 2
       options:
         - id: "a"
@@ -15,7 +15,7 @@ questions:
 
     - id: "q2"
       text: "What is a Pod?"
-      type: "mcq"
+      type: "single-answer"
       marks: 2
       options:
         - id: "a"
@@ -33,7 +33,7 @@ questions:
 
     - id: "q3"
       text: "What are Nodes?"
-      type: "mcq"
+      type: "single-answer"
       marks: 2
       options:
         - id: "a"
@@ -46,8 +46,7 @@ questions:
 
     - id: "q4"
       text: "The command > kubectl describe pod lists:"
-      type: "mcq"
-      multiple_answers: true
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

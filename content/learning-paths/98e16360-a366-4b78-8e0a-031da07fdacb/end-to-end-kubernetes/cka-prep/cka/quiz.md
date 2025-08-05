@@ -1,10 +1,10 @@
 ---
-title: "Introduction to Kubernetes (Quiz)"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What command is used to view the status of pods in a Kubernetes cluster?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -19,7 +19,7 @@ questions:
 
   - id: "q2"
     text: "Kubernetes is a container orchestration platform."
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -38,8 +38,7 @@ questions:
 
   - id: "q4"
     text: "Which of the following are valid Kubernetes resource types?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -56,7 +55,7 @@ questions:
 
   - id: "q5"
     text: "Which controller ensures that the specified number of pod replicas are running at all times?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -77,7 +76,7 @@ questions:
 
   - id: "q7"
     text: "What type of Kubernetes object exposes a set of pods as a network service?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -98,8 +97,7 @@ questions:
 
   - id: "q9"
     text: "Which of the following are use cases for ConfigMaps?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -115,7 +113,7 @@ questions:
 
   - id: "q10"
     text: "Which type of Kubernetes volume is used to persist data even after pod restarts?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"

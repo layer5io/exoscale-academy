@@ -1,10 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What does cloud native mean in the context of Exoscale?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -17,7 +17,7 @@ questions:
 
   - id: "q2"
     text: "What is a container?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"

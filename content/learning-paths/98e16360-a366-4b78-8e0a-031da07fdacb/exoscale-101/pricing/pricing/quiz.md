@@ -1,10 +1,10 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "If you create a Medium instance (€0.04666/h) with a 50 GB disk (€0.00014/GB/h) attached to it and run Windows (€0.01111/h) on it for 24 hours, how much will you pay?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"
@@ -17,7 +17,7 @@ questions:
 
   - id: "q2"
     text: "If you have 3 machines on Exoscale and you have a sudden traffic spike and the machines transfer 5 GB in one hour but otherwise incur no traffic, for how much data do you have to pay excess bandwidth fees?"
-    type: "mcq"
+    type: "single-answer"
     marks: 2
     options:
       - id: "a"

@@ -1,12 +1,11 @@
 ---
-title: "Knowledge Check"
+title: "Quiz"
 id: "kubernetes-details"
 passing_percentage: 70
 questions:
   - id: "q1"
     text: "What of the following features were mentioned in the 'Kubernetes Details' section?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -27,8 +26,7 @@ questions:
 
   - id: "q2"
     text: "What are the characteristics of declarative configuration?"
-    type: "mcq"
-    multiple_answers: true
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
