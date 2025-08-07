@@ -10,7 +10,7 @@ title: Academy
 Welcome to dev environment for your Academy
 
 
-[LearningPaths](/academy/learning-paths/)
+[Learning Paths](/academy/learning-paths/)
 
 
 
