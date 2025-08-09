@@ -13,5 +13,5 @@ Route traffic to and from the cluster. Provide a single SSL endpoint for multipl
 <!-- ![ingress2](ingress2.png)-->
 {{< meshery-design-embed
 id="embedded-design-8cfe56a7-3db8-4595-8008-27590a40139b"
-src="image-5.js"
+src="ingress-image.js"
 >}}
