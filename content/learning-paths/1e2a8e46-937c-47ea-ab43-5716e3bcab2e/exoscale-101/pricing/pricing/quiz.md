@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Pricing Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"

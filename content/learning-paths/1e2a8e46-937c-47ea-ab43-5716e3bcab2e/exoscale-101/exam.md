@@ -1,5 +1,5 @@
 ---
-title: "Exam"
+title: "Exoscale 101 Exam"
 passing_percentage: 70
 final: true
 questions:

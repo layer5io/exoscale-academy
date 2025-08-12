@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "CSRD And Exoscale Quiz"
 id: "csrd-and-exoscale"
 passing_percentage: 70
 questions:

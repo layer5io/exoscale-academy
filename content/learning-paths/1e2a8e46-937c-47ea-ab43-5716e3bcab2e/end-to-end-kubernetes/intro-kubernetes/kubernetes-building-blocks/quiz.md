@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Kubernetes Building Blocks Quiz"
 id: "kubernetes-building-blocks"
 passing_percentage: 70
 questions:

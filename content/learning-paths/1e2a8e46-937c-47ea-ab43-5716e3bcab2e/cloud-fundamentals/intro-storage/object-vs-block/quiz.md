@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Object vs Block Quiz"
 id: "object-vs-block"
 passing_percentage: 70
 questions:

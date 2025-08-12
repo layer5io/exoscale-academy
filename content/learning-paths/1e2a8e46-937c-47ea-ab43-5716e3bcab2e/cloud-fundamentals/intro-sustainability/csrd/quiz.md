@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "CSRD Quiz"
 id: "csrd"
 passing_percentage: 70
 questions:

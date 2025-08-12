@@ -4,7 +4,7 @@ title: "Creating SKS Cluster"
 description: "Create an SKS Cluster"
 courseTitle: "Creating SKS Cluster"
 weight: 1
-banner: "images/exoscale-icon.svg"
+banner: "exoscale-icon.svg"
 tags: [kubernetes, exoscale, exo-cli, sks, infrastructure]
 level: "intermediate"
 ---

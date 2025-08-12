@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "CSRD And Cloud Quiz"
 id: "csrd-and-cloud"
 passing_percentage: 70
 questions:

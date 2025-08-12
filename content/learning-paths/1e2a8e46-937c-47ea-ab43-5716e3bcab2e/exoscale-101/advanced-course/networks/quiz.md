@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Exoscale - Advanced Networks Quiz"
 passing_percentage: 70
 questions:
   - id: "q1"

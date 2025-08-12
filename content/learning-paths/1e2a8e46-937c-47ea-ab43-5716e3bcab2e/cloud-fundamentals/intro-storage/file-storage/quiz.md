@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "File Storage Quiz"
 id: "file-storage"
 passing_percentage: 70
 questions:

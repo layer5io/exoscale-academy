@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Why Managed Kubernetes Quiz"
 id: "why-managed-kubernetes"
 passing_percentage: 70
 questions:

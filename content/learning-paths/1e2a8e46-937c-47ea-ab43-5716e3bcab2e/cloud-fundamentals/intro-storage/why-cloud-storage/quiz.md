@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Why Cloud Storage Quiz"
 id: "why-cloud-storage"
 passing_percentage: 70
 questions:

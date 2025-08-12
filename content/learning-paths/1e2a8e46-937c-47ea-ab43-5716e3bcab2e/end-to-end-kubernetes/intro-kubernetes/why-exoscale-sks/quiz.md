@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Why Exoscale SKS Quiz"
 id: "why-managed-kubernetes"
 passing_percentage: 70
 questions:

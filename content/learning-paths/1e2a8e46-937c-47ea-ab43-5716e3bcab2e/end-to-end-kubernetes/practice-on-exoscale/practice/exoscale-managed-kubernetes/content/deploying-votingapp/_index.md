@@ -4,7 +4,7 @@ title: "Deploying the VotingApp"
 description: "Launch the application in exoscale managed cluster"
 courseTitle: "Deploying the VotingApp"
 weight: 2
-banner: "images/exoscale-icon.svg"
+banner: "exoscale-icon.svg"
 tags: [kubernetes, infrastructure, exoscale]
 level: "beginner"
 ---

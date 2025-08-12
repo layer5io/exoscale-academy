@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "CSRD And Providers Quiz"
 id: "csrd-and-providers"
 passing_percentage: 70
 questions:

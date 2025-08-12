@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "SKS Advanced Storage Quiz"
 passing_percentage: 70
 questions:
     - id: "q1"

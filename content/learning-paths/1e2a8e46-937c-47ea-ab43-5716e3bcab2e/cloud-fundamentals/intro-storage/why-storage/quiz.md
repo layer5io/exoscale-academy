@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Why Storage Quiz"
 id: "why-storage"
 passing_percentage: 70
 questions:

@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Block Storage Quiz"
 id: "block-storage"
 passing_percentage: 70
 questions:

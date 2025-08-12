@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Object Storage Quiz"
 id: "object-storage"
 passing_percentage: 70
 questions:

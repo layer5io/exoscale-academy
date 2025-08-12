@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Corporate Sustainability Quiz"
 id: "corporate-sustainability"
 passing_percentage: 70
 questions:

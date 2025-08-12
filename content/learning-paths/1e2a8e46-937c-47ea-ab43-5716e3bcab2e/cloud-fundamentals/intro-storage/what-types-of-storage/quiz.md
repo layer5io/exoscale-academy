@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "What Types Of Storage Quiz"
 id: "what-types-of-storage"
 passing_percentage: 70
 questions:
