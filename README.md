@@ -1,6 +1,6 @@
 # Exoscale Academy
 
-Welcome to **Exoscale Academy**, the dedicated cloud education and training platform powered by Layer5. This repository provides a comprehensive framework for creating, organizing, and publishing structured learning paths, courses, and lessons tailored for Exoscale users and cloud practitioners.
+Welcome to **Exoscale Academy**, the dedicated cloud education and training platform powered by Layer5. This repository provides a comprehensive framework for creating, organizing, and publishing structured learning paths, challenges and certifications tailored for Exoscale users and cloud practitioners.
 
 ## Design Resources
 
@@ -54,7 +54,7 @@ Before you begin, ensure you have:
 3. **Organization UID**
    - All Exoscale Academy content is namespaced under its Organization ID:
      ```
-     98e16360-a366-4b78-8e0a-031da07fdacb
+     1e2a8e46-937c-47ea-ab43-5716e3bcab2e
      ```
 
 ## Repository Structure
@@ -69,24 +69,24 @@ layer5io-exoscale-academy/
 ├── content/
 │   └── en/
 │       └── learning-paths/
-│           └── 98e16360-a366-4b78-8e0a-031da07fdacb/
+│           └── 1e2a8e46-937c-47ea-ab43-5716e3bcab2e/
 │               └── /
 │                   └── /
 │                       └── /
 │                           └── content/
 │                               └── .md
 ├── static/
-│   └── 98e16360-a366-4b78-8e0a-031da07fdacb/
+│   └── 1e2a8e46-937c-47ea-ab43-5716e3bcab2e/
 │       └── images/
 ├── layouts/
 │   └── shortcodes/
-│       └── 98e16360-a366-4b78-8e0a-031da07fdacb/
+│       └── 1e2a8e46-937c-47ea-ab43-5716e3bcab2e/
 │           └── custom-org-shortcode.html
 └── .github/
     └── ISSUE_TEMPLATE/, workflows/, config, etc.
 ```
-> **Learning Path → Course → Chapter → Lesson** is the core structure.  
-Each level uses `_index.md` and lessons use `.md` files with [Hugo frontmatter](https://gohugo.io/content-management/front-matter/).
+> **Learning Path → Course → Module** is the core structure.
+Each level uses `_index.md` files with [Hugo frontmatter](https://gohugo.io/content-management/front-matter/).
 
 ## Content Authoring Workflow
 
@@ -94,23 +94,23 @@ Each level uses `_index.md` and lessons use `.md` files with [Hugo frontmatter](
 
    - Authoring takes place inside:
      ```
-     content/en/learning-paths/98e16360-a366-4b78-8e0a-031da07fdacb/
+     content/en/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/
      ```
    - Structure:
      ```
      <learning-path>/
       <course>/
-        <chapter>/
+        <module>/
             content/
-              lesson1.md
-              lesson2.md
+              module1.md
+              module2.md
      ```
 
-   - **Frontmatter Required** (example for any `_index.md` or lesson .md):
+   - **Frontmatter Required** (example for any `_index.md`):
 
      ```yaml
      ---
-     title: "Title of Section or Lesson"
+     title: "Title of Section"
      description: "One-liner summary"
      weight: 10  # for menu order, lower numbers appear first
      ---
@@ -119,28 +119,32 @@ Each level uses `_index.md` and lessons use `.md` files with [Hugo frontmatter](
 2. **Delete Example Content**
    - Remove any demo/example files not relevant to your new material.
 
-3. **Organize Lessons**
-   - Add new folders and markdown files for each learning path, course, chapter, and lesson.
+3. **Organize Contens**
+   - Add new folders and markdown files for each learning path, course and module.
 
 ## Managing Assets: Images, Videos, and Embedded Designs
 
-Enhance your courses with images and rich visual content. For compatibility with the Layer5 Academy’s multi-tenant architecture, **do not use standard Markdown image links**. Use shortcodes as described below.
+Enhance your courses with images and rich visual content using the **Page Bundling** method for optimal compatibility with the Layer5 Academy platform.
 
 ### How to Add an Image
 
-1. Place your image (example: `exoscale-logo.png`) in the organization’s static directory:
+1. Place your image files directly in the same directory as your markdown content (Page Bundling method):
 
     ```
-    static/98e16360-a366-4b78-8e0a-031da07fdacb/images/exoscale-logo.png
+    content/en/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/
+    └── your-course/
+        └── your-module/
+            ├── _index.md
+            └── exoscale-logo.png
     ```
 
-2. In lesson markdown, embed your image using the `usestatic` shortcode (path is relative to your org’s folder):
+2. In your markdown file, reference the image using standard Markdown syntax:
 
     ```markdown
-    ![Exoscale Logo]({{</* usestatic path="images/exoscale-logo.png" */>}})
+    ![Exoscale Logo](exoscale-logo.png)
     ```
 
-> When you build the site, this shortcode automatically resolves to a working, tenant-aware asset path.
+> **Note:** The `usestatic` shortcode is **deprecated** and should not be used. Use the Page Bundling method above for better asset management and compatibility.
 
 ### How to Add a Video
 
@@ -156,12 +160,12 @@ Embed videos in a visually distinct `card` using:
 ```
 ## How to Add a Meshery Design
 
-1. Place Design Assets  
-   Put your design files (e.g., `cdn.js`, design YAMLs) alongside your course or lesson content, ideally following the same directory conventions used for images.
+1. Place Design Assets
+   Put your design files (e.g., `cdn.js`, design YAMLs) alongside your course or module content, ideally following the same directory conventions used for images.
 
-2. Embed Using the meshery-design-embed Shortcode  
-   In your lesson markdown, use:
-  
+2. Embed Using the meshery-design-embed Shortcode
+   In your markdown file, use:
+
   ```markdown
   {{< meshery-design-embed
   id="embedded-design-0e3abb9c-39e7-4d09-b46f-26a0238c3c3d"
@@ -194,7 +198,7 @@ hugo server
 
 ## Contributing
 
-- See [Academy Docs](https://docs.layer5.io/cloud/academy) for best practices on creating and publishing learning paths, courses, chapters, and challenges.
+- See [Academy Docs](https://docs.layer5.io/cloud/academy) for best practices on creating and publishing learning paths, challenges and certifications.
 - Refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for branching, committing, and PR workflow.
 - Review [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) and [SECURITY.md](./SECURITY.md) prior to contributing.
 
@@ -209,5 +213,5 @@ Distributed under the [Apache 2.0 License](./LICENSE).
 
 For questions or help, open a [GitHub Issue](https://github.com/layer5io/exoscale-academy/issues) or join the [Layer5 Slack Community](https://slack.layer5.io/).
 
-**Happy Learning!**  
+**Happy Learning!**
 _The Layer5 & Exoscale Academy Team_

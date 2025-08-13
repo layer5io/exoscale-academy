@@ -1,5 +1,5 @@
 # <a name="contributing">Contributing Overview</a>
-Please do! Thanks for your help improving the project! 🎈
+Please do! Thanks for your help improving the project! :balloon:
 
 All contributors are welcome. Please see the [newcomers welcome guide](https://layer5.io/community/newcomers) for how, where and why to contribute. This project is community-built and welcomes collaboration. Contributors are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
@@ -7,172 +7,23 @@ Not sure where to start? First, see the [newcomers welcome guide](https://layer5
 
 **Sections**
 - <a name="contributing">General Contribution Flow</a>
-  - <a href="#prerequisites">Prerequisites</a>
-  - <a href="#set-up-your-local-development-environment">Set up your Local Development Environment</a>
   - <a href="#commit-signing">Developer Certificate of Origin</a>
 
 Relevant coding style guidelines are the Go Code Review Comments and the Formatting and style section of Peter Bourgon's Go: Best Practices for Production Environments.
 
+## Important Information
+
+This repository serves as the **official content repository** for Layer5's Academy learning platform, hosting all official learning paths, challenges, and certifications.
+
+
+### Detailed Guide
+For a complete, step-by-step guide on how to create, structure, and publish a new learning path, please refer to our official documentation:
+
+➡️ [Academy](https://docs.layer5.io/cloud/academy/)
+
 # <a name="contributing">General Contribution Flow</a>
 
-In order to contribute to Layer5 docs, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
-
-## Prerequisites
-
-Make sure you have the following prerequisites installed on your operating system before you start contributing:
-
-- [Nodejs and npm](https://nodejs.org/en/)
-
-  To verify run:
-
-  ```
-  node -v
-  ```
-
-  ```
-  npm -v
-  ```
-
-- [Go](https://go.dev/doc/install)
-
-  To verify run:
-
-  ```
-  go version
-  ```
-
-- [Hugo](https://gohugo.io/installation/) 
-
-
-  - Install a recent release of the Hugo "extended" version. If you install from
-    the [Hugo release page](https://github.com/gohugoio/hugo/releases), make sure
-    you download the `extended` version, which supports SCSS.
-
-    To verify run:
-
-    ```
-    hugo version
-    ```
-
-  - Install `PostCSS` so that the site build can create the final CSS assets. You
-    can install it locally by running the following commands from the root
-    directory of your project:
-
-    ```sh
-    npm install --save-dev autoprefixer
-    npm install --save-dev postcss-cli
-    ```
-
-    Starting in
-    [version 8 of `postcss-cli`](https://github.com/postcss/postcss-cli/blob/master/CHANGELOG.md),
-    you must also separately install `postcss`:
-
-    ```sh
-    npm install -D postcss
-    ```
-
-**Note:** If you're on a _Windows environment_ then it is highly recommended that you install [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install) both for performance and ease of use.
-
-
-## Set up your Local Development Environment
-
-Follow the following instructions to start contributing.
-
-**1.** Fork [this](https://github.com/layer5io/exoscale-academy) repository.
-
-**2.** Clone your forked copy of the project.
-
-```
-git clone --depth=1 https://github.com/<your-username>/exoscale-academy.git
-```
-
-**3.** Navigate to the project directory.
-
-```
-cd exoscale-academy
-```
-
-**4.** Add a reference(remote) to the original repository.
-
-```
-git remote add upstream https://github.com/layer5io/exoscale-academy.git
-```
-
-**5.** Check the remotes for this repository.
-
-```
-git remote -v
-```
-
-**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project (updated repository).
-
-```
-git pull upstream master
-```
-
-**7.** Create a new branch.
-
-```
-git checkout -b <your_branch_name>
-```
-
-**8.** Install the dependencies for running the site.
-
-```
-make setup
-```
-
-**9.** Make the desired changes.
-
-**10.** Run the site locally to preview changes.
-
-```
-make site
-```
-
-This will run a local webserver with "live reload" conveniently enabled. ( **NOTE**: while using the make command on Windows, there sometimes arises an error in identifying the command even after it is installed (unrecognized command), this is because the PATH for the binary might not be set correctly ).
-
-**11.** Track your changes.
-
-```
-git add .
-```
-
-**12.** Commit your changes. To contribute to this project, you must agree to the [Developer Certificate of Origin (DCO)](#signing-off-on-commits) for each commit you make.
-
-```
-git commit --signoff -m "<commit subject>"
-```
-
-or you could go with the shorter format for the same, as shown below.
-
-```
-git commit -s -m "<commit subject>"
-```
-
-**13.** While you are working on your branch, other developers may update the `master` branch with their branch. This action means your branch is now out of date with the `master` branch and missing content. So to fetch the new changes, follow along:
-
-```
-git checkout master
-git fetch origin master
-git merge upstream/master
-git push origin
-```
-
-Now you need to merge the `master` branch into your branch. This can be done in the following way:
-
-```
-git checkout <your_branch_name>
-git merge master
-```
-
-**14.** Push the committed changes in your feature branch to your remote repo.
-
-```
-git push -u origin <your_branch_name>
-```
-
-**15.** Once you’ve committed and pushed all of your changes to GitHub, go to the page for your fork on GitHub, select your development branch, and click the pull request button. Please ensure that you compare your feature branch to the desired branch of the repo you are supposed to make a PR to. If you need to make any adjustments to your pull request, just push the updates to GitHub. Your pull request will automatically track the changes in your development branch and update it.
+In order to contribute to Exoscale Academy, please follow the fork-and-pull request workflow described [here](./CONTRIBUTING-gitflow.md).
 
 ## <a name="commit-signing">Signing-off on Commits (Developer Certificate of Origin)</a>
 
@@ -209,16 +60,16 @@ Or you may configure your IDE, for example, Visual Studio Code to automatically 
 
 <a href="https://user-images.githubusercontent.com/7570704/64490167-98906400-d25a-11e9-8b8a-5f465b854d49.png" ><img src="https://user-images.githubusercontent.com/7570704/64490167-98906400-d25a-11e9-8b8a-5f465b854d49.png" width="50%"><a>
 
-## <a name="contributing-docs">Documentation Contribution Flow</a>
-Please contribute! Layer5 documentation uses Jekyll and GitHub Pages to host docs sites. Learn more about [Layer5's documentation framework](https://docs.google.com/document/d/17guuaxb0xsfutBCzyj2CT6OZiFnMu9w4PzoILXhRXSo/edit?usp=sharing). The process of contributing follows this flow:
+## <a name="contributing-docs">Academy Content Contribution Flow</a>
+Please contribute! Exoscale Academy uses Hugo and GitHub Pages to host the learning platform. Learn more about [Layer5's Academy platform development](https://docs.layer5.io/cloud/academy/platform-development/). The process of contributing follows this flow:
 
 1. Create a fork, if you have not already, by following the steps described [here](./CONTRIBUTING-gitflow.md)
-1. In the local copy of your fork, navigate to the docs folder.
-`cd docs`
+1. In the local copy of your fork, navigate to the content folder.
+`cd content`
 1. Create and checkout a new branch to make changes within
 `git checkout -b <my-changes>`
-1. Edit/add documentation.
-`vi <specific page>.md`
+1. Edit/add learning content.
+`vi <specific content>.md`
 1. Run site locally to preview changes.
 `make site`
 1. Commit, [sign-off](#commit-signing), and push changes to your remote branch.
@@ -227,26 +78,26 @@ Please contribute! Layer5 documentation uses Jekyll and GitHub Pages to host doc
 
 
 #### Tests
-Users can now test their code on their local machine against the CI checks implemented using `make run-tests`.
+Users can now test their local development setup using the provided Makefile commands.
 
-To test code changes on your local machine, run the following command:
+To test your local Academy setup, run the following commands:
 ```
-make run-tests
+# Install dependencies
+make setup
+
+# Start local development server
+make site
 ```
 
-#### Building Docker image
-To build a Docker image of the project, please ensure you have `Docker` installed to be able to build the image. Now, run the following command to build and serve the files locally.:
-
-> [!IMPORTANT]  
-> This requires Docker Desktop version **4.24** or later, or Docker Engine with Docker
-> Compose version [**2.22**](https://docs.docker.com/compose/file-watch/) or later.
+#### Building the Site
+To build the Academy site for production, ensure you have `Hugo` and `Go` installed. Now, run the following command to build the site:
 ```sh
-make docker
+make build
 ```
 
-### UI Lint Rules
+### Content Guidelines
 
-Layer5 uses ES-Lint to maintain code quality & consistency in our UI Code.
+Exoscale Academy follows specific content and formatting guidelines for consistency across all learning materials.
 
 # <a name="maintaining"> Reviews</a>
 All contributors are invited to review pull requests. See this short video on [how to review a pull request](https://www.youtube.com/watch?v=isLfo7jfE6g&feature=youtu.be).
