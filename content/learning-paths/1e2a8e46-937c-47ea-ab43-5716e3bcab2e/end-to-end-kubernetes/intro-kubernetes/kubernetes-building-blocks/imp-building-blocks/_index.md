@@ -17,5 +17,5 @@ Instead, you can use workload resources that address a set of Pods on your behal
 <!--![kubernetes5](kubernetes5.png)-->
 {{< meshery-design-embed
   id="embedded-design-69afa37b-0ac4-4be5-a55e-ac4247dd3c1b"
-  src="imp-building-blocks.js"
+  src="kubernetes5.js"
 >}}
