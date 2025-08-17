@@ -1,13 +1,17 @@
 ---
-type: page
-id: important-building-blocks
-description: Important Building Blocks
-title: Important Building Blocks
-weight: 3
+type: "page"
+id: "important-building-blocks"
+description: ""
+title: "Important Building Blocks"
+weight: 1
 ---
 
-# Important Building Blocks
+### Important Building Blocks
 
-Kubernetes has several important building blocks that work together to create and manage containerized applications. These components include Pods, ReplicaSets, Deployments, Services, Ingress, ConfigMaps, Secrets, DaemonSets, and CronJobs.
+An application running on Kubernetes is a workload. Whether your workload is a single component or several that work together, on Kubernetes, you run it inside a set of Pods. In Kubernetes, a Pod represents a set of running containers on your cluster.
 
-{{< meshery-design-embed id="embedded-design-69afa37b-0ac4-4be5-a55e-ac4247dd3c1b" src="building-blocks.js" >}}
+A critical fault on the node where your Pod runs means that all the Pods on that node fail. Kubernetes treats that level of failure as final: you would need to create a new Pod to recover, even if the node later becomes healthy. However, to make life easier, you don't need to manage each Pod directly.
+
+Instead, you can use workload resources that address a set of Pods on your behalf. These resources configure controllers that ensure the correct number and right kind of Pods are running to match the state you specified. Kubernetes provides several built-in workload resources: Pods, ReplicaSet, Deployment, DaemonSet, Ingress, and CronJob, to name a few of those building blocks.
+
+{{< meshery-design-embed id="embedded-design-69afa37b-0ac4-4be5-a55e-ac4247dd3c1b" src="building-blocks.js" >}}
