@@ -1,10 +1,99 @@
 id: 464cb327-ac9b-409a-a216-e8998532cf20
 name: Untitled Design
 schemaVersion: designs.meshery.io/v1beta1
-version: 0.0.270
+version: 0.0.289
 metadata:
   resolvedAliases: {}
 components:
+  - id: 3d66ff14-0cbe-4f16-8112-3cdcc2340545
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 6b49e0cc-6d83-f917-b2bd-30b69792bb20
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-08-09T14:59:45.073841065Z"
+        updated_at: "2025-08-09T14:59:45.073841065Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-fit: cover
+      background-image: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAdCAYAAAAaeWr3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVuSURBVFhH7Zfrb1NlHMc/Pad0a3frGEzK1gFl3aBzDJAXU5RNxm2MF2pggCLBMIj/gfoGNVH/AYmIchEjDAh3iKDh5giZvCGbIAbCgK0bHaPb6HpZTy/n+EI9smeXFghKMj7J86K/7/f55eTbp31+x+Dr82uMYiSxMNp4HoBYGG08D0AsjDZGfQCGRNfgzZstXL58WSyTkZHJnDkvMX78OFEaFlVVuXOnlUuXLnH79h3UeByz2YKrxMXcuS+TmZkpbhmEoiicO3eevr4+UUKWZCZPnsR013QsFosoD0nCAA4fOsKuXd9T8mIJaWlpAPT29ODxdJGZlc6KFcuprKzAYDCIWwfQ3d3N7h/20NTUTDQaJzd3HLJRJtwf5r7XS87YHBYvWURNTTWSNPzB7O3t5cMPPiISieEsKtTr4f4w7e3tqKpKTk4Oy5bVUFE5b8ReAEaxIOIPBHjwwEdlRQVTHFPg72+ht7eX/fsOsG3bDibabBRPKxa36rjdbjZv3sKN6zeoqammrGwGVqsVgyQRi0XweO5x7Ohxvtu5k2AwSG3t8mEfPB6P09V1H4fDQW3tin/rsRiBQJC+Ph8nT/7E1q3fcq+ra8ReJBMAgCRJ2AvyKSycqtfi8ThGo5FPPv6Us+fOU1RcNOQpUBSF+vp9NDc1UVe3nqoFVVitWQO8TmcR+fn57K3fx976veTn5/Hqq3MH9BHJzMwc8Dz/EI/HsRcUUL9nb1K9ho8mAbIs43JNx2azceP6DRRFES0AXL1ylTOnz1BRWcHiJYvJzrYOCkqWZZzOQlatXonJlMLBA4fw+wMDPMkiyzKFhVP1XocOHiYYDIo2nccOACAUCuH3+7GkWRgzZowoo2kajY2NaJrG0qXVZGSki5YBOBxTeH1+Jc3Nv9Ha2irKj4TDMYXXXnuFK1eu0tHeIco6jx1AONzPieM/4vV6KS8vR5Zl0YKiKLS03CIvL4/JkyeJ8iBkWaasrJRIJEpLyy1RfiT+OqEuAoEA3u5uUdZJKgBFCbN92w4+/+wLfW3a9CknTpygemn1sL8xTdMIKxFSzWZMJpMoD0lWlhWjUcbvH3zNPSrZ2dkYjTI9PT2ipJNUAKqq4Q8E8fX16St3fC4bNtaxdu0asrOt4hYADAYDpjEmgoEg0WhUlIfE53uAoiiMHTtWlB4Zn89HLBYnbYSZIKkAUlJSeOvNN9hQt15fa95dTVXVfGw2m2jXMZlMOJ0OOjo6aGtrE+VBqKpKU1MzZrM5qZ/MSKiqyu/X/iAjIx273S7KOkkFIEkSBZPsOIuc+powwUZqaqpoHYAkSZSXlyNJEkePHCMc7hctA3C72zl/roGSEhcFBU8WgNvdTsMvFygtLWVi3kRR1kkqgCfBVeJiwcIqGhousH//wWGvS7fbzZYtXxOJKLz9zirS0oY/tonoutfF1q3fEIko1K5cjtlsFi06SQ1CT4LFYmH16lXEYlEOHzrMrZZbLFxUhcvlwmg0EgoFudBwkdNnztLp8bDuvXXMmjVz0KwgEo1G8fv9+udwOIzH08m1a9e40HCRzs5ONmyso6xsxoi9Er4L7N69h+3bdvLVli+ZNm2aKCeFpmncvevh18ZGTp36mVB/P9lWKwaDRDQWpbenh+LiYhYsrGL27Fmkpw8/L3i93Wzc8D6KEsbheGgyVeP0h4JoGhQVF1FZOY+ZM2cmfClKGEB7ewdtba2Uls5IOMgkIhQK0dJyG6/XSzAYQNNAlg1kZWVht9vJy8sbcp54mEgkQnNTM6H+wf8nBoOB1JQU8u12XnghN2EvkgngaaCqKrFYDE3TkCRpyCnyv+J/CeBZ4qnfAs86zwMQC6ON5wGIhdHGn3qyF6G18F92AAAAAElFTkSuQmCC
+      background-opacity: 0
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-style: solid
+      border-width: 0
+      data:
+        label: ""
+      height: 10.98848
+      opacity: 1
+      padding: 0
+      position:
+        x: 650.1002206983809
+        y: -342.47607677260015
+      primaryColor: '#00B39F'
+      secondaryColor: '#00D3A9'
+      shape: rectangle
+      svgColor: ui/public/static/img/meshmodels/meshery-core/color/picture-color.svg
+      svgComplete: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAdCAYAAAAaeWr3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVuSURBVFhH7Zfrb1NlHMc/Pad0a3frGEzK1gFl3aBzDJAXU5RNxm2MF2pggCLBMIj/gfoGNVH/AYmIchEjDAh3iKDh5giZvCGbIAbCgK0bHaPb6HpZTy/n+EI9smeXFghKMj7J86K/7/f55eTbp31+x+Dr82uMYiSxMNp4HoBYGG08D0AsjDZGfQCGRNfgzZstXL58WSyTkZHJnDkvMX78OFEaFlVVuXOnlUuXLnH79h3UeByz2YKrxMXcuS+TmZkpbhmEoiicO3eevr4+UUKWZCZPnsR013QsFosoD0nCAA4fOsKuXd9T8mIJaWlpAPT29ODxdJGZlc6KFcuprKzAYDCIWwfQ3d3N7h/20NTUTDQaJzd3HLJRJtwf5r7XS87YHBYvWURNTTWSNPzB7O3t5cMPPiISieEsKtTr4f4w7e3tqKpKTk4Oy5bVUFE5b8ReAEaxIOIPBHjwwEdlRQVTHFPg72+ht7eX/fsOsG3bDibabBRPKxa36rjdbjZv3sKN6zeoqammrGwGVqsVgyQRi0XweO5x7Ohxvtu5k2AwSG3t8mEfPB6P09V1H4fDQW3tin/rsRiBQJC+Ph8nT/7E1q3fcq+ra8ReJBMAgCRJ2AvyKSycqtfi8ThGo5FPPv6Us+fOU1RcNOQpUBSF+vp9NDc1UVe3nqoFVVitWQO8TmcR+fn57K3fx976veTn5/Hqq3MH9BHJzMwc8Dz/EI/HsRcUUL9nb1K9ho8mAbIs43JNx2azceP6DRRFES0AXL1ylTOnz1BRWcHiJYvJzrYOCkqWZZzOQlatXonJlMLBA4fw+wMDPMkiyzKFhVP1XocOHiYYDIo2nccOACAUCuH3+7GkWRgzZowoo2kajY2NaJrG0qXVZGSki5YBOBxTeH1+Jc3Nv9Ha2irKj4TDMYXXXnuFK1eu0tHeIco6jx1AONzPieM/4vV6KS8vR5Zl0YKiKLS03CIvL4/JkyeJ8iBkWaasrJRIJEpLyy1RfiT+OqEuAoEA3u5uUdZJKgBFCbN92w4+/+wLfW3a9CknTpygemn1sL8xTdMIKxFSzWZMJpMoD0lWlhWjUcbvH3zNPSrZ2dkYjTI9PT2ipJNUAKqq4Q8E8fX16St3fC4bNtaxdu0asrOt4hYADAYDpjEmgoEg0WhUlIfE53uAoiiMHTtWlB4Zn89HLBYnbYSZIKkAUlJSeOvNN9hQt15fa95dTVXVfGw2m2jXMZlMOJ0OOjo6aGtrE+VBqKpKU1MzZrM5qZ/MSKiqyu/X/iAjIx273S7KOkkFIEkSBZPsOIuc+powwUZqaqpoHYAkSZSXlyNJEkePHCMc7hctA3C72zl/roGSEhcFBU8WgNvdTsMvFygtLWVi3kRR1kkqgCfBVeJiwcIqGhousH//wWGvS7fbzZYtXxOJKLz9zirS0oY/tonoutfF1q3fEIko1K5cjtlsFi06SQ1CT4LFYmH16lXEYlEOHzrMrZZbLFxUhcvlwmg0EgoFudBwkdNnztLp8bDuvXXMmjVz0KwgEo1G8fv9+udwOIzH08m1a9e40HCRzs5ONmyso6xsxoi9Er4L7N69h+3bdvLVli+ZNm2aKCeFpmncvevh18ZGTp36mVB/P9lWKwaDRDQWpbenh+LiYhYsrGL27Fmkpw8/L3i93Wzc8D6KEsbheGgyVeP0h4JoGhQVF1FZOY+ZM2cmfClKGEB7ewdtba2Uls5IOMgkIhQK0dJyG6/XSzAYQNNAlg1kZWVht9vJy8sbcp54mEgkQnNTM6H+wf8nBoOB1JQU8u12XnghN2EvkgngaaCqKrFYDE3TkCRpyCnyv+J/CeBZ4qnfAs86zwMQC6ON5wGIhdHGn3qyF6G18F92AAAAAElFTkSuQmCC
+      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/picture-white.svg
+      width: 22.259632
+      z-index: 328
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: Picture
+      schema: ""
   - id: 455359ff-4663-4416-b470-6254d1ed70d9
     schemaVersion: components.meshery.io/v1beta1
     version: v1.0.0
@@ -542,6 +631,95 @@ components:
       version: core.meshery.io/v1alpha1
       kind: Picture
       schema: ""
+  - id: ce468fa2-18ed-4408-8db5-92109c41b553
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 6b49e0cc-6d83-f917-b2bd-30b69792bb20
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-08-09T14:59:45.073841065Z"
+        updated_at: "2025-08-09T14:59:45.073841065Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-fit: cover
+      background-image: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAdCAYAAAAaeWr3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVuSURBVFhH7Zfrb1NlHMc/Pad0a3frGEzK1gFl3aBzDJAXU5RNxm2MF2pggCLBMIj/gfoGNVH/AYmIchEjDAh3iKDh5giZvCGbIAbCgK0bHaPb6HpZTy/n+EI9smeXFghKMj7J86K/7/f55eTbp31+x+Dr82uMYiSxMNp4HoBYGG08D0AsjDZGfQCGRNfgzZstXL58WSyTkZHJnDkvMX78OFEaFlVVuXOnlUuXLnH79h3UeByz2YKrxMXcuS+TmZkpbhmEoiicO3eevr4+UUKWZCZPnsR013QsFosoD0nCAA4fOsKuXd9T8mIJaWlpAPT29ODxdJGZlc6KFcuprKzAYDCIWwfQ3d3N7h/20NTUTDQaJzd3HLJRJtwf5r7XS87YHBYvWURNTTWSNPzB7O3t5cMPPiISieEsKtTr4f4w7e3tqKpKTk4Oy5bVUFE5b8ReAEaxIOIPBHjwwEdlRQVTHFPg72+ht7eX/fsOsG3bDibabBRPKxa36rjdbjZv3sKN6zeoqammrGwGVqsVgyQRi0XweO5x7Ohxvtu5k2AwSG3t8mEfPB6P09V1H4fDQW3tin/rsRiBQJC+Ph8nT/7E1q3fcq+ra8ReJBMAgCRJ2AvyKSycqtfi8ThGo5FPPv6Us+fOU1RcNOQpUBSF+vp9NDc1UVe3nqoFVVitWQO8TmcR+fn57K3fx976veTn5/Hqq3MH9BHJzMwc8Dz/EI/HsRcUUL9nb1K9ho8mAbIs43JNx2azceP6DRRFES0AXL1ylTOnz1BRWcHiJYvJzrYOCkqWZZzOQlatXonJlMLBA4fw+wMDPMkiyzKFhVP1XocOHiYYDIo2nccOACAUCuH3+7GkWRgzZowoo2kajY2NaJrG0qXVZGSki5YBOBxTeH1+Jc3Nv9Ha2irKj4TDMYXXXnuFK1eu0tHeIco6jx1AONzPieM/4vV6KS8vR5Zl0YKiKLS03CIvL4/JkyeJ8iBkWaasrJRIJEpLyy1RfiT+OqEuAoEA3u5uUdZJKgBFCbN92w4+/+wLfW3a9CknTpygemn1sL8xTdMIKxFSzWZMJpMoD0lWlhWjUcbvH3zNPSrZ2dkYjTI9PT2ipJNUAKqq4Q8E8fX16St3fC4bNtaxdu0asrOt4hYADAYDpjEmgoEg0WhUlIfE53uAoiiMHTtWlB4Zn89HLBYnbYSZIKkAUlJSeOvNN9hQt15fa95dTVXVfGw2m2jXMZlMOJ0OOjo6aGtrE+VBqKpKU1MzZrM5qZ/MSKiqyu/X/iAjIx273S7KOkkFIEkSBZPsOIuc+powwUZqaqpoHYAkSZSXlyNJEkePHCMc7hctA3C72zl/roGSEhcFBU8WgNvdTsMvFygtLWVi3kRR1kkqgCfBVeJiwcIqGhousH//wWGvS7fbzZYtXxOJKLz9zirS0oY/tonoutfF1q3fEIko1K5cjtlsFi06SQ1CT4LFYmH16lXEYlEOHzrMrZZbLFxUhcvlwmg0EgoFudBwkdNnztLp8bDuvXXMmjVz0KwgEo1G8fv9+udwOIzH08m1a9e40HCRzs5ONmyso6xsxoi9Er4L7N69h+3bdvLVli+ZNm2aKCeFpmncvevh18ZGTp36mVB/P9lWKwaDRDQWpbenh+LiYhYsrGL27Fmkpw8/L3i93Wzc8D6KEsbheGgyVeP0h4JoGhQVF1FZOY+ZM2cmfClKGEB7ewdtba2Uls5IOMgkIhQK0dJyG6/XSzAYQNNAlg1kZWVht9vJy8sbcp54mEgkQnNTM6H+wf8nBoOB1JQU8u12XnghN2EvkgngaaCqKrFYDE3TkCRpyCnyv+J/CeBZ4qnfAs86zwMQC6ON5wGIhdHGn3qyF6G18F92AAAAAElFTkSuQmCC
+      background-opacity: 0
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-style: solid
+      border-width: 0
+      data:
+        label: ""
+      height: 10.98848
+      opacity: 1
+      padding: 0
+      position:
+        x: 549.6691241771875
+        y: -341.5753494495401
+      primaryColor: '#00B39F'
+      secondaryColor: '#00D3A9'
+      shape: rectangle
+      svgColor: ui/public/static/img/meshmodels/meshery-core/color/picture-color.svg
+      svgComplete: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAdCAYAAAAaeWr3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVuSURBVFhH7Zfrb1NlHMc/Pad0a3frGEzK1gFl3aBzDJAXU5RNxm2MF2pggCLBMIj/gfoGNVH/AYmIchEjDAh3iKDh5giZvCGbIAbCgK0bHaPb6HpZTy/n+EI9smeXFghKMj7J86K/7/f55eTbp31+x+Dr82uMYiSxMNp4HoBYGG08D0AsjDZGfQCGRNfgzZstXL58WSyTkZHJnDkvMX78OFEaFlVVuXOnlUuXLnH79h3UeByz2YKrxMXcuS+TmZkpbhmEoiicO3eevr4+UUKWZCZPnsR013QsFosoD0nCAA4fOsKuXd9T8mIJaWlpAPT29ODxdJGZlc6KFcuprKzAYDCIWwfQ3d3N7h/20NTUTDQaJzd3HLJRJtwf5r7XS87YHBYvWURNTTWSNPzB7O3t5cMPPiISieEsKtTr4f4w7e3tqKpKTk4Oy5bVUFE5b8ReAEaxIOIPBHjwwEdlRQVTHFPg72+ht7eX/fsOsG3bDibabBRPKxa36rjdbjZv3sKN6zeoqammrGwGVqsVgyQRi0XweO5x7Ohxvtu5k2AwSG3t8mEfPB6P09V1H4fDQW3tin/rsRiBQJC+Ph8nT/7E1q3fcq+ra8ReJBMAgCRJ2AvyKSycqtfi8ThGo5FPPv6Us+fOU1RcNOQpUBSF+vp9NDc1UVe3nqoFVVitWQO8TmcR+fn57K3fx976veTn5/Hqq3MH9BHJzMwc8Dz/EI/HsRcUUL9nb1K9ho8mAbIs43JNx2azceP6DRRFES0AXL1ylTOnz1BRWcHiJYvJzrYOCkqWZZzOQlatXonJlMLBA4fw+wMDPMkiyzKFhVP1XocOHiYYDIo2nccOACAUCuH3+7GkWRgzZowoo2kajY2NaJrG0qXVZGSki5YBOBxTeH1+Jc3Nv9Ha2irKj4TDMYXXXnuFK1eu0tHeIco6jx1AONzPieM/4vV6KS8vR5Zl0YKiKLS03CIvL4/JkyeJ8iBkWaasrJRIJEpLyy1RfiT+OqEuAoEA3u5uUdZJKgBFCbN92w4+/+wLfW3a9CknTpygemn1sL8xTdMIKxFSzWZMJpMoD0lWlhWjUcbvH3zNPSrZ2dkYjTI9PT2ipJNUAKqq4Q8E8fX16St3fC4bNtaxdu0asrOt4hYADAYDpjEmgoEg0WhUlIfE53uAoiiMHTtWlB4Zn89HLBYnbYSZIKkAUlJSeOvNN9hQt15fa95dTVXVfGw2m2jXMZlMOJ0OOjo6aGtrE+VBqKpKU1MzZrM5qZ/MSKiqyu/X/iAjIx273S7KOkkFIEkSBZPsOIuc+powwUZqaqpoHYAkSZSXlyNJEkePHCMc7hctA3C72zl/roGSEhcFBU8WgNvdTsMvFygtLWVi3kRR1kkqgCfBVeJiwcIqGhousH//wWGvS7fbzZYtXxOJKLz9zirS0oY/tonoutfF1q3fEIko1K5cjtlsFi06SQ1CT4LFYmH16lXEYlEOHzrMrZZbLFxUhcvlwmg0EgoFudBwkdNnztLp8bDuvXXMmjVz0KwgEo1G8fv9+udwOIzH08m1a9e40HCRzs5ONmyso6xsxoi9Er4L7N69h+3bdvLVli+ZNm2aKCeFpmncvevh18ZGTp36mVB/P9lWKwaDRDQWpbenh+LiYhYsrGL27Fmkpw8/L3i93Wzc8D6KEsbheGgyVeP0h4JoGhQVF1FZOY+ZM2cmfClKGEB7ewdtba2Uls5IOMgkIhQK0dJyG6/XSzAYQNNAlg1kZWVht9vJy8sbcp54mEgkQnNTM6H+wf8nBoOB1JQU8u12XnghN2EvkgngaaCqKrFYDE3TkCRpyCnyv+J/CeBZ4qnfAs86zwMQC6ON5wGIhdHGn3qyF6G18F92AAAAAElFTkSuQmCC
+      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/picture-white.svg
+      width: 22.259632
+      z-index: 328
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: Picture
+      schema: ""
   - id: d8da5544-69f8-4b76-a691-cb5120216ce4
     schemaVersion: components.meshery.io/v1beta1
     version: v1.0.0
@@ -886,6 +1064,95 @@ components:
       svgWhite: ui/public/static/img/meshmodels/meshery-core/white/picture-white.svg
       width: 47.63261
       z-index: 320
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: Picture
+      schema: ""
+  - id: e7679edb-fe54-48c5-aec0-d2da6e965266
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 6b49e0cc-6d83-f917-b2bd-30b69792bb20
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-08-09T14:59:45.073841065Z"
+        updated_at: "2025-08-09T14:59:45.073841065Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-fit: cover
+      background-image: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAdCAYAAAAaeWr3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVuSURBVFhH7Zfrb1NlHMc/Pad0a3frGEzK1gFl3aBzDJAXU5RNxm2MF2pggCLBMIj/gfoGNVH/AYmIchEjDAh3iKDh5giZvCGbIAbCgK0bHaPb6HpZTy/n+EI9smeXFghKMj7J86K/7/f55eTbp31+x+Dr82uMYiSxMNp4HoBYGG08D0AsjDZGfQCGRNfgzZstXL58WSyTkZHJnDkvMX78OFEaFlVVuXOnlUuXLnH79h3UeByz2YKrxMXcuS+TmZkpbhmEoiicO3eevr4+UUKWZCZPnsR013QsFosoD0nCAA4fOsKuXd9T8mIJaWlpAPT29ODxdJGZlc6KFcuprKzAYDCIWwfQ3d3N7h/20NTUTDQaJzd3HLJRJtwf5r7XS87YHBYvWURNTTWSNPzB7O3t5cMPPiISieEsKtTr4f4w7e3tqKpKTk4Oy5bVUFE5b8ReAEaxIOIPBHjwwEdlRQVTHFPg72+ht7eX/fsOsG3bDibabBRPKxa36rjdbjZv3sKN6zeoqammrGwGVqsVgyQRi0XweO5x7Ohxvtu5k2AwSG3t8mEfPB6P09V1H4fDQW3tin/rsRiBQJC+Ph8nT/7E1q3fcq+ra8ReJBMAgCRJ2AvyKSycqtfi8ThGo5FPPv6Us+fOU1RcNOQpUBSF+vp9NDc1UVe3nqoFVVitWQO8TmcR+fn57K3fx976veTn5/Hqq3MH9BHJzMwc8Dz/EI/HsRcUUL9nb1K9ho8mAbIs43JNx2azceP6DRRFES0AXL1ylTOnz1BRWcHiJYvJzrYOCkqWZZzOQlatXonJlMLBA4fw+wMDPMkiyzKFhVP1XocOHiYYDIo2nccOACAUCuH3+7GkWRgzZowoo2kajY2NaJrG0qXVZGSki5YBOBxTeH1+Jc3Nv9Ha2irKj4TDMYXXXnuFK1eu0tHeIco6jx1AONzPieM/4vV6KS8vR5Zl0YKiKLS03CIvL4/JkyeJ8iBkWaasrJRIJEpLyy1RfiT+OqEuAoEA3u5uUdZJKgBFCbN92w4+/+wLfW3a9CknTpygemn1sL8xTdMIKxFSzWZMJpMoD0lWlhWjUcbvH3zNPSrZ2dkYjTI9PT2ipJNUAKqq4Q8E8fX16St3fC4bNtaxdu0asrOt4hYADAYDpjEmgoEg0WhUlIfE53uAoiiMHTtWlB4Zn89HLBYnbYSZIKkAUlJSeOvNN9hQt15fa95dTVXVfGw2m2jXMZlMOJ0OOjo6aGtrE+VBqKpKU1MzZrM5qZ/MSKiqyu/X/iAjIx273S7KOkkFIEkSBZPsOIuc+powwUZqaqpoHYAkSZSXlyNJEkePHCMc7hctA3C72zl/roGSEhcFBU8WgNvdTsMvFygtLWVi3kRR1kkqgCfBVeJiwcIqGhousH//wWGvS7fbzZYtXxOJKLz9zirS0oY/tonoutfF1q3fEIko1K5cjtlsFi06SQ1CT4LFYmH16lXEYlEOHzrMrZZbLFxUhcvlwmg0EgoFudBwkdNnztLp8bDuvXXMmjVz0KwgEo1G8fv9+udwOIzH08m1a9e40HCRzs5ONmyso6xsxoi9Er4L7N69h+3bdvLVli+ZNm2aKCeFpmncvevh18ZGTp36mVB/P9lWKwaDRDQWpbenh+LiYhYsrGL27Fmkpw8/L3i93Wzc8D6KEsbheGgyVeP0h4JoGhQVF1FZOY+ZM2cmfClKGEB7ewdtba2Uls5IOMgkIhQK0dJyG6/XSzAYQNNAlg1kZWVht9vJy8sbcp54mEgkQnNTM6H+wf8nBoOB1JQU8u12XnghN2EvkgngaaCqKrFYDE3TkCRpyCnyv+J/CeBZ4qnfAs86zwMQC6ON5wGIhdHGn3qyF6G18F92AAAAAElFTkSuQmCC
+      background-opacity: 0
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-style: solid
+      border-width: 0
+      data:
+        label: ""
+      height: 10.98848
+      opacity: 1
+      padding: 0
+      position:
+        x: 461.8482101788345
+        y: -341.75830968703656
+      primaryColor: '#00B39F'
+      secondaryColor: '#00D3A9'
+      shape: rectangle
+      svgColor: ui/public/static/img/meshmodels/meshery-core/color/picture-color.svg
+      svgComplete: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAdCAYAAAAaeWr3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVuSURBVFhH7Zfrb1NlHMc/Pad0a3frGEzK1gFl3aBzDJAXU5RNxm2MF2pggCLBMIj/gfoGNVH/AYmIchEjDAh3iKDh5giZvCGbIAbCgK0bHaPb6HpZTy/n+EI9smeXFghKMj7J86K/7/f55eTbp31+x+Dr82uMYiSxMNp4HoBYGG08D0AsjDZGfQCGRNfgzZstXL58WSyTkZHJnDkvMX78OFEaFlVVuXOnlUuXLnH79h3UeByz2YKrxMXcuS+TmZkpbhmEoiicO3eevr4+UUKWZCZPnsR013QsFosoD0nCAA4fOsKuXd9T8mIJaWlpAPT29ODxdJGZlc6KFcuprKzAYDCIWwfQ3d3N7h/20NTUTDQaJzd3HLJRJtwf5r7XS87YHBYvWURNTTWSNPzB7O3t5cMPPiISieEsKtTr4f4w7e3tqKpKTk4Oy5bVUFE5b8ReAEaxIOIPBHjwwEdlRQVTHFPg72+ht7eX/fsOsG3bDibabBRPKxa36rjdbjZv3sKN6zeoqammrGwGVqsVgyQRi0XweO5x7Ohxvtu5k2AwSG3t8mEfPB6P09V1H4fDQW3tin/rsRiBQJC+Ph8nT/7E1q3fcq+ra8ReJBMAgCRJ2AvyKSycqtfi8ThGo5FPPv6Us+fOU1RcNOQpUBSF+vp9NDc1UVe3nqoFVVitWQO8TmcR+fn57K3fx976veTn5/Hqq3MH9BHJzMwc8Dz/EI/HsRcUUL9nb1K9ho8mAbIs43JNx2azceP6DRRFES0AXL1ylTOnz1BRWcHiJYvJzrYOCkqWZZzOQlatXonJlMLBA4fw+wMDPMkiyzKFhVP1XocOHiYYDIo2nccOACAUCuH3+7GkWRgzZowoo2kajY2NaJrG0qXVZGSki5YBOBxTeH1+Jc3Nv9Ha2irKj4TDMYXXXnuFK1eu0tHeIco6jx1AONzPieM/4vV6KS8vR5Zl0YKiKLS03CIvL4/JkyeJ8iBkWaasrJRIJEpLyy1RfiT+OqEuAoEA3u5uUdZJKgBFCbN92w4+/+wLfW3a9CknTpygemn1sL8xTdMIKxFSzWZMJpMoD0lWlhWjUcbvH3zNPSrZ2dkYjTI9PT2ipJNUAKqq4Q8E8fX16St3fC4bNtaxdu0asrOt4hYADAYDpjEmgoEg0WhUlIfE53uAoiiMHTtWlB4Zn89HLBYnbYSZIKkAUlJSeOvNN9hQt15fa95dTVXVfGw2m2jXMZlMOJ0OOjo6aGtrE+VBqKpKU1MzZrM5qZ/MSKiqyu/X/iAjIx273S7KOkkFIEkSBZPsOIuc+powwUZqaqpoHYAkSZSXlyNJEkePHCMc7hctA3C72zl/roGSEhcFBU8WgNvdTsMvFygtLWVi3kRR1kkqgCfBVeJiwcIqGhousH//wWGvS7fbzZYtXxOJKLz9zirS0oY/tonoutfF1q3fEIko1K5cjtlsFi06SQ1CT4LFYmH16lXEYlEOHzrMrZZbLFxUhcvlwmg0EgoFudBwkdNnztLp8bDuvXXMmjVz0KwgEo1G8fv9+udwOIzH08m1a9e40HCRzs5ONmyso6xsxoi9Er4L7N69h+3bdvLVli+ZNm2aKCeFpmncvevh18ZGTp36mVB/P9lWKwaDRDQWpbenh+LiYhYsrGL27Fmkpw8/L3i93Wzc8D6KEsbheGgyVeP0h4JoGhQVF1FZOY+ZM2cmfClKGEB7ewdtba2Uls5IOMgkIhQK0dJyG6/XSzAYQNNAlg1kZWVht9vJy8sbcp54mEgkQnNTM6H+wf8nBoOB1JQU8u12XnghN2EvkgngaaCqKrFYDE3TkCRpyCnyv+J/CeBZ4qnfAs86zwMQC6ON5wGIhdHGn3qyF6G18F92AAAAAElFTkSuQmCC
+      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/picture-white.svg
+      width: 22.259632
+      z-index: 328
     capabilities: []
     status: enabled
     metadata:
@@ -1346,272 +1613,5 @@ components:
     component:
       version: core.meshery.io/v1alpha1
       kind: RoundRectangle
-      schema: ""
-  - id: 40a72937-f6dc-46d3-a6ff-9024e82867f2
-    schemaVersion: components.meshery.io/v1beta1
-    version: v1.0.0
-    displayName: ""
-    description: ""
-    format: JSON
-    model:
-      id: 6b49e0cc-6d83-f917-b2bd-30b69792bb20
-      schemaVersion: models.meshery.io/v1beta1
-      version: v1.0.0
-      name: meshery-core
-      displayName: Meshery Core
-      status: enabled
-      registrant:
-        id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
-        name: meshery
-        type: registry
-        sub_type: ""
-        kind: meshery
-        status: registered
-        created_at: "2025-08-09T14:59:45.073841065Z"
-        updated_at: "2025-08-09T14:59:45.073841065Z"
-        deleted_at: null
-        schemaVersion: ""
-      connection_id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
-      category:
-        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
-        name: Orchestration & Management
-      subCategory: Application Definition & Image Build
-      metadata:
-        isAnnotation: false
-        primaryColor: '#00B39F'
-        secondaryColor: '#00D3A9'
-        shape: circle
-        styleOverrides: ""
-        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
-        svgComplete: ""
-        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
-      model:
-        version: 0.7.2
-      components_count: 0
-      relationships_count: 0
-      components: null
-      relationships: null
-    styles:
-      background-image: none
-      background-opacity: 0
-      body-text: P O D
-      body-text-color: rgb(38,38,43)
-      body-text-font-family: Qanelas Soft
-      body-text-font-size: 7
-      body-text-font-weight: "400"
-      body-text-horizontal-align: center
-      body-text-text-decoration: none
-      body-text-vertical-align: center
-      border-color: transparent
-      border-style: dashed
-      border-width: 0
-      data:
-        label: ""
-      height: 7.4659095
-      opacity: 1
-      padding: 6
-      position:
-        x: 549.2343965254969
-        y: -340.2283166659772
-      primaryColor: transparent
-      secondaryColor: '#FFDE00'
-      shape: rectangle
-      svgColor: ui/public/static/img/meshmodels/meshery-core/color/textbox-color.svg
-      svgComplete: ""
-      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/textbox-white.svg
-      width: 20.732254
-      z-index: 324
-    capabilities: []
-    status: enabled
-    metadata:
-      configurationUISchema: ""
-      genealogy: ""
-      hasInvalidSchema: true
-      instanceDetails: null
-      isAnnotation: true
-      isNamespaced: false
-      published: false
-    configuration: {}
-    component:
-      version: core.meshery.io/v1alpha1
-      kind: TextBox
-      schema: ""
-  - id: ecbec6d7-6815-4946-b2d0-db9817e78a81
-    schemaVersion: components.meshery.io/v1beta1
-    version: v1.0.0
-    displayName: ""
-    description: ""
-    format: JSON
-    model:
-      id: 6b49e0cc-6d83-f917-b2bd-30b69792bb20
-      schemaVersion: models.meshery.io/v1beta1
-      version: v1.0.0
-      name: meshery-core
-      displayName: Meshery Core
-      status: enabled
-      registrant:
-        id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
-        name: meshery
-        type: registry
-        sub_type: ""
-        kind: meshery
-        status: registered
-        created_at: "2025-08-09T14:59:45.073841065Z"
-        updated_at: "2025-08-09T14:59:45.073841065Z"
-        deleted_at: null
-        schemaVersion: ""
-      connection_id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
-      category:
-        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
-        name: Orchestration & Management
-      subCategory: Application Definition & Image Build
-      metadata:
-        isAnnotation: false
-        primaryColor: '#00B39F'
-        secondaryColor: '#00D3A9'
-        shape: circle
-        styleOverrides: ""
-        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
-        svgComplete: ""
-        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
-      model:
-        version: 0.7.2
-      components_count: 0
-      relationships_count: 0
-      components: null
-      relationships: null
-    styles:
-      background-image: none
-      background-opacity: 0
-      body-text: P O D
-      body-text-color: rgb(38,38,43)
-      body-text-font-family: Qanelas Soft
-      body-text-font-size: 7
-      body-text-font-weight: "400"
-      body-text-horizontal-align: center
-      body-text-text-decoration: none
-      body-text-vertical-align: center
-      border-color: transparent
-      border-style: dashed
-      border-width: 0
-      data:
-        label: ""
-      height: 7.4659095
-      opacity: 1
-      padding: 6
-      position:
-        x: 650.9265874555621
-        y: -341.1222405343741
-      primaryColor: transparent
-      secondaryColor: '#FFDE00'
-      shape: rectangle
-      svgColor: ui/public/static/img/meshmodels/meshery-core/color/textbox-color.svg
-      svgComplete: ""
-      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/textbox-white.svg
-      width: 20.732254
-      z-index: 324
-    capabilities: []
-    status: enabled
-    metadata:
-      configurationUISchema: ""
-      genealogy: ""
-      hasInvalidSchema: true
-      instanceDetails: null
-      isAnnotation: true
-      isNamespaced: false
-      published: false
-    configuration: {}
-    component:
-      version: core.meshery.io/v1alpha1
-      kind: TextBox
-      schema: ""
-  - id: f3d5c9db-b0a2-435a-8c7d-15e651bec886
-    schemaVersion: components.meshery.io/v1beta1
-    version: v1.0.0
-    displayName: ""
-    description: ""
-    format: JSON
-    model:
-      id: 6b49e0cc-6d83-f917-b2bd-30b69792bb20
-      schemaVersion: models.meshery.io/v1beta1
-      version: v1.0.0
-      name: meshery-core
-      displayName: Meshery Core
-      status: enabled
-      registrant:
-        id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
-        name: meshery
-        type: registry
-        sub_type: ""
-        kind: meshery
-        status: registered
-        created_at: "2025-08-09T14:59:45.073841065Z"
-        updated_at: "2025-08-09T14:59:45.073841065Z"
-        deleted_at: null
-        schemaVersion: ""
-      connection_id: 13df38ce-edc0-8c01-ed9f-0414912a43fd
-      category:
-        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
-        name: Orchestration & Management
-      subCategory: Application Definition & Image Build
-      metadata:
-        isAnnotation: false
-        primaryColor: '#00B39F'
-        secondaryColor: '#00D3A9'
-        shape: circle
-        styleOverrides: ""
-        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
-        svgComplete: ""
-        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
-      model:
-        version: 0.7.2
-      components_count: 0
-      relationships_count: 0
-      components: null
-      relationships: null
-    styles:
-      background-image: none
-      background-opacity: 0
-      body-text: P O D
-      body-text-color: rgb(38,38,43)
-      body-text-font-family: Qanelas Soft
-      body-text-font-size: 7
-      body-text-font-weight: "400"
-      body-text-horizontal-align: center
-      body-text-text-decoration: none
-      body-text-vertical-align: center
-      border-color: transparent
-      border-style: dashed
-      border-width: 0
-      data:
-        label: ""
-      height: 7.4659095
-      opacity: 1
-      padding: 6
-      position:
-        x: 462.0806604558931
-        y: -339.80496942532335
-      primaryColor: transparent
-      secondaryColor: '#FFDE00'
-      shape: rectangle
-      svgColor: ui/public/static/img/meshmodels/meshery-core/color/textbox-color.svg
-      svgComplete: ""
-      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/textbox-white.svg
-      width: 20.732254
-      z-index: 324
-    capabilities: []
-    status: enabled
-    metadata:
-      configurationUISchema: ""
-      genealogy: ""
-      hasInvalidSchema: true
-      instanceDetails: null
-      isAnnotation: true
-      isNamespaced: false
-      published: false
-    configuration: {}
-    component:
-      version: core.meshery.io/v1alpha1
-      kind: TextBox
       schema: ""
 relationships: []
