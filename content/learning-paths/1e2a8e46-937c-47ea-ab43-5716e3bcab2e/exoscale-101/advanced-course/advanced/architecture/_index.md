@@ -33,7 +33,10 @@ Applications with stateless architecture (stateless apps) allow you to easily sc
 
 Two very common application architecture used for designing solution on-permises and in the cloud, but also very different ones.
 
-![mono-vs-micro](mono-vs-micro.png)
+{{< meshery-design-embed
+  id="embedded-design-bf8f0f98-cb95-40ba-8702-41fda7b4a806"
+  src="mono-vs-micro.js"
+>}}
 
 ### Kubernetes
 Scalable Kubernetes Service (SKS)
