@@ -40,7 +40,10 @@ Update Process handles everything fully automatic in the background:
 
 **->** Downtime of less than 10 seconds
 
-![dbaas-update1](dbaas-update1.png)
+{{< meshery-design-embed
+  id="embedded-design-8061a7a0-3785-4458-a5d9-833a7a4dddcf"
+  src="dbaas-update1.js"
+>}}
 
 **Update Process - Step 1**
 
