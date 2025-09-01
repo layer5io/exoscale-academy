@@ -1,6 +1,6 @@
 ---
 title: "SKS Starter Kubernetes Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "A Deployment consists of:"

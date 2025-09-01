@@ -1,6 +1,6 @@
 ---
 title: "Technical Security Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "Which items of the following list are part of our 'Technical Security' approach?"

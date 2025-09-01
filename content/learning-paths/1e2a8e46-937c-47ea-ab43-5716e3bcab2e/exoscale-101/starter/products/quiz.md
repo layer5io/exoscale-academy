@@ -1,6 +1,6 @@
 ---
 title: "Exoscale - Starter Products Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "Identify the Exoscale products in the list below."

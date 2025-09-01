@@ -1,7 +1,7 @@
 ---
 title: "Why Exoscale SKS Quiz"
 id: "why-managed-kubernetes"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "What are useable management interfaces for SKS?"

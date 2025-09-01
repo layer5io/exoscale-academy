@@ -1,7 +1,7 @@
 ---
 title: "Exam 3"
 weight: 3
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "On Exoscale, I can ..."

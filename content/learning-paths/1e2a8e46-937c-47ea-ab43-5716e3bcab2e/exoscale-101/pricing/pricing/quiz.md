@@ -1,6 +1,6 @@
 ---
 title: "Pricing Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "If you create a Medium instance (€0.04666/h) with a 50 GB disk (€0.00014/GB/h) attached to it and run Windows (€0.01111/h) on it for 24 hours, how much will you pay?"

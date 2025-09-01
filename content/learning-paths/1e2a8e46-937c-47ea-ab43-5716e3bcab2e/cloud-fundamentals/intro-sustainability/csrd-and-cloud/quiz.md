@@ -1,7 +1,7 @@
 ---
 title: "CSRD And Cloud Quiz"
 id: "csrd-and-cloud"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "Which of the following are reasons that cloud computing plays a significant role in the context of the Corporate Sustainability Reporting Directive (CSRD)?"

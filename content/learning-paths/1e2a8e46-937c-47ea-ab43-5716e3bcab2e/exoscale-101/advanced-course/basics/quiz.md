@@ -1,6 +1,6 @@
 ---
 title: "Exoscale - Basics Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "On Exoscale, I can ..."

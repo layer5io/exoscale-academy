@@ -1,7 +1,7 @@
 ---
 title: "Object vs Block Quiz"
 id: "object-vs-block"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "Which statements accurately describe cost considerations for object and block storage?"

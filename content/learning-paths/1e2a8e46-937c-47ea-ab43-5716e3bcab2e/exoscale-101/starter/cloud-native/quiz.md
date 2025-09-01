@@ -1,6 +1,6 @@
 ---
 title: "Exoscale - Starter Cloud Native Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "What does cloud native mean in the context of Exoscale?"

@@ -1,6 +1,6 @@
 ---
 title: "Response Support Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "Which of our 'your success is our goal' support plans are available right now:"
