@@ -27,7 +27,6 @@ questions:
         is_correct: true
       - id: "b"
         text: "Limited scalability and flexibility"
-        is_correct: true
       - id: "c"
         text: "Reduced maintenance and management responsibilities"
         is_correct: true
