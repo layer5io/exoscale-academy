@@ -1,7 +1,7 @@
 ---
 title: "Why Storage Quiz"
 id: "why-storage"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "Which storage types retain data without power?"

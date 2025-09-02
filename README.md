@@ -1,4 +1,4 @@
-# Exoscale Academy 
+# Exoscale Academy
 
 Welcome to **Exoscale Academy**, the dedicated cloud education and training platform powered by Layer5. This repository provides a comprehensive framework for creating, organizing, and publishing structured learning paths, challenges and certifications tailored for Exoscale users and cloud practitioners.
 
@@ -10,9 +10,10 @@ To help you create professional and visually consistent content, this academy pr
 
 ### How to Use the Icons
 
-1.  **Import the Model:** Navigate to your **[Registry Settings in Meshery](https://kanvas.new/settings?settingsCategory=Registry&tab=Models)**.
-2.  Select "Import from URL".
-3.  Paste the following URL to import the icon set:
+1. **Import the Model:** Navigate to your **[Registry Settings in Meshery](https://kanvas.new/settings?settingsCategory=Registry&tab=Models)**.
+2. Select "Import from URL".
+3. Paste the following URL to import the icon set:
+
     ```
     https://meshery.io/assets/modelsFiles/exoscale-icons.tar
     ```
@@ -21,16 +22,23 @@ Once imported, the individual Exoscale icons will be available in the Designer's
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Repository Structure](#repository-structure)
-- [Content Authoring Workflow](#content-authoring-workflow)
-- [Managing Assets: Images, Videos, and Embedded Designs](#managing-assets-images-videos-and-embedded-designs)
-- [Local Development](#local-development)
-- [Deploying & Going Live](#deploying--going-live)
-- [Contributing](#contributing)
-- [Site Framework](#site-framework)
-- [License](#license)
+- [Exoscale Academy](#exoscale-academy)
+  - [Design Resources](#design-resources)
+    - [How to Use the Icons](#how-to-use-the-icons)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+  - [Repository Structure](#repository-structure)
+  - [Content Authoring Workflow](#content-authoring-workflow)
+  - [Managing Assets: Images, Videos, and Embedded Designs](#managing-assets-images-videos-and-embedded-designs)
+    - [How to Add an Image](#how-to-add-an-image)
+    - [How to Add a Video](#how-to-add-a-video)
+  - [How to Add a Meshery Design](#how-to-add-a-meshery-design)
+  - [Local Development](#local-development)
+  - [Deploying \& Going Live](#deploying--going-live)
+  - [Contributing](#contributing)
+  - [Site Framework](#site-framework)
+  - [License](#license)
 
 ## Prerequisites
 
@@ -53,6 +61,7 @@ Before you begin, ensure you have:
 
 3. **Organization UID**
    - All Exoscale Academy content is namespaced under its Organization ID:
+
      ```
      1e2a8e46-937c-47ea-ab43-5716e3bcab2e
      ```
@@ -85,6 +94,7 @@ layer5io-exoscale-academy/
 └── .github/
     └── ISSUE_TEMPLATE/, workflows/, config, etc.
 ```
+
 > **Learning Path → Course → Module** is the core structure.
 Each level uses `_index.md` files with [Hugo frontmatter](https://gohugo.io/content-management/front-matter/).
 
@@ -93,10 +103,13 @@ Each level uses `_index.md` files with [Hugo frontmatter](https://gohugo.io/cont
 1. **Create Content**
 
    - Authoring takes place inside:
+
      ```
      content/en/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/
      ```
+
    - Structure:
+
      ```
      <learning-path>/
       <course>/
@@ -158,6 +171,7 @@ Embed videos in a visually distinct `card` using:
 </video>
 {{</* /card */>}}
 ```
+
 ## How to Add a Meshery Design
 
 1. Place Design Assets
@@ -173,8 +187,8 @@ Embed videos in a visually distinct `card` using:
   >}}
   ```
 
-   - Replace `id` with the unique identifier for your design.
-   - Replace `src` with the path to your JS asset responsible for rendering.
+- Replace `id` with the unique identifier for your design.
+- Replace `src` with the path to your JS asset responsible for rendering.
 
 > Always use these shortcodes for images, videos, and embedded designs. This keeps assets portable, ensures they resolve correctly for each organization, and integrates properly with the Academy platform’s build and deployment flow.
 
@@ -215,4 +229,3 @@ For questions or help, open a [GitHub Issue](https://github.com/layer5io/exoscal
 
 **Happy Learning!**
 _The Layer5 & Exoscale Academy Team_
-

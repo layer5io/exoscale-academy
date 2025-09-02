@@ -1,6 +1,6 @@
 ---
 title: "Exoscale - Starter Cloud Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "Which of the following is a cloud computing service model that provides virtualized computing resources over the internet?"
@@ -27,7 +27,6 @@ questions:
         is_correct: true
       - id: "b"
         text: "Limited scalability and flexibility"
-        is_correct: true
       - id: "c"
         text: "Reduced maintenance and management responsibilities"
         is_correct: true

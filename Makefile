@@ -39,7 +39,16 @@ clean:
 	hugo --cleanDestinationDir
 	make site
 
-
+## Fix Markdown linting issues
+lint-fix:
+	@echo "Checking for markdownlint-cli2..."
+	@command -v markdownlint-cli2 > /dev/null || { \
+		echo "markdownlint-cli2 not found. Attempting to install globally..."; \
+		command -v npm > /dev/null || { echo "npm is not installed. Please install Node.js/npm and re-run 'make lint-fix'."; exit 1; }; \
+		npm install -g markdownlint-cli2; \
+	}
+	@echo "Running markdownlint-cli2 --fix..."
+	@markdownlint-cli2 --fix "**/*.md" "#node_modules" "#public" "#resources"
 
 ## ------------------------------------------------------------
 ----MAINTENANCE: Show help for available targets

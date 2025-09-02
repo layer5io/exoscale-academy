@@ -1,7 +1,7 @@
 ---
 title: "Why Cloud Storage Quiz"
 id: "why-cloud-storage"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "What features of cloud storage contribute to its cost-effectiveness?"

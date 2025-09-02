@@ -1,7 +1,7 @@
 ---
 title: "Object Storage Quiz"
 id: "object-storage"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "How do object storage systems handle data storage and manipulation?"

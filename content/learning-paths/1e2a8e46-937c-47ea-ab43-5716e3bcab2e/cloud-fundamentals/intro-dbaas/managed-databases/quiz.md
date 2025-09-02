@@ -1,6 +1,6 @@
 ---
 title: "Managed Databases Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "What is the trend in Database/Data Services usage in modern applications?"

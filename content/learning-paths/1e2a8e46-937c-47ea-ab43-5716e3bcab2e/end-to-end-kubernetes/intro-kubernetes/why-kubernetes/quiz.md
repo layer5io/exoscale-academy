@@ -1,7 +1,7 @@
 ---
 title: "Why Kubernetes Quiz"
 id: "why-kubernetes"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "If you start using containers, what will happen?"

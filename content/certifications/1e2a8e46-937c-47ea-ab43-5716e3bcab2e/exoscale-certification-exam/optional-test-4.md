@@ -1,7 +1,7 @@
 ---
 title: "Optional Exam"
 weight: 4
-passing_percentage: 70
+pass_percentage: 70
 is_optional: true
 questions:
   - id: "q1"

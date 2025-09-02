@@ -1,6 +1,6 @@
 ---
 title: "SKS Advanced Storage Quiz"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "An arbitrary cloud provider offers managed Kubernetes. There a customer wants to deploy a database with a single replica. Which storage solutions would you generally recommend for production use?"

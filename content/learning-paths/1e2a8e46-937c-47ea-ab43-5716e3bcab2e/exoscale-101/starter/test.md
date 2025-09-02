@@ -1,6 +1,6 @@
 ---
 title: "Exoscale - Starter Course Test"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "Terms and Conditions and any Order shall be governed by the laws of: "
