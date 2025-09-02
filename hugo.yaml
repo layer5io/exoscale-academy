@@ -1,6 +1,7 @@
 baseURL: http://localhost:9876/academy/
 title: Exoscale Academy
 canonifyurls: true
+ignoreLogs: ['warning-goldmark-raw-html']
 
 module:
   hugoVersion:
