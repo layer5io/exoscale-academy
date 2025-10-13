@@ -104,7 +104,7 @@ Allow defining and composing firewall rules:
 
 Security Groups Examples
 
-![SG-example1](SG-example1.png)
+{{< meshery-design-embed id="embedded-design-53dc3272-0cf9-43c5-a79a-bdea839c5fea" src="SG-example1.js" >}}
 
 ### Frontend Security Group
 
