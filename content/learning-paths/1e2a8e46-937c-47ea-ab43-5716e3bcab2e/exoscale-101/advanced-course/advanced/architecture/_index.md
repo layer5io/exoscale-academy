@@ -27,7 +27,12 @@ Quickly scale up for more performance and easily scale down to safe cost or serv
    src="advanced_design.js"
 >}}
 
-hu
+{{< meshery-design-embed
+   id="embedded-design-2bd32e2b-d52a-405a-81f3-e55375e7aa1e"
+   src="advanced_design-1.js"
+>}}
+
+
 
 ### Stateless Architecture
 
