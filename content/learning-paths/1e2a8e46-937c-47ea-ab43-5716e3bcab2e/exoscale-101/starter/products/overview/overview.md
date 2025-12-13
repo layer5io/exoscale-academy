@@ -13,6 +13,12 @@ Infrastructure as a Service is the cloud service model we support with the Exosc
 
 ![iaas-arch](iaas-arch.png)
 
+## Mutable vs Immutable Architecture (Meshery Kanvas)
+
+{{< meshery-design-embed
+id="embedded-design-0787f308-c1b1-48ca-b719-72bc86299fc6"
+src="cdn.js"
+>}}
 
 ### Platform
 
