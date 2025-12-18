@@ -1,0 +1,1972 @@
+id: 864f5d5d-a804-48e3-8801-331e637c9bba
+name: backup-abb3
+schemaVersion: designs.meshery.io/v1beta1
+version: 0.0.118
+metadata:
+  resolvedAliases: {}
+components:
+  - id: 22045ec2-e857-4190-94ef-d50d99d09d1e
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 42e8ca12-b473-c52d-4efd-92996f39f249
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-07-16T15:04:46.113275428Z"
+        updated_at: "2025-07-16T15:04:46.113275428Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image: none
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-color: transparent
+      border-style: dashed
+      border-width: 0
+      data:
+        label: ""
+      height: 1
+      locked: true
+      opacity: 1
+      padding: 2
+      position:
+        x: 1065.7540418503897
+        y: 1083.7138495763093
+      primaryColor: transparent
+      secondaryColor: '#00D3A9'
+      shape: circle
+      svgColor: ""
+      svgComplete: ""
+      svgWhite: ""
+      width: 1
+      z-index: 11
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: PenTerminal
+      schema: ""
+  - id: 4b5b1aa4-f671-4104-8c2f-ed3bbd7c2b9f
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 42e8ca12-b473-c52d-4efd-92996f39f249
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-07-16T15:04:46.113275428Z"
+        updated_at: "2025-07-16T15:04:46.113275428Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image: none
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-color: transparent
+      border-style: dashed
+      border-width: 0
+      data:
+        label: ""
+      height: 1
+      locked: true
+      opacity: 1
+      padding: 2
+      position:
+        x: 1096.8462421316544
+        y: 1112.670869203426
+      primaryColor: transparent
+      secondaryColor: '#00D3A9'
+      shape: circle
+      svgColor: ""
+      svgComplete: ""
+      svgWhite: ""
+      width: 1
+      z-index: 13
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: PenTerminal
+      schema: ""
+  - id: 560604a1-2ec6-427a-b68d-4516b2385842
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 42e8ca12-b473-c52d-4efd-92996f39f249
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-07-16T15:04:46.113275428Z"
+        updated_at: "2025-07-16T15:04:46.113275428Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image: none
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-color: transparent
+      border-style: dashed
+      border-width: 0
+      data:
+        label: ""
+      height: 1
+      locked: true
+      opacity: 1
+      padding: 2
+      position:
+        x: 1065.319668389906
+        y: 1112.1814657705334
+      primaryColor: transparent
+      secondaryColor: '#00D3A9'
+      shape: circle
+      svgColor: ""
+      svgComplete: ""
+      svgWhite: ""
+      width: 1
+      z-index: 12
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: PenTerminal
+      schema: ""
+  - id: 78b81940-2160-46a4-8ebb-45e722951d25
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 42e8ca12-b473-c52d-4efd-92996f39f249
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-07-16T15:04:46.113275428Z"
+        updated_at: "2025-07-16T15:04:46.113275428Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image: none
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-color: transparent
+      border-style: dashed
+      border-width: 0
+      data:
+        label: ""
+      height: 1
+      locked: true
+      opacity: 1
+      padding: 2
+      position:
+        x: 1145.772187415754
+        y: 1180.2559750715623
+      primaryColor: '#d0021b'
+      secondaryColor: '#00D3A9'
+      shape: circle
+      svgColor: ""
+      svgComplete: ""
+      svgWhite: ""
+      width: 1
+      z-index: 9
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: PenTerminal
+      schema: ""
+  - id: cefd3ece-41fa-4d7e-b17c-af3b16da03ea
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 42e8ca12-b473-c52d-4efd-92996f39f249
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-07-16T15:04:46.113275428Z"
+        updated_at: "2025-07-16T15:04:46.113275428Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image: none
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-color: transparent
+      border-style: dashed
+      border-width: 0
+      data:
+        label: ""
+      height: 1
+      locked: true
+      opacity: 1
+      padding: 2
+      position:
+        x: 1095.0059729187114
+        y: 1084.6597439703369
+      primaryColor: transparent
+      secondaryColor: '#00D3A9'
+      shape: circle
+      svgColor: ""
+      svgComplete: ""
+      svgWhite: ""
+      width: 1
+      z-index: 10
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: PenTerminal
+      schema: ""
+  - id: ec17aba0-0106-4fc9-a500-d448345602bf
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 42e8ca12-b473-c52d-4efd-92996f39f249
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-07-16T15:04:46.113275428Z"
+        updated_at: "2025-07-16T15:04:46.113275428Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image: none
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-color: transparent
+      border-style: dashed
+      border-width: 0
+      data:
+        label: ""
+      height: 1
+      locked: true
+      opacity: 1
+      padding: 2
+      position:
+        x: 1146.541098158988
+        y: 1004.4605960977998
+      primaryColor: '#d0021b'
+      secondaryColor: '#00D3A9'
+      shape: circle
+      svgColor: ""
+      svgComplete: ""
+      svgWhite: ""
+      width: 1
+      z-index: 4
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: PenTerminal
+      schema: ""
+  - id: bbb58371-3481-492e-858f-05684d7534ac
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    model:
+      id: 42e8ca12-b473-c52d-4efd-92996f39f249
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      status: enabled
+      registrant:
+        id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+        name: meshery
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        created_at: "2025-07-16T15:04:46.113275428Z"
+        updated_at: "2025-07-16T15:04:46.113275428Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: false
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-core/white/meshery-core-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-fit: cover
+      background-image: data:image/png;base64,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
+      background-image-opacity: 1
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-style: solid
+      border-width: 0
+      data:
+        label: ""
+      height: 10.887402
+      locked: true
+      opacity: 1
+      padding: 0
+      position:
+        x: 982.7989008282876
+        y: 989.0187778382635
+      primaryColor: '#00B39F'
+      secondaryColor: '#00D3A9'
+      shape: round-rectangle
+      svgColor: ui/public/static/img/meshmodels/meshery-core/color/picture-color.svg
+      svgComplete: data:image/png;base64,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
+      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/picture-white.svg
+      width: 82.005
+      z-index: 5
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: true
+    configuration: {}
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: Picture
+      schema: ""
+  - id: 592cdfc5-e233-41d6-9b78-b5c02acd9d8a
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: SOS | Backup Bucket
+    description: ""
+    format: JSON
+    model:
+      id: 7ad7f463-545b-0ef3-5a74-7c650c3e1955
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: exoscale-icons
+      displayName: Exoscale Icons
+      description: A curated collection of high-quality icons designed by Exoscale.
+      status: enabled
+      registrant:
+        id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+        name: meshery
+        credential_id: 00000000-0000-0000-0000-000000000000
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        user_id: 00000000-0000-0000-0000-000000000000
+        created_at: "2025-06-24T05:27:36.788032996Z"
+        updated_at: "2025-06-24T05:27:36.788032996Z"
+        deleted_at: "0001-01-01T00:00:00Z"
+        schemaVersion: ""
+      connection_id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+      category:
+        id: a3d5edbd-3678-d3f8-6a1e-e777a4efb24e
+        name: Platform
+      subCategory: Cloud Provider
+      metadata:
+        isAnnotation: true
+        shape: polygon
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/exoscale-icons-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/exoscale-icons-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image-opacity: 1
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      data:
+        label: ""
+      height: 24
+      locked: true
+      opacity: 1
+      padding: 6
+      position:
+        x: 1168.8514378710101
+        y: 1180.2791048622225
+      primaryColor: '#d0021b'
+      shape: ellipse
+      svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/block-icon-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/block-icon-white.svg
+      width: 24
+      z-index: 6
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: false
+    configuration:
+      metadata:
+        name: SOS | Backup Bucket
+    component:
+      version: ""
+      kind: block-icon
+      schema: ""
+  - id: 7e8536c4-35b4-4b7b-b69c-f9d929dca1d0
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: SOS | Backup Bucket
+    description: ""
+    format: JSON
+    model:
+      id: 7ad7f463-545b-0ef3-5a74-7c650c3e1955
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: exoscale-icons
+      displayName: Exoscale Icons
+      description: A curated collection of high-quality icons designed by Exoscale.
+      status: enabled
+      registrant:
+        id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+        name: meshery
+        credential_id: 00000000-0000-0000-0000-000000000000
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        user_id: 00000000-0000-0000-0000-000000000000
+        created_at: "2025-06-24T05:27:36.788032996Z"
+        updated_at: "2025-06-24T05:27:36.788032996Z"
+        deleted_at: "0001-01-01T00:00:00Z"
+        schemaVersion: ""
+      connection_id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+      category:
+        id: a3d5edbd-3678-d3f8-6a1e-e777a4efb24e
+        name: Platform
+      subCategory: Cloud Provider
+      metadata:
+        isAnnotation: true
+        shape: polygon
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/exoscale-icons-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/exoscale-icons-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image-opacity: 1
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      data:
+        label: ""
+      height: 24
+      locked: true
+      opacity: 1
+      padding: 6
+      position:
+        x: 1161.9828310638613
+        y: 1023.7886533135672
+      primaryColor: '#d0021b'
+      shape: ellipse
+      svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/block-icon-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/block-icon-white.svg
+      width: 24
+      z-index: 14
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: false
+    configuration:
+      metadata:
+        name: SOS | Backup Bucket
+    component:
+      version: ""
+      kind: block-icon
+      schema: ""
+  - id: e7355fa3-be8c-4d25-8da1-7f2f495fc0e3
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: bootable backup software
+    description: This icon can be used to represent a private network setup.
+    format: JSON
+    model:
+      id: 7ad7f463-545b-0ef3-5a74-7c650c3e1955
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: exoscale-icons
+      displayName: Exoscale Icons
+      description: A curated collection of high-quality icons designed by Exoscale.
+      status: enabled
+      registrant:
+        id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+        name: meshery
+        credential_id: 00000000-0000-0000-0000-000000000000
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        user_id: 00000000-0000-0000-0000-000000000000
+        created_at: "2025-06-24T05:27:36.788032996Z"
+        updated_at: "2025-06-24T05:27:36.788032996Z"
+        deleted_at: "0001-01-01T00:00:00Z"
+        schemaVersion: ""
+      connection_id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+      category:
+        id: a3d5edbd-3678-d3f8-6a1e-e777a4efb24e
+        name: Platform
+      subCategory: Cloud Provider
+      metadata:
+        isAnnotation: true
+        shape: polygon
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/exoscale-icons-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/exoscale-icons-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image-opacity: 1
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      data:
+        label: ""
+      height: 11.298117
+      locked: true
+      opacity: 1
+      padding: 6
+      position:
+        x: 1081.6353266811784
+        y: 1206.9577897733047
+      primaryColor: '#d0021b'
+      shape: ellipse
+      svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/privnet-icon-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/privnet-icon-white.svg
+      width: 15.065838
+      z-index: 8
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: false
+    configuration:
+      metadata:
+        name: bootable backup software
+    component:
+      version: ""
+      kind: privnet-icon
+      schema: ""
+  - id: 6d64e5d2-8ad0-426d-865d-4595b1e1ab1d
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: VM | Coordinator
+    description: This icon can be used to represent virtual machine instances.
+    format: JSON
+    model:
+      id: 7ad7f463-545b-0ef3-5a74-7c650c3e1955
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: exoscale-icons
+      displayName: Exoscale Icons
+      description: A curated collection of high-quality icons designed by Exoscale.
+      status: enabled
+      registrant:
+        id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+        name: meshery
+        credential_id: 00000000-0000-0000-0000-000000000000
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        user_id: 00000000-0000-0000-0000-000000000000
+        created_at: "2025-06-24T05:27:36.788032996Z"
+        updated_at: "2025-06-24T05:27:36.788032996Z"
+        deleted_at: "0001-01-01T00:00:00Z"
+        schemaVersion: ""
+      connection_id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+      category:
+        id: a3d5edbd-3678-d3f8-6a1e-e777a4efb24e
+        name: Platform
+      subCategory: Cloud Provider
+      metadata:
+        isAnnotation: true
+        shape: polygon
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/exoscale-icons-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/exoscale-icons-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image-opacity: 1
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      data:
+        label: ""
+      height: 24
+      locked: true
+      opacity: 1
+      padding: 6
+      position:
+        x: 1082.1391485383901
+        y: 1101.1051042106715
+      primaryColor: '#d0021b'
+      shape: ellipse
+      svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/vm-icon-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/vm-icon-white.svg
+      width: 24
+      z-index: 7
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: false
+    configuration:
+      metadata:
+        name: VM | Coordinator
+    component:
+      version: ""
+      kind: vm-icon
+      schema: ""
+  - id: dd8859b1-8a67-4264-a17a-0ed5afeeb14c
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: VM | Linux
+    description: This icon can be used to represent virtual machine instances.
+    format: JSON
+    model:
+      id: 7ad7f463-545b-0ef3-5a74-7c650c3e1955
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: exoscale-icons
+      displayName: Exoscale Icons
+      description: A curated collection of high-quality icons designed by Exoscale.
+      status: enabled
+      registrant:
+        id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+        name: meshery
+        credential_id: 00000000-0000-0000-0000-000000000000
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        user_id: 00000000-0000-0000-0000-000000000000
+        created_at: "2025-06-24T05:27:36.788032996Z"
+        updated_at: "2025-06-24T05:27:36.788032996Z"
+        deleted_at: "0001-01-01T00:00:00Z"
+        schemaVersion: ""
+      connection_id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+      category:
+        id: a3d5edbd-3678-d3f8-6a1e-e777a4efb24e
+        name: Platform
+      subCategory: Cloud Provider
+      metadata:
+        isAnnotation: true
+        shape: polygon
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/exoscale-icons-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/exoscale-icons-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image-opacity: 1
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      data:
+        label: ""
+      height: 24
+      locked: true
+      opacity: 1
+      padding: 6
+      position:
+        x: 987.3719150682097
+        y: 1022.1148650532772
+      primaryColor: '#d0021b'
+      shape: ellipse
+      svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/vm-icon-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/vm-icon-white.svg
+      width: 24
+      z-index: 15
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: false
+    configuration:
+      metadata:
+        name: VM | Linux
+    component:
+      version: ""
+      kind: vm-icon
+      schema: ""
+  - id: 523d1060-8617-43a8-984c-6b2601c59928
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: VM | Rescue Disk
+    description: This icon can be used to represent virtual machine instances.
+    format: JSON
+    model:
+      id: 7ad7f463-545b-0ef3-5a74-7c650c3e1955
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: exoscale-icons
+      displayName: Exoscale Icons
+      description: A curated collection of high-quality icons designed by Exoscale.
+      status: enabled
+      registrant:
+        id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+        name: meshery
+        credential_id: 00000000-0000-0000-0000-000000000000
+        type: registry
+        sub_type: ""
+        kind: meshery
+        status: registered
+        user_id: 00000000-0000-0000-0000-000000000000
+        created_at: "2025-06-24T05:27:36.788032996Z"
+        updated_at: "2025-06-24T05:27:36.788032996Z"
+        deleted_at: "0001-01-01T00:00:00Z"
+        schemaVersion: ""
+      connection_id: 3cc0594f-232d-25ec-9537-36e3b6c8d34a
+      category:
+        id: a3d5edbd-3678-d3f8-6a1e-e777a4efb24e
+        name: Platform
+      subCategory: Cloud Provider
+      metadata:
+        isAnnotation: true
+        shape: polygon
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/exoscale-icons-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/exoscale-icons-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    styles:
+      background-image-opacity: 1
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      data:
+        label: ""
+      height: 24
+      locked: true
+      opacity: 1
+      padding: 6
+      position:
+        x: 989.9923700639368
+        y: 1179.4394363399012
+      primaryColor: '#d0021b'
+      shape: ellipse
+      svgColor: ui/public/static/img/meshmodels/exoscale-icons/color/vm-icon-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/exoscale-icons/white/vm-icon-white.svg
+      width: 24
+      z-index: 16
+    capabilities: []
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: false
+    configuration:
+      metadata:
+        name: VM | Rescue Disk
+    component:
+      version: ""
+      kind: vm-icon
+      schema: ""
+preferences:
+  layers:
+    relationships:
+      hierarchical-sibling-matchlabels: false
+relationships:
+  - id: 21d27cf5-ad42-4a1a-a7e6-f0ab2a1f44e8
+    evaluationQuery: null
+    kind: edge
+    metadata:
+      description: A relationship that defines annotation edges between components
+      styles:
+        line-color: '#d0021b'
+        line-style: dotted
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+        target-arrow-color: '#d0021b'
+        target-arrow-shape: triangle
+      isAnnotation: false
+    model:
+      id: 5f168df8-bf51-53c3-dcbe-8c3c903875b8
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-shapes
+      displayName: Meshery Shapes
+      status: enabled
+      registrant:
+        id: 00000000-0000-0000-0000-000000000000
+        name: ""
+        type: ""
+        sub_type: ""
+        kind: ""
+        status: ""
+        created_at: "0001-01-01T00:00:00Z"
+        updated_at: "0001-01-01T00:00:00Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: true
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-shapes/color/meshery-shapes-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-shapes/white/meshery-shapes-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    schemaVersion: ""
+    selectors:
+      - allow:
+          from:
+            - id: 22045ec2-e857-4190-94ef-d50d99d09d1e
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+          to:
+            - id: dd8859b1-8a67-4264-a17a-0ed5afeeb14c
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+    subType: annotation
+    status: pending
+    type: non-binding
+    version: ""
+  - id: 7bc843bf-8619-47b9-b091-b5c570e2cc78
+    evaluationQuery: null
+    kind: edge
+    metadata:
+      description: A relationship that defines annotation edges between components
+      styles:
+        line-color: '#d0021b'
+        line-style: dotted
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+        target-arrow-color: '#d0021b'
+        target-arrow-shape: triangle
+      isAnnotation: false
+    model:
+      id: 5f168df8-bf51-53c3-dcbe-8c3c903875b8
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-shapes
+      displayName: Meshery Shapes
+      status: enabled
+      registrant:
+        id: 00000000-0000-0000-0000-000000000000
+        name: ""
+        type: ""
+        sub_type: ""
+        kind: ""
+        status: ""
+        created_at: "0001-01-01T00:00:00Z"
+        updated_at: "0001-01-01T00:00:00Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: true
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-shapes/color/meshery-shapes-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-shapes/white/meshery-shapes-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    schemaVersion: ""
+    selectors:
+      - allow:
+          from:
+            - id: 4b5b1aa4-f671-4104-8c2f-ed3bbd7c2b9f
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+          to:
+            - id: 592cdfc5-e233-41d6-9b78-b5c02acd9d8a
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+    subType: annotation
+    status: pending
+    type: non-binding
+    version: ""
+  - id: b4328e42-804c-4ce5-b572-ba171c17e414
+    evaluationQuery: null
+    kind: edge
+    metadata:
+      description: A relationship that defines annotation edges between components
+      styles:
+        label: Restore FileSystem
+        line-color: '#d0021b'
+        line-style: solid
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+        target-arrow-color: '#d0021b'
+        target-arrow-shape: triangle
+      isAnnotation: false
+    model:
+      id: 5f168df8-bf51-53c3-dcbe-8c3c903875b8
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-shapes
+      displayName: Meshery Shapes
+      status: enabled
+      registrant:
+        id: 00000000-0000-0000-0000-000000000000
+        name: ""
+        type: ""
+        sub_type: ""
+        kind: ""
+        status: ""
+        created_at: "0001-01-01T00:00:00Z"
+        updated_at: "0001-01-01T00:00:00Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: true
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-shapes/color/meshery-shapes-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-shapes/white/meshery-shapes-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    schemaVersion: ""
+    selectors:
+      - allow:
+          from:
+            - id: ec17aba0-0106-4fc9-a500-d448345602bf
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+          to:
+            - id: bbb58371-3481-492e-858f-05684d7534ac
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+    subType: annotation
+    status: pending
+    type: non-binding
+    version: ""
+  - id: cc9bf3ac-9cec-4446-a2a4-28f83c9cc91e
+    evaluationQuery: null
+    kind: edge
+    metadata:
+      description: A relationship that defines annotation edges between components
+      styles:
+        curve-style: straight
+        label: Full Restore
+        line-color: '#d0021b'
+        line-style: solid
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+        target-arrow-color: '#d0021b'
+        target-arrow-shape: triangle
+      isAnnotation: false
+    model:
+      id: 5f168df8-bf51-53c3-dcbe-8c3c903875b8
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-shapes
+      displayName: Meshery Shapes
+      status: enabled
+      registrant:
+        id: 00000000-0000-0000-0000-000000000000
+        name: ""
+        type: ""
+        sub_type: ""
+        kind: ""
+        status: ""
+        created_at: "0001-01-01T00:00:00Z"
+        updated_at: "0001-01-01T00:00:00Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: true
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-shapes/color/meshery-shapes-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-shapes/white/meshery-shapes-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    schemaVersion: ""
+    selectors:
+      - allow:
+          from:
+            - id: 78b81940-2160-46a4-8ebb-45e722951d25
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+          to:
+            - id: 523d1060-8617-43a8-984c-6b2601c59928
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+    subType: annotation
+    status: pending
+    type: non-binding
+    version: ""
+  - id: da70a972-d683-45dd-963a-5d9c0ca0e16e
+    evaluationQuery: null
+    kind: edge
+    metadata:
+      description: A relationship that defines annotation edges between components
+      styles:
+        line-color: '#d0021b'
+        line-style: dotted
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+        target-arrow-color: '#d0021b'
+        target-arrow-shape: triangle
+      isAnnotation: false
+    model:
+      id: 5f168df8-bf51-53c3-dcbe-8c3c903875b8
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-shapes
+      displayName: Meshery Shapes
+      status: enabled
+      registrant:
+        id: 00000000-0000-0000-0000-000000000000
+        name: ""
+        type: ""
+        sub_type: ""
+        kind: ""
+        status: ""
+        created_at: "0001-01-01T00:00:00Z"
+        updated_at: "0001-01-01T00:00:00Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: true
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-shapes/color/meshery-shapes-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-shapes/white/meshery-shapes-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    schemaVersion: ""
+    selectors:
+      - allow:
+          from:
+            - id: 560604a1-2ec6-427a-b68d-4516b2385842
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+          to:
+            - id: 523d1060-8617-43a8-984c-6b2601c59928
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+    subType: annotation
+    status: pending
+    type: non-binding
+    version: ""
+  - id: f0d32e4b-914c-4de3-80b3-62f5621b404f
+    evaluationQuery: null
+    kind: edge
+    metadata:
+      description: A relationship that defines annotation edges between components
+      styles:
+        line-color: '#d0021b'
+        line-style: dotted
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+        target-arrow-color: '#d0021b'
+        target-arrow-shape: triangle
+      isAnnotation: false
+    model:
+      id: 5f168df8-bf51-53c3-dcbe-8c3c903875b8
+      schemaVersion: models.meshery.io/v1beta1
+      version: v1.0.0
+      name: meshery-shapes
+      displayName: Meshery Shapes
+      status: enabled
+      registrant:
+        id: 00000000-0000-0000-0000-000000000000
+        name: ""
+        type: ""
+        sub_type: ""
+        kind: ""
+        status: ""
+        created_at: "0001-01-01T00:00:00Z"
+        updated_at: "0001-01-01T00:00:00Z"
+        deleted_at: null
+        schemaVersion: ""
+      connection_id: d12a4cd6-f240-d636-c446-a165c1b0bbc3
+      category:
+        id: 9ca27d0d-66ce-42a9-8c85-6236563f2ddb
+        name: Orchestration & Management
+      subCategory: Application Definition & Image Build
+      metadata:
+        isAnnotation: true
+        primaryColor: '#00B39F'
+        secondaryColor: '#00D3A9'
+        shape: circle
+        styleOverrides: ""
+        svgColor: ui/public/static/img/meshmodels/meshery-shapes/color/meshery-shapes-color.svg
+        svgComplete: ""
+        svgWhite: ui/public/static/img/meshmodels/meshery-shapes/white/meshery-shapes-white.svg
+      model:
+        version: 0.7.2
+      components_count: 0
+      relationships_count: 0
+      components: null
+      relationships: null
+    schemaVersion: ""
+    selectors:
+      - allow:
+          from:
+            - id: cefd3ece-41fa-4d7e-b17c-af3b16da03ea
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+          to:
+            - id: 7e8536c4-35b4-4b7b-b69c-f9d929dca1d0
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                id: 00000000-0000-0000-0000-000000000000
+                schemaVersion: ""
+                version: ""
+                name: '*'
+                displayName: ""
+                status: ""
+                registrant:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                  type: ""
+                  sub_type: ""
+                  kind: ""
+                  status: ""
+                  created_at: "0001-01-01T00:00:00Z"
+                  updated_at: "0001-01-01T00:00:00Z"
+                  deleted_at: null
+                  schemaVersion: ""
+                connection_id: 00000000-0000-0000-0000-000000000000
+                category:
+                  id: 00000000-0000-0000-0000-000000000000
+                  name: ""
+                subCategory: ""
+                metadata: null
+                model:
+                  version: ""
+                components_count: 0
+                relationships_count: 0
+                components: null
+                relationships: null
+              patch: null
+    subType: annotation
+    status: pending
+    type: non-binding
+    version: ""
