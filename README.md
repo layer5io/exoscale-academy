@@ -229,3 +229,4 @@ For questions or help, open a [GitHub Issue](https://github.com/layer5io/exoscal
 
 **Happy Learning!**
 _The Layer5 & Exoscale Academy Team_
+
