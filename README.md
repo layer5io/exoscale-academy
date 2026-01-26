@@ -1,3 +1,4 @@
+
 # Exoscale Academy
 
 Welcome to **Exoscale Academy**, the dedicated cloud education and training platform powered by Layer5. This repository provides a comprehensive framework for creating, organizing, and publishing structured learning paths, challenges and certifications tailored for Exoscale users and cloud practitioners.
@@ -229,3 +230,4 @@ For questions or help, open a [GitHub Issue](https://github.com/layer5io/exoscal
 
 **Happy Learning!**
 _The Layer5 & Exoscale Academy Team_
+
