@@ -11,7 +11,7 @@
 
 
 &lt;div class="md__image">
- &lt;img id="[311 391 481 435 55 273]" src="iaas-arch.png" onclick="openModal(this.id)" alt="iaas-arch" 
+ &lt;img id="[11 220 447 140 16 53]" src="iaas-arch.png" onclick="openModal(this.id)" alt="iaas-arch" 
  class="md-image-responsive" />
 &lt;/div>&lt;/p>
 
@@ -28,7 +28,7 @@
 
 
 &lt;div class="md__image">
- &lt;img id="[289 348 296 455 153 396]" src="iaas-over.png" onclick="openModal(this.id)" alt="iaas-over" 
+ &lt;img id="[122 115 466 476 477 5]" src="iaas-over.png" onclick="openModal(this.id)" alt="iaas-over" 
  class="md-image-responsive" />
 &lt;/div>&lt;/p>
 &lt;p>The following questions arise if you think about the breadth of the cloud offerings in the market today:&lt;/p></description></item><item><title>Storage</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-371/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/storage/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-371/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/storage/storage/</guid><description>&lt;h3 id="object-storage" class="heading-link">
