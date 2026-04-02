@@ -11,7 +11,7 @@
 
 
 &lt;div class="md__image">
- &lt;img id="[58 349 52 300 198 307]" src="portal.png" onclick="openModal(this.id)" alt="portal" 
+ &lt;img id="[323 305 235 52 148 441]" src="portal.png" onclick="openModal(this.id)" alt="portal" 
  class="md-image-responsive" />
 &lt;/div>&lt;/p>
 &lt;p>Next, click the Registration button and enter your email address and password.&lt;/p>
@@ -23,7 +23,7 @@
 
 
 &lt;div class="md__image">
- &lt;img id="[149 312 356 256 338 490]" src="register.png" onclick="openModal(this.id)" alt="register" 
+ &lt;img id="[100 117 13 245 236 298]" src="register.png" onclick="openModal(this.id)" alt="register" 
  class="md-image-responsive" />
 &lt;/div>&lt;/p>
 
