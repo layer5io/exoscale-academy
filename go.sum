@@ -42,5 +42,7 @@ github.com/layer5io/academy-theme v0.4.3 h1:2R6aF6Qfn77BHhsojARLWiqANI4s12dQ6hZ5
 github.com/layer5io/academy-theme v0.4.3/go.mod h1:Dv72UWsREOvX4Zg4mJjrpoyDxdgxxpiDotxqYBXMjXo=
 github.com/layer5io/academy-theme v0.4.4 h1:BDGDQtmhBvj4cxcwJt4/Q43eF26Urp9CyENrP6KhyXM=
 github.com/layer5io/academy-theme v0.4.4/go.mod h1:Dv72UWsREOvX4Zg4mJjrpoyDxdgxxpiDotxqYBXMjXo=
+github.com/layer5io/academy-theme v0.4.5 h1:SfjQ63uYxgtsqdo8qPjvr7/9ygkMQZK80BO+6piWUaQ=
+github.com/layer5io/academy-theme v0.4.5/go.mod h1:Dv72UWsREOvX4Zg4mJjrpoyDxdgxxpiDotxqYBXMjXo=
 github.com/twbs/bootstrap v5.3.7+incompatible h1:ea1W8TOWZFkqSK2M0McpgzLiUQVru3bz8aHb0j/XtuM=
 github.com/twbs/bootstrap v5.3.7+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
