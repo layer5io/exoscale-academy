@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Shortcode Demo API",
+    "version": "1.0.0",
+    "description": "A minimal OpenAPI document used to render Swagger UI and Redoc examples."
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "API is healthy"
+          }
+        }
+      }
+    }
+  }
+}
