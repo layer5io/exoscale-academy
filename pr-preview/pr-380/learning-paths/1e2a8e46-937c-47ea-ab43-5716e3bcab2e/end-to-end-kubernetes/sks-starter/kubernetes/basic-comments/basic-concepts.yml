@@ -1,0 +1,924 @@
+id: b21265ea-a9c7-42cd-a07c-3237bccd3200
+name: Starter Image-2
+schemaVersion: designs.meshery.io/v1beta1
+version: 0.0.114
+metadata:
+  resolvedAliases: {}
+components:
+  - id: cf2fca1b-2177-423c-823c-b40a468fa5c2
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    modelReference:
+      version: v1.0.0
+      name: meshery-core
+      displayName: Meshery Core
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: meshery
+      model:
+        version: 0.7.2
+    styles:
+      background-image: none
+      background-opacity: 0
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-color: '#808080'
+      border-style: dashed
+      border-width: 1
+      data:
+        label: ""
+      height: 61.09668
+      opacity: 1
+      padding: 6
+      position:
+        x: 315.44084166655136
+        y: 67.99941475833123
+      primaryColor: '#00B39F'
+      secondaryColor: '#FFDE00'
+      shape: rectangle
+      svgColor: ui/public/static/img/meshmodels/meshery-core/color/textbox-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/meshery-core/white/textbox-white.svg
+      width: 210.25398
+      z-index: 6
+    capabilities: null
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      hasInvalidSchema: true
+      instanceDetails: null
+      isAnnotation: true
+      isNamespaced: false
+      published: false
+    configuration:
+      metadata:
+        namespace: Basic-Concepts
+    component:
+      version: core.meshery.io/v1alpha1
+      kind: TextBox
+      schema: ""
+  - id: f13c1401-8a40-4717-b1d2-a39e6f89b73c
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    modelReference:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    styles:
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      height: 19.7592
+      opacity: 1
+      padding: 6
+      position:
+        x: 288.2390835370518
+        y: 60.56361633121485
+      primaryColor: '#326CE5'
+      secondaryColor: '#7aa1f0'
+      shape: circle
+      svgColor: ui/public/static/img/meshmodels/kubernetes/color/deploymentlist-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/kubernetes/white/deploymentlist-white.svg
+      width: 23.24182
+      z-index: 0
+    capabilities: null
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      instanceDetails: null
+      isAnnotation: false
+      isNamespaced: false
+      published: false
+      source_uri: git://github.com/kubernetes/kubernetes/master/api/openapi-spec/v3
+    configuration:
+      items: []
+      metadata:
+        labels:
+          newKey: ""
+        name: ""
+        namespace: Basic-Concepts
+    component:
+      version: apps/v1
+      kind: DeploymentList
+      schema: ""
+  - id: e686596e-0f77-455c-b103-00af7f45bf53
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    modelReference:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    styles:
+      background-opacity: 1
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      height: 23.732012
+      opacity: 1
+      padding: 6
+      position:
+        x: 251.85772669923028
+        y: -12.701932865787406
+      primaryColor: '#326CE5'
+      secondaryColor: '#7aa1f0'
+      shape: round-hexagon
+      svgColor: ui/public/static/img/meshmodels/kubernetes/color/kubernetesconnection-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/kubernetes/white/kubernetesconnection-white.svg
+      width: 40.7671
+      z-index: 4
+    capabilities: null
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      instanceDetails: null
+      isAnnotation: false
+      isNamespaced: false
+      published: false
+      transitions:
+        connected:
+          - disconnected
+          - ignored
+          - not found
+          - deleted
+        deleted: []
+        disconnected:
+          - connected
+          - deleted
+        discovered:
+          - registered
+          - not found
+          - deleted
+        ignored:
+          - deleted
+          - registered
+        maintenance:
+          - registered
+          - connected
+          - ignored
+          - not found
+        not found:
+          - discovered
+          - deleted
+        registered:
+          - connected
+          - ignored
+    configuration:
+      metadata:
+        name: ""
+        namespace: Basic-Concepts
+    component:
+      version: meshery.layer5.io/v1alpha1
+      kind: KubernetesConnection
+      schema: ""
+  - id: b39dce69-f250-4277-924e-a899955ad1e0
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: Basic-Concepts
+    description: ""
+    format: JSON
+    modelReference:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    styles:
+      background-image: none
+      background-opacity: 0.5
+      border-style: dashed
+      border-width: 2
+      height: 80
+      position:
+        x: 315.44084166655136
+        y: 37.23990794627191
+      primaryColor: '#326CE5'
+      secondaryColor: '#7aa1f0'
+      shape: rectangle
+      svgColor: ui/public/static/img/meshmodels/kubernetes/color/namespace-color.svg
+      svgComplete: ui/public/static/img/meshmodels/kubernetes/complete/namespace-complete.svg
+      svgWhite: ui/public/static/img/meshmodels/kubernetes/white/namespace-white.svg
+      width: 80
+      z-index: 5
+    capabilities: null
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: parent
+      instanceDetails: null
+      isAnnotation: false
+      isNamespaced: false
+      published: false
+      source_uri: git://github.com/kubernetes/kubernetes/master/api/openapi-spec/v3
+    configuration:
+      metadata:
+        name: Basic-Concepts
+    component:
+      version: v1
+      kind: Namespace
+      schema: ""
+  - id: e66c069b-e5df-409f-9366-521a361b82b2
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    modelReference:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    styles:
+      background-opacity: 0.5
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 2
+      height: 21.985413
+      opacity: 1
+      padding: 6
+      position:
+        x: 230.81894679991524
+        y: 61.15686943789586
+      primaryColor: '#326CE5'
+      secondaryColor: '#7aa1f0'
+      shape: round-rectangle
+      svgColor: ui/public/static/img/meshmodels/kubernetes/color/pod-color.svg
+      svgComplete: ui/public/static/img/meshmodels/kubernetes/complete/pod-complete.svg
+      svgWhite: ui/public/static/img/meshmodels/kubernetes/white/pod-white.svg
+      width: 25.343801
+      z-index: 1
+    capabilities: null
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: parent
+      instanceDetails: null
+      isAnnotation: false
+      isNamespaced: true
+      published: false
+      source_uri: git://github.com/kubernetes/kubernetes/master/api/openapi-spec/v3
+    configuration:
+      metadata:
+        name: ""
+        namespace: Basic-Concepts
+    component:
+      version: v1
+      kind: Pod
+      schema: ""
+  - id: cbcda23a-6f27-4bc0-973a-cc8253a8b3e4
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    modelReference:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    styles:
+      background-opacity: 1
+      background-position-y: "4.5"
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      height: 28.972109
+      opacity: 1
+      padding: 12
+      position:
+        x: 403.28558169635795
+        y: 58.58514123940693
+      primaryColor: '#326CE5'
+      secondaryColor: '#7aa1f0'
+      shape: round-triangle
+      svgColor: ui/public/static/img/meshmodels/kubernetes/color/service-color.svg
+      svgComplete: ""
+      svgWhite: ui/public/static/img/meshmodels/kubernetes/white/service-white.svg
+      width: 18.502178
+      z-index: 3
+    capabilities: null
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: ""
+      instanceDetails: null
+      isAnnotation: false
+      isNamespaced: true
+      published: false
+      source_uri: git://github.com/kubernetes/kubernetes/master/api/openapi-spec/v3
+    configuration:
+      metadata:
+        name: ""
+        namespace: Basic-Concepts
+    component:
+      version: v1
+      kind: Service
+      schema: ""
+  - id: 1afaf6d4-e7cd-45d8-a2b1-48481dac6f9c
+    schemaVersion: components.meshery.io/v1beta1
+    version: v1.0.0
+    displayName: ""
+    description: ""
+    format: JSON
+    modelReference:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    styles:
+      background-opacity: 0.2
+      body-text: ""
+      body-text-color: '#808080'
+      body-text-font-family: Qanelas Soft
+      body-text-font-size: 12
+      body-text-font-weight: "400"
+      body-text-horizontal-align: center
+      body-text-text-decoration: none
+      body-text-vertical-align: center
+      border-width: 0
+      height: 21.077269
+      opacity: 1
+      padding: 6
+      position:
+        x: 352.2797306210804
+        y: 60.575512427339184
+      primaryColor: '#326CE5'
+      secondaryColor: '#7aa1f0'
+      shape: round-rectangle
+      svgColor: ui/public/static/img/meshmodels/kubernetes/color/statefulset-color.svg
+      svgComplete: ui/public/static/img/meshmodels/kubernetes/complete/statefulset-complete.svg
+      svgWhite: ui/public/static/img/meshmodels/kubernetes/white/statefulset-white.svg
+      width: 21.785763
+      x: 12
+      y: 20
+      z-index: 2
+    capabilities: null
+    status: enabled
+    metadata:
+      configurationUISchema: ""
+      genealogy: parent
+      instanceDetails: null
+      isAnnotation: false
+      isNamespaced: true
+      published: false
+      source_uri: git://github.com/kubernetes/kubernetes/master/api/openapi-spec/v3
+    configuration:
+      metadata:
+        name: ""
+        namespace: Basic-Concepts
+    component:
+      version: apps/v1
+      kind: StatefulSet
+      schema: ""
+preferences:
+  layers:
+    expandedComponents:
+      b39dce69-f250-4277-924e-a899955ad1e0: true
+    relationships:
+      hierarchical-sibling-matchlabels: false
+relationships:
+  - id: 07607168-84f6-437d-9674-00fcb72e50a4
+    evaluationQuery: ""
+    kind: hierarchical
+    metadata:
+      description: Namespace to namespaced components
+      styles:
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+      isAnnotation: false
+    model:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    schemaVersion: relationships.meshery.io/v1alpha3
+    selectors:
+      - allow:
+          from:
+            - id: e66c069b-e5df-409f-9366-521a361b82b2
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: '*'
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: ""
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatedRef:
+                  - - configuration
+                    - metadata
+                    - namespace
+          to:
+            - id: b39dce69-f250-4277-924e-a899955ad1e0
+              kind: Namespace
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatorRef:
+                  - - displayName
+    subType: inventory
+    status: approved
+    type: parent
+    version: v1.0.0
+  - id: 604e2597-b8fb-41b2-975c-2fec59fdb60c
+    evaluationQuery: ""
+    kind: hierarchical
+    metadata:
+      description: Namespace to namespaced components
+      styles:
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+      isAnnotation: false
+    model:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    schemaVersion: relationships.meshery.io/v1alpha3
+    selectors:
+      - allow:
+          from:
+            - id: f13c1401-8a40-4717-b1d2-a39e6f89b73c
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: '*'
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: ""
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatedRef:
+                  - - configuration
+                    - metadata
+                    - namespace
+          to:
+            - id: b39dce69-f250-4277-924e-a899955ad1e0
+              kind: Namespace
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatorRef:
+                  - - displayName
+    subType: inventory
+    status: approved
+    type: parent
+    version: v1.0.0
+  - id: 95dabb13-b9b5-4f65-be5f-c095e766673b
+    evaluationQuery: ""
+    kind: hierarchical
+    metadata:
+      description: Namespace to namespaced components
+      styles:
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+      isAnnotation: false
+    model:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    schemaVersion: relationships.meshery.io/v1alpha3
+    selectors:
+      - allow:
+          from:
+            - id: cbcda23a-6f27-4bc0-973a-cc8253a8b3e4
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: '*'
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: ""
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatedRef:
+                  - - configuration
+                    - metadata
+                    - namespace
+          to:
+            - id: b39dce69-f250-4277-924e-a899955ad1e0
+              kind: Namespace
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatorRef:
+                  - - displayName
+    subType: inventory
+    status: approved
+    type: parent
+    version: v1.0.0
+  - id: 99b3be77-2428-427d-995a-0121b56eeb56
+    evaluationQuery: ""
+    kind: hierarchical
+    metadata:
+      description: Namespace to namespaced components
+      styles:
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+      isAnnotation: false
+    model:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    schemaVersion: relationships.meshery.io/v1alpha3
+    selectors:
+      - allow:
+          from:
+            - id: cf2fca1b-2177-423c-823c-b40a468fa5c2
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: '*'
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: ""
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatedRef:
+                  - - configuration
+                    - metadata
+                    - namespace
+          to:
+            - id: b39dce69-f250-4277-924e-a899955ad1e0
+              kind: Namespace
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatorRef:
+                  - - displayName
+    subType: inventory
+    status: approved
+    type: parent
+    version: v1.0.0
+  - id: b4910518-68fc-4634-b8e3-8329c333cee0
+    evaluationQuery: ""
+    kind: edge
+    metadata:
+      description: An edge relationship where a Service discovers and load-balances traffic to Pods via label matching and port mapping.
+      styles:
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+      isAnnotation: false
+    model:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    schemaVersion: relationships.meshery.io/v1alpha3
+    selectors:
+      - allow:
+          from:
+            - id: cbcda23a-6f27-4bc0-973a-cc8253a8b3e4
+              kind: Service
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatorRef:
+                  - - configuration
+                    - spec
+                    - selector
+                  - - configuration
+                    - spec
+                    - ports
+                    - "0"
+                    - targetPort
+                  - - configuration
+                    - spec
+                    - ports
+                    - "0"
+                    - protocol
+          to:
+            - id: e66c069b-e5df-409f-9366-521a361b82b2
+              kind: Pod
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatedRef:
+                  - - metadata
+                    - labels
+                  - - configuration
+                    - spec
+                    - containers
+                    - "0"
+                    - ports
+                    - "0"
+                    - containerPort
+                  - - configuration
+                    - spec
+                    - containers
+                    - "0"
+                    - ports
+                    - "0"
+                    - protocol
+        deny:
+          from: null
+          to: null
+    subType: network
+    status: approved
+    type: non-binding
+    version: v1.0.0
+  - id: b56180be-1054-437d-8e71-392ab2af5241
+    evaluationQuery: ""
+    kind: hierarchical
+    metadata:
+      description: Namespace to namespaced components
+      styles:
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+      isAnnotation: false
+    model:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    schemaVersion: relationships.meshery.io/v1alpha3
+    selectors:
+      - allow:
+          from:
+            - id: e686596e-0f77-455c-b103-00af7f45bf53
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: '*'
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: ""
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatedRef:
+                  - - configuration
+                    - metadata
+                    - namespace
+          to:
+            - id: b39dce69-f250-4277-924e-a899955ad1e0
+              kind: Namespace
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatorRef:
+                  - - displayName
+    subType: inventory
+    status: approved
+    type: parent
+    version: v1.0.0
+  - id: b8127cdb-2a61-45aa-a26d-266e37d69f07
+    evaluationQuery: ""
+    kind: hierarchical
+    metadata:
+      description: Namespace to namespaced components
+      styles:
+        primaryColor: ""
+        svgColor: ""
+        svgWhite: ""
+      isAnnotation: false
+    model:
+      version: v1.0.0
+      name: kubernetes
+      displayName: Kubernetes
+      id: 00000000-0000-0000-0000-000000000000
+      registrant:
+        kind: github
+      model:
+        version: v1.32.0-alpha.3
+    schemaVersion: relationships.meshery.io/v1alpha3
+    selectors:
+      - allow:
+          from:
+            - id: 1afaf6d4-e7cd-45d8-a2b1-48481dac6f9c
+              kind: '*'
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: '*'
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: ""
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatedRef:
+                  - - configuration
+                    - metadata
+                    - namespace
+          to:
+            - id: b39dce69-f250-4277-924e-a899955ad1e0
+              kind: Namespace
+              match: {}
+              match_strategy_matrix: null
+              model:
+                version: ""
+                name: kubernetes
+                displayName: ""
+                id: 00000000-0000-0000-0000-000000000000
+                registrant:
+                  kind: github
+                model:
+                  version: ""
+              patch:
+                patchStrategy: replace
+                mutatorRef:
+                  - - displayName
+    subType: inventory
+    status: approved
+    type: parent
+    version: v1.0.0
