@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra Shortcodes on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/</link><description>Recent content in Hextra Shortcodes on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/index.xml" rel="self" type="application/rss+xml"/><item><title>Callout</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/callout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/callout/</guid><description>&lt;p>Callouts highlight important information with a colored left border and an icon. Five types are supported: &lt;strong>default&lt;/strong> (green), &lt;strong>info&lt;/strong> (blue), &lt;strong>warning&lt;/strong> (orange), &lt;strong>error&lt;/strong> (red), and &lt;strong>important&lt;/strong> (teal).&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/callout type=&amp;#34;info&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Your message here. Supports **Markdown**.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/callout &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>type&lt;/code>&lt;/td>
+ &lt;td>Callout style: &lt;code>default&lt;/code>, &lt;code>info&lt;/code>, &lt;code>warning&lt;/code>, &lt;code>error&lt;/code>, &lt;code>important&lt;/code>&lt;/td>
+ &lt;td>&lt;code>default&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>emoji&lt;/code>&lt;/td>
+ &lt;td>Optional emoji to replace the icon (e.g., &lt;code>&amp;quot;🚀&amp;quot;&lt;/code>)&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Examples:&lt;/strong>&lt;/p>
+&lt;div class="hextra-callout alert alert-success d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is a &lt;strong>default&lt;/strong> callout. It uses a light-bulb icon and green styling.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-info d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is an &lt;strong>info&lt;/strong> callout. Use it to surface supplementary context.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-warning d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is a &lt;strong>warning&lt;/strong> callout. Draw attention to potential issues.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-danger d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is an &lt;strong>error&lt;/strong> callout. Indicate something that went wrong.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-primary d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is an &lt;strong>important&lt;/strong> callout. Emphasize critical information.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-success d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;span class="hextra-callout-emoji" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.25rem;">🚀&lt;/span>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">You can use an &lt;strong>emoji&lt;/strong> instead of the default icon.&lt;/div>
+&lt;/div></description></item><item><title>Cards</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/cards/</guid><description>&lt;p>Cards display content in a responsive grid. Wrap individual &lt;code>hextra/card&lt;/code> shortcodes inside a &lt;code>hextra/cards&lt;/code> container.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/cards cols=&amp;#34;3&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/card link=&amp;#34;https://example.com&amp;#34; title=&amp;#34;Title&amp;#34; subtitle=&amp;#34;Description&amp;#34; icon=&amp;#34;document-text&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/card title=&amp;#34;No link&amp;#34; subtitle=&amp;#34;This card is not clickable.&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/cards &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Container parameters (&lt;code>hextra/cards&lt;/code>):&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>cols&lt;/code>&lt;/td>
+ &lt;td>Number of columns at the &lt;code>lg&lt;/code> breakpoint&lt;/td>
+ &lt;td>&lt;code>3&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Card parameters (&lt;code>hextra/card&lt;/code>):&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>title&lt;/code>&lt;/td>
+ &lt;td>Card heading&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>subtitle&lt;/code>&lt;/td>
+ &lt;td>Description text below the title&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>link&lt;/code>&lt;/td>
+ &lt;td>URL the card links to&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>icon&lt;/code>&lt;/td>
+ &lt;td>Icon name from &lt;code>data/hextra/icons.yaml&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>image&lt;/code>&lt;/td>
+ &lt;td>Image URL or page-bundle path&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>tag&lt;/code>&lt;/td>
+ &lt;td>Badge text shown in the top-right corner&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>tagColor&lt;/code>&lt;/td>
+ &lt;td>Bootstrap color name for the tag badge&lt;/td>
+ &lt;td>&lt;code>secondary&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Three-column grid:&lt;/strong>&lt;/p></description></item><item><title>Details</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/details/</guid><description>&lt;p>A collapsible content block built on the native HTML &lt;code>&amp;lt;details&amp;gt;&lt;/code> element with card styling and a rotating chevron indicator.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/details title=&amp;#34;Click to expand&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Hidden content here. Supports **Markdown**.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/details &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>title&lt;/code>&lt;/td>
+ &lt;td>Summary text (supports Markdown)&lt;/td>
+ &lt;td>&lt;em>(empty)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>closed&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to render collapsed&lt;/td>
+ &lt;td>open&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Open by default:&lt;/strong>&lt;/p>
+&lt;details class="hextra-details card mb-3 mt-3" open>
+ &lt;summary class="card-header d-flex align-items-center fw-bold" role="button" style="cursor: pointer; list-style: none;">
+ &lt;svg class="hextra-details-chevron me-2 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">&lt;path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>&lt;/svg>
+ Click to expand this section
+ &lt;/summary>
+ &lt;div class="card-body">
+ &lt;p>Here is the hidden content revealed when the summary is clicked.&lt;/p></description></item><item><title>Steps</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/steps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/steps/</guid><description>&lt;p>Numbered step lists rendered with CSS counters. Place &lt;code>h3&lt;/code>–&lt;code>h6&lt;/code> headings inside the shortcode body — each heading becomes a numbered step.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/steps &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>### First step
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Description of the first step.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>### Second step
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Description of the second step.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/steps &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div class="hextra-steps ms-3 mb-5 ps-4 border-start">
+&lt;h3 id="clone-the-repository" class="heading-link">
+ Clone the repository
+ &lt;a href="#clone-the-repository" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone https://github.com/layer5io/academy-example.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="install-dependencies" class="heading-link">
+ Install dependencies
+ &lt;a href="#install-dependencies" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="start-the-development-server" class="heading-link">
+ Start the development server
+ &lt;a href="#start-the-development-server" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo server -D
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div></description></item><item><title>Tabs</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/tabs/</guid><description>&lt;p>Tabbed interfaces powered by Bootstrap 5 nav-tabs. Each &lt;code>hextra/tab&lt;/code> is nested inside a &lt;code>hextra/tabs&lt;/code> container. Tabs support cross-page sync via localStorage when tabs share the same names.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/tabs &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/tab name=&amp;#34;Tab One&amp;#34; &amp;gt;}}Content for tab one.{{&amp;lt; /hextra/tab &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/tab name=&amp;#34;Tab Two&amp;#34; &amp;gt;}}Content for tab two.{{&amp;lt; /hextra/tab &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/tabs &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Tab parameters (&lt;code>hextra/tab&lt;/code>):&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>name&lt;/code>&lt;/td>
+ &lt;td>Tab label&lt;/td>
+ &lt;td>&lt;code>Tab &amp;lt;N&amp;gt;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>selected&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to pre-select this tab&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Code samples across languages:&lt;/strong>&lt;/p></description></item><item><title>File Tree</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/filetree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/filetree/</guid><description>&lt;p>An interactive file tree with expandable/collapsible folders. Compose three shortcodes: &lt;code>hextra/filetree/container&lt;/code>, &lt;code>hextra/filetree/folder&lt;/code>, and &lt;code>hextra/filetree/file&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/filetree/container &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/filetree/folder name=&amp;#34;src&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/filetree/file name=&amp;#34;main.go&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; /hextra/filetree/folder &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/filetree/file name=&amp;#34;README.md&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/filetree/container &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Folder parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>name&lt;/code>&lt;/td>
+ &lt;td>Folder name&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>state&lt;/code>&lt;/td>
+ &lt;td>&lt;code>&amp;quot;open&amp;quot;&lt;/code> or &lt;code>&amp;quot;closed&amp;quot;&lt;/code>&lt;/td>
+ &lt;td>&lt;code>open&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div class="hextra-filetree mt-3 mb-3 user-select-none small text-body">
+ &lt;div class="d-inline-block border rounded px-3 py-2">
+ &lt;ul class="list-unstyled mb-0">
+ 
+
+&lt;li class="d-flex flex-column">
+ &lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="true">
+ &lt;span data-state="closed" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">content&lt;/span>
+ &lt;/button>
+ &lt;ul class="list-unstyled ms-4 mb-0" data-state="open">
+ 
+
+&lt;li class="d-flex flex-column">
+&lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="true">
+ &lt;span data-state="closed" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">docs&lt;/span>
+&lt;/button>
+&lt;ul class="list-unstyled ms-4 mb-0" data-state="open">
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">_index.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">getting-started.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+ 
+
+&lt;li class="d-flex flex-column">
+&lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="false">
+ &lt;span data-state="closed">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">blog&lt;/span>
+&lt;/button>
+&lt;ul class="list-unstyled ms-4 mb-0" data-state="closed" style="display:none">
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">_index.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">first-post.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+ 
+
+&lt;li class="d-flex flex-column">
+ &lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="true">
+ &lt;span data-state="closed" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">layouts&lt;/span>
+ &lt;/button>
+ &lt;ul class="list-unstyled ms-4 mb-0" data-state="open">
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">baseof.html&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">index.html&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">hugo.yaml&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">package.json&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+&lt;/ul>
+ &lt;/div>
+&lt;/div></description></item><item><title>Badge</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/badge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/badge/</guid><description>&lt;p>Inline badges with color variants. Supports both positional and named parameter forms.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/badge &amp;#34;Simple badge&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/badge content=&amp;#34;Styled&amp;#34; color=&amp;#34;green&amp;#34; link=&amp;#34;https://example.com&amp;#34; icon=&amp;#34;document-text&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>content&lt;/code>&lt;/td>
+ &lt;td>Badge text (or use positional param)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>color&lt;/code>&lt;/td>
+ &lt;td>Color: &lt;code>gray&lt;/code>, &lt;code>green&lt;/code>, &lt;code>blue&lt;/code>, &lt;code>yellow&lt;/code>, &lt;code>red&lt;/code>, &lt;code>purple&lt;/code>, &lt;code>orange&lt;/code>, &lt;code>indigo&lt;/code>, &lt;code>amber&lt;/code>&lt;/td>
+ &lt;td>&lt;code>gray&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>link&lt;/code>&lt;/td>
+ &lt;td>Optional URL to wrap the badge as a link&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>icon&lt;/code>&lt;/td>
+ &lt;td>Optional icon name from &lt;code>data/hextra/icons.yaml&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Color variants:&lt;/strong>&lt;/p>
+&lt;p>&lt;span class="hextra-badge badge rounded-pill text-bg-secondary">Default&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-success">Success&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-info">Info&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-warning">Warning&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-danger">Error&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-primary">Important&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-warning">Amber&lt;/span>&lt;/p></description></item><item><title>Icon</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/icon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/icon/</guid><description>&lt;p>Renders an inline SVG icon from &lt;code>data/hextra/icons.yaml&lt;/code>. Useful for embedding icons in running text.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/icon &amp;#34;light-bulb&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Available icons:&lt;/strong>&lt;/p>
+&lt;p>Here are a few icons inline: &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>&lt;/svg>&lt;/span>
+ &lt;code>light-bulb&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/span>
+ &lt;code>information-circle&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/span>
+ &lt;code>exclamation&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;code>folder&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;code>document-text&lt;/code>.&lt;/p></description></item><item><title>PDF</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/pdf/</guid><description>&lt;p>Embeds a PDF file in a responsive iframe.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/pdf &amp;#34;sample.pdf&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>positional&lt;/td>
+ &lt;td>Path to the PDF file (page resource, asset, or absolute path)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div class="hextra-pdf ratio" style="--bs-aspect-ratio: 141.4%;">
+ &lt;iframe
+ src="sample.pdf"
+ frameborder="0"
+ title="PDF viewer"
+ loading="lazy"
+ >&lt;/iframe>
+&lt;/div></description></item><item><title>Include</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/include/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/include/</guid><description>&lt;p>Includes the rendered content of another page inline. This shortcode &lt;strong>must&lt;/strong> use the percent-delimiter syntax.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% hextra/include &amp;#34;include-snippet&amp;#34; %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>positional&lt;/td>
+ &lt;td>Page path relative to the content directory&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example (included from a separate page):&lt;/strong>&lt;/p>
+&lt;p>This paragraph was pulled in from a separate page using the &lt;code>hextra/include&lt;/code> shortcode. It demonstrates how you can compose content from multiple sources into a single page.&lt;/p>
+&lt;ul>
+&lt;li>Included content supports &lt;strong>full Markdown&lt;/strong> formatting.&lt;/li>
+&lt;li>Lists, &lt;code>code&lt;/code>, and &lt;em>emphasis&lt;/em> all render correctly.
+&lt;/li>
+&lt;/ul></description></item><item><title>Term</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/term/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/term/</guid><description>&lt;p>Wraps a glossary term in an &lt;code>&amp;lt;abbr&amp;gt;&lt;/code> tooltip. Hover over the highlighted terms below to see their definitions. Definitions are sourced from &lt;code>data/&amp;lt;lang&amp;gt;/termbase.yaml&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/term &amp;#34;API&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>entry&lt;/code>&lt;/td>
+ &lt;td>Glossary abbreviation or full term (named or positional)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>To use this shortcode, create a termbase data file at &lt;code>data/en/termbase.yaml&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">abbr&lt;/span>: &lt;span style="color:#ae81ff">API&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">term&lt;/span>: &lt;span style="color:#ae81ff">Application Programming Interface&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">definition&lt;/span>: &lt;span style="color:#ae81ff">A set of protocols for building software.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Examples:&lt;/strong>&lt;/p>
+&lt;p>Hugo is an SSG
+ that can be controlled via its CLI
+. Configuration is written in YAML
+ and sites are commonly served through a CDN
+. Most projects use a CI/CD
+ pipeline to deploy changes automatically. The theme exposes a rich API
+ of shortcodes and partials.&lt;/p></description></item><item><title>Jupyter</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/jupyter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/jupyter/</guid><description>&lt;p>Renders a Jupyter Notebook (&lt;code>.ipynb&lt;/code>) as code blocks and Markdown cells.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% hextra/jupyter &amp;#34;example-notebook.ipynb&amp;#34; %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>positional&lt;/td>
+ &lt;td>Path or URL to the &lt;code>.ipynb&lt;/code> file&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>allowUnsafeHTML&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to render raw HTML from notebook outputs&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># A simple Python greeting&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>message &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello from the Academy!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(message)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Generate Fibonacci numbers&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">fibonacci&lt;/span>(n):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> a, b &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result &lt;span style="color:#f92672">=&lt;/span> []
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> _ &lt;span style="color:#f92672">in&lt;/span> range(n):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> a, b &lt;span style="color:#f92672">=&lt;/span> b, a &lt;span style="color:#f92672">+&lt;/span> b
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">.&lt;/span>append(a)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> result
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fibonacci(&lt;span style="color:#ae81ff">10&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted --></description></item><item><title>Asciinema</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</guid><description>&lt;p>Embeds an &lt;a href="https://asciinema.org/">asciinema&lt;/a> terminal recording player. The player CSS/JS is loaded from CDN automatically when this shortcode is used.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/asciinema file=&amp;#34;demo.cast&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>file&lt;/code>&lt;/td>
+ &lt;td>Path or URL to the &lt;code>.cast&lt;/code> file (also accepts positional param)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>theme&lt;/code>&lt;/td>
+ &lt;td>Player color theme&lt;/td>
+ &lt;td>&lt;code>asciinema&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>speed&lt;/code>&lt;/td>
+ &lt;td>Playback speed multiplier&lt;/td>
+ &lt;td>&lt;code>1&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>autoplay&lt;/code>&lt;/td>
+ &lt;td>Auto-play on load&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>loop&lt;/code>&lt;/td>
+ &lt;td>Loop playback&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>poster&lt;/code>&lt;/td>
+ &lt;td>Poster/thumbnail specification&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>markers&lt;/code>&lt;/td>
+ &lt;td>Comma-separated time markers (e.g., &lt;code>&amp;quot;5:Intro,10:Demo&amp;quot;&lt;/code>)&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p></description></item></channel></rss>

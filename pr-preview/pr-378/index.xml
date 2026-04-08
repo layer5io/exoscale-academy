@@ -1,0 +1,5852 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academy on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/</link><description>Recent content in Academy on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/index.xml" rel="self" type="application/rss+xml"/><item><title>Alert</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/alerts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/alerts/</guid><description>&lt;p>The academy-theme &lt;code>alert&lt;/code> shortcode renders a styled alert box. The &lt;code>type&lt;/code> parameter controls the color and icon.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; alert type=&amp;#34;note&amp;#34; title=&amp;#34;Note&amp;#34; &amp;gt;}}Alert content with **Markdown** support.{{&amp;lt; /alert &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>type&lt;/code>&lt;/td>
+ &lt;td>Alert style: &lt;code>note&lt;/code>, &lt;code>info&lt;/code>, &lt;code>danger&lt;/code>, &lt;code>warning&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>title&lt;/code>&lt;/td>
+ &lt;td>Optional title above the alert body&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Examples:&lt;/strong>&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-primary" role="alert">
+ &lt;h4 class="alert-heading">Note&lt;/h4>
+ 
+ A plain alert with a title.
+ 
+&lt;/div>
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #7A848E;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #7A848E;">Note&lt;/h4>
+ 
+ This alert supports a title and &lt;strong>Markdown&lt;/strong>.
+ 
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #3772ff;">Info&lt;/h4>
+ 
+ This is an informational alert.
+ 
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-danger" role="alert">
+&lt;h4 class="alert-heading">Danger&lt;/h4>
+
+ This is a danger alert.
+
+&lt;/div>
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #EBC017;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #EBC017;">Warning&lt;/h4>
+ 
+ This is a warning alert.
+ 
+&lt;/div></description></item><item><title>Alert (Docsy)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/docsy-alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/docsy-alert/</guid><description>&lt;p>The Docsy &lt;code>alert&lt;/code> shortcode renders a colored alert box. The academy-theme overrides this shortcode, so invoking &lt;code>alert&lt;/code> will use the academy-theme implementation. This page demonstrates the Docsy &lt;code>color&lt;/code> parameter syntax.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; alert color=&amp;#34;info&amp;#34; title=&amp;#34;Info alert&amp;#34; &amp;gt;}}Alert content here.{{&amp;lt; /alert &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>color&lt;/code>&lt;/td>
+ &lt;td>Bootstrap color: &lt;code>primary&lt;/code>, &lt;code>secondary&lt;/code>, &lt;code>success&lt;/code>, &lt;code>danger&lt;/code>, &lt;code>warning&lt;/code>, &lt;code>info&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>title&lt;/code>&lt;/td>
+ &lt;td>Optional title text&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-info" role="alert">
+ &lt;h4 class="alert-heading">Docsy alert&lt;/h4>
+ 
+ This block uses the Docsy-style &lt;code>color&lt;/code> parameter.
+ 
+&lt;/div></description></item><item><title>Callout</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/callout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/callout/</guid><description>&lt;p>Callouts highlight important information with a colored left border and an icon. Five types are supported: &lt;strong>default&lt;/strong> (green), &lt;strong>info&lt;/strong> (blue), &lt;strong>warning&lt;/strong> (orange), &lt;strong>error&lt;/strong> (red), and &lt;strong>important&lt;/strong> (teal).&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/callout type=&amp;#34;info&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Your message here. Supports **Markdown**.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/callout &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>type&lt;/code>&lt;/td>
+ &lt;td>Callout style: &lt;code>default&lt;/code>, &lt;code>info&lt;/code>, &lt;code>warning&lt;/code>, &lt;code>error&lt;/code>, &lt;code>important&lt;/code>&lt;/td>
+ &lt;td>&lt;code>default&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>emoji&lt;/code>&lt;/td>
+ &lt;td>Optional emoji to replace the icon (e.g., &lt;code>&amp;quot;🚀&amp;quot;&lt;/code>)&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Examples:&lt;/strong>&lt;/p>
+&lt;div class="hextra-callout alert alert-success d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is a &lt;strong>default&lt;/strong> callout. It uses a light-bulb icon and green styling.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-info d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is an &lt;strong>info&lt;/strong> callout. Use it to surface supplementary context.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-warning d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is a &lt;strong>warning&lt;/strong> callout. Draw attention to potential issues.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-danger d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is an &lt;strong>error&lt;/strong> callout. Indicate something that went wrong.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-primary d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">This is an &lt;strong>important&lt;/strong> callout. Emphasize critical information.&lt;/div>
+&lt;/div>
+
+&lt;div class="hextra-callout alert alert-success d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;span class="hextra-callout-emoji" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.25rem;">🚀&lt;/span>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">You can use an &lt;strong>emoji&lt;/strong> instead of the default icon.&lt;/div>
+&lt;/div></description></item><item><title>Figure</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/figure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/figure/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; figure src=&amp;#34;/examples/images/exoscale-icon.png&amp;#34; alt=&amp;#34;Exoscale icon&amp;#34; caption=&amp;#34;Caption text.&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;figure>&lt;img src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png"
+ alt="Exoscale icon">&lt;figcaption>
+ &lt;p>A Hugo figure shortcode rendering a static image.&lt;/p>
+ &lt;/figcaption>
+&lt;/figure></description></item><item><title>Cards</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/cards/</guid><description>&lt;p>Cards display content in a responsive grid. Wrap individual &lt;code>hextra/card&lt;/code> shortcodes inside a &lt;code>hextra/cards&lt;/code> container.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/cards cols=&amp;#34;3&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/card link=&amp;#34;https://example.com&amp;#34; title=&amp;#34;Title&amp;#34; subtitle=&amp;#34;Description&amp;#34; icon=&amp;#34;document-text&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/card title=&amp;#34;No link&amp;#34; subtitle=&amp;#34;This card is not clickable.&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/cards &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Container parameters (&lt;code>hextra/cards&lt;/code>):&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>cols&lt;/code>&lt;/td>
+ &lt;td>Number of columns at the &lt;code>lg&lt;/code> breakpoint&lt;/td>
+ &lt;td>&lt;code>3&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Card parameters (&lt;code>hextra/card&lt;/code>):&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>title&lt;/code>&lt;/td>
+ &lt;td>Card heading&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>subtitle&lt;/code>&lt;/td>
+ &lt;td>Description text below the title&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>link&lt;/code>&lt;/td>
+ &lt;td>URL the card links to&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>icon&lt;/code>&lt;/td>
+ &lt;td>Icon name from &lt;code>data/hextra/icons.yaml&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>image&lt;/code>&lt;/td>
+ &lt;td>Image URL or page-bundle path&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>tag&lt;/code>&lt;/td>
+ &lt;td>Badge text shown in the top-right corner&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>tagColor&lt;/code>&lt;/td>
+ &lt;td>Bootstrap color name for the tag badge&lt;/td>
+ &lt;td>&lt;code>secondary&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Three-column grid:&lt;/strong>&lt;/p></description></item><item><title>Highlight</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/highlight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/highlight/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; highlight go &amp;#34;linenos=table,hl_lines=3&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>package main
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>import &amp;#34;fmt&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>func main() { fmt.Println(&amp;#34;hello&amp;#34;) }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /highlight &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="background-color:#3c3d38">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex; background-color:#3c3d38">&lt;span>&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;hello from the highlight shortcode&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Pageinfo (Docsy)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/docsy-pageinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/docsy-pageinfo/</guid><description>&lt;p>The Docsy &lt;code>pageinfo&lt;/code> shortcode renders a colored page-level info box. The academy-theme overrides this shortcode.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; pageinfo color=&amp;#34;primary&amp;#34; &amp;gt;}}Notice content here.{{&amp;lt; /pageinfo &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>color&lt;/code>&lt;/td>
+ &lt;td>Bootstrap color name&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+
+&lt;div class="pageinfo">
+This block uses the Docsy implementation of `pageinfo` with `color="primary"`.
+&lt;/div></description></item><item><title>Blocks Cover and Link Down</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-cover-link-down/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-cover-link-down/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; blocks/cover title=&amp;#34;Cover Title&amp;#34; subtitle=&amp;#34;Subtitle&amp;#34; color=&amp;#34;dark&amp;#34; height=&amp;#34;min&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Cover content here.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; blocks/link-down color=&amp;#34;info&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /blocks/cover &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;link rel="preload" as="image" href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-cover-link-down/background_hu_76319a30952f15d7.png" media="(max-width: 1200px)">
+&lt;link rel="preload" as="image" href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-cover-link-down/background_hu_e65fca0c83f1bf4.png" media="(min-width: 1200px)">
+&lt;style>
+#td-cover-block-0 {
+ background-image: url(/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-cover-link-down/background_hu_76319a30952f15d7.png);
+}
+@media only screen and (min-width: 1200px) {
+ #td-cover-block-0 {
+ background-image: url(/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-cover-link-down/background_hu_e65fca0c83f1bf4.png);
+ }
+}
+&lt;/style>
+&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-min js-td-cover td-overlay td-overlay--dark -bg-dark">
+ &lt;div class="col-12">
+ &lt;div class="container td-overlay__inner">
+ &lt;div class="text-center">
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4">&lt;img class="td-cover-logo" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-cover-link-down/logo_hu_da2017a88d94410a.png" alt="Docsy Cover Block Logo">Docsy Cover Block&lt;/h1>
+ &lt;p class="display-2 text-uppercase mb-0">Hero Example&lt;/p>
+ &lt;div class="pt-3 lead">
+ 
+ &lt;p>This cover block uses page resources named &lt;code>background&lt;/code> and &lt;code>logo&lt;/code>.&lt;/p>
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title>Details (Collapsible)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</guid><description>&lt;p>The academy-theme &lt;code>details&lt;/code> shortcode renders a collapsible content block.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; details summary=&amp;#34;Click to expand&amp;#34; open=&amp;#34;true&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Collapsed content here. Supports **Markdown**.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /details &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>summary&lt;/code>&lt;/td>
+ &lt;td>Clickable summary text&lt;/td>
+ &lt;td>&lt;em>(empty)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>open&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to start expanded&lt;/td>
+ &lt;td>collapsed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Expanded by default:&lt;/strong>&lt;/p>
+
+&lt;details class="details-shortcode" open>
+ &lt;summary>
+ &lt;strong>Academy theme details (open)&lt;/strong>
+ &lt;/summary>
+ &lt;div class="details-content">
+ &lt;p>This is the academy-theme implementation of the &lt;code>details&lt;/code> shortcode. It starts expanded because &lt;code>open=&amp;quot;true&amp;quot;&lt;/code> is set.&lt;/p>
+&lt;ul>
+&lt;li>Supports &lt;strong>Markdown&lt;/strong> formatting&lt;/li>
+&lt;li>Lists, &lt;code>code&lt;/code>, and &lt;em>emphasis&lt;/em> all render correctly&lt;/li>
+&lt;/ul>
+ &lt;/div>
+ &lt;/details>
+&lt;p>&lt;strong>Collapsed by default:&lt;/strong>&lt;/p></description></item><item><title>Details</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/details/</guid><description>&lt;p>A collapsible content block built on the native HTML &lt;code>&amp;lt;details&amp;gt;&lt;/code> element with card styling and a rotating chevron indicator.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/details title=&amp;#34;Click to expand&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Hidden content here. Supports **Markdown**.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/details &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>title&lt;/code>&lt;/td>
+ &lt;td>Summary text (supports Markdown)&lt;/td>
+ &lt;td>&lt;em>(empty)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>closed&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to render collapsed&lt;/td>
+ &lt;td>open&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Open by default:&lt;/strong>&lt;/p>
+&lt;details class="hextra-details card mb-3 mt-3" open>
+ &lt;summary class="card-header d-flex align-items-center fw-bold" role="button" style="cursor: pointer; list-style: none;">
+ &lt;svg class="hextra-details-chevron me-2 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">&lt;path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>&lt;/svg>
+ Click to expand this section
+ &lt;/summary>
+ &lt;div class="card-body">
+ &lt;p>Here is the hidden content revealed when the summary is clicked.&lt;/p></description></item><item><title>Hugo Details</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/hugo-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/hugo-details/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% details summary=&amp;#34;Click to expand&amp;#34; open=true %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Collapsible content here.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{% /details %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Blocks Lead</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-lead/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-lead/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; blocks/lead color=&amp;#34;primary&amp;#34; height=&amp;#34;min&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Lead section content here.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /blocks/lead &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div>&lt;a id="td-block-0" class="td-offset-anchor">&lt;/a>&lt;/div>
+&lt;section class="row td-box td-box--primary position-relative td-box--height-min">
+&lt;div class="col-12">
+&lt;div class="container text-center td-arrow-down">
+&lt;div class="h4 mb-0">
+
+
+This is a live `blocks/lead` example.
+
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Pageinfo</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-pageinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-pageinfo/</guid><description>&lt;p>The academy-theme &lt;code>pageinfo&lt;/code> shortcode renders a page-level notice box.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; pageinfo &amp;gt;}}Notice content with **Markdown** support.{{&amp;lt; /pageinfo &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+
+&lt;div class="pageinfo">
+
+This block uses the academy-theme implementation of `pageinfo`. It is useful for rendering page-level status notices, such as deprecation warnings or draft indicators.
+
+&lt;/div></description></item><item><title>Param</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/param/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/param/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; param &amp;#34;title&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>Current page title from front matter: Param&lt;/p></description></item><item><title>Steps</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/steps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/steps/</guid><description>&lt;p>Numbered step lists rendered with CSS counters. Place &lt;code>h3&lt;/code>–&lt;code>h6&lt;/code> headings inside the shortcode body — each heading becomes a numbered step.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/steps &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>### First step
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Description of the first step.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>### Second step
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Description of the second step.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/steps &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div class="hextra-steps ms-3 mb-5 ps-4 border-start">
+&lt;h3 id="clone-the-repository" class="heading-link">
+ Clone the repository
+ &lt;a href="#clone-the-repository" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone https://github.com/layer5io/academy-example.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="install-dependencies" class="heading-link">
+ Install dependencies
+ &lt;a href="#install-dependencies" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="start-the-development-server" class="heading-link">
+ Start the development server
+ &lt;a href="#start-the-development-server" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo server -D
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div></description></item><item><title>Blocks Section and Feature</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-section-feature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/blocks-section-feature/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; blocks/section color=&amp;#34;light&amp;#34; type=&amp;#34;container&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; blocks/feature icon=&amp;#34;fa-layer-group&amp;#34; title=&amp;#34;Title&amp;#34; &amp;gt;}}Description.{{&amp;lt; /blocks/feature &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /blocks/section &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div>&lt;a id="td-block-0" class="td-offset-anchor">&lt;/a>&lt;/div>
+&lt;section class="row td-box td-box--light td-box--height-auto">
+&lt;div class="col">
+&lt;div class="container">
+
+
+&lt;div class="col-lg-4 mb-5 mb-lg-0 text-center">
+&lt;div class="mb-4 h1">
+ &lt;i class="fas fa-layer-group">&lt;/i>
+&lt;/div>
+&lt;h4 class="h3">Reusable&lt;/h4>
+&lt;div class="mb-0">
+Use shortcodes to compose reusable content patterns.
+&lt;/div>
+
+&lt;/div>
+
+&lt;div class="col-lg-4 mb-5 mb-lg-0 text-center">
+&lt;div class="mb-4 h1">
+ &lt;i class="fas fa-code">&lt;/i>
+&lt;/div>
+&lt;h4 class="h3">Declarative&lt;/h4>
+&lt;div class="mb-0">
+Keep formatting examples inside Markdown instead of hard-coding HTML everywhere.
+&lt;/div>
+
+&lt;/div>
+
+&lt;div class="col-lg-4 mb-5 mb-lg-0 text-center">
+&lt;div class="mb-4 h1">
+ &lt;i class="fas fa-book">&lt;/i>
+&lt;/div>
+&lt;h4 class="h3">Documented&lt;/h4>
+&lt;div class="mb-0">
+This page shows how each shortcode behaves when rendered.
+&lt;/div>
+
+&lt;/div>
+
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Chapterstyle</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/chapterstyle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/chapterstyle/</guid><description>&lt;p>The &lt;code>chapterstyle&lt;/code> shortcode wraps content in a &lt;code>&amp;lt;div&amp;gt;&lt;/code> with custom inline styles, useful for visually distinguishing chapter or section blocks.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% chapterstyle style=&amp;#34;padding: 1rem; border: 1px solid #d0d7de; border-radius: 0.75rem; background: #f8fafc;&amp;#34; %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Your styled content here.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{% /chapterstyle %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>style&lt;/code>&lt;/td>
+ &lt;td>CSS style string applied to the wrapper &lt;code>&amp;lt;div&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Comment</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/comment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/comment/</guid><description>&lt;p>The &lt;code>comment&lt;/code> shortcode hides content from the rendered output. It acts as an invisible annotation — useful for leaving notes in Markdown that readers won&amp;rsquo;t see.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; comment &amp;gt;}}This text is hidden from the rendered page.{{&amp;lt; /comment &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>Visible text before the comment. Visible text after the comment.&lt;/p>
+&lt;p>The text between the &lt;code>comment&lt;/code> shortcode tags above is not rendered. View the page source to confirm.&lt;/p></description></item><item><title>QR</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/qr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/qr/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; qr text=&amp;#34;https://example.com&amp;#34; alt=&amp;#34;QR code description&amp;#34; /&amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;img src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/qr_70e52cecd67ab578.png" width="148" height="148" alt="QR code for the Layer5 Academy example page"></description></item><item><title>Tabs</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/tabs/</guid><description>&lt;p>Tabbed interfaces powered by Bootstrap 5 nav-tabs. Each &lt;code>hextra/tab&lt;/code> is nested inside a &lt;code>hextra/tabs&lt;/code> container. Tabs support cross-page sync via localStorage when tabs share the same names.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/tabs &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/tab name=&amp;#34;Tab One&amp;#34; &amp;gt;}}Content for tab one.{{&amp;lt; /hextra/tab &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/tab name=&amp;#34;Tab Two&amp;#34; &amp;gt;}}Content for tab two.{{&amp;lt; /hextra/tab &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/tabs &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Tab parameters (&lt;code>hextra/tab&lt;/code>):&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>name&lt;/code>&lt;/td>
+ &lt;td>Tab label&lt;/td>
+ &lt;td>&lt;code>Tab &amp;lt;N&amp;gt;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>selected&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to pre-select this tab&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Code samples across languages:&lt;/strong>&lt;/p></description></item><item><title>Card</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/card/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/card/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% card header=&amp;#34;Card Header&amp;#34; title=&amp;#34;Card title&amp;#34; footer=&amp;#34;Card footer&amp;#34; %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Card body content here.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{% /card %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>This is a rendered Docsy &lt;code>card&lt;/code> shortcode.&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>Conditional Text</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/conditional-text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/conditional-text/</guid><description>&lt;p>The &lt;code>conditional-text&lt;/code> shortcode renders content only when the &lt;code>include-if&lt;/code> value matches the site&amp;rsquo;s &lt;code>params.buildCondition&lt;/code>. This is useful for showing content specific to certain build environments or feature flags.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; conditional-text include-if=&amp;#34;examples&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This text only appears when buildCondition is set to &amp;#34;examples&amp;#34;.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /conditional-text &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>include-if&lt;/code>&lt;/td>
+ &lt;td>Condition string to match against &lt;code>params.buildCondition&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+This sentence is rendered because `params.buildCondition` is set to `examples`.
+
+&lt;p>If the text above is not visible, the site&amp;rsquo;s &lt;code>params.buildCondition&lt;/code> does not match &lt;code>&amp;quot;examples&amp;quot;&lt;/code>.&lt;/p></description></item><item><title>File Tree</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/filetree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/filetree/</guid><description>&lt;p>An interactive file tree with expandable/collapsible folders. Compose three shortcodes: &lt;code>hextra/filetree/container&lt;/code>, &lt;code>hextra/filetree/folder&lt;/code>, and &lt;code>hextra/filetree/file&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/filetree/container &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/filetree/folder name=&amp;#34;src&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/filetree/file name=&amp;#34;main.go&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; /hextra/filetree/folder &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; hextra/filetree/file name=&amp;#34;README.md&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /hextra/filetree/container &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Folder parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>name&lt;/code>&lt;/td>
+ &lt;td>Folder name&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>state&lt;/code>&lt;/td>
+ &lt;td>&lt;code>&amp;quot;open&amp;quot;&lt;/code> or &lt;code>&amp;quot;closed&amp;quot;&lt;/code>&lt;/td>
+ &lt;td>&lt;code>open&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div class="hextra-filetree mt-3 mb-3 user-select-none small text-body">
+ &lt;div class="d-inline-block border rounded px-3 py-2">
+ &lt;ul class="list-unstyled mb-0">
+ 
+
+&lt;li class="d-flex flex-column">
+ &lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="true">
+ &lt;span data-state="closed" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">content&lt;/span>
+ &lt;/button>
+ &lt;ul class="list-unstyled ms-4 mb-0" data-state="open">
+ 
+
+&lt;li class="d-flex flex-column">
+&lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="true">
+ &lt;span data-state="closed" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">docs&lt;/span>
+&lt;/button>
+&lt;ul class="list-unstyled ms-4 mb-0" data-state="open">
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">_index.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">getting-started.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+ 
+
+&lt;li class="d-flex flex-column">
+&lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="false">
+ &lt;span data-state="closed">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">blog&lt;/span>
+&lt;/button>
+&lt;ul class="list-unstyled ms-4 mb-0" data-state="closed" style="display:none">
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">_index.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">first-post.md&lt;/span>
+ &lt;/span>
+&lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+ 
+
+&lt;li class="d-flex flex-column">
+ &lt;button class="hextra-filetree-folder btn btn-sm btn-link text-start text-decoration-none text-body p-0 d-inline-flex align-items-center py-1" aria-expanded="true">
+ &lt;span data-state="closed" style="display:none">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span data-state="open">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;span class="ms-1">layouts&lt;/span>
+ &lt;/button>
+ &lt;ul class="list-unstyled ms-4 mb-0" data-state="open">
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">baseof.html&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">index.html&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+&lt;/ul>
+&lt;/li>
+
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">hugo.yaml&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+ &lt;li class="d-flex align-items-center py-1">
+ &lt;span class="d-inline-flex align-items-center">&lt;svg width="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;span class="ms-1">package.json&lt;/span>
+ &lt;/span>
+ &lt;/li>
+
+&lt;/ul>
+ &lt;/div>
+&lt;/div></description></item><item><title>Ref</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/ref/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/ref/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>[Link text]({{&amp;lt; ref &amp;#34;/content-formatting-examples&amp;#34; &amp;gt;}})
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>Absolute link to this section: &lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/">Content formatting examples&lt;/a>&lt;/p></description></item><item><title>Badge</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/badge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/badge/</guid><description>&lt;p>Inline badges with color variants. Supports both positional and named parameter forms.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/badge &amp;#34;Simple badge&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/badge content=&amp;#34;Styled&amp;#34; color=&amp;#34;green&amp;#34; link=&amp;#34;https://example.com&amp;#34; icon=&amp;#34;document-text&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>content&lt;/code>&lt;/td>
+ &lt;td>Badge text (or use positional param)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>color&lt;/code>&lt;/td>
+ &lt;td>Color: &lt;code>gray&lt;/code>, &lt;code>green&lt;/code>, &lt;code>blue&lt;/code>, &lt;code>yellow&lt;/code>, &lt;code>red&lt;/code>, &lt;code>purple&lt;/code>, &lt;code>orange&lt;/code>, &lt;code>indigo&lt;/code>, &lt;code>amber&lt;/code>&lt;/td>
+ &lt;td>&lt;code>gray&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>link&lt;/code>&lt;/td>
+ &lt;td>Optional URL to wrap the badge as a link&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>icon&lt;/code>&lt;/td>
+ &lt;td>Optional icon name from &lt;code>data/hextra/icons.yaml&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Color variants:&lt;/strong>&lt;/p>
+&lt;p>&lt;span class="hextra-badge badge rounded-pill text-bg-secondary">Default&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-success">Success&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-info">Info&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-warning">Warning&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-danger">Error&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-primary">Important&lt;/span> &lt;span class="hextra-badge badge rounded-pill text-bg-warning">Amber&lt;/span>&lt;/p></description></item><item><title>Cardpane</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/cardpane/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/cardpane/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% cardpane %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{% card header=&amp;#34;Step 1&amp;#34; %}}First card content.{{% /card %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{% card header=&amp;#34;Step 2&amp;#34; %}}Second card content.{{% /card %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{% /cardpane %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted --></description></item><item><title>Relref</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/relref/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/relref/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>[Link text]({{&amp;lt; relref &amp;#34;/content-formatting-examples&amp;#34; &amp;gt;}})
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>Relative link to this section: &lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/">Content formatting examples&lt;/a>&lt;/p></description></item><item><title>SVG</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</guid><description>&lt;p>The &lt;code>svg&lt;/code> shortcode renders an inline SVG icon from &lt;code>assets/icons/{name}.svg&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; svg name=&amp;#34;layer5-academy-icon&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>name&lt;/code>&lt;/td>
+ &lt;td>SVG file name (without extension) from &lt;code>assets/icons/&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>The icon renders inline: 
+
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+ &lt;defs>
+ &lt;style>
+ .building-icon { fill: #00b39f; }
+ svg { background-color: transparent; }
+ &lt;/style>
+ &lt;/defs>
+ &lt;path d="M496 128v16a8 8 0 0 1-8 8h-24v12c0 6.627-5.373 12-12 12H60c-6.627 0-12-5.373-12-12v-12H24a8 8 0 0 1-8-8v-16a8 8 0 0 1 4.941-7.392l232-88a7.996 7.996 0 0 1 6.118 0l232 88A8 8 0 0 1 496 128zm-24 304H40c-13.255 0-24 10.745-24 24v16a8 8 0 0 0 8 8h464a8 8 0 0 0 8-8v-16c0-13.255-10.745-24-24-24zM96 192v192H60c-6.627 0-12 5.373-12 12v20h416v-20c0-6.627-5.373-12-12-12h-36V192h-64v192h-64V192h-64v192h-64V192H96z" 
+ class="building-icon"/>
+&lt;/svg>
+&lt;/p></description></item><item><title>Icon</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/icon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/icon/</guid><description>&lt;p>Renders an inline SVG icon from &lt;code>data/hextra/icons.yaml&lt;/code>. Useful for embedding icons in running text.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/icon &amp;#34;light-bulb&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Available icons:&lt;/strong>&lt;/p>
+&lt;p>Here are a few icons inline: &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>&lt;/svg>&lt;/span>
+ &lt;code>light-bulb&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/span>
+ &lt;code>information-circle&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/span>
+ &lt;code>exclamation&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;code>folder&lt;/code>, &lt;span class="hextra-icon d-inline-block align-text-bottom">&lt;svg height=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>&lt;/svg>&lt;/span>
+ &lt;code>document-text&lt;/code>.&lt;/p></description></item><item><title>Iframe</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/iframe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/iframe/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; iframe src=&amp;#34;/examples/frame-example.html&amp;#34; style=&amp;#34;min-height: 18rem;&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+ &lt;script type="text/javascript">
+ function resizeIframe(iframe) {
+ iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+ }
+ &lt;/script> 
+
+&lt;iframe id="iframe-id" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/frame-example.html" width="100%" name="iframe-name" style="min-height: 18rem; border: 1px solid #d0d7de; border-radius: 0.75rem;" onload="resizeIframe(this)" referrerpolicy="no-referrer">
+ &lt;p>Your browser can not display embedded frames. You can access the embedded page via the following link: &lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/frame-example.html">/examples/frame-example.html&lt;/a>&lt;/p>
+&lt;/iframe></description></item><item><title>Version</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/version/</guid><description>&lt;p>The &lt;code>version&lt;/code> shortcode renders a styled version label.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; version color=&amp;#34;Theme version label:&amp;#34; &amp;gt;}} academy-theme sample output{{&amp;lt; /version &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;span style="color:red">Theme version label:&lt;/span>
+ academy-theme sample output</description></item><item><title>Vimeo</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/vimeo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/vimeo/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; vimeo 19899678 &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+ &lt;div
+ style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe
+ src="https://player.vimeo.com/video/19899678?dnt=0"
+ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen">
+ &lt;/iframe>
+ &lt;/div></description></item><item><title>YouTube</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/youtube/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/youtube/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; youtube 0RKpf3rK57I &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0RKpf3rK57I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+ &lt;/div></description></item><item><title>CSV Table</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable/</guid><description>&lt;p>The &lt;code>csvtable&lt;/code> shortcode reads &lt;code>static/data/csv/keys-backup.csv&lt;/code> and renders a permissions table grouped by category. Each role column shows a check or cross indicator.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; csvtable &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The CSV file must be located at &lt;code>static/data/csv/keys-backup.csv&lt;/code> and contain columns for Category, Function, Feature, and various role names.&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+
+
+ 
+
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;h2>Infrastructure Permissions&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/workspace-roles">Workspace Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/team-roles">Team Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/organization-roles">Organization Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/#provider-admin-role">Provider Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/user-role">User Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Support Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Audit Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Create cluster
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Allows creating SKS clusters
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Delete cluster
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Allows deleting SKS clusters
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ 
+ &lt;h2>Security Permissions&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/workspace-roles">Workspace Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/team-roles">Team Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/organization-roles">Organization Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/#provider-admin-role">Provider Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/user-role">User Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Support Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Audit Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Rotate API key
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Allows rotating API keys
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ 
+ 
+ &lt;/tbody>
+ &lt;/table></description></item><item><title>PDF</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/pdf/</guid><description>&lt;p>Embeds a PDF file in a responsive iframe.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/pdf &amp;#34;sample.pdf&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>positional&lt;/td>
+ &lt;td>Path to the PDF file (page resource, asset, or absolute path)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;div class="hextra-pdf ratio" style="--bs-aspect-ratio: 141.4%;">
+ &lt;iframe
+ src="sample.pdf"
+ frameborder="0"
+ title="PDF viewer"
+ loading="lazy"
+ >&lt;/iframe>
+&lt;/div></description></item><item><title>X (Twitter)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/x/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/x/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; x user=&amp;#34;SanDiegoZoo&amp;#34; id=&amp;#34;1453110110599868418&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC&lt;/a>&lt;/p>&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script></description></item><item><title>CSV Table Roles</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable-roles/</guid><description>&lt;p>The &lt;code>csvtable-roles&lt;/code> shortcode reads &lt;code>static/data/csv/keys-backup.csv&lt;/code> and renders per-role permission tables showing which functions each role has access to.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; csvtable-roles &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The CSV file must be located at &lt;code>static/data/csv/keys-backup.csv&lt;/code> with the same format used by &lt;code>csvtable&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/team-roles">Team Admin Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Create cluster &lt;/td>
+ &lt;td>Allows creating SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/organization-roles">Organization Admin Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Create cluster &lt;/td>
+ &lt;td>Allows creating SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Delete cluster &lt;/td>
+ &lt;td>Allows deleting SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/#provider-admin-role">Provider Admin Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/user-role">User Role Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Create cluster &lt;/td>
+ &lt;td>Allows creating SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/support-role">Support Role Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/audit-role">Audit Role Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div></description></item><item><title>Include</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/include/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/include/</guid><description>&lt;p>Includes the rendered content of another page inline. This shortcode &lt;strong>must&lt;/strong> use the percent-delimiter syntax.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% hextra/include &amp;#34;include-snippet&amp;#34; %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>positional&lt;/td>
+ &lt;td>Page path relative to the content directory&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example (included from a separate page):&lt;/strong>&lt;/p>
+&lt;p>This paragraph was pulled in from a separate page using the &lt;code>hextra/include&lt;/code> shortcode. It demonstrates how you can compose content from multiple sources into a single page.&lt;/p>
+&lt;ul>
+&lt;li>Included content supports &lt;strong>full Markdown&lt;/strong> formatting.&lt;/li>
+&lt;li>Lists, &lt;code>code&lt;/code>, and &lt;em>emphasis&lt;/em> all render correctly.
+&lt;/li>
+&lt;/ul></description></item><item><title>Instagram</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/instagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/instagram/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; instagram CxOWiQNP2MO &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;blockquote
+ class="instagram-media"
+ data-instgrm-captioned
+ data-instgrm-permalink="https://www.instagram.com/p/CxOWiQNP2MO"
+ data-instgrm-version="14"
+ style="
+ background: #fff;
+ border: 0;
+ border-radius: 3px;
+ box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+ margin: 1px;
+ max-width: 540px;
+ min-width: 326px;
+ padding: 0;
+ width: 99.375%;
+ width: -webkit-calc(100% - 2px);
+ width: calc(100% - 2px);
+ "
+ >
+ &lt;div style="padding: 16px">
+ &lt;a
+ href="https://www.instagram.com/p/CxOWiQNP2MO"
+ style="
+ background: #ffffff;
+ line-height: 0;
+ padding: 0 0;
+ text-align: center;
+ text-decoration: none;
+ width: 100%;
+ "
+ target="_blank"
+ >
+ &lt;div style="display: flex; flex-direction: row; align-items: center">
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 50%;
+ flex-grow: 0;
+ height: 40px;
+ margin-right: 14px;
+ width: 40px;
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ display: flex;
+ flex-direction: column;
+ flex-grow: 1;
+ justify-content: center;
+ "
+ >
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 4px;
+ flex-grow: 0;
+ height: 14px;
+ margin-bottom: 6px;
+ width: 100px;
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 4px;
+ flex-grow: 0;
+ height: 14px;
+ width: 60px;
+ "
+ >&lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;div style="padding: 19% 0">&lt;/div>
+ &lt;div
+ style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
+ >
+ &lt;svg
+ width="50px"
+ height="50px"
+ viewBox="0 0 60 60"
+ version="1.1"
+ xmlns="https://www.w3.org/2000/svg"
+ xmlns:xlink="https://www.w3.org/1999/xlink"
+ >
+ &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+ &lt;g transform="translate(-511.000000, -20.000000)" fill="#000000">
+ &lt;g>
+ &lt;path
+ d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+ >&lt;/path>
+ &lt;/g>
+ &lt;/g>
+ &lt;/g>
+ &lt;/svg>
+ &lt;/div>
+ &lt;div style="padding-top: 8px">
+ &lt;div
+ style="
+ color: #3897f0;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 550;
+ line-height: 18px;
+ "
+ >
+ View this post on Instagram
+ &lt;/div>
+ &lt;/div>
+ &lt;div style="padding: 12.5% 0">&lt;/div>
+ &lt;div
+ style="
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 14px;
+ align-items: center;
+ "
+ >
+ &lt;div>
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 50%;
+ height: 12.5px;
+ width: 12.5px;
+ transform: translateX(0px) translateY(7px);
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ height: 12.5px;
+ transform: rotate(-45deg) translateX(3px) translateY(1px);
+ width: 12.5px;
+ flex-grow: 0;
+ margin-right: 14px;
+ margin-left: 2px;
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 50%;
+ height: 12.5px;
+ width: 12.5px;
+ transform: translateX(9px) translateY(-18px);
+ "
+ >&lt;/div>
+ &lt;/div>
+ &lt;div style="margin-left: 8px">
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 50%;
+ flex-grow: 0;
+ height: 20px;
+ width: 20px;
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ width: 0;
+ height: 0;
+ border-top: 2px solid transparent;
+ border-left: 6px solid #f4f4f4;
+ border-bottom: 2px solid transparent;
+ transform: translateX(16px) translateY(-4px) rotate(30deg);
+ "
+ >&lt;/div>
+ &lt;/div>
+ &lt;div style="margin-left: auto">
+ &lt;div
+ style="
+ width: 0px;
+ border-top: 8px solid #f4f4f4;
+ border-right: 8px solid transparent;
+ transform: translateY(16px);
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ flex-grow: 0;
+ height: 12px;
+ width: 16px;
+ transform: translateY(-4px);
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ width: 0;
+ height: 0;
+ border-top: 8px solid #f4f4f4;
+ border-left: 8px solid transparent;
+ transform: translateY(-4px) translateX(8px);
+ "
+ >&lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;div
+ style="
+ display: flex;
+ flex-direction: column;
+ flex-grow: 1;
+ justify-content: center;
+ margin-bottom: 24px;
+ "
+ >
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 4px;
+ flex-grow: 0;
+ height: 14px;
+ margin-bottom: 6px;
+ width: 224px;
+ "
+ >&lt;/div>
+ &lt;div
+ style="
+ background-color: #f4f4f4;
+ border-radius: 4px;
+ flex-grow: 0;
+ height: 14px;
+ width: 144px;
+ "
+ >&lt;/div>&lt;/div
+ >&lt;/a>
+ &lt;/div>
+ &lt;/blockquote>&lt;script async src="https://www.instagram.com/embed.js">&lt;/script></description></item><item><title>Lab Intro</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/lab-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/lab-intro/</guid><description>&lt;p>The &lt;code>lab-intro&lt;/code> shortcode captures its inner content and stores it on the page scratch pad under the key &lt;code>lab_intro&lt;/code>. This allows layout templates to retrieve and display lab introduction text in a dedicated section of the page.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% lab-intro %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Welcome to this hands-on lab. In this exercise, you will learn how to deploy a cloud native application using Kubernetes. By the end of this lab, you will be able to create a cluster, deploy workloads, and expose services.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{% /lab-intro %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p></description></item><item><title>Term</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/term/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/term/</guid><description>&lt;p>Wraps a glossary term in an &lt;code>&amp;lt;abbr&amp;gt;&lt;/code> tooltip. Hover over the highlighted terms below to see their definitions. Definitions are sourced from &lt;code>data/&amp;lt;lang&amp;gt;/termbase.yaml&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/term &amp;#34;API&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>entry&lt;/code>&lt;/td>
+ &lt;td>Glossary abbreviation or full term (named or positional)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>To use this shortcode, create a termbase data file at &lt;code>data/en/termbase.yaml&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">abbr&lt;/span>: &lt;span style="color:#ae81ff">API&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">term&lt;/span>: &lt;span style="color:#ae81ff">Application Programming Interface&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">definition&lt;/span>: &lt;span style="color:#ae81ff">A set of protocols for building software.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Examples:&lt;/strong>&lt;/p>
+&lt;p>Hugo is an SSG
+ that can be controlled via its CLI
+. Configuration is written in YAML
+ and sites are commonly served through a CDN
+. Most projects use a CI/CD
+ pipeline to deploy changes automatically. The theme exposes a rich API
+ of shortcodes and partials.&lt;/p></description></item><item><title>Jupyter</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/jupyter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/jupyter/</guid><description>&lt;p>Renders a Jupyter Notebook (&lt;code>.ipynb&lt;/code>) as code blocks and Markdown cells.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% hextra/jupyter &amp;#34;example-notebook.ipynb&amp;#34; %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>positional&lt;/td>
+ &lt;td>Path or URL to the &lt;code>.ipynb&lt;/code> file&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>allowUnsafeHTML&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to render raw HTML from notebook outputs&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># A simple Python greeting&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>message &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello from the Academy!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(message)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Generate Fibonacci numbers&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">fibonacci&lt;/span>(n):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> a, b &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result &lt;span style="color:#f92672">=&lt;/span> []
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> _ &lt;span style="color:#f92672">in&lt;/span> range(n):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> a, b &lt;span style="color:#f92672">=&lt;/span> b, a &lt;span style="color:#f92672">+&lt;/span> b
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">.&lt;/span>append(a)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> result
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fibonacci(&lt;span style="color:#ae81ff">10&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted --></description></item><item><title>Asciinema</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</guid><description>&lt;p>Embeds an &lt;a href="https://asciinema.org/">asciinema&lt;/a> terminal recording player. The player CSS/JS is loaded from CDN automatically when this shortcode is used.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; hextra/asciinema file=&amp;#34;demo.cast&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>file&lt;/code>&lt;/td>
+ &lt;td>Path or URL to the &lt;code>.cast&lt;/code> file (also accepts positional param)&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>theme&lt;/code>&lt;/td>
+ &lt;td>Player color theme&lt;/td>
+ &lt;td>&lt;code>asciinema&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>speed&lt;/code>&lt;/td>
+ &lt;td>Playback speed multiplier&lt;/td>
+ &lt;td>&lt;code>1&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>autoplay&lt;/code>&lt;/td>
+ &lt;td>Auto-play on load&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>loop&lt;/code>&lt;/td>
+ &lt;td>Loop playback&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>poster&lt;/code>&lt;/td>
+ &lt;td>Poster/thumbnail specification&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>markers&lt;/code>&lt;/td>
+ &lt;td>Comma-separated time markers (e.g., &lt;code>&amp;quot;5:Intro,10:Demo&amp;quot;&lt;/code>)&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p></description></item><item><title>Code</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/code/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>This is a code block.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Inline code like &lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code> is supported.&lt;/p></description></item><item><title>Embedded Design</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/embedded-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/embedded-design/</guid><description>&lt;p>The &lt;code>meshery-design-embed&lt;/code> shortcode renders an interactive Meshery design diagram.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; meshery-design-embed
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> id=&amp;#34;embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> src=&amp;#34;./embedded-design-deploy-meshery-using-meshery.js&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The rendered output is shown below:&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style>
+.meshery-embed-container {
+ border: 1px solid #eee;
+ border-radius: 4px;
+ margin: 1rem auto;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.meshery-embed-container.full {
+ width: 80%;
+ height: 30rem;
+}
+.meshery-embed-container.half {
+ width: 50%;
+ height: 25rem;
+}
+.meshery-embed-container .cy-container {
+ width: 100%;
+ height: 100%;
+}
+
+&lt;/style>
+
+
+&lt;div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+&lt;div
+ id="embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8"class="meshery-embed-container full">&lt;/div>
+
+&lt;a href="https://cloud.layer5.io/catalog/content/design/c811e9f4-2522-4eb6-b775-7475545356d8" target="_blank" rel="noopener noreferrer">
+ Open Design
+&lt;/a>
+
+&lt;/div>
+
+
+&lt;script src="../embedded-design-deploy-meshery-using-meshery.js" type="module">&lt;/script>
+
+&lt;blockquote>
+&lt;p>&lt;a href="https://docs.layer5.io/kanvas/designer/embedding-designs/">Learn more&lt;/a> about embedded designs.&lt;/p></description></item><item><title>Footnotes</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/footnotes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/footnotes/</guid><description>&lt;p>This is a superscript number for your footnote. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>This is a footnote.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Image</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/image/</guid><description>&lt;div class="image-container" style="text-align: center; margin: 1rem 0;">
+ &lt;img src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" alt="Exoscale icon displayed with the academy-theme image shortcode" title="Theme image shortcode" style="width: 140px; border-radius: 12% !important;" data-modal="true" onclick="openModal(this)" />
+ &lt;p style="text-align: center; margin-top: 0.5rem;">Theme image shortcode&lt;/p>
+ &lt;p>Exoscale icon displayed with the academy-theme image shortcode&lt;/p>
+&lt;/div></description></item><item><title>Image Styling</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/image-styling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/image-styling/</guid><description>&lt;p>By default, Markdown images are written like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Alt text&lt;/span>](&lt;span style="color:#a6e22e">/path/to/image.png&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>These are rendered with:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>max-width: 70%&lt;/code> of the viewport&lt;/li>
+&lt;li>&lt;code>max-height: 80vh&lt;/code> of the viewport height&lt;/li>
+&lt;li>centered block layout&lt;/li>
+&lt;/ul>
+&lt;p>This default styling works well for most landscape (horizontal) images. However, if an image is very tall, narrow, or otherwise looks awkward, you can override the default by embedding raw HTML and specifying a custom size:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;./images/example.png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">alt&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Example description&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">style&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;max-width: 40vw; max-height: 60vh; display: block; margin: 1rem auto;&amp;#34;&lt;/span> /&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Imgproc</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/imgproc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/imgproc/</guid><description>&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 170px">
+&lt;img class="card-img-top" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/imgproc/logo_hu_89400c677bdc455d.png" width="160" height="160">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+
+This image was processed from a page resource using the Docsy `imgproc` shortcode.
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Lists</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/lists/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/lists/</guid><description>&lt;p>Unordered:&lt;/p>
+&lt;ul>
+&lt;li>Liverpool F.C.&lt;/li>
+&lt;li>Chelsea F.C.&lt;/li>
+&lt;li>Manchester United F.C.&lt;/li>
+&lt;/ul>
+&lt;p>Ordered:&lt;/p>
+&lt;ol>
+&lt;li>Michael Brecker&lt;/li>
+&lt;li>Seamus Blake&lt;/li>
+&lt;li>Branford Marsalis&lt;/li>
+&lt;/ol>
+&lt;p>Task list:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create a Hugo theme&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Add task lists to it&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Take a vacation&lt;/li>
+&lt;/ul></description></item><item><title>Local Video</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/local-video/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/local-video/</guid><description>&lt;p>The &lt;code>local-video&lt;/code> shortcode embeds an HTML5 &lt;code>&amp;lt;video&amp;gt;&lt;/code> player for a locally hosted video file.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; local-video src=&amp;#34;/path/to/video.mp4&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; loop=&amp;#34;true&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>src&lt;/code>&lt;/td>
+ &lt;td>Path to the video file&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>muted&lt;/code>&lt;/td>
+ &lt;td>Mute the video&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>autoplay&lt;/code>&lt;/td>
+ &lt;td>Auto-play the video&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>loop&lt;/code>&lt;/td>
+ &lt;td>Loop playback&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #3772ff;">Sample video not included&lt;/h4>
+ 
+ This shortcode requires a locally hosted &lt;code>.mp4&lt;/code> video file. Add your video to &lt;code>static/examples/&lt;/code> and update the &lt;code>src&lt;/code> path.
+ 
+&lt;/div></description></item><item><title>Markdown Basics</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/markdown-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/markdown-basics/</guid><description>&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> have no underline (unless hovered).&lt;/p>
+&lt;blockquote>
+&lt;p>Blockquotes are lighter with a left border.&lt;/p>&lt;/blockquote></description></item><item><title>Meshery Design Embed</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/meshery-design-embed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/meshery-design-embed/</guid><description>&lt;style>
+.meshery-embed-container {
+ border: 1px solid #eee;
+ border-radius: 4px;
+ margin: 1rem auto;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.meshery-embed-container.full {
+ width: 80%;
+ height: 30rem;
+}
+.meshery-embed-container.half {
+ width: 50%;
+ height: 25rem;
+}
+.meshery-embed-container .cy-container {
+ width: 100%;
+ height: 100%;
+}
+
+&lt;/style>
+
+
+&lt;div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+&lt;div
+ id="embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8"class="meshery-embed-container full">&lt;/div>
+
+&lt;a href="https://cloud.layer5.io/catalog/content/design/c811e9f4-2522-4eb6-b775-7475545356d8" target="_blank" rel="noopener noreferrer">
+ Open Design
+&lt;/a>
+
+&lt;/div>
+
+
+&lt;script src="./embedded-design-deploy-meshery-using-meshery.js" type="module">&lt;/script></description></item><item><title>Readfile</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/readfile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/readfile/</guid><description>&lt;p>The &lt;code>readfile&lt;/code> shortcode includes the contents of a file inline. When &lt;code>code=&amp;quot;true&amp;quot;&lt;/code> is set, the contents are rendered inside a code block.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; readfile file=&amp;#34;/static/examples/openapi/example.json&amp;#34; code=&amp;#34;true&amp;#34; lang=&amp;#34;json&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+ 
+
+
+
+
+	
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;openapi&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;3.0.0&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;info&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;title&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Example Academy API&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;version&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;1.0.0&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;A sample API specification for demonstrating the Redoc and SwaggerUI shortcodes.&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;paths&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;/api/courses&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;get&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;summary&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;List courses&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Returns a list of all available courses.&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;responses&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;200&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;A list of courses.&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;content&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;application/json&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;schema&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;array&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;items&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;$ref&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;#/components/schemas/Course&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;/api/courses/{id}&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;get&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;summary&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Get a course&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Returns a single course by ID.&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;parameters&amp;#34;&lt;/span>: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;name&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;id&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;in&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;path&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;required&amp;#34;&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;schema&amp;#34;&lt;/span>: { &lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;string&amp;#34;&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;responses&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;200&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;A course object.&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;content&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;application/json&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;schema&amp;#34;&lt;/span>: { &lt;span style="color:#f92672">&amp;#34;$ref&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;#/components/schemas/Course&amp;#34;&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;404&amp;#34;&lt;/span>: { &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Course not found.&amp;#34;&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;components&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;schemas&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;Course&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;object&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;properties&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: { &lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;string&amp;#34;&lt;/span>, &lt;span style="color:#f92672">&amp;#34;example&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;cloud-101&amp;#34;&lt;/span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;title&amp;#34;&lt;/span>: { &lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;string&amp;#34;&lt;/span>, &lt;span style="color:#f92672">&amp;#34;example&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Cloud Fundamentals&amp;#34;&lt;/span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;description&amp;#34;&lt;/span>: { &lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;string&amp;#34;&lt;/span>, &lt;span style="color:#f92672">&amp;#34;example&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;An introduction to cloud computing concepts.&amp;#34;&lt;/span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;duration&amp;#34;&lt;/span>: { &lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;string&amp;#34;&lt;/span>, &lt;span style="color:#f92672">&amp;#34;example&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;2 hours&amp;#34;&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Redoc</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/redoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/redoc/</guid><description>&lt;style>
+ #redoc input { height: 64px; }
+ #redoc span[type="put"], span[type="get"], span[type="delete"], span[type="post"], span[type="options"], span[type="patch"], span[type="basic"], span[type="link"], span[type="head"] {
+ border-radius: 4px;
+ }
+ #redoc h2 { margin-top: 0px;}
+ &lt;/style>
+ 
+ 
+ &lt;style>
+ #myBtn {
+ display: none;
+ position: fixed;
+ bottom: 20px;
+ right: 30px;
+ z-index: 99;
+ font-size: 18px;
+ border: none;
+ outline: none;
+ background-color: #30638E;
+ color: white;
+ cursor: pointer;
+ padding: 15px;
+ border-radius: 4px;
+ }
+ 
+ #myBtn:hover {
+ background-color: #555;
+ }
+ &lt;/style>
+ &lt;button onclick="topFunction()" id="myBtn" title="Go to top">Top&lt;/button>
+ &lt;script>
+ 
+ var mybutton = document.getElementById("myBtn");
+ 
+ 
+ window.onscroll = function() {scrollFunction()};
+ 
+ function scrollFunction() {
+ if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+ mybutton.style.display = "block";
+ } else {
+ mybutton.style.display = "none";
+ }
+ }
+ 
+ 
+ function topFunction() {
+ document.body.scrollTop = 0;
+ document.documentElement.scrollTop = 0;
+ }
+ &lt;/script>
+ 
+
+ 
+ &lt;style>
+ body {
+ margin: 0;
+ padding: 0;
+ }
+ &lt;/style>
+
+ 
+ &lt;div id="redoc-container">
+ &lt;redoc spec-url='https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/openapi/example.json' hide-hostname="true" suppress-warnings="true" lazy-rendering native-scrollbars scroll-y-offset=".js-navbar-scroll" ZgotmplZ>&lt;/redoc>
+ &lt;/div>
+ 
+ &lt;script src="https://cdn.jsdelivr.net/npm/redoc@latest/bundles/redoc.standalone.js">&lt;/script></description></item><item><title>Responsive Images</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/responsive-images/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/responsive-images/</guid><description>&lt;p>Small images should be shown at their actual size.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;div class="md__image">
+ &lt;img id="[414 76 248 121 208 116]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ class="md-image-responsive" />
+&lt;/div>&lt;/p>
+&lt;p>Large images should always scale down and fit in the content container.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;div class="md__image">
+ &lt;img id="[269 169 396 126 46 85]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ class="md-image-responsive" />
+&lt;/div>&lt;/p>
+&lt;p>&lt;em>The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em>&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol>
+&lt;li>
+&lt;p>On the &lt;em>controlplane&lt;/em> node, create the file &lt;em>/etc/kubernetes/audit-policy.yaml&lt;/em> with the following content:&lt;/p>
+&lt;pre tabindex="0">&lt;code>apiVersion: audit.k8s.io/v1
+kind: Policy
+rules:
+- level: Metadata
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Edit the API Server Pod specification (in the file &lt;em>/etc/kubernetes/manifests/kube-apiserver.yaml&lt;/em>) by adding the following two volume definitions:&lt;/p>
+&lt;pre tabindex="0">&lt;code>- name: audit
+ hostPath:
+ path: /etc/kubernetes/audit-policy.yaml
+ type: File
+- name: audit-log
+ hostPath:
+ path: /var/log/kubernetes/audit/
+ type: DirectoryOrCreate
+&lt;/code>&lt;/pre>&lt;p>and also add the following entries to the &lt;em>volumeMounts&lt;/em> field of the container:&lt;/p>
+&lt;pre tabindex="0">&lt;code>- mountPath: /etc/kubernetes/audit-policy.yaml
+ name: audit
+ readOnly: true
+- mountPath: /var/log/kubernetes/audit/
+ name: audit-log
+ readOnly: false
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Start a simple Pod:&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/cert/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/cert/solution/</guid><description>&lt;ol>
+&lt;li>Check the current certificate expiration dates&lt;/li>
+&lt;/ol>
+&lt;p>Run the following command from the control plane node.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo kubeadm certs check-expiration
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This command shows all certificates managed by kubeadm and their expiration dates:&lt;/p>
+&lt;ul>
+&lt;li>admin.conf (client certificate for kubectl)&lt;/li>
+&lt;li>apiserver (API server serving certificate)&lt;/li>
+&lt;li>apiserver-etcd-client (API server to etcd client certificate)&lt;/li>
+&lt;li>apiserver-kubelet-client (API server to kubelet client certificate)&lt;/li>
+&lt;li>controller-manager.conf (controller manager client certificate)&lt;/li>
+&lt;li>etcd-healthcheck-client (etcd health check client certificate)&lt;/li>
+&lt;li>etcd-peer (etcd peer certificate for cluster communication)&lt;/li>
+&lt;li>etcd-server (etcd server certificate)&lt;/li>
+&lt;li>front-proxy-client (front proxy client certificate)&lt;/li>
+&lt;li>scheduler.conf (scheduler client certificate)&lt;/li>
+&lt;li>super-admin.conf (client certificate bypassing authorization layer)&lt;/li>
+&lt;/ul>
+&lt;div class="hextra-callout alert alert-warning d-flex align-items-start" role="alert">
+ &lt;div class="flex-shrink-0 me-2">&lt;svg height="1.2em" class="d-inline-block align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+ &lt;div class="flex-grow-1 hextra-callout-content">&lt;ul>
+&lt;li>By default, kubeadm certificates are valid for 1 year. You should renew them before they expire to avoid cluster outages.&lt;/li>
+&lt;li>Certificate are automatically renewed during each upgrade of the control plane.&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+
+&lt;ol start="2">
+&lt;li>Renew the certificates using kubeadm&lt;/li>
+&lt;/ol>
+&lt;p>You can renew all certificates at once.&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</guid><description>&lt;ol>
+&lt;li>Create a Deployment with 6 replicas of Pods based on the nginx:1.20 image&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>k create deploy www --image=nginx:1.20 --replicas=4
+&lt;/code>&lt;/pre>&lt;ol start="2">
+&lt;li>Where are the pods scheduled ?&lt;/li>
+&lt;/ol>
+&lt;p>The pods are splitted between worker1 and worker2 (because master node has a NoScheduled taint that the pods do not tolerate)&lt;/p>
+&lt;pre tabindex="0">&lt;code>k get po -o wide
+NAME READY STATUS RESTARTS AGE IP NODE NOMINATED NODE READINESS GATES
+www-644dfdf68b-6mk2w 1/1 Running 0 33s 10.38.0.1 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-crdjl 1/1 Running 0 33s 10.32.0.6 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-nhm7b 1/1 Running 0 33s 10.32.0.2 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-tsw84 1/1 Running 0 33s 10.38.0.5 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;li>Drain the worker1 node. What happened ?&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>k drain worker1 --ignore-daemonsets
+&lt;/code>&lt;/pre>&lt;p>The application pods have been evicted from worker1 and are now all running on worker2&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</guid><description>&lt;ol>
+&lt;li>Install the metrics server (&lt;a href="https://github.com/kubernetes-sigs/metrics-server">https://github.com/kubernetes-sigs/metrics-server&lt;/a>)&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>k apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+&lt;/code>&lt;/pre>&lt;ol start="2">
+&lt;li>Verify it&amp;rsquo;s not running correctly&lt;/li>
+&lt;/ol>
+&lt;p>Trying to get the Nodes or Pods metrics should return an error&lt;/p>
+&lt;pre tabindex="0">&lt;code>k top node
+Error from server (ServiceUnavailable): the server is currently unable to handle the request (get nodes.metrics.k8s.io)
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>k top pod
+Error from server (ServiceUnavailable): the server is currently unable to handle the request (get pods.metrics.k8s.io)
+&lt;/code>&lt;/pre>&lt;p>Checking the logs of the metrics-server pod will provide additional details&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/node/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/node/solution/</guid><description>&lt;ol>
+&lt;li>Create a Deployment named &lt;em>web-app&lt;/em> with 6 replicas using nginx:1.26 image&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl create deployment web-app --image&lt;span style="color:#f92672">=&lt;/span>nginx:1.26 --replicas&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">6&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Create a DaemonSet named &lt;em>monitoring&lt;/em> using nginx:alpine image&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl create -f - &lt;span style="color:#e6db74">&amp;lt;&amp;lt;EOF
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">apiVersion: apps/v1
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">kind: DaemonSet
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">metadata:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> name: monitoring
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">spec:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> selector:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> matchLabels:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> app: monitoring
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> template:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> metadata:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> labels:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> app: monitoring
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> spec:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> containers:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> - name: monitoring
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> image: nginx:alpine
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> ports:
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> - containerPort: 80
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">EOF&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Check how Pods are distributed across all Nodes&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl get pods -o wide
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You should see Pods are distributed across worker Nodes, and one monitoring Pod per Node.&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</guid><description>&lt;ol>
+&lt;li>Test&lt;/li>
+&lt;/ol>
+&lt;p>If you try to list the Nodes, you&amp;rsquo;ll get an error similar to the following one:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl get no
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The connection to the server 192.168.64.17:6443 was refused - did you specify the right host or port?
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Identification&lt;/li>
+&lt;/ol>
+&lt;p>As kubectl targets the API Server, first make sure this one is running fine.&lt;/p>
+&lt;p>On the controlplane Node, check the APIServer&amp;rsquo;s logs in &lt;em>/var/log/syslog&lt;/em>. You should see that the API Server cannot start correctly:&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge2/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge2/solution/</guid><description>&lt;p>The worker1 has the &lt;em>NotReady&lt;/em> status&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl get no
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME STATUS ROLES AGE VERSION
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>master Ready control-plane,master 2d16h v1.32.7
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>worker1 NotReady &amp;lt;none&amp;gt; 2d16h v1.32.7
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>worker2 Ready &amp;lt;none&amp;gt; 2d16h v1.32.7
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The description of the node provide additional information&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl describe node worker1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Events:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Type Reason Age From Message
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ---- ------ ---- ---- -------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal RegisteredNode 57m node-controller Node worker1 event: Registered Node worker1 in Controller
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal NodeNotReady 25m node-controller Node worker1 status is now: NodeNotReady
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Starting 24m kubelet Starting kubelet.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal NodeReady 24m kubelet Node worker1 status is now: NodeReady
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal NodeAllocatableEnforced 24m kubelet Updated Node Allocatable limit across pods
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal NodeHasSufficientMemory 24m &lt;span style="color:#f92672">(&lt;/span>x2 over 24m&lt;span style="color:#f92672">)&lt;/span> kubelet Node worker1 status is now: NodeHasSufficientMemory
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal NodeHasNoDiskPressure 24m &lt;span style="color:#f92672">(&lt;/span>x2 over 24m&lt;span style="color:#f92672">)&lt;/span> kubelet Node worker1 status is now: NodeHasNoDiskPressure
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal NodeHasSufficientPID 24m &lt;span style="color:#f92672">(&lt;/span>x2 over 24m&lt;span style="color:#f92672">)&lt;/span> kubelet Node worker1 status is now: NodeHasSufficientPID
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal RegisteredNode 22m node-controller Node worker1 event: Registered Node worker1 in Controller
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal RegisteredNode 96s node-controller Node worker1 event: Registered Node worker1 in Controller
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal NodeNotReady 26s node-controller Node worker1 status is now: NodeNotReady
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The Node in &lt;code>NodeNotReady&lt;/code> status may indicate kubelet is having trouble. We have the confirmation checking the kubelet status with systemctl on this specific Node.&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge3/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge3/solution/</guid><description>&lt;ol>
+&lt;li>Test&lt;/li>
+&lt;/ol>
+&lt;p>Let&amp;rsquo;s create a new Pod and expose it with a ClusterIP Service&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl run nginx --image&lt;span style="color:#f92672">=&lt;/span>nginx:1.20 --port &lt;span style="color:#ae81ff">80&lt;/span> --expose
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Let&amp;rsquo;s new get an interactive shell in an Alpine based Pod&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl run -ti --rm debug --image&lt;span style="color:#f92672">=&lt;/span>alpine -- sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>We cannot reach the nginx Pod from the debug one:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>/ &lt;span style="color:#75715e"># wget http://nginx&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>wget: bad address &lt;span style="color:#e6db74">&amp;#39;nginx&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Going one step further we can see the name resolution is not working fine:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>/ &lt;span style="color:#75715e"># nslookup nginx&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>;; connection timed out; no servers could be reached
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Checking the cluster&amp;rsquo;s internal DNS&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl get deploy -n kube-system
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME READY UP-TO-DATE AVAILABLE AGE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>coredns 0/0 &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span> 2d17h
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Seems like there is no replica running for the dns (should be 2 by default)&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge4/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge4/solution/</guid><description>&lt;ol>
+&lt;li>Test&lt;/li>
+&lt;/ol>
+&lt;p>List the resources in &lt;em>app2&lt;/em>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl get po,svc -n app2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME READY STATUS RESTARTS AGE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pod/nginx 1/1 Running &lt;span style="color:#ae81ff">0&lt;/span> 8s
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME TYPE CLUSTER-IP EXTERNAL-IP PORT&lt;span style="color:#f92672">(&lt;/span>S&lt;span style="color:#f92672">)&lt;/span> AGE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>service/nginx NodePort 10.106.164.238 &amp;lt;none&amp;gt; 80:30000/TCP 8s
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>From a worker node, try to reach the nginx Pod&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ curl localhost:30000
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl: &lt;span style="color:#f92672">(&lt;/span>7&lt;span style="color:#f92672">)&lt;/span> Failed to connect to localhost port 30000: Connection refused
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Check the service&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl describe svc nginx -n app2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Name: nginx
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Namespace: app2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Labels: &amp;lt;none&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Annotations: &amp;lt;none&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Selector: app&lt;span style="color:#f92672">=&lt;/span>nginx
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Type: NodePort
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IP Family Policy: SingleStack
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IP Families: IPv4
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IP: 10.106.164.238
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IPs: 10.106.164.238
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Port: &amp;lt;unset&amp;gt; 80/TCP
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>TargetPort: 80/TCP
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NodePort: &amp;lt;unset&amp;gt; 30000/TCP
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Endpoints: &amp;lt;none&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Session Affinity: None
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>External Traffic Policy: Cluster
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Events: &amp;lt;none&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The list of &lt;em>Endpoints&lt;/em> is empty, that is surely a problem. The Service&amp;rsquo;s selector is &lt;em>app: nginx&lt;/em>, let&amp;rsquo;s see the content of the Pod&amp;rsquo;s labels.&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge5/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge5/solution/</guid><description>&lt;ol>
+&lt;li>Test&lt;/li>
+&lt;/ol>
+&lt;p>The single replica is not running&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl get deploy,po -n app1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME READY UP-TO-DATE AVAILABLE AGE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>deployment.apps/nginx 0/1 &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span> 79m
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME READY STATUS RESTARTS AGE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pod/nginx-7b4b5bbf6f-dth6d 0/1 ImagePullBackOff &lt;span style="color:#ae81ff">0&lt;/span> 79m
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The description of the nginx Pod gives additional information&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl describe po pod/nginx-7b4b5bbf6f-dth6d
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Events:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Type Reason Age From Message
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ---- ------ ---- ---- -------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal BackOff 16s &lt;span style="color:#f92672">(&lt;/span>x351 over 80m&lt;span style="color:#f92672">)&lt;/span> kubelet Back-off pulling image &lt;span style="color:#e6db74">&amp;#34;ngnix:1.26&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Fix it&lt;/li>
+&lt;/ol>
+&lt;p>Edit the Deployment and replace the image name &lt;em>ngnix:1.26&lt;/em> with &lt;em>nginx:1.26&lt;/em>, a little typo can have big consequences :)&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge6/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge6/solution/</guid><description>&lt;ol>
+&lt;li>Test&lt;/li>
+&lt;/ol>
+&lt;p>Try to create a pod:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>kubectl run ghost --image&lt;span style="color:#f92672">=&lt;/span>ghost:4
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Verify it is running:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl get po
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME READY STATUS RESTARTS AGE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ghost 0/1 Pending &lt;span style="color:#ae81ff">0&lt;/span> 10s
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>There is definitely something wrong as the pod remains in pending status.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl describe po ghost
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Events:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Type Reason Age From Message
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ---- ------ ---- ---- -------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Warning FailedScheduling 4s &lt;span style="color:#f92672">(&lt;/span>x2 over 72s&lt;span style="color:#f92672">)&lt;/span> default-scheduler 0/3 nodes are available: &lt;span style="color:#ae81ff">3&lt;/span> node&lt;span style="color:#f92672">(&lt;/span>s&lt;span style="color:#f92672">)&lt;/span> had taint &lt;span style="color:#f92672">{&lt;/span>app: secure&lt;span style="color:#f92672">}&lt;/span>, that the pod didn&lt;span style="color:#960050;background-color:#1e0010">&amp;#39;&lt;/span>t tolerate.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It seems the 3 nodes have a taint that prevents the pod from being scheduled. We can see there are 2 taints on the master:&lt;/p></description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge7/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge7/solution/</guid><description>&lt;p>Observe the behavior of the pod you will notice the pod is automatically restarted after a few tens of seconds:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl get po -w
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME READY STATUS RESTARTS AGE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>demo 1/1 Running &lt;span style="color:#ae81ff">0&lt;/span> 2s
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>demo 1/1 Running &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">(&lt;/span>1s ago&lt;span style="color:#f92672">)&lt;/span> 76s
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Going a little deeper in the details, we understand this is due to the liveness probe failing:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ kubectl describe po demo
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Events:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Type Reason Age From Message
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ---- ------ ---- ---- -------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Scheduled 2m8s default-scheduler Successfully assigned default/demo to worker1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Pulled 2m7s kubelet Successfully pulled image &lt;span style="color:#e6db74">&amp;#34;k8s.gcr.io/busybox&amp;#34;&lt;/span> in 578.053377ms
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Pulling 53s &lt;span style="color:#f92672">(&lt;/span>x2 over 2m7s&lt;span style="color:#f92672">)&lt;/span> kubelet Pulling image &lt;span style="color:#e6db74">&amp;#34;k8s.gcr.io/busybox&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Created 52s &lt;span style="color:#f92672">(&lt;/span>x2 over 2m6s&lt;span style="color:#f92672">)&lt;/span> kubelet Created container busybox
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Started 52s &lt;span style="color:#f92672">(&lt;/span>x2 over 2m6s&lt;span style="color:#f92672">)&lt;/span> kubelet Started container busybox
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Pulled 52s kubelet Successfully pulled image &lt;span style="color:#e6db74">&amp;#34;k8s.gcr.io/busybox&amp;#34;&lt;/span> in 512.064103ms
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Warning Unhealthy 8s &lt;span style="color:#f92672">(&lt;/span>x6 over 93s&lt;span style="color:#f92672">)&lt;/span> kubelet Liveness probe failed: cat: can&lt;span style="color:#e6db74">&amp;#39;t open &amp;#39;&lt;/span>/tmp/healthy&lt;span style="color:#960050;background-color:#1e0010">&amp;#39;&lt;/span>: No such file or directory
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Normal Killing 8s &lt;span style="color:#f92672">(&lt;/span>x2 over 83s&lt;span style="color:#f92672">)&lt;/span> kubelet Container busybox failed liveness probe, will be restarted
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If we check the pod&amp;rsquo;s specification, we can see the liveness probe checks the existence of a file:&lt;/p></description></item><item><title>SwaggerUI</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/swaggerui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/swaggerui/</guid><description>&lt;div id="docsy_swagger_ui">&lt;/div>
+&lt;script>
+ window.onload = function () {
+ const ui = SwaggerUIBundle({
+ url: "/examples/openapi/example.json",
+ dom_id: '#docsy_swagger_ui',
+ presets: [
+ SwaggerUIBundle.presets.apis,
+ SwaggerUIStandalonePreset
+ ]
+ });
+ window.ui = ui;
+ };
+&lt;/script></description></item><item><title>Tables</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/tables/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Artist&lt;/th>
+ &lt;th>Album&lt;/th>
+ &lt;th>Year&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Michael Jackson&lt;/td>
+ &lt;td>Thriller&lt;/td>
+ &lt;td>1982&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Prince&lt;/td>
+ &lt;td>Purple Rain&lt;/td>
+ &lt;td>1984&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Beastie Boys&lt;/td>
+ &lt;td>License to Ill&lt;/td>
+ &lt;td>1986&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Inline code inside table cells:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Language&lt;/th>
+ &lt;th>Code&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>JavaScript&lt;/td>
+ &lt;td>&lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Ruby&lt;/td>
+ &lt;td>&lt;code>foo = &amp;quot;bar&amp;quot;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Tabpane and Tab</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/tabpane-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/tabpane-tab/</guid><description>&lt;ul class="nav nav-tabs" id="tabs-0" role="tablist">
+ &lt;li class="nav-item">
+ &lt;button class="nav-link active"
+ id="tabs-00-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-00" role="tab"
+ data-td-tp-persist="overview" aria-controls="tabs-00-00" aria-selected="true">
+ Overview
+ &lt;/button>
+ &lt;/li>&lt;li class="nav-item">
+ &lt;button class="nav-link"
+ id="tabs-00-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-01" role="tab"
+ data-td-tp-persist="image" aria-controls="tabs-00-01" aria-selected="false">
+ Image
+ &lt;/button>
+ &lt;/li>
+&lt;/ul>
+
+&lt;div class="tab-content" id="tabs-0-content">
+ &lt;div class="tab-body tab-pane fade show active"
+ id="tabs-00-00" role="tabpanel" aria-labelled-by="tabs-00-00-tab" tabindex="0">
+ &lt;p>This is the first rendered tab.&lt;/p>
+
+ &lt;/div>
+ &lt;div class="tab-body tab-pane fade"
+ id="tabs-00-01" role="tabpanel" aria-labelled-by="tabs-00-01-tab" tabindex="0">
+ &lt;p>
+
+
+
+
+
+
+&lt;div class="md__image">
+ &lt;img id="[435 492 57 51 82 217]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ class="md-image-responsive" />
+&lt;/div>&lt;/p>
+
+ &lt;/div>
+&lt;/div></description></item><item><title>TabPanel</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/tabpanel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/tabpanel/</guid><description>&lt;ul class="nav nav-tabs" id="tabs-0" role="tablist">
+ &lt;li class="nav-item">
+ &lt;button class="nav-link active"
+ id="tabs-00-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-00" role="tab"
+ data-td-tp-persist="example 1" aria-controls="tabs-00-00" aria-selected="true">
+ Example 1
+ &lt;/button>
+ &lt;/li>&lt;li class="nav-item">
+ &lt;button class="nav-link"
+ id="tabs-00-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-01" role="tab"
+ data-td-tp-persist="example 2" aria-controls="tabs-00-01" aria-selected="false">
+ Example 2
+ &lt;/button>
+ &lt;/li>&lt;li class="nav-item">
+ &lt;button class="nav-link"
+ id="tabs-00-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-02" role="tab"
+ data-td-tp-persist="example 3" aria-controls="tabs-00-02" aria-selected="false">
+ Example 3
+ &lt;/button>
+ &lt;/li>
+&lt;/ul>
+
+&lt;div class="tab-content" id="tabs-0-content">
+ &lt;div class="tab-body tab-pane fade show active"
+ id="tabs-00-00" role="tabpanel" aria-labelled-by="tabs-00-00-tab" tabindex="0">
+ &lt;p>Tabs help organize related content.&lt;/p>
+&lt;ul>
+&lt;li>Concise explanation&lt;/li>
+&lt;li>Another brief point&lt;/li>
+&lt;/ul>
+
+ &lt;/div>
+ &lt;div class="tab-body tab-pane fade"
+ id="tabs-00-01" role="tabpanel" aria-labelled-by="tabs-00-01-tab" tabindex="0">
+ &lt;p>Tabs help organize related content.&lt;/p>
+&lt;ul>
+&lt;li>Concise explanation&lt;/li>
+&lt;li>Another brief point&lt;/li>
+&lt;/ul>
+
+ &lt;/div>
+ &lt;div class="tab-body tab-pane fade"
+ id="tabs-00-02" role="tabpanel" aria-labelled-by="tabs-00-02-tab" tabindex="0">
+ &lt;p>Here is an example image:&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;div class="md__image">
+ &lt;img id="[435 377 36 104 91 437]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ class="md-image-responsive" />
+&lt;/div>&lt;/p></description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p>The &lt;code>usestatic&lt;/code> shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code>params.defined_org&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Resolved tenant-scoped static path: /academy-theme/images/exoscale-icon.png&lt;/p></description></item></channel></rss>

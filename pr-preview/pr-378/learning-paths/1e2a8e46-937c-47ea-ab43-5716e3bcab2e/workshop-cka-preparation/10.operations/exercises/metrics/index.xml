@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Metrics on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/</link><description>Recent content in Metrics on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/index.xml" rel="self" type="application/rss+xml"/><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</guid><description>&lt;ol>
+&lt;li>Install the metrics server (&lt;a href="https://github.com/kubernetes-sigs/metrics-server">https://github.com/kubernetes-sigs/metrics-server&lt;/a>)&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>k apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+&lt;/code>&lt;/pre>&lt;ol start="2">
+&lt;li>Verify it&amp;rsquo;s not running correctly&lt;/li>
+&lt;/ol>
+&lt;p>Trying to get the Nodes or Pods metrics should return an error&lt;/p>
+&lt;pre tabindex="0">&lt;code>k top node
+Error from server (ServiceUnavailable): the server is currently unable to handle the request (get nodes.metrics.k8s.io)
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>k top pod
+Error from server (ServiceUnavailable): the server is currently unable to handle the request (get pods.metrics.k8s.io)
+&lt;/code>&lt;/pre>&lt;p>Checking the logs of the metrics-server pod will provide additional details&lt;/p></description></item></channel></rss>

@@ -1,0 +1,4156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academy Theme Shortcodes on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/</link><description>Recent content in Academy Theme Shortcodes on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/index.xml" rel="self" type="application/rss+xml"/><item><title>Alert</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/alerts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/alerts/</guid><description>&lt;p>The academy-theme &lt;code>alert&lt;/code> shortcode renders a styled alert box. The &lt;code>type&lt;/code> parameter controls the color and icon.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; alert type=&amp;#34;note&amp;#34; title=&amp;#34;Note&amp;#34; &amp;gt;}}Alert content with **Markdown** support.{{&amp;lt; /alert &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>type&lt;/code>&lt;/td>
+ &lt;td>Alert style: &lt;code>note&lt;/code>, &lt;code>info&lt;/code>, &lt;code>danger&lt;/code>, &lt;code>warning&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>title&lt;/code>&lt;/td>
+ &lt;td>Optional title above the alert body&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Examples:&lt;/strong>&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-primary" role="alert">
+ &lt;h4 class="alert-heading">Note&lt;/h4>
+ 
+ A plain alert with a title.
+ 
+&lt;/div>
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #7A848E;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #7A848E;">Note&lt;/h4>
+ 
+ This alert supports a title and &lt;strong>Markdown&lt;/strong>.
+ 
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #3772ff;">Info&lt;/h4>
+ 
+ This is an informational alert.
+ 
+&lt;/div>
+
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-danger" role="alert">
+&lt;h4 class="alert-heading">Danger&lt;/h4>
+
+ This is a danger alert.
+
+&lt;/div>
+
+
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #EBC017;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #EBC017;">Warning&lt;/h4>
+ 
+ This is a warning alert.
+ 
+&lt;/div></description></item><item><title>Details (Collapsible)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</guid><description>&lt;p>The academy-theme &lt;code>details&lt;/code> shortcode renders a collapsible content block.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; details summary=&amp;#34;Click to expand&amp;#34; open=&amp;#34;true&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Collapsed content here. Supports **Markdown**.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /details &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>summary&lt;/code>&lt;/td>
+ &lt;td>Clickable summary text&lt;/td>
+ &lt;td>&lt;em>(empty)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>open&lt;/code>&lt;/td>
+ &lt;td>Set to &lt;code>&amp;quot;true&amp;quot;&lt;/code> to start expanded&lt;/td>
+ &lt;td>collapsed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Expanded by default:&lt;/strong>&lt;/p>
+
+&lt;details class="details-shortcode" open>
+ &lt;summary>
+ &lt;strong>Academy theme details (open)&lt;/strong>
+ &lt;/summary>
+ &lt;div class="details-content">
+ &lt;p>This is the academy-theme implementation of the &lt;code>details&lt;/code> shortcode. It starts expanded because &lt;code>open=&amp;quot;true&amp;quot;&lt;/code> is set.&lt;/p>
+&lt;ul>
+&lt;li>Supports &lt;strong>Markdown&lt;/strong> formatting&lt;/li>
+&lt;li>Lists, &lt;code>code&lt;/code>, and &lt;em>emphasis&lt;/em> all render correctly&lt;/li>
+&lt;/ul>
+ &lt;/div>
+ &lt;/details>
+&lt;p>&lt;strong>Collapsed by default:&lt;/strong>&lt;/p></description></item><item><title>Pageinfo</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-pageinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-pageinfo/</guid><description>&lt;p>The academy-theme &lt;code>pageinfo&lt;/code> shortcode renders a page-level notice box.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; pageinfo &amp;gt;}}Notice content with **Markdown** support.{{&amp;lt; /pageinfo &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+
+&lt;div class="pageinfo">
+
+This block uses the academy-theme implementation of `pageinfo`. It is useful for rendering page-level status notices, such as deprecation warnings or draft indicators.
+
+&lt;/div></description></item><item><title>Chapterstyle</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/chapterstyle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/chapterstyle/</guid><description>&lt;p>The &lt;code>chapterstyle&lt;/code> shortcode wraps content in a &lt;code>&amp;lt;div&amp;gt;&lt;/code> with custom inline styles, useful for visually distinguishing chapter or section blocks.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% chapterstyle style=&amp;#34;padding: 1rem; border: 1px solid #d0d7de; border-radius: 0.75rem; background: #f8fafc;&amp;#34; %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Your styled content here.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{% /chapterstyle %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>style&lt;/code>&lt;/td>
+ &lt;td>CSS style string applied to the wrapper &lt;code>&amp;lt;div&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(none)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;!-- raw HTML omitted --></description></item><item><title>SVG</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</guid><description>&lt;p>The &lt;code>svg&lt;/code> shortcode renders an inline SVG icon from &lt;code>assets/icons/{name}.svg&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; svg name=&amp;#34;layer5-academy-icon&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>name&lt;/code>&lt;/td>
+ &lt;td>SVG file name (without extension) from &lt;code>assets/icons/&lt;/code>&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;p>The icon renders inline: 
+
+ &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+ &lt;defs>
+ &lt;style>
+ .building-icon { fill: #00b39f; }
+ svg { background-color: transparent; }
+ &lt;/style>
+ &lt;/defs>
+ &lt;path d="M496 128v16a8 8 0 0 1-8 8h-24v12c0 6.627-5.373 12-12 12H60c-6.627 0-12-5.373-12-12v-12H24a8 8 0 0 1-8-8v-16a8 8 0 0 1 4.941-7.392l232-88a7.996 7.996 0 0 1 6.118 0l232 88A8 8 0 0 1 496 128zm-24 304H40c-13.255 0-24 10.745-24 24v16a8 8 0 0 0 8 8h464a8 8 0 0 0 8-8v-16c0-13.255-10.745-24-24-24zM96 192v192H60c-6.627 0-12 5.373-12 12v20h416v-20c0-6.627-5.373-12-12-12h-36V192h-64v192h-64V192h-64v192h-64V192H96z" 
+ class="building-icon"/>
+&lt;/svg>
+&lt;/p></description></item><item><title>Version</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/version/</guid><description>&lt;p>The &lt;code>version&lt;/code> shortcode renders a styled version label.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; version color=&amp;#34;Theme version label:&amp;#34; &amp;gt;}} academy-theme sample output{{&amp;lt; /version &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;span style="color:red">Theme version label:&lt;/span>
+ academy-theme sample output</description></item><item><title>CSV Table</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable/</guid><description>&lt;p>The &lt;code>csvtable&lt;/code> shortcode reads &lt;code>static/data/csv/keys-backup.csv&lt;/code> and renders a permissions table grouped by category. Each role column shows a check or cross indicator.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; csvtable &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The CSV file must be located at &lt;code>static/data/csv/keys-backup.csv&lt;/code> and contain columns for Category, Function, Feature, and various role names.&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+
+
+
+ 
+
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;h2>Infrastructure Permissions&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/workspace-roles">Workspace Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/team-roles">Team Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/organization-roles">Organization Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/#provider-admin-role">Provider Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/user-role">User Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Support Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Audit Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Create cluster
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Allows creating SKS clusters
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Delete cluster
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Allows deleting SKS clusters
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ 
+ &lt;h2>Security Permissions&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/workspace-roles">Workspace Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/team-roles">Team Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/organization-roles">Organization Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/#provider-admin-role">Provider Admin&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/user-role">User Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Support Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/">Audit Role&lt;/a>&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Rotate API key
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ Allows rotating API keys
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ &lt;td>
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ 
+ 
+ &lt;/tbody>
+ &lt;/table></description></item><item><title>CSV Table Roles</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/csvtable-roles/</guid><description>&lt;p>The &lt;code>csvtable-roles&lt;/code> shortcode reads &lt;code>static/data/csv/keys-backup.csv&lt;/code> and renders per-role permission tables showing which functions each role has access to.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; csvtable-roles &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The CSV file must be located at &lt;code>static/data/csv/keys-backup.csv&lt;/code> with the same format used by &lt;code>csvtable&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/team-roles">Team Admin Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Create cluster &lt;/td>
+ &lt;td>Allows creating SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/organization-roles">Organization Admin Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Create cluster &lt;/td>
+ &lt;td>Allows creating SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Delete cluster &lt;/td>
+ &lt;td>Allows deleting SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/#provider-admin-role">Provider Admin Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/user-role">User Role Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Create cluster &lt;/td>
+ &lt;td>Allows creating SKS clusters&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/support-role">Support Role Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div>
+ 
+ &lt;div class="csvtable-div">
+ 
+ 
+ 
+ 
+ 
+ &lt;h2>&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/cloud/security/roles/audit-role">Audit Role Role&lt;/a>&lt;/h2>
+ &lt;table class="csvtable td-initial">
+ &lt;thead>
+ &lt;tr>
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Permission&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th>Description&lt;/th>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr>
+ &lt;td>Rotate API key &lt;/td>
+ &lt;td>Allows rotating API keys&lt;/td>
+ &lt;/tr>
+ 
+ 
+ 
+ &lt;/tbody>
+ &lt;/table>
+ &lt;/div></description></item><item><title>Lab Intro</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/lab-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/lab-intro/</guid><description>&lt;p>The &lt;code>lab-intro&lt;/code> shortcode captures its inner content and stores it on the page scratch pad under the key &lt;code>lab_intro&lt;/code>. This allows layout templates to retrieve and display lab introduction text in a dedicated section of the page.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{% lab-intro %}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Welcome to this hands-on lab. In this exercise, you will learn how to deploy a cloud native application using Kubernetes. By the end of this lab, you will be able to create a cluster, deploy workloads, and expose services.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{% /lab-intro %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p></description></item><item><title>Embedded Design</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/embedded-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/embedded-design/</guid><description>&lt;p>The &lt;code>meshery-design-embed&lt;/code> shortcode renders an interactive Meshery design diagram.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; meshery-design-embed
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> id=&amp;#34;embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> src=&amp;#34;./embedded-design-deploy-meshery-using-meshery.js&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The rendered output is shown below:&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style>
+.meshery-embed-container {
+ border: 1px solid #eee;
+ border-radius: 4px;
+ margin: 1rem auto;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.meshery-embed-container.full {
+ width: 80%;
+ height: 30rem;
+}
+.meshery-embed-container.half {
+ width: 50%;
+ height: 25rem;
+}
+.meshery-embed-container .cy-container {
+ width: 100%;
+ height: 100%;
+}
+
+&lt;/style>
+
+
+&lt;div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+&lt;div
+ id="embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8"class="meshery-embed-container full">&lt;/div>
+
+&lt;a href="https://cloud.layer5.io/catalog/content/design/c811e9f4-2522-4eb6-b775-7475545356d8" target="_blank" rel="noopener noreferrer">
+ Open Design
+&lt;/a>
+
+&lt;/div>
+
+
+&lt;script src="../embedded-design-deploy-meshery-using-meshery.js" type="module">&lt;/script>
+
+&lt;blockquote>
+&lt;p>&lt;a href="https://docs.layer5.io/kanvas/designer/embedding-designs/">Learn more&lt;/a> about embedded designs.&lt;/p></description></item><item><title>Image</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/image/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/image/</guid><description>&lt;div class="image-container" style="text-align: center; margin: 1rem 0;">
+ &lt;img src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" alt="Exoscale icon displayed with the academy-theme image shortcode" title="Theme image shortcode" style="width: 140px; border-radius: 12% !important;" data-modal="true" onclick="openModal(this)" />
+ &lt;p style="text-align: center; margin-top: 0.5rem;">Theme image shortcode&lt;/p>
+ &lt;p>Exoscale icon displayed with the academy-theme image shortcode&lt;/p>
+&lt;/div></description></item><item><title>Local Video</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/local-video/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/local-video/</guid><description>&lt;p>The &lt;code>local-video&lt;/code> shortcode embeds an HTML5 &lt;code>&amp;lt;video&amp;gt;&lt;/code> player for a locally hosted video file.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; local-video src=&amp;#34;/path/to/video.mp4&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; loop=&amp;#34;true&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Parameters:&lt;/strong>&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Parameter&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Default&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>src&lt;/code>&lt;/td>
+ &lt;td>Path to the video file&lt;/td>
+ &lt;td>&lt;em>(required)&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>muted&lt;/code>&lt;/td>
+ &lt;td>Mute the video&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>autoplay&lt;/code>&lt;/td>
+ &lt;td>Auto-play the video&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>loop&lt;/code>&lt;/td>
+ &lt;td>Loop playback&lt;/td>
+ &lt;td>&lt;code>false&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert">
+ &lt;h4 class="alert-heading" style="color: #3772ff;">Sample video not included&lt;/h4>
+ 
+ This shortcode requires a locally hosted &lt;code>.mp4&lt;/code> video file. Add your video to &lt;code>static/examples/&lt;/code> and update the &lt;code>src&lt;/code> path.
+ 
+&lt;/div></description></item><item><title>Meshery Design Embed</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/meshery-design-embed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/meshery-design-embed/</guid><description>&lt;style>
+.meshery-embed-container {
+ border: 1px solid #eee;
+ border-radius: 4px;
+ margin: 1rem auto;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.meshery-embed-container.full {
+ width: 80%;
+ height: 30rem;
+}
+.meshery-embed-container.half {
+ width: 50%;
+ height: 25rem;
+}
+.meshery-embed-container .cy-container {
+ width: 100%;
+ height: 100%;
+}
+
+&lt;/style>
+
+
+&lt;div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+&lt;div
+ id="embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8"class="meshery-embed-container full">&lt;/div>
+
+&lt;a href="https://cloud.layer5.io/catalog/content/design/c811e9f4-2522-4eb6-b775-7475545356d8" target="_blank" rel="noopener noreferrer">
+ Open Design
+&lt;/a>
+
+&lt;/div>
+
+
+&lt;script src="./embedded-design-deploy-meshery-using-meshery.js" type="module">&lt;/script></description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p>The &lt;code>usestatic&lt;/code> shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code>params.defined_org&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Resolved tenant-scoped static path: /academy-theme/images/exoscale-icon.png&lt;/p></description></item></channel></rss>
