@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: worker
-spec:
-  containers:
-    - image: voting/worker:latest
-      name: worker
-      imagePullPolicy: Always
