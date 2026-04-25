@@ -205,7 +205,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[427 110 337 468 196 4]" src="sec3-sub6-unit1-csrd-exo-1.png" onclick="openModal(this.id)" alt="exo-scale" 
+ &lt;img id="[384 11 355 442 46 327]" src="sec3-sub6-unit1-csrd-exo-1.png" onclick="openModal(this.id)" alt="exo-scale" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Exoscale, a European cloud service provider, has developed a pioneering tool, CloudAssess, in collaboration with Resilio and Kleis, to show the environmental impact of customer&amp;rsquo;s cloud usage transparently.&lt;/p&gt;
@@ -222,7 +222,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[415 37 279 493 400 263]" src="portal.png" onclick="openModal(this.id)" alt="portal" 
+ &lt;img id="[76 289 293 451 272 413]" src="portal.png" onclick="openModal(this.id)" alt="portal" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Next, click the Registration button and enter your email address and password.&lt;/p&gt;
@@ -234,7 +234,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[33 401 462 440 308 222]" src="register.png" onclick="openModal(this.id)" alt="register" 
+ &lt;img id="[341 387 364 483 471 363]" src="register.png" onclick="openModal(this.id)" alt="register" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -261,7 +261,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[133 228 76 170 335 373]" src="iaas-arch.png" onclick="openModal(this.id)" alt="iaas-arch" 
+ &lt;img id="[427 7 126 410 337 62]" src="iaas-arch.png" onclick="openModal(this.id)" alt="iaas-arch" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -278,7 +278,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[66 302 156 347 390 419]" src="iaas-over.png" onclick="openModal(this.id)" alt="iaas-over" 
+ &lt;img id="[148 415 461 296 326 471]" src="iaas-over.png" onclick="openModal(this.id)" alt="iaas-over" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;The following questions arise if you think about the breadth of the cloud offerings in the market today:&lt;/p&gt;</description></item><item><title>Cards</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/content-formatting-examples/hextra/cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/content-formatting-examples/hextra/cards/</guid><description>&lt;p&gt;Cards display content in a responsive grid. Wrap individual &lt;code&gt;hextra/card&lt;/code&gt; shortcodes inside a &lt;code&gt;hextra/cards&lt;/code&gt; container.&lt;/p&gt;
@@ -6063,7 +6063,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[44 32 178 340 323 114]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[411 104 181 138 294 321]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -6075,7 +6075,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[61 256 10 489 25 275]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[364 233 19 274 331 70]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>SKS Advanced Concepts Quiz</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-advance/concepts/quiz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-advance/concepts/quiz/</guid><description/></item><item><title>SKS Advanced Storage Quiz</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-advance/storage/quiz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-advance/storage/quiz/</guid><description/></item><item><title>SKS Advanced Troubleshooting Quiz</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-advance/troubleshooting/quiz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-advance/troubleshooting/quiz/</guid><description/></item><item><title>SKS Starter Kubernetes Quiz</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/quiz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/quiz/</guid><description/></item><item><title>Sustainable Cloud Quiz</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-compliance/sustainable-cloud/quiz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-compliance/sustainable-cloud/quiz/</guid><description/></item><item><title>SwaggerUI</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/content-formatting-examples/docsy/swaggerui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/content-formatting-examples/docsy/swaggerui/</guid><description>&lt;div id="docsy_swagger_ui"&gt;&lt;/div&gt;
@@ -6167,7 +6167,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[220 154 3 23 437 250]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[121 105 52 425 484 401]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6224,7 +6224,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[385 344 373 271 56 433]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[485 395 107 106 470 497]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Technical Security Quiz</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-compliance/technical-security/quiz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-compliance/technical-security/quiz/</guid><description/></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-382/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}

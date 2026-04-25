@@ -25,7 +25,7 @@ following tools:&lt;/p&gt;
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[415 37 279 493 400 263]" src="portal.png" onclick="openModal(this.id)" alt="portal" 
+ &lt;img id="[76 289 293 451 272 413]" src="portal.png" onclick="openModal(this.id)" alt="portal" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Next, click the Registration button and enter your email address and password.&lt;/p&gt;
@@ -37,7 +37,7 @@ following tools:&lt;/p&gt;
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[33 401 462 440 308 222]" src="register.png" onclick="openModal(this.id)" alt="register" 
+ &lt;img id="[341 387 364 483 471 363]" src="register.png" onclick="openModal(this.id)" alt="register" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
