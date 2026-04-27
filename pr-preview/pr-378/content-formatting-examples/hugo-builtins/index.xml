@@ -33,7 +33,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Collapsible content here.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{% /details %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Param</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/param/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/param/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; param &amp;#34;title&amp;#34; &amp;gt;}}
+&lt;details class="details-shortcode" &gt;
+ &lt;summary&gt;
+ &lt;strong&gt;Hugo built-in details&lt;/strong&gt;
+ &lt;/summary&gt;
+ &lt;div class="details-content"&gt;
+ This content is rendered through the built-in Hugo &lt;code&gt;details&lt;/code&gt; behavior.
+ &lt;/div&gt;
+ &lt;/details&gt;</description></item><item><title>Param</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/param/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/param/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; param &amp;#34;title&amp;#34; &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Current page title from front matter: Param&lt;/p&gt;</description></item><item><title>QR</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/qr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hugo-builtins/qr/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; qr text=&amp;#34;https://example.com&amp;#34; alt=&amp;#34;QR code description&amp;#34; /&amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;

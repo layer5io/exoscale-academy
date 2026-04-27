@@ -369,7 +369,7 @@ This block uses the Docsy implementation of `pageinfo` with `color="primary"`.
  &lt;div class="pt-3 lead"&gt;
  
  &lt;p&gt;This cover block uses page resources named &lt;code&gt;background&lt;/code&gt; and &lt;code&gt;logo&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description></item><item><title>Details (Collapsible)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</guid><description>&lt;p&gt;The academy-theme &lt;code&gt;details&lt;/code&gt; shortcode renders a collapsible content block.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn-link text-info" href="#td-block-1" aria-label="Read more"&gt;&lt;i class="fa-solid fa-circle-chevron-down" style="font-size: 400%"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Details (Collapsible)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/theme-details/</guid><description>&lt;p&gt;The academy-theme &lt;code&gt;details&lt;/code&gt; shortcode renders a collapsible content block.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; details summary=&amp;#34;Click to expand&amp;#34; open=&amp;#34;true&amp;#34; &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Collapsed content here. Supports **Markdown**.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; /details &amp;gt;}}
@@ -446,7 +446,14 @@ This block uses the Docsy implementation of `pageinfo` with `color="primary"`.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Collapsible content here.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{% /details %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Introduction to Kubernetes</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/</guid><description>&lt;h2 id="experiences-we-want-to-change" class="heading-link"&gt;
+&lt;details class="details-shortcode" &gt;
+ &lt;summary&gt;
+ &lt;strong&gt;Hugo built-in details&lt;/strong&gt;
+ &lt;/summary&gt;
+ &lt;div class="details-content"&gt;
+ This content is rendered through the built-in Hugo &lt;code&gt;details&lt;/code&gt; behavior.
+ &lt;/div&gt;
+ &lt;/details&gt;</description></item><item><title>Introduction to Kubernetes</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/</guid><description>&lt;h2 id="experiences-we-want-to-change" class="heading-link"&gt;
  Experiences we want to change!
  &lt;a href="#experiences-we-want-to-change" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -593,7 +600,9 @@ This page shows how each shortcode behaves when rendered.
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Comment</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/comment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/comment/</guid><description>&lt;p&gt;The &lt;code&gt;comment&lt;/code&gt; shortcode hides content from the rendered output. It acts as an invisible annotation — useful for leaving notes in Markdown that readers won&amp;rsquo;t see.&lt;/p&gt;
+&lt;div class="chapter-content" style="ZgotmplZ"&gt;
+ This content is wrapped by the &lt;code&gt;chapterstyle&lt;/code&gt; shortcode. The border, padding, and background color are applied via the &lt;code&gt;style&lt;/code&gt; parameter. This shortcode is useful for visually grouping related content into a styled container.
+&lt;/div&gt;</description></item><item><title>Comment</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/comment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/comment/</guid><description>&lt;p&gt;The &lt;code&gt;comment&lt;/code&gt; shortcode hides content from the rendered output. It acts as an invisible annotation — useful for leaving notes in Markdown that readers won&amp;rsquo;t see.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; comment &amp;gt;}}This text is hidden from the rendered page.{{&amp;lt; /comment &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Visible text before the comment. Visible text after the comment.&lt;/p&gt;
@@ -615,7 +624,7 @@ This page shows how each shortcode behaves when rendered.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[52 401 20 201 345 237]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[159 22 33 268 443 464]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -656,9 +665,20 @@ This page shows how each shortcode behaves when rendered.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Card body content here.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{% /card %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div class="td-card card border me-4"&gt;
+&lt;div class="card-header"&gt;
+ Docsy Card
+ &lt;/div&gt;
+&lt;div class="card-body"&gt;
+ &lt;h5 class="card-title"&gt;
+ Single card example&lt;/h5&gt;
+ &lt;p class="card-text"&gt;
 &lt;p&gt;This is a rendered Docsy &lt;code&gt;card&lt;/code&gt; shortcode.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Conditional Text</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/conditional-text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/conditional-text/</guid><description>&lt;p&gt;The &lt;code&gt;conditional-text&lt;/code&gt; shortcode renders content only when the &lt;code&gt;include-if&lt;/code&gt; value matches the site&amp;rsquo;s &lt;code&gt;params.buildCondition&lt;/code&gt;. This is useful for showing content specific to certain build environments or feature flags.&lt;/p&gt;
+&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="card-footer"&gt;
+ Card footer&lt;/div&gt;
+ &lt;/div&gt;</description></item><item><title>Conditional Text</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/conditional-text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/conditional-text/</guid><description>&lt;p&gt;The &lt;code&gt;conditional-text&lt;/code&gt; shortcode renders content only when the &lt;code&gt;include-if&lt;/code&gt; value matches the site&amp;rsquo;s &lt;code&gt;params.buildCondition&lt;/code&gt;. This is useful for showing content specific to certain build environments or feature flags.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; conditional-text include-if=&amp;#34;examples&amp;#34; &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;This text only appears when buildCondition is set to &amp;#34;examples&amp;#34;.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; /conditional-text &amp;gt;}}
@@ -863,10 +883,38 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{% card header=&amp;#34;Step 2&amp;#34; %}}Second card content.{{% /card %}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{% /cardpane %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Certified Cloud Professional</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/</guid><description>&lt;h2 id="cloud-computing" class="heading-link"&gt;
+&lt;div class="td-card-group card-group p-0 mb-4"&gt;
+&lt;div class="td-card card border me-4"&gt;
+&lt;div class="card-header"&gt;
+ Step 1
+ &lt;/div&gt;
+&lt;div class="card-body"&gt;
+ &lt;p class="card-text"&gt;
+ &lt;p&gt;Install prerequisites.&lt;/p&gt;
+&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;div class="td-card card border me-4"&gt;
+&lt;div class="card-header"&gt;
+ Step 2
+ &lt;/div&gt;
+&lt;div class="card-body"&gt;
+ &lt;p class="card-text"&gt;
+ &lt;p&gt;Configure the environment.&lt;/p&gt;
+&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;div class="td-card card border me-4"&gt;
+&lt;div class="card-header"&gt;
+ Step 3
+ &lt;/div&gt;
+&lt;div class="card-body"&gt;
+ &lt;p class="card-text"&gt;
+ &lt;p&gt;Run the validation command.&lt;/p&gt;
+&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Certified Cloud Professional</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/</guid><description>&lt;h2 id="cloud-computing" class="heading-link"&gt;
  Cloud Computing
  &lt;a href="#cloud-computing" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -884,7 +932,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[417 439 148 160 478 17]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[357 399 368 342 489 71]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1010,7 +1058,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[432 493 206 438 425 230]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[147 304 18 178 180 405]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -5164,22 +5212,12 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# A simple Python greeting&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;message &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Hello from the Academy!&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(message)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Generate Fibonacci numbers&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;fibonacci&lt;/span&gt;(n):
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; a, b &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; result &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; _ &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(n):
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; a, b &lt;span style="color:#f92672"&gt;=&lt;/span&gt; b, a &lt;span style="color:#f92672"&gt;+&lt;/span&gt; b
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; result&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append(a)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; result
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;fibonacci(&lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;</description></item><item><title>Asciinema</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</guid><description>&lt;p&gt;Embeds an &lt;a href="https://asciinema.org/"&gt;asciinema&lt;/a&gt; terminal recording player. The player CSS/JS is loaded from CDN automatically when this shortcode is used.&lt;/p&gt;
+&lt;h1 id="sample-notebook" class="heading-link"&gt;
+ Sample Notebook
+ &lt;a href="#sample-notebook" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;This Jupyter notebook demonstrates how the &lt;code&gt;hextra/jupyter&lt;/code&gt; shortcode renders notebook cells.
+It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax highlighting, and cell outputs.&lt;/p&gt;</description></item><item><title>Asciinema</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/hextra/asciinema/</guid><description>&lt;p&gt;Embeds an &lt;a href="https://asciinema.org/"&gt;asciinema&lt;/a&gt; terminal recording player. The player CSS/JS is loaded from CDN automatically when this shortcode is used.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; hextra/asciinema file=&amp;#34;demo.cast&amp;#34; &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Parameters:&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
@@ -5325,7 +5363,168 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 This image was processed from a page resource using the Docsy `imgproc` shortcode.
 &lt;/p&gt;
 &lt;/figcaption&gt;
-&lt;/figure&gt;</description></item><item><title>Lists</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/lists/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/lists/</guid><description>&lt;p&gt;Unordered:&lt;/p&gt;
+&lt;/figure&gt;</description></item><item><title>Instructor Toolkit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</guid><description>&lt;section class="academy-toolkit academy-toolkit--broken"&gt;
+ &lt;header class="academy-toolkit__header"&gt;
+ &lt;h2&gt;ID Validation&lt;/h2&gt;
+ &lt;/header&gt;
+
+ &lt;p class="academy-toolkit__verdict academy-toolkit__verdict--bad"&gt;&lt;em&gt;Not ready to publish to the Academy.&lt;/em&gt;&lt;/p&gt;&lt;div class="academy-toolkit__summary-row"&gt;
+ &lt;p class="academy-toolkit__summary academy-toolkit__summary--bad"&gt;
+ &lt;strong&gt;3 content IDs are not registered.&lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;/div&gt;&lt;p class="academy-toolkit__action"&gt;
+ Fix the invalid IDs in the &lt;a href="https://exoscale.layer5.io/academy/instructors-console" target="_blank" rel="noopener"&gt;Instructor Console&lt;/a&gt; using the &lt;a href="https://docs.layer5.io/cloud/academy/creating-content/instructor-console-guide/#using-the-content-creation-tool" target="_blank" rel="noopener"&gt;Content Creation Tool&lt;/a&gt;.
+ &lt;/p&gt;&lt;p class="academy-toolkit__legend"&gt;
+ &lt;span&gt;⚠️ Draft page: Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;❌ Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;✅ Content ID is registered.&lt;/span&gt;
+ &lt;/p&gt;&lt;table class="academy-toolkit__table"&gt;
+ &lt;colgroup&gt;
+ &lt;col class="academy-toolkit__col-page"&gt;
+ &lt;col class="academy-toolkit__col-draft"&gt;
+ &lt;col class="academy-toolkit__col-id"&gt;
+ &lt;col class="academy-toolkit__col-status"&gt;
+ &lt;/colgroup&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th scope="col"&gt;Page&lt;/th&gt;
+ &lt;th scope="col"&gt;Draft&lt;/th&gt;
+ &lt;th scope="col"&gt;Content ID&lt;/th&gt;
+ &lt;th scope="col"&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-k8s-introduction/"&gt;Workshop Kubernetes&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;8cd4aa89-87f5-472d-a7c2-69e5b9819915&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/"&gt;Workshop CKA Preparation&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;5a817fbd-7754-4bf2-8285-be3074c854ea&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-exoscale-introduction/"&gt;Workshop Exoscale Intro&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;0e8df4e6-ed92-4687-a84f-c3dc61af912c&lt;/td&gt;
+ &lt;td&gt;❌&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;&lt;/section&gt;
+
+&lt;style&gt;
+ .academy-toolkit {
+ max-width: 960px;
+ margin-top: 1.5rem;
+ color: #182126;
+ }
+
+ .academy-toolkit__header {
+ margin-bottom: 0.75rem;
+ }
+
+ .academy-toolkit h2 {
+ margin: 0;
+ font-size: 1.45rem;
+ }
+
+ .academy-toolkit__empty {
+ margin: 0;
+ color: #52616b;
+ }
+
+ .academy-toolkit__summary-row {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.75rem 1rem;
+ align-items: center;
+ margin-bottom: 0.75rem;
+ }
+
+ .academy-toolkit__summary {
+ display: inline-flex;
+ align-items: center;
+ margin: 0;
+ }
+
+ .academy-toolkit__legend {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.5rem 1.25rem;
+ margin: 0 0 0.75rem;
+ color: #52616b;
+ font-size: 0.95rem;
+ }
+
+ .academy-toolkit__legend span {
+ white-space: nowrap;
+ }
+
+ .academy-toolkit__draft-note {
+ margin: 0 0 0.75rem;
+ color: #52616b;
+ font-style: italic;
+ }
+
+ .academy-toolkit__action {
+ margin: 0 0 0.75rem;
+ color: #52616b;
+ }
+
+ .academy-toolkit__verdict {
+ margin: 0.9rem 0 0;
+ font-weight: 700;
+ }
+
+ .academy-toolkit__table {
+ width: 100%;
+ border-collapse: collapse;
+ }
+
+ .academy-toolkit__table th:nth-child(3),
+ .academy-toolkit__table td:nth-child(3) {
+ padding-right: 4rem !important; 
+ }
+
+ .academy-toolkit__col-draft {
+ width: 10%;
+ }
+
+ .academy-toolkit__table th,
+ .academy-toolkit__table td {
+ padding: 0.55rem 0.75rem;
+ text-align: left;
+ vertical-align: top;
+ }
+
+ .academy-toolkit__table thead th {
+ color: #52616b;
+ font-size: 0.85rem;
+ font-weight: 700;
+ }
+
+ .academy-toolkit__table tbody th {
+ font-weight: 500;
+ }
+
+ .academy-toolkit__table tbody th a {
+ color: inherit;
+ font-weight: inherit;
+ text-decoration: none;
+ }
+
+ .academy-toolkit__table tbody th a:hover,
+ .academy-toolkit__table tbody th a:focus {
+ text-decoration: underline;
+ }
+
+ .academy-toolkit__table tbody td {
+ color: #52616b;
+ }
+
+ .academy-toolkit__table tbody td:last-child {
+ white-space: nowrap;
+ }
+&lt;/style&gt;</description></item><item><title>Lists</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/lists/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/markdown/lists/</guid><description>&lt;p&gt;Unordered:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Liverpool F.C.&lt;/li&gt;
 &lt;li&gt;Chelsea F.C.&lt;/li&gt;
@@ -5592,7 +5791,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[359 444 88 13 382 473]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[461 5 4 386 474 116]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -5604,7 +5803,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[495 379 337 392 33 232]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[142 470 80 135 318 187]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
@@ -5957,7 +6156,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[60 332 168 48 489 399]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[247 198 395 146 38 367]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6014,7 +6213,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[285 85 93 431 309 229]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[117 231 69 332 258 363]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}

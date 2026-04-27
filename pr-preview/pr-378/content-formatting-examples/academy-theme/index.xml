@@ -168,7 +168,9 @@ This block uses the academy-theme implementation of `pageinfo`. It is useful for
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description></item><item><title>SVG</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</guid><description>&lt;p&gt;The &lt;code&gt;svg&lt;/code&gt; shortcode renders an inline SVG icon from &lt;code&gt;assets/icons/{name}.svg&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="chapter-content" style="ZgotmplZ"&gt;
+ This content is wrapped by the &lt;code&gt;chapterstyle&lt;/code&gt; shortcode. The border, padding, and background color are applied via the &lt;code&gt;style&lt;/code&gt; parameter. This shortcode is useful for visually grouping related content into a styled container.
+&lt;/div&gt;</description></item><item><title>SVG</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/svg/</guid><description>&lt;p&gt;The &lt;code&gt;svg&lt;/code&gt; shortcode renders an inline SVG icon from &lt;code&gt;assets/icons/{name}.svg&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; svg name=&amp;#34;layer5-academy-icon&amp;#34; &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Parameters:&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
