@@ -624,7 +624,7 @@ This page shows how each shortcode behaves when rendered.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[159 22 33 268 443 464]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[410 40 416 226 293 302]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -932,7 +932,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[357 399 368 342 489 71]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[458 281 306 130 414 114]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1058,7 +1058,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[147 304 18 178 180 405]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[85 363 78 176 127 107]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -5791,7 +5791,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[461 5 4 386 474 116]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[307 184 224 150 144 453]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -5803,10 +5803,10 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[142 470 80 135 318 187]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[24 384 237 489 453 358]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
+&lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution - Audit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;On the &lt;em&gt;controlplane&lt;/em&gt; node, create the file &lt;em&gt;/etc/kubernetes/audit-policy.yaml&lt;/em&gt; with the following content:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;apiVersion: audit.k8s.io/v1
@@ -5833,7 +5833,7 @@ rules:
  readOnly: false
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Start a simple Pod:&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/cert/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/cert/solution/</guid><description>&lt;ol&gt;
+&lt;p&gt;Start a simple Pod:&lt;/p&gt;</description></item><item><title>Solution - Certs</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/cert/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/cert/solution/</guid><description>&lt;ol&gt;
 &lt;li&gt;Check the current certificate expiration dates&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Run the following command from the control plane node.&lt;/p&gt;
@@ -5864,68 +5864,7 @@ rules:
 &lt;ol start="2"&gt;
 &lt;li&gt;Renew the certificates using kubeadm&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;You can renew all certificates at once.&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</guid><description>&lt;ol&gt;
-&lt;li&gt;Create a Deployment with 6 replicas of Pods based on the nginx:1.20 image&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;k create deploy www --image=nginx:1.20 --replicas=4
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
-&lt;li&gt;Where are the pods scheduled ?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The pods are splitted between worker1 and worker2 (because master node has a NoScheduled taint that the pods do not tolerate)&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;k get po -o wide
-NAME READY STATUS RESTARTS AGE IP NODE NOMINATED NODE READINESS GATES
-www-644dfdf68b-6mk2w 1/1 Running 0 33s 10.38.0.1 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
-www-644dfdf68b-crdjl 1/1 Running 0 33s 10.32.0.6 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
-www-644dfdf68b-nhm7b 1/1 Running 0 33s 10.32.0.2 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
-www-644dfdf68b-tsw84 1/1 Running 0 33s 10.38.0.5 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start="3"&gt;
-&lt;li&gt;Drain the worker1 node. What happened ?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;k drain worker1 --ignore-daemonsets
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The application pods have been evicted from worker1 and are now all running on worker2&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</guid><description>&lt;ol&gt;
-&lt;li&gt;Install the metrics server (&lt;a href="https://github.com/kubernetes-sigs/metrics-server"&gt;https://github.com/kubernetes-sigs/metrics-server&lt;/a&gt;)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;k apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
-&lt;li&gt;Verify it&amp;rsquo;s not running correctly&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Trying to get the Nodes or Pods metrics should return an error&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;k top node
-Error from server (ServiceUnavailable): the server is currently unable to handle the request (get nodes.metrics.k8s.io)
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;k top pod
-Error from server (ServiceUnavailable): the server is currently unable to handle the request (get pods.metrics.k8s.io)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Checking the logs of the metrics-server pod will provide additional details&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/node/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/node/solution/</guid><description>&lt;ol&gt;
-&lt;li&gt;Create a Deployment named &lt;em&gt;web-app&lt;/em&gt; with 6 replicas using nginx:1.26 image&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl create deployment web-app --image&lt;span style="color:#f92672"&gt;=&lt;/span&gt;nginx:1.26 --replicas&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;6&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="2"&gt;
-&lt;li&gt;Create a DaemonSet named &lt;em&gt;monitoring&lt;/em&gt; using nginx:alpine image&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl create -f - &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;EOF
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;apiVersion: apps/v1
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;kind: DaemonSet
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;metadata:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; name: monitoring
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;spec:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; selector:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; matchLabels:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; app: monitoring
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; template:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; metadata:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; labels:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; app: monitoring
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; spec:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; containers:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - name: monitoring
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; image: nginx:alpine
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; ports:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - containerPort: 80
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="3"&gt;
-&lt;li&gt;Check how Pods are distributed across all Nodes&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl get pods -o wide
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You should see Pods are distributed across worker Nodes, and one monitoring Pod per Node.&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</guid><description>&lt;ol&gt;
+&lt;p&gt;You can renew all certificates at once.&lt;/p&gt;</description></item><item><title>Solution - Ch1</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</guid><description>&lt;ol&gt;
 &lt;li&gt;Test&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;If you try to list the Nodes, you&amp;rsquo;ll get an error similar to the following one:&lt;/p&gt;
@@ -5936,7 +5875,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 &lt;li&gt;Identification&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;As kubectl targets the API Server, first make sure this one is running fine.&lt;/p&gt;
-&lt;p&gt;On the controlplane Node, check the APIServer&amp;rsquo;s logs in &lt;em&gt;/var/log/syslog&lt;/em&gt;. You should see that the API Server cannot start correctly:&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge2/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge2/solution/</guid><description>&lt;p&gt;The worker1 has the &lt;em&gt;NotReady&lt;/em&gt; status&lt;/p&gt;
+&lt;p&gt;On the controlplane Node, check the APIServer&amp;rsquo;s logs in &lt;em&gt;/var/log/syslog&lt;/em&gt;. You should see that the API Server cannot start correctly:&lt;/p&gt;</description></item><item><title>Solution - Ch2</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge2/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge2/solution/</guid><description>&lt;p&gt;The worker1 has the &lt;em&gt;NotReady&lt;/em&gt; status&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ kubectl get no
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;NAME STATUS ROLES AGE VERSION
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;master Ready control-plane,master 2d16h v1.32.7
@@ -5959,7 +5898,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Normal RegisteredNode 22m node-controller Node worker1 event: Registered Node worker1 in Controller
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Normal RegisteredNode 96s node-controller Node worker1 event: Registered Node worker1 in Controller
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Normal NodeNotReady 26s node-controller Node worker1 status is now: NodeNotReady
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The Node in &lt;code&gt;NodeNotReady&lt;/code&gt; status may indicate kubelet is having trouble. We have the confirmation checking the kubelet status with systemctl on this specific Node.&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge3/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge3/solution/</guid><description>&lt;ol&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The Node in &lt;code&gt;NodeNotReady&lt;/code&gt; status may indicate kubelet is having trouble. We have the confirmation checking the kubelet status with systemctl on this specific Node.&lt;/p&gt;</description></item><item><title>Solution - Ch3</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge3/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge3/solution/</guid><description>&lt;ol&gt;
 &lt;li&gt;Test&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Let&amp;rsquo;s create a new Pod and expose it with a ClusterIP Service&lt;/p&gt;
@@ -5978,7 +5917,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl get deploy -n kube-system
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;NAME READY UP-TO-DATE AVAILABLE AGE
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;coredns 0/0 &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; 2d17h
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Seems like there is no replica running for the dns (should be 2 by default)&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge4/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge4/solution/</guid><description>&lt;ol&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Seems like there is no replica running for the dns (should be 2 by default)&lt;/p&gt;</description></item><item><title>Solution - Ch4</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge4/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge4/solution/</guid><description>&lt;ol&gt;
 &lt;li&gt;Test&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;List the resources in &lt;em&gt;app2&lt;/em&gt;&lt;/p&gt;
@@ -6012,7 +5951,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Session Affinity: None
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;External Traffic Policy: Cluster
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Events: &amp;lt;none&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The list of &lt;em&gt;Endpoints&lt;/em&gt; is empty, that is surely a problem. The Service&amp;rsquo;s selector is &lt;em&gt;app: nginx&lt;/em&gt;, let&amp;rsquo;s see the content of the Pod&amp;rsquo;s labels.&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge5/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge5/solution/</guid><description>&lt;ol&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The list of &lt;em&gt;Endpoints&lt;/em&gt; is empty, that is surely a problem. The Service&amp;rsquo;s selector is &lt;em&gt;app: nginx&lt;/em&gt;, let&amp;rsquo;s see the content of the Pod&amp;rsquo;s labels.&lt;/p&gt;</description></item><item><title>Solution - Ch5</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge5/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge5/solution/</guid><description>&lt;ol&gt;
 &lt;li&gt;Test&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The single replica is not running&lt;/p&gt;
@@ -6032,7 +5971,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="2"&gt;
 &lt;li&gt;Fix it&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Edit the Deployment and replace the image name &lt;em&gt;ngnix:1.26&lt;/em&gt; with &lt;em&gt;nginx:1.26&lt;/em&gt;, a little typo can have big consequences :)&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge6/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge6/solution/</guid><description>&lt;ol&gt;
+&lt;p&gt;Edit the Deployment and replace the image name &lt;em&gt;ngnix:1.26&lt;/em&gt; with &lt;em&gt;nginx:1.26&lt;/em&gt;, a little typo can have big consequences :)&lt;/p&gt;</description></item><item><title>Solution - Ch6</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge6/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge6/solution/</guid><description>&lt;ol&gt;
 &lt;li&gt;Test&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Try to create a pod:&lt;/p&gt;
@@ -6048,7 +5987,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Type Reason Age From Message
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ---- ------ ---- ---- -------
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Warning FailedScheduling 4s &lt;span style="color:#f92672"&gt;(&lt;/span&gt;x2 over 72s&lt;span style="color:#f92672"&gt;)&lt;/span&gt; default-scheduler 0/3 nodes are available: &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; node&lt;span style="color:#f92672"&gt;(&lt;/span&gt;s&lt;span style="color:#f92672"&gt;)&lt;/span&gt; had taint &lt;span style="color:#f92672"&gt;{&lt;/span&gt;app: secure&lt;span style="color:#f92672"&gt;}&lt;/span&gt;, that the pod didn&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;t tolerate.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It seems the 3 nodes have a taint that prevents the pod from being scheduled. We can see there are 2 taints on the master:&lt;/p&gt;</description></item><item><title>Solution</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge7/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge7/solution/</guid><description>&lt;p&gt;Observe the behavior of the pod you will notice the pod is automatically restarted after a few tens of seconds:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It seems the 3 nodes have a taint that prevents the pod from being scheduled. We can see there are 2 taints on the master:&lt;/p&gt;</description></item><item><title>Solution - Ch7</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge7/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge7/solution/</guid><description>&lt;p&gt;Observe the behavior of the pod you will notice the pod is automatically restarted after a few tens of seconds:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ kubectl get po -w
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;NAME READY STATUS RESTARTS AGE
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;demo 1/1 Running &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt; 2s
@@ -6067,7 +6006,68 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Normal Pulled 52s kubelet Successfully pulled image &lt;span style="color:#e6db74"&gt;&amp;#34;k8s.gcr.io/busybox&amp;#34;&lt;/span&gt; in 512.064103ms
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Warning Unhealthy 8s &lt;span style="color:#f92672"&gt;(&lt;/span&gt;x6 over 93s&lt;span style="color:#f92672"&gt;)&lt;/span&gt; kubelet Liveness probe failed: cat: can&lt;span style="color:#e6db74"&gt;&amp;#39;t open &amp;#39;&lt;/span&gt;/tmp/healthy&lt;span style="color:#960050;background-color:#1e0010"&gt;&amp;#39;&lt;/span&gt;: No such file or directory
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Normal Killing 8s &lt;span style="color:#f92672"&gt;(&lt;/span&gt;x2 over 83s&lt;span style="color:#f92672"&gt;)&lt;/span&gt; kubelet Container busybox failed liveness probe, will be restarted
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If we check the pod&amp;rsquo;s specification, we can see the liveness probe checks the existence of a file:&lt;/p&gt;</description></item><item><title>SwaggerUI</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/swaggerui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/swaggerui/</guid><description>&lt;div id="docsy_swagger_ui"&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If we check the pod&amp;rsquo;s specification, we can see the liveness probe checks the existence of a file:&lt;/p&gt;</description></item><item><title>Solution - Drain</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</guid><description>&lt;ol&gt;
+&lt;li&gt;Create a Deployment with 6 replicas of Pods based on the nginx:1.20 image&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k create deploy www --image=nginx:1.20 --replicas=4
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Where are the pods scheduled ?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The pods are splitted between worker1 and worker2 (because master node has a NoScheduled taint that the pods do not tolerate)&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k get po -o wide
+NAME READY STATUS RESTARTS AGE IP NODE NOMINATED NODE READINESS GATES
+www-644dfdf68b-6mk2w 1/1 Running 0 33s 10.38.0.1 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-crdjl 1/1 Running 0 33s 10.32.0.6 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-nhm7b 1/1 Running 0 33s 10.32.0.2 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-tsw84 1/1 Running 0 33s 10.38.0.5 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Drain the worker1 node. What happened ?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k drain worker1 --ignore-daemonsets
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The application pods have been evicted from worker1 and are now all running on worker2&lt;/p&gt;</description></item><item><title>Solution - Metrics</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/metrics/solution/</guid><description>&lt;ol&gt;
+&lt;li&gt;Install the metrics server (&lt;a href="https://github.com/kubernetes-sigs/metrics-server"&gt;https://github.com/kubernetes-sigs/metrics-server&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Verify it&amp;rsquo;s not running correctly&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Trying to get the Nodes or Pods metrics should return an error&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k top node
+Error from server (ServiceUnavailable): the server is currently unable to handle the request (get nodes.metrics.k8s.io)
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;k top pod
+Error from server (ServiceUnavailable): the server is currently unable to handle the request (get pods.metrics.k8s.io)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Checking the logs of the metrics-server pod will provide additional details&lt;/p&gt;</description></item><item><title>Solution - Nodes</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/node/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/node/solution/</guid><description>&lt;ol&gt;
+&lt;li&gt;Create a Deployment named &lt;em&gt;web-app&lt;/em&gt; with 6 replicas using nginx:1.26 image&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl create deployment web-app --image&lt;span style="color:#f92672"&gt;=&lt;/span&gt;nginx:1.26 --replicas&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Create a DaemonSet named &lt;em&gt;monitoring&lt;/em&gt; using nginx:alpine image&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl create -f - &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;EOF
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;apiVersion: apps/v1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;kind: DaemonSet
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;metadata:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; name: monitoring
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;spec:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; selector:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; matchLabels:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; app: monitoring
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; template:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; metadata:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; labels:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; app: monitoring
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; spec:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; containers:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - name: monitoring
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; image: nginx:alpine
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; ports:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - containerPort: 80
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Check how Pods are distributed across all Nodes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kubectl get pods -o wide
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You should see Pods are distributed across worker Nodes, and one monitoring Pod per Node.&lt;/p&gt;</description></item><item><title>SwaggerUI</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/swaggerui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/docsy/swaggerui/</guid><description>&lt;div id="docsy_swagger_ui"&gt;&lt;/div&gt;
 &lt;script&gt;
  window.onload = function () {
  const ui = SwaggerUIBundle({
@@ -6156,7 +6156,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[247 198 395 146 38 367]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[254 486 415 458 216 49]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6213,7 +6213,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[117 231 69 332 258 363]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[140 13 276 421 157 45]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}
