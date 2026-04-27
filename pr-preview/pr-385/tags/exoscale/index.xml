@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exoscale on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/tags/exoscale/</link><description>Recent content in Exoscale on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/tags/exoscale/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating SKS Cluster</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/creating-sks-cluster/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/creating-sks-cluster/</guid><description>&lt;p&gt;SKS (Scalable Kubernetes Service) is the Exoscale-managed cluster. To deploy an SKS cluster, we can use one of the
+following tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://terraform.com"&gt;Terraform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pulumi.com"&gt;Pulumi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/exoscale/cli"&gt;exo cli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://exoscale.com"&gt;Exoscale Portal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whatever tool we use, it creates the following resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a Security Group and some associated rules&lt;/li&gt;
+&lt;li&gt;an SKS cluster&lt;/li&gt;
+&lt;li&gt;a Nodepool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will go through the details of each approach, so you can select the one you prefer. But first, you need to create an account and get free credits to follow this workshop.&lt;/p&gt;</description></item><item><title>Exoscale - Starter</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/</guid><description/></item><item><title>Exoscale 101</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/</guid><description/></item><item><title>Exoscale account</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/creating-sks-cluster/content/exoscale-account/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/creating-sks-cluster/content/exoscale-account/</guid><description>&lt;h2 id="creating-an-account" class="heading-link"&gt;
+ Creating an account
+ &lt;a href="#creating-an-account" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;First go to the &lt;a href="https://exoscale.com"&gt;Exoscale Portal&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class="md__image"&gt;
+ &lt;img id="[218 473 301 311 56 500]" src="portal.png" onclick="openModal(this.id)" alt="portal" 
+ class="md-image-responsive" /&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Next, click the Registration button and enter your email address and password.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;div class="md__image"&gt;
+ &lt;img id="[157 247 354 359 429 56]" src="register.png" onclick="openModal(this.id)" alt="register" 
+ class="md-image-responsive" /&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id="validating-your-account" class="heading-link"&gt;
+ Validating your account
+ &lt;a href="#validating-your-account" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;To protect against fraud, Exoscale must validate your account. You can do so by entering a credit card number or adding a small amount of money (e.g., 5€) to your account (you can use PayPal for that purpose).&lt;/p&gt;</description></item><item><title>Practice</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/</guid><description/></item><item><title>Sample Certification</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/</guid><description/></item><item><title>Deploying the VotingApp</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/deploying-votingapp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/deploying-votingapp/</guid><description>&lt;p&gt;The VotingApp can be deployed using &lt;a href="https://helm.sh"&gt;Helm&lt;/a&gt;. It has many configuration options, the default values of which are defined in the following &lt;em&gt;values.yaml&lt;/em&gt; file.&lt;/p&gt;
+&lt;div class="highlight" filename="values.yaml"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Microservices tags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;vote-ui&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;v1.0.33&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;vote&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;v1.0.16&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;worker&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;v1.0.17&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;result&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;v1.0.21&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;result-ui&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;v1.0.24&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;seed&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tag&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;v1.0.1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Ingress configuration&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;ingress&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tls&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;certManager&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;clusterIssuer&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;letsencrypt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;hosts&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;vote&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;vote.votingapp.cc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;result&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;result.votingapp.cc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Postgres configuration&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;postgres&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;credentials&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;username&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;postgres&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;password&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;postgres&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;externalSecrets&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;username&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;key&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;votingapp/data/pg/username&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;field&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;username&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;password&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;key&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;votingapp/data/pg/password&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;field&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;password&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;connection&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;externalSecrets&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;key&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;votingapp/data/pg/url&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;field&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;url&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;persistence&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;storageClass&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;size&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;10Gi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Redis configuration&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;redis&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;externalSecrets&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;key&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;votingapp/data/redis/url&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;field&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;url&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Using NATS instead of worker + databases mode&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;nats&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Recurrent seeding of votes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;seeding&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;schedule&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;0 * * * *&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;numberOfVotes&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Dynamic configuration&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;items&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;labels&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;a&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;cats&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;b&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;dogs&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;images&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;enabled&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;a&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://sos-ch-gva-2.exo.io/votingapp/items/a.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;b&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://sos-ch-gva-2.exo.io/votingapp/items/b.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We’ll explore some of those parameters in the next part, but for now, you’ll deploy the VotingApp using the default values as follows:&lt;/p&gt;</description></item><item><title>Exoscale</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/</guid><description/></item><item><title>Products</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/</guid><description/></item><item><title>Why Exoscale DBaaS?</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/exoscale-dbaas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/exoscale-dbaas/</guid><description/></item><item><title>Practice On Exoscale</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/</guid><description/></item><item><title>CSRD &amp; Exoscale</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-exoscale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-exoscale/</guid><description/></item><item><title>Why Exoscale SKS?</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-exoscale-sks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-385/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-exoscale-sks/</guid><description/></item></channel></rss>
