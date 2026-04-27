@@ -624,7 +624,7 @@ This page shows how each shortcode behaves when rendered.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[410 40 416 226 293 302]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[191 152 161 9 131 462]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -932,7 +932,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[458 281 306 130 414 114]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[209 304 333 345 89 427]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1058,7 +1058,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[85 363 78 176 127 107]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[28 19 448 203 476 208]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -5363,17 +5363,13 @@ It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax 
 This image was processed from a page resource using the Docsy `imgproc` shortcode.
 &lt;/p&gt;
 &lt;/figcaption&gt;
-&lt;/figure&gt;</description></item><item><title>Instructor Toolkit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</guid><description>&lt;section class="academy-toolkit academy-toolkit--broken"&gt;
+&lt;/figure&gt;</description></item><item><title>Instructor Toolkit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</guid><description>&lt;section class="academy-toolkit academy-toolkit--ready"&gt;
  &lt;header class="academy-toolkit__header"&gt;
  &lt;h2&gt;ID Validation&lt;/h2&gt;
  &lt;/header&gt;
 
- &lt;p class="academy-toolkit__verdict academy-toolkit__verdict--bad"&gt;&lt;em&gt;Not ready to publish to the Academy.&lt;/em&gt;&lt;/p&gt;&lt;div class="academy-toolkit__summary-row"&gt;
- &lt;p class="academy-toolkit__summary academy-toolkit__summary--bad"&gt;
- &lt;strong&gt;3 content IDs are not registered.&lt;/strong&gt;
- &lt;/p&gt;
- &lt;/div&gt;&lt;p class="academy-toolkit__action"&gt;
- Fix the invalid IDs in the &lt;a href="https://exoscale.layer5.io/academy/instructors-console" target="_blank" rel="noopener"&gt;Instructor Console&lt;/a&gt; using the &lt;a href="https://docs.layer5.io/cloud/academy/creating-content/instructor-console-guide/#using-the-content-creation-tool" target="_blank" rel="noopener"&gt;Content Creation Tool&lt;/a&gt;.
+ &lt;p class="academy-toolkit__verdict academy-toolkit__verdict--good"&gt;&lt;em&gt;Ready to publish to the Academy.&lt;/em&gt;&lt;/p&gt;&lt;p class="academy-toolkit__summary academy-toolkit__summary--good"&gt;
+ &lt;strong&gt;All publishable content IDs are registered.&lt;/strong&gt;
  &lt;/p&gt;&lt;p class="academy-toolkit__legend"&gt;
  &lt;span&gt;⚠️ Draft page: Content ID is not registered or missing.&lt;/span&gt;
  &lt;span&gt;❌ Content ID is not registered or missing.&lt;/span&gt;
@@ -5394,20 +5390,20 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-k8s-introduction/"&gt;Workshop Kubernetes&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-k8s-introduction/"&gt;Workshop Kubernetes&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;8cd4aa89-87f5-472d-a7c2-69e5b9819915&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/"&gt;Workshop CKA Preparation&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/"&gt;Workshop CKA Preparation&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;5a817fbd-7754-4bf2-8285-be3074c854ea&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-exoscale-introduction/"&gt;Workshop Exoscale Intro&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-exoscale-introduction/"&gt;Workshop Exoscale Intro&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;0e8df4e6-ed92-4687-a84f-c3dc61af912c&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;/tbody&gt;
  &lt;/table&gt;&lt;/section&gt;
 
@@ -5791,7 +5787,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[307 184 224 150 144 453]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[204 172 139 268 272 122]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -5803,7 +5799,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[24 384 237 489 453 358]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[372 278 203 392 437 12]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution - Audit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
@@ -6156,7 +6152,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[254 486 415 458 216 49]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[35 419 193 131 328 376]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6213,7 +6209,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[140 13 276 421 157 45]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[183 203 277 419 138 446]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}
