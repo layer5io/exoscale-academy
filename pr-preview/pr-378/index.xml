@@ -199,7 +199,7 @@
  alt="Exoscale icon"&gt;&lt;figcaption&gt;
  &lt;p&gt;A Hugo figure shortcode rendering a static image.&lt;/p&gt;
  &lt;/figcaption&gt;
-&lt;/figure&gt;</description></item><item><title>Introduction to Compliance</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-compliance/</guid><description>&lt;h2 id="why-compliance" class="heading-link"&gt;
+&lt;/figure&gt;</description></item><item><title>Introduction to Compliance</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-compliance/intro-compliance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-compliance/intro-compliance/</guid><description>&lt;h2 id="why-compliance" class="heading-link"&gt;
  Why Compliance?
  &lt;a href="#why-compliance" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -310,7 +310,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;fmt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;Println&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;hello from the highlight shortcode&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Introduction to DBaaS</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-dbaas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-dbaas/</guid><description>&lt;h2 id="data" class="heading-link"&gt;
+&lt;/div&gt;</description></item><item><title>Introduction to DBaaS</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-dbaas/intro-dbaas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-dbaas/intro-dbaas/</guid><description>&lt;h2 id="data" class="heading-link"&gt;
  Data
  &lt;a href="#data" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -453,7 +453,7 @@ This block uses the Docsy implementation of `pageinfo` with `color="primary"`.
  &lt;div class="details-content"&gt;
  This content is rendered through the built-in Hugo &lt;code&gt;details&lt;/code&gt; behavior.
  &lt;/div&gt;
- &lt;/details&gt;</description></item><item><title>Introduction to Kubernetes</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/</guid><description>&lt;h2 id="experiences-we-want-to-change" class="heading-link"&gt;
+ &lt;/details&gt;</description></item><item><title>Introduction to Kubernetes</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/intro-k8s/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/intro-k8s/</guid><description>&lt;h2 id="experiences-we-want-to-change" class="heading-link"&gt;
  Experiences we want to change!
  &lt;a href="#experiences-we-want-to-change" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -478,7 +478,7 @@ This is a live `blocks/lead` example.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/section&gt;</description></item><item><title>Introduction to Pricing</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/</guid><description>&lt;h2 id="typical-web-application" class="heading-link"&gt;
+&lt;/section&gt;</description></item><item><title>Introduction to Pricing</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/intro-pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/intro-pricing/</guid><description>&lt;h2 id="typical-web-application" class="heading-link"&gt;
  Typical Web Application
  &lt;a href="#typical-web-application" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -606,7 +606,7 @@ This page shows how each shortcode behaves when rendered.
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; comment &amp;gt;}}This text is hidden from the rendered page.{{&amp;lt; /comment &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Visible text before the comment. Visible text after the comment.&lt;/p&gt;
-&lt;p&gt;The text between the &lt;code&gt;comment&lt;/code&gt; shortcode tags above is not rendered. View the page source to confirm.&lt;/p&gt;</description></item><item><title>Introduction to Storage</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-storage/</guid><description>&lt;h2 id="storage" class="heading-link"&gt;
+&lt;p&gt;The text between the &lt;code&gt;comment&lt;/code&gt; shortcode tags above is not rendered. View the page source to confirm.&lt;/p&gt;</description></item><item><title>Introduction to Storage</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-storage/intro-storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-storage/intro-storage/</guid><description>&lt;h2 id="storage" class="heading-link"&gt;
  Storage
  &lt;a href="#storage" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -624,7 +624,7 @@ This page shows how each shortcode behaves when rendered.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[191 152 161 9 131 462]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[316 399 145 174 103 224]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -826,7 +826,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 &lt;/ul&gt;
  &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Introduction to Sustainability</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-sustainability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-sustainability/</guid><description>&lt;h2 id="corporate-sustainability-cs" class="heading-link"&gt;
+&lt;/div&gt;</description></item><item><title>Introduction to Sustainability</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-sustainability/intro-sustainability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-sustainability/intro-sustainability/</guid><description>&lt;h2 id="corporate-sustainability-cs" class="heading-link"&gt;
  Corporate Sustainability (CS)
  &lt;a href="#corporate-sustainability-cs" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -914,7 +914,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 &lt;/p&gt;
  &lt;/div&gt;
  &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Certified Cloud Professional</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/</guid><description>&lt;h2 id="cloud-computing" class="heading-link"&gt;
+&lt;/div&gt;</description></item><item><title>Certified Cloud Professional</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/certified-cloud-professional/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/certified-cloud-professional/</guid><description>&lt;h2 id="cloud-computing" class="heading-link"&gt;
  Cloud Computing
  &lt;a href="#cloud-computing" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -932,7 +932,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[209 304 333 345 89 427]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[14 358 372 430 168 298]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -979,7 +979,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
  &lt;path d="M496 128v16a8 8 0 0 1-8 8h-24v12c0 6.627-5.373 12-12 12H60c-6.627 0-12-5.373-12-12v-12H24a8 8 0 0 1-8-8v-16a8 8 0 0 1 4.941-7.392l232-88a7.996 7.996 0 0 1 6.118 0l232 88A8 8 0 0 1 496 128zm-24 304H40c-13.255 0-24 10.745-24 24v16a8 8 0 0 0 8 8h464a8 8 0 0 0 8-8v-16c0-13.255-10.745-24-24-24zM96 192v192H60c-6.627 0-12 5.373-12 12v20h416v-20c0-6.627-5.373-12-12-12h-36V192h-64v192h-64V192h-64v192h-64V192H96z" 
  class="building-icon"/&gt;
 &lt;/svg&gt;
-&lt;/p&gt;</description></item><item><title>Certified Container Engineer</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcontainerengineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcontainerengineer/</guid><description>&lt;h2 id="container" class="heading-link"&gt;
+&lt;/p&gt;</description></item><item><title>Certified Container Engineer</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcontainerengineer/certified-container-engineer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcontainerengineer/certified-container-engineer/</guid><description>&lt;h2 id="container" class="heading-link"&gt;
  Container
  &lt;a href="#container" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -1040,7 +1040,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
  &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0RKpf3rK57I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
- &lt;/div&gt;</description></item><item><title>Certified Solution Architect</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedsolutionarchitect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedsolutionarchitect/</guid><description>&lt;h2 id="overview" class="heading-link"&gt;
+ &lt;/div&gt;</description></item><item><title>Certified Solution Architect</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedsolutionarchitect/certified-solution-architect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedsolutionarchitect/certified-solution-architect/</guid><description>&lt;h2 id="overview" class="heading-link"&gt;
  Overview
  &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -1058,7 +1058,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[28 19 448 203 476 208]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[83 13 493 454 447 212]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -5390,6 +5390,51 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/"&gt;Certified Cloud Professional&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;033b0a08-0ac5-4073-a343-fcabda7730f1&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedsolutionarchitect/"&gt;Certified Solution Architect&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;b4b20bf2-a034-4724-9cca-c370c477418e&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcontainerengineer/"&gt;Certified Container Engineer&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;ad28e9ed-b1e5-4d90-aa62-43bf32c2e4f5&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/"&gt;INTRO Kubernetes&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;6bb2ae92-89d6-4e2b-aac2-74512828b68d&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-dbaas/"&gt;INTRO DBaaS&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;3dd8409e-ba0f-4d0c-ae4b-b2ee3d3361fd&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-storage/"&gt;INTRO Storage&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;c2326b60-4cb4-4f82-acdb-f9e5a32c3304&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-sustainability/"&gt;INTRO Sustainability&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;70c37467-6d35-44c8-a1bc-d4be86981592&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-compliance/"&gt;INTRO Compliance&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;d2693f33-9afe-46c0-bf21-65a15ba983ac&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/"&gt;INTRO Pricing&lt;/a&gt;&lt;/th&gt;
+ &lt;td&gt;False&lt;/td&gt;
+ &lt;td&gt;7dc9d1fa-063c-4ff5-8a13-7250baee1f09&lt;/td&gt;
+ &lt;td&gt;✅&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
  &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-k8s-introduction/"&gt;Workshop Kubernetes&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;8cd4aa89-87f5-472d-a7c2-69e5b9819915&lt;/td&gt;
@@ -5787,7 +5832,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[204 172 139 268 272 122]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[497 349 99 74 299 129]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -5799,7 +5844,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[372 278 203 392 437 12]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[173 480 136 363 325 68]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution - Audit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
@@ -6152,7 +6197,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[35 419 193 131 328 376]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[222 49 280 243 272 219]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6209,7 +6254,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[183 203 277 419 138 446]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[296 407 105 371 360 434]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}
