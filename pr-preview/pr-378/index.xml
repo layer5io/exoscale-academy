@@ -624,7 +624,7 @@ This page shows how each shortcode behaves when rendered.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[185 258 497 9 374 237]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[31 267 76 291 190 280]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -932,7 +932,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[168 24 70 154 259 211]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[453 207 428 147 491 247]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1058,7 +1058,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[492 266 63 456 489 54]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[159 437 460 477 353 347]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -5364,15 +5364,12 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 &lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;</description></item><item><title>Instructor Toolkit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/instructor-toolkit/</guid><description>&lt;section class="academy-toolkit academy-toolkit--ready"&gt;
- &lt;header class="academy-toolkit__header"&gt;
- &lt;h2&gt;ID Validation&lt;/h2&gt;
- &lt;/header&gt;
 
- &lt;p class="academy-toolkit__verdict academy-toolkit__verdict--good"&gt;&lt;em&gt;Ready to publish to the Academy.&lt;/em&gt;&lt;/p&gt;&lt;p class="academy-toolkit__summary academy-toolkit__summary--good"&gt;
+ &lt;p class="academy-toolkit__verdict academy-toolkit__verdict--good"&gt;Ready to publish&lt;/p&gt;&lt;p class="academy-toolkit__summary academy-toolkit__summary--good"&gt;
  &lt;strong&gt;All publishable content IDs are registered.&lt;/strong&gt;
  &lt;/p&gt;&lt;p class="academy-toolkit__legend"&gt;
- &lt;span&gt;⚠️ Draft page: Content ID is not registered or missing.&lt;/span&gt;
- &lt;span&gt;❌ Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;&lt;a href="https://exoscale.layer5.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;⚠️&lt;/a&gt;Draft page: Content ID is not registered or missing.&lt;/span&gt;
+ &lt;span&gt;&lt;a href="https://exoscale.layer5.io/academy/instructors-console" target="_blank" rel="noopener" aria-label="Open Instructor Console"&gt;❌&lt;/a&gt;Content ID is not registered or missing.&lt;/span&gt;
  &lt;span&gt;✅ Content ID is registered.&lt;/span&gt;
  &lt;/p&gt;&lt;table class="academy-toolkit__table"&gt;
  &lt;colgroup&gt;
@@ -5390,62 +5387,62 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/"&gt;Certified Cloud Professional&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcloudprofessional/"&gt;Certified Cloud Professional&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;033b0a08-0ac5-4073-a343-fcabda7730f1&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedsolutionarchitect/"&gt;Certified Solution Architect&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedsolutionarchitect/"&gt;Certified Solution Architect&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;b4b20bf2-a034-4724-9cca-c370c477418e&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcontainerengineer/"&gt;Certified Container Engineer&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/certifiedcontainerengineer/"&gt;Certified Container Engineer&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;ad28e9ed-b1e5-4d90-aa62-43bf32c2e4f5&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/"&gt;INTRO Kubernetes&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-k8s/"&gt;INTRO Kubernetes&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;6bb2ae92-89d6-4e2b-aac2-74512828b68d&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-dbaas/"&gt;INTRO DBaaS&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-dbaas/"&gt;INTRO DBaaS&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;3dd8409e-ba0f-4d0c-ae4b-b2ee3d3361fd&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-storage/"&gt;INTRO Storage&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-storage/"&gt;INTRO Storage&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;c2326b60-4cb4-4f82-acdb-f9e5a32c3304&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-sustainability/"&gt;INTRO Sustainability&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-sustainability/"&gt;INTRO Sustainability&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;70c37467-6d35-44c8-a1bc-d4be86981592&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-compliance/"&gt;INTRO Compliance&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-compliance/"&gt;INTRO Compliance&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;d2693f33-9afe-46c0-bf21-65a15ba983ac&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/"&gt;INTRO Pricing&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/"&gt;INTRO Pricing&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;7dc9d1fa-063c-4ff5-8a13-7250baee1f09&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-k8s-introduction/"&gt;Workshop Kubernetes&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-k8s-introduction/"&gt;Workshop Kubernetes&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;8cd4aa89-87f5-472d-a7c2-69e5b9819915&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/"&gt;Workshop CKA Preparation&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/"&gt;Workshop CKA Preparation&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;5a817fbd-7754-4bf2-8285-be3074c854ea&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
  &lt;/tr&gt;&lt;tr&gt;
- &lt;th scope="row"&gt;&lt;a href="https://exoscale.layer5.io/academy/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-exoscale-introduction/"&gt;Workshop Exoscale Intro&lt;/a&gt;&lt;/th&gt;
+ &lt;th scope="row"&gt;&lt;a href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-exoscale-introduction/"&gt;Workshop Exoscale Intro&lt;/a&gt;&lt;/th&gt;
  &lt;td&gt;False&lt;/td&gt;
  &lt;td&gt;0e8df4e6-ed92-4687-a84f-c3dc61af912c&lt;/td&gt;
  &lt;td&gt;✅&lt;/td&gt;
@@ -5485,6 +5482,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
  display: inline-flex;
  align-items: center;
  margin: 0;
+ font-size: 1.15rem;
  }
 
  .academy-toolkit__legend {
@@ -5500,20 +5498,31 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
  white-space: nowrap;
  }
 
- .academy-toolkit__draft-note {
- margin: 0 0 0.75rem;
- color: #52616b;
- font-style: italic;
+ .academy-toolkit__action {
+ margin: 0.85rem 0 0.75rem;
+ color: #182126;
+ font-size: 1rem;
  }
 
- .academy-toolkit__action {
- margin: 0 0 0.75rem;
- color: #52616b;
+ .academy-toolkit__action a {
+ color: #00b39f;
  }
 
  .academy-toolkit__verdict {
- margin: 0.9rem 0 0;
- font-weight: 700;
+ margin: 0.9rem 0 0.25rem;
+ font-size: 1.55rem;
+ font-weight: 800;
+ line-height: 1.2;
+ }
+
+ .academy-toolkit a {
+ color: #00b39f;
+ text-decoration: none;
+ }
+
+ .academy-toolkit a:hover,
+ .academy-toolkit a:focus {
+ color: rgba(0, 179, 159, 0.7);
  }
 
  .academy-toolkit__table {
@@ -5548,18 +5557,11 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
  }
 
  .academy-toolkit__table tbody th a {
- color: inherit;
  font-weight: inherit;
+ }
+
+ .academy-toolkit__table tbody td a {
  text-decoration: none;
- }
-
- .academy-toolkit__table tbody th a:hover,
- .academy-toolkit__table tbody th a:focus {
- text-decoration: underline;
- }
-
- .academy-toolkit__table tbody td {
- color: #52616b;
  }
 
  .academy-toolkit__table tbody td:last-child {
@@ -5832,7 +5834,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[300 20 133 41 137 236]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[362 198 452 86 393 10]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -5844,7 +5846,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[171 464 23 471 241 301]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[99 122 165 61 66 471]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution - Audit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
@@ -6197,7 +6199,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[234 312 436 314 331 181]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[214 391 364 100 167 437]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6254,7 +6256,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[423 134 435 40 259 420]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[190 131 62 305 148 139]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-378/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}
