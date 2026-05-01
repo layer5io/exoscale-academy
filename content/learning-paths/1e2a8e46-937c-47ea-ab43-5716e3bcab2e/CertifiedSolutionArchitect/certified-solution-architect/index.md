@@ -6,7 +6,7 @@ weight: 9
 
 ## Overview
 
-### IaaS+
+## IaaS+
 
 **I**nfrastructure **a**s **a** **S**ervice is the cloud service model we support with the Exoscale platform and a bit more, hence, IaaS+.
 
@@ -15,7 +15,7 @@ weight: 9
 #### VIDEO
 [IaaS+](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-01.mp4)
 
-### Data Centers
+## Data Centers
 
 Getting the necessary cloud infrastructure components is easy. In Europe, there is always an Exoscale data center near you.
 
@@ -25,7 +25,7 @@ Getting the necessary cloud infrastructure components is easy. In Europe, there 
 [Data Centers](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-02.mp4)
 
 
-### Benefits
+## Benefits
 
 Before we start the Solution Architect journey, we need a quick overview of the main benefits of using the cloud infrastructure provided by the Exoscale platform and the portfolio of products it consists of.
 
@@ -40,7 +40,7 @@ The real beauty of the cloud is that everything is customizable and automatable 
 #### VIDEO
 [Benefits](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-03.mp4)
 
-### Platform
+## Platform
 
 A state-of-the-art IaaS platform providing the building blocks for your application infrastructure.
 
@@ -50,12 +50,7 @@ A state-of-the-art IaaS platform providing the building blocks for your applicat
 [Platform](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-04.mp4)
 
 
-
-
-
 ## Compute
-
-### Compute
 
 Exoscale provides a comprehensive, flexible, and scalable cloud computing platform, offering powerful compute instances, advanced networking, and integrated management tools to meet the needs of businesses of all sizes.
 
@@ -67,7 +62,7 @@ Here, you can find more details on
 [Compute](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-05a.mp4)
 
 
-### Instances
+## Instances
 
 Exoscale Instances are flexible, scalable virtual machines that provide dedicated compute resources with a variety of performance options, support custom images, and integrate seamlessly with Exoscale networking and storage. Well-suited for a wide range of workloads, Instances offer reliable performance, automation support, and easy management through API, CLI, or web interface.
 
@@ -88,7 +83,7 @@ Here, you can find more details on
 [Instances](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-05b.mp4)
 
 
-### Instance Pools
+## Instance Pools
 
 Instance Pools provide a way to provision and manage groups of identical virtual machines on Exoscale. They support automation of deployment and updates, enable efficient scaling, and are designed for reliability in distributed and stateless application environments.
 
@@ -108,7 +103,7 @@ Here, you can find more details on
 [Instance Pools](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-06.mp4)
 
 
-### SKS (Scalable Kubernetes Service)
+## SKS (Scalable Kubernetes Service)
 
 SKS provides a managed Kubernetes service on Exoscale. It automates cluster deployment and management, integrates with native cloud resources, and supports simplified scaling and updates, making it suitable for running containerized workloads reliably and efficiently.
 
@@ -128,7 +123,7 @@ Here, you can find more details on
 [SKS (Scalable Kubernetes Service)](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-07.mp4)
 
 
-### Block Storage
+## Block Storage
 
 Block Storage offers persistent, high-performance storage volumes that can be attached to virtual machines. It supports dynamic resizing and is suitable for data-intensive applications requiring reliable, flexible storage solutions.
 
@@ -149,7 +144,7 @@ Here, you can find more details on
 [Block Storage](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-08.mp4)
 
 
-### Templates
+## Templates
 
 Templates enable rapid provisioning of virtual machines by providing pre-configured system images. They support consistent deployments, simplify environment setup, and can include custom OS configurations or application stacks.
 
@@ -169,7 +164,7 @@ Here, you can find more details on
 [Templates](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-09.mp4)
 
 
-### Security Groups
+## Security Groups
 
 Security Groups define network traffic rules for Exoscale instances. They enable you to control inbound and outbound communications at the instance level, supporting isolation and enforcement of security policies in the cloud.
 
@@ -189,7 +184,7 @@ Here, you can find more details on
 [Security Groups](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-10.mp4)
 
 
-### Elastic IP
+## Elastic IP
 
 Elastic IP provides static, public IPv4 addresses that can be dynamically associated with instances. This ensures stable external connectivity, supporting failover and IP re-assignment as workload needs change.
 
@@ -208,7 +203,7 @@ Here, you can find more details on
 #### VIDEO
 [Elastic IP](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-11.mp4)
 
-### Load Balancers
+## Load Balancers
 
 Network Load Balancer distributes incoming traffic across multiple instances for improved availability and scalability. It supports automated health checks and can handle high-throughput, low-latency workloads.
 
@@ -227,7 +222,7 @@ Here, you can find more details on
 [Load Balancers](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-12.mp4)
 
 
-### Private Networks
+## Private Networks
 
 Private Networks allow you to create isolated, custom IP spaces for your instances on Exoscale. They support secure, internal communication between resources, and can be used to segment environments or applications.
 
@@ -247,7 +242,7 @@ Here, you can find more details on
 [Private Networks](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-13.mp4)
 
 
-### SSH Keypairs
+## SSH Keypairs
 
 SSH Keys enable secure, password-less authentication to virtual machines. You can centrally manage public keys within Exoscale to simplify secure access and orchestration of cloud resources.
 
@@ -267,7 +262,7 @@ Here, you can find more details on
 [SSH Keypairs](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-14.mp4)
 
 
-### Anti-Affinity
+## Anti-Affinity
 
 Anti-Affinity groups ensure that member instances are placed on separate physical hosts. This reduces the risk of service disruption and supports high availability for critical, distributed workloads.
 
@@ -288,8 +283,6 @@ Here, you can find more details on
 [Anti-Affinity](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-15.mp4)
 
 ## Storage
-
-### Storage
 
 Exoscale’s storage solutions deliver secure, scalable, and high-performance object storage and global content delivery, seamlessly integrating with your workflows to ensure fast, reliable, and cost-effective data management and distribution.
 
@@ -325,7 +318,7 @@ The S3-compatible API allows for easy integration with existing workflows and ap
 #### VIDEO
 [Object Storage](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-16b.mp4)
 
-### CDN
+## CDN
 
 Exoscale's CDN service, developed with Ducksify, makes distributing your assets globally with Akamai's delivery network simple. It improves performance and user experience by caching assets in multiple locations. You can easily integrate it with our SOS service to make content available through the CDN endpoint.
 
@@ -350,8 +343,6 @@ The CDN offers predictable pricing and is a reliable solution for enhancing your
 [CDN](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-17.mp4)
 
 ## DBaaS
-
-### DBaaS
 
 Exoscale’s DBaaS provides secure, fully managed, and GDPR-compliant cloud database services—supporting leading open-source databases—for effortless deployment, maintenance, and scalability. With Exoscale’s DBaaS, you can rapidly deploy encrypted, production-ready databases using a broad selection of leading open-source technologies. Our fully managed service handles all ongoing maintenance, updates, and security, allowing you to concentrate on your core business while ensuring your data is always safe, compliant, and highly available.
 
@@ -405,8 +396,6 @@ With features like down-sampling, data compaction, and robust query performance,
 
 ## DNS
 
-### DNS
-
 Exoscale’s cloud-native DNS delivers robust, automated, and globally resilient DNS management, ensuring fast, reliable, and highly available access to your applications. Exoscale’s cloud-native DNS offers full record management, zone control, and automation, all powered by DNSimple. Benefits include anycast low-latency resolution, per-zone pricing, easy redirects, ALIAS support, GEO replication, and seamless Let's Encrypt integration—ensuring uptime and reliability.
 
 > __! NOTE__
@@ -431,8 +420,6 @@ Exoscale's DNS also offers geo-replicated redundancy, providing optimal uptime a
 
 ## IAM
 
-### IAM
-
 Exoscale IAM (Identity and Access Management) offers robust, fine-grained identity and access management, enabling secure, flexible control over user and service permissions across all cloud resources. It enables administrators to define roles and policies for both programmatic (keys) and portal users, enhancing security, compliance, and operational efficiency.
 
 > __! NOTE__
@@ -452,8 +439,6 @@ Here, you can find more details on
 [IAM](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-20.mp4)
 
 ## Marketplace
-
-### Marketplace
 
 Exoscale Marketplace provides a curated selection of ready-to-use solution templates and managed services, enabling you to easily scale and extend your applications through seamless integration. Access a complete portfolio online or through the integrated portal, allowing easy deployment of ready-to-use cloud solutions directly from your Exoscale dashboard.
 
@@ -484,8 +469,6 @@ You need to be logged in to your portal account!
 
 ## Organization
 
-### Organization
-
 The Organization section centralizes all aspects of billing, usage, subscriptions, quotas, audit trails, and compliance, giving you complete control and visibility over your Exoscale account and resources.	Get clear usage details, easily handle payments, manage resources and legal documents, and monitor activities—all within a secure and organized interface.
 
 > __! NOTE__
@@ -506,8 +489,6 @@ Here, you can find more details on
 [Organization](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-22.mp4)
 
 ## Support
-
-### Support
 
 Exoscale’s support services offer a range of flexible plans—from free built-in support to 24/7 enterprise assistance—ensuring every customer receives the right level of help and responsiveness for their unique needs. Plans vary by response time, hours, audit trail, compliance, and dedicated manager, ensuring scalable and reliable assistance for all needs.
 
@@ -531,8 +512,6 @@ Here, you can find more details on
 
 
 ## Compute
-
-### Compute
 
 Exoscale provides a comprehensive, flexible, and scalable cloud computing platform, offering powerful compute instances, advanced networking, and integrated management tools to meet the needs of businesses of all sizes.
 
@@ -661,6 +640,7 @@ __Example Specifications:__
 * __Template__ = Windows Server 2025
 * __Zone__ = AT-VIE-1
 * __Instance Type__= STANDARD - Tiny
+### Compute
 * __Disk__= 50 GiB SSD
 * __Security Groups__= sample-group
 
@@ -694,7 +674,7 @@ Use the provided password and the Microsoft Remote Desktop application to connec
 [Compute Windows](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-basics-02.mp4)
 
 
-### Anti-Affinity Groups
+## Anti-Affinity Groups
 
 _To enhance availability and fault tolerance for your application, start by using multiple instances._
 
@@ -711,8 +691,6 @@ Running these instances on different hosts, which correspond to different hyperv
 
 
 ## Cloud-Init
-
-### Cloud-Init
 
 __Cloud-Init__ is the industry-standard tool for initializing cloud instances across platforms, supporting all major public cloud providers and provisioning systems for cloud infrastructure setups. During boot, it detects its environment and configures the system accordingly. On first boot, instances are automatically set up with networking, storage, SSH keys, packages, and other configurations, ensuring they're ready for use immediately.
 
@@ -803,8 +781,6 @@ This example is also independent and works cross-platforms.
 [Cloud-Init](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-basics-04.mp4)
 
 ## Automation
-
-### Automation
 
 Exoscale empowers seamless cloud infrastructure automation with APIs, CLI tools, and Infrastructure as Code, enabling efficient deployment, management, and scaling of resources with control, speed, and consistency.
 
@@ -955,8 +931,6 @@ Simple examples of `exo` CLI usage to manage platform resources.
 
 ## Scaling
 
-### Scaling
-
 Exoscale supports efficient vertical and horizontal scaling, featuring automatable Instance Pools for quick group resizing. Easily adjust resources to match demand, ensuring high availability and streamlined cloud operations.
 
 The Exoscale Platform provides two ways of scaling:
@@ -1005,8 +979,6 @@ Group multiple compute instances with identical configurations:
 [Scaling](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-basics-06.mp4)
 
 ## Traffic
-
-### Traffic
 
 Exoscale optimizes cloud traffic with free internal and incoming data, plus an outgoing traffic free tier per instance. Benefit from cost-effective, high-performance connectivity and transparent data usage across your cloud services.
 
@@ -1061,8 +1033,6 @@ Two examples to illustrate the free tier and the billing aspects:
 [Traffic](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-basics-07.mp4)
 
 ## Storage
-
-### Storage
 
 Exoscale delivers secure, scalable cloud storage with S3-compatible Object Storage, high-performance Block Storage, and fast local NVMe—all easy to manage, cost-efficient, and ideal for backups, apps, and high-demand workloads.
 
@@ -1244,8 +1214,6 @@ Each Exoscale instance is equipped with a minimum of local storage, which serves
 
 ## Backup
 
-### Backup
-
 Exoscale supports flexible backup strategies, from full VM snapshots to incremental agent-based backups in S3. Restore files or entire systems easily, and choose the best-fit solution for your data protection needs—no vendor lock-in. Backup practices have been in place long before the advent of cloud services, and organizations often rely on their own preferred methods. Exoscale does not enforce a specific backup solution, allowing users the flexibility to choose from multiple supported options.
 
 
@@ -1301,8 +1269,6 @@ Restore the whole system from an S3 bucket.
 
 ## Networking
 
-### Networking
-
 Exoscale demystifies cloud networking by breaking it into practical parts -- switching, routing, load balancing, and private networks -- making secure, scalable connectivity intuitive and manageable for every cloud user.
 
 ![](network.png "Network Example")
@@ -1324,8 +1290,6 @@ Next, we’ll explore and clarify the following areas:
 
 
 ## Switching/Routing
-
-### Switching/Routing
 
 Exoscale distinguishes local Layer 2 switching with MAC addresses from global Layer 3 routing with IPs, enabling flexible, efficient network segmentation and seamless connectivity within and across cloud environments.
 
@@ -1379,8 +1343,6 @@ The gateway IP must be specified and is typically within the same subnet.
 
 ## Private Network
 
-### Private Network
-
 Exoscale Private Networks enable secure, isolated Layer 2 connectivity for instances in the same zone, with customizable IPs, granular DHCP, and flexible gateway options for advanced cloud networking and seamless app integration.
 
 * Local network between instances within the same zone  
@@ -1422,8 +1384,6 @@ Exoscale's Managed Private Networks support granular DHCP configurations, provid
 [Private Network](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-networks-03.mp4)
 
 ## Load Balancing
-
-### Load Balancing
 
 Exoscale enriches app reliability with flexible load balancing and elastic IPs, supporting secure, automated port or IP routing, health checks, and fine-grained traffic distribution for seamless cloud performance and high availability.
 
@@ -1544,8 +1504,6 @@ __Backend Security Group__
 
 ## Cloud Challenges
 
-### Cloud Challenges
-
 Exoscale highlights key cloud challenges—like unique legacy setups, oversized resources, backup complexity, migration hurdles, network limits, and licensing pitfalls—helping you build resilient, future-ready cloud architectures.
 
 #### Special Snowflake
@@ -1583,8 +1541,6 @@ Exoscale highlights key cloud challenges—like unique legacy setups, oversized 
 
 
 ## Architecture
-
-### Architecture
 
 Design resilient, scalable cloud solutions by following proven architectural best practices—embracing stateless apps, high availability, microservices, managed Kubernetes, thorough backups, and effective disaster recovery planning.
 
@@ -1636,8 +1592,6 @@ Managed Kubernetes Service (SKS) supports:
 [Architecture](https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-advanced-02.mp4)
 
 ## Database
-
-### Database
 
 Exoscale DBaaS offers managed open-source databases with automated backups, high availability (99.99% SLA), and GDPR compliance. Easily deploy, update, and scale databases via web, CLI, or API, with no vendor lock-in. 
 
