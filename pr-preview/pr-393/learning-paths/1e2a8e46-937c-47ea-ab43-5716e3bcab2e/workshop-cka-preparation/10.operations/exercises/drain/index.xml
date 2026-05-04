@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Drain on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-393/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/</link><description>Recent content in Drain on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-393/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/index.xml" rel="self" type="application/rss+xml"/><item><title>Solution - Drain</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-393/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-393/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/drain/solution/</guid><description>&lt;ol&gt;
+&lt;li&gt;Create a Deployment with 6 replicas of Pods based on the nginx:1.20 image&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k create deploy www --image=nginx:1.20 --replicas=4
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Where are the pods scheduled ?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The pods are splitted between worker1 and worker2 (because master node has a NoScheduled taint that the pods do not tolerate)&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k get po -o wide
+NAME READY STATUS RESTARTS AGE IP NODE NOMINATED NODE READINESS GATES
+www-644dfdf68b-6mk2w 1/1 Running 0 33s 10.38.0.1 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-crdjl 1/1 Running 0 33s 10.32.0.6 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-nhm7b 1/1 Running 0 33s 10.32.0.2 worker1 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+www-644dfdf68b-tsw84 1/1 Running 0 33s 10.38.0.5 worker2 &amp;lt;none&amp;gt; &amp;lt;none&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Drain the worker1 node. What happened ?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;k drain worker1 --ignore-daemonsets
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The application pods have been evicted from worker1 and are now all running on worker2&lt;/p&gt;</description></item></channel></rss>
