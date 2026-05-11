@@ -135,6 +135,34 @@ Each level uses `_index.md` files with [Hugo frontmatter](https://gohugo.io/cont
 3. **Organize Contens**
    - Add new folders and markdown files for each learning path, course and module.
 
+4. **Add Assessments**
+   - Use short, stable IDs for questions and options. Question IDs must be unique within one assessment, and option IDs must be unique within one question. The Academy theme converts these author-facing IDs into deterministic UUIDs in the generated JSON consumed by Layer5 Cloud.
+
+   ```yaml
+   ---
+   title: "Assessment Example"
+   id: "assessment-example"
+   type: "test"
+   layout: "test"
+   passPercentage: 70
+   maxAttempts: 3
+   timeLimit: 30
+   numberOfQuestions: 1 # Total number of questions in the assessment
+   questions:
+     - id: "q1"
+       text: "Exoscale Academy content is authored in Markdown."
+       type: "true-false"
+       marks: 1
+       options:
+         - id: "true"
+           text: "True"
+           isCorrect: true
+         - id: "false"
+           text: "False"
+           isCorrect: false
+   ---
+   ```
+
 ## Managing Assets: Images, Videos, and Embedded Designs
 
 Enhance your courses with images and rich visual content using the **Page Bundling** method for optimal compatibility with the Layer5 Academy platform.
