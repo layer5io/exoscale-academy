@@ -942,6 +942,7 @@ This method may not be available for all resource types.
 
 
 ## Update
+
 Updating in Kubernetes is a controlled, automated process driven by updating your desired state in manifest files, ensuring reliable and consistent changes with built-in support for rollouts and rollbacks. 
 The update process in Kubernetes is designed to allow changes to applications and resources with minimal disruption.
 
