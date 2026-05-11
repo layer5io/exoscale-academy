@@ -250,6 +250,7 @@ Before you start deploying applications with Kubernetes, it’s important to und
 ![](building-blocks-overview.png "Building Blocks Overview")
 
 ## Pod
+
 A Pod is the smallest deployable unit in Kubernetes, comprising one or more containers that share storage, networking, and configuration. Containers in a Pod use the same IP address and port space, facilitating easy communication and resource sharing, while remaining isolated from other Pods. Pods are typically used to host tightly coupled application components that need to run together.
 
 ![](icon-pod.png "Kubernetes Pod")
