@@ -640,7 +640,6 @@ __Example Specifications:__
 * __Template__ = Windows Server 2025
 * __Zone__ = AT-VIE-1
 * __Instance Type__= STANDARD - Tiny
-### Compute
 * __Disk__= 50 GiB SSD
 * __Security Groups__= sample-group
 
