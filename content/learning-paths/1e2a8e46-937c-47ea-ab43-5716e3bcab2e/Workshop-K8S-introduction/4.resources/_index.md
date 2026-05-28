@@ -1,6 +1,8 @@
 ---
 title: Resources
 weight: 4
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/kubernetes-workshop/workshop/main-resources/
 ---
 
 In this section, you'll now explore the main Kubernetes resources. Each resource includes concepts, a hands-on exercise, and, a solution to better understand how it is used.

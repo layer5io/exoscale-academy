@@ -6,6 +6,9 @@ weight: 10
 id: "8cd4aa89-87f5-472d-a7c2-69e5b9819915"
 level: "beginner"
 no_list: true
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/kubernetes-workshop/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/kubernetes-workshop/workshop/
 ---
 
 Welcome to this hands-on workshop where you'll learn the basics of Kubernetes by deploying a microservice application. It is organized into the following sections, each building upon the previous one. You can access a section directly by clicking on the corresponding card, but if you want to get the most out of this workshop it's recommended you follow the section in order, starting with the presentation of the [VotingApp](./1.votingapp).

@@ -1,6 +1,8 @@
 ---
 title: Using Terraform
 weight: 2
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/creating-sks-cluster/content/using-terraform/
 ---
 
 In a new folder, we create the following Terraform configuration files; they contain all the resources to create an SKS cluster and the related components:  

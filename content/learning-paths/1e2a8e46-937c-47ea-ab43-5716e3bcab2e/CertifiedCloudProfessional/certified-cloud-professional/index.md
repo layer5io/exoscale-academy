@@ -39,6 +39,7 @@ aliases:
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/storage/storage/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/support/support/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/test/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/exam/
 ---
 
 ## Cloud Computing

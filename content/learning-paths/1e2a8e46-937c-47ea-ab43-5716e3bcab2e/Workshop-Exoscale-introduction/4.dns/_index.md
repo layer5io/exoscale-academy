@@ -1,6 +1,8 @@
 ---
 title: "Configuring DNS"
 weight: 4
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/configuring-dns/
 ---
 
 In this section, you'll expose the VotingApp on a real domain name. We'll consider several possibilities:  

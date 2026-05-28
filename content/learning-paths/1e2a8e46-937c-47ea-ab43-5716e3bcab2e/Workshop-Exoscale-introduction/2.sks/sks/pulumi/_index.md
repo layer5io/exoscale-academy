@@ -1,6 +1,8 @@
 ---
 title: Using Pulumi
 weight: 3
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/creating-sks-cluster/content/using-pulumi/
 ---
 
 In a new folder, we create the following files:

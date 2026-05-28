@@ -1,6 +1,8 @@
 ---
 title: Security
 weight: 7
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/cka-prep/cka/security/
 ---
 
 This section is a refresher that provides an overview of the main concepts of security in Kubernetes. At the end of this section, please complete the exercises to put these concepts into practice.

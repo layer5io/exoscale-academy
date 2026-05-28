@@ -1,6 +1,8 @@
 ---
 title: "Persist data with DBaaS"
 weight: 7
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/persisting-data/
 ---
 
 By default, the VotingApp deploys its own Redis and Postgres databases. In this section, you'll use Exoscale managed databases (DBaaS) instead.

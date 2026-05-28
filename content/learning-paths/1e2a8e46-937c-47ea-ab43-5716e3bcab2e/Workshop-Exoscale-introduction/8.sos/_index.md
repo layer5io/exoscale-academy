@@ -1,6 +1,8 @@
 ---
 title: "Using Object Storage"
 weight: 8
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/using-object-storage/
 ---
 
 In this section, you'll use Simple Object Storage (SOS), an Exoscale AWS S3-compatible storage service, to store images used by the VotingApp.

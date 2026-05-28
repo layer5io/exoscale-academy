@@ -36,6 +36,11 @@ aliases:
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/storage/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/support/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/test/
+  - /certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/exam/
+  - /certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/optional-test-4/
+  - /certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/test-1/
+  - /certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/test-2/
+  - /certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/test-3/
 ---
 
 ## Overview

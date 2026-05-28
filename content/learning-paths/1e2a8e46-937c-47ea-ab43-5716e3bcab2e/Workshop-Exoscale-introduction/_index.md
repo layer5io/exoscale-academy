@@ -7,6 +7,9 @@ id: "0e8df4e6-ed92-4687-a84f-c3dc61af912c"
 tags: ["cloud", "exoscale"]
 level: "beginner"
 no_list: true
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/
 ---
 
 Welcome to this hands-on workshop where you'll learn to deploy a microservice application in Kubernetes using Exoscale's platform and open-source tools. This workshop provides detailed instructions and explanations to explore Exoscale's offering. It is organized into the following sections, each building upon the previous one. You can access a section directly by clicking on the corresponding card, but if you want to get the most out of this workshop it's recommended you follow the section in order, starting with the presentation of the [VotingApp](./votingapp).

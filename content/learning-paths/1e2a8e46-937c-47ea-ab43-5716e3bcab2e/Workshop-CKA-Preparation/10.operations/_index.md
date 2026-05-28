@@ -1,6 +1,8 @@
 ---
 title: Operations
 weight: 10
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/cka-prep/cka/operations/
 ---
 
 This section details some Day-2 operations, the main ones being the cluster upgrade and etcd backup/restore. At the end of this section, please complete the exercises in the order provided.

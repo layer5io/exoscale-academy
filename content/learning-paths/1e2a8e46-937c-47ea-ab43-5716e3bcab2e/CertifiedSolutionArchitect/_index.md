@@ -6,4 +6,7 @@ weight: 2
 id: "b4b20bf2-a034-4724-9cca-c370c477418e"
 categories: "cloud, infrastructure"
 level: "beginner"
+aliases:
+  - /certifications/
+  - /certifications/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-certification-exam/
 ---

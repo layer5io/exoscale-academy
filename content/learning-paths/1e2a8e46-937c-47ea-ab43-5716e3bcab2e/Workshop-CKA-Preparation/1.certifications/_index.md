@@ -1,6 +1,8 @@
 ---
 title: Certifications
 weight: 1
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/cka-prep/cka/certifications/
 ---
 
 ## Several certifications available
