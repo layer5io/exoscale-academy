@@ -45,7 +45,7 @@ aliases:
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/containers/sample-application/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/basic-commands/basic-commands/
-  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/basic-comments/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/basic-commands/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/features/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/imperative-vs-declarative/
   - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/sks-starter/kubernetes/positioning/
