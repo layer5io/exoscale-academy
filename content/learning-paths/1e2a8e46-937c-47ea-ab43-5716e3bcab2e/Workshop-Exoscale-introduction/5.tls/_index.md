@@ -1,6 +1,8 @@
 ---
 title: "Activating TLS"
 weight: 5
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/activating-tls/
 ---
 
 {{< hextra/callout type="warning" >}}

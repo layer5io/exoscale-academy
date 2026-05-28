@@ -2,6 +2,43 @@
 type: "page"
 title: Certified Cloud Professional
 weight: 7
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud-native/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud-native/cloud-native/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud-native/container/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud-native/continuous/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud-native/devops/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud-native/microservices/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud-native/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud/cloud-computing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud/deployment-models/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud/scenarios/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/cloud/service-models/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/community/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/compliance/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/exoscale/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/integrations/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/partner/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/references/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/exoscale/unique-selling-point/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/compute/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/dbaas/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/dns/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/iam/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/marketplace/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/organisation/organisation/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/overview/overview/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/storage/storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/products/support/support/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/starter/test/
 ---
 
 ## Cloud Computing

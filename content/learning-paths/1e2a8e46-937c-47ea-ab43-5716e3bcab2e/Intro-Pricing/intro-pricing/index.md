@@ -2,6 +2,15 @@
 type: "page"
 title: Introduction to Pricing
 weight: 4
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/pricing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/pricing/calculate-product-pricing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/pricing/calculate-scenario-pricing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/pricing/pricing-calculator/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/pricing/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/pricing/typical-web-application/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/pricing/test/
 ---
 
 ## Typical Web Application

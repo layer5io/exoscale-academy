@@ -1,6 +1,8 @@
 ---
 title: Exercise
 weight: 2
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/kubernetes-workshop/workshop/main-resources/content/ingress/content/practice/
 ---
 
 In this exercise, you'll expose the VotingApp with an Ingress resource.

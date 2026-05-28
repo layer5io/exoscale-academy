@@ -2,6 +2,39 @@
 type: "page"
 title: Introduction to Sustainability
 weight: 6
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/corporate-sustainability/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/corporate-sustainability/benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/corporate-sustainability/challenges/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/corporate-sustainability/corporate-sustainability/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/corporate-sustainability/key-principles/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/corporate-sustainability/make-it-work/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/corporate-sustainability/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/cs-and-cloud/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/cs-and-cloud/conclusion/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/cs-and-cloud/consideration/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/cs-and-cloud/cs-and-cloud/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/cs-and-cloud/enhancing-sustainability/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/cs-and-cloud/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-cloud/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-cloud/csrd-and-cloud/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-cloud/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-cloud/summary/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-exoscale/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-exoscale/cloud-assess/cloud-assess/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-exoscale/experience/experience/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-exoscale/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-exoscale/summary/summary/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-providers/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-providers/csrd-and-providers/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-providers/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd-and-providers/summary/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd/aspects/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd/definition/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd/explained/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-sustainability/csrd/quiz/
 ---
 
 ## Corporate Sustainability (CS)

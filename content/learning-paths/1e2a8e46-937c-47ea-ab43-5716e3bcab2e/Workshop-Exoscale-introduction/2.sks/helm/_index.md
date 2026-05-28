@@ -1,6 +1,8 @@
 ---
 title: "Deploying the VotingApp"
 weight: 3
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/deploying-votingapp/
 ---
 
 The VotingApp can be deployed using [Helm](https://helm.sh). It has many configuration options, the default values of which are defined in the following *values.yaml* file.

@@ -2,6 +2,27 @@
 type: "page"
 title: Introduction to DBaaS
 weight: 2
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/data/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/history-of-db/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/selection-of-db/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/tools-for-data/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/value-chain/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/databases/volume/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/exoscale-dbaas/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/exoscale-dbaas/benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/exoscale-dbaas/features/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/exoscale-dbaas/powered-aiven/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/exoscale-dbaas/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/managed-databases/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/managed-databases/evolution/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/managed-databases/managed-db/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/managed-databases/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-dbaas/managed-databases/responsibility/
 ---
 
 ## Data

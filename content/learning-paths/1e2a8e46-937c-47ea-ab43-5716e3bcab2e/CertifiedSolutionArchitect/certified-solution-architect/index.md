@@ -2,6 +2,40 @@
 type: "page"
 title: Certified Solution Architect
 weight: 9
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/advanced/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/advanced/architecture/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/advanced/cloud-challenges/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/advanced/database/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/advanced/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/automation/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/backup/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/cloud-init/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/compute/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/scaling/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/basics/traffic/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/networks/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/networks/load-balancing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/networks/networking/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/networks/private-network/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/networks/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/networks/switching-routing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/compute/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/dbaas/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/dns/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/iam/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/intro/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/marketplace/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/organization/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/overview/support/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/exoscale-101/advanced-course/test/
 ---
 
 ## Overview

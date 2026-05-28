@@ -1,6 +1,8 @@
 ---
 title: Using the exo CLI
 weight: 4
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/practice-on-exoscale/practice/exoscale-managed-kubernetes/content/creating-sks-cluster/content/using-exo-cli./
 ---
 
 The shell script *sks.sh*, detailed below, creates the following Exoscale resources:

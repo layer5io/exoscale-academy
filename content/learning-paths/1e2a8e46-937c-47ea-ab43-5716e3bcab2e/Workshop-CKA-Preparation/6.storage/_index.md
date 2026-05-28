@@ -1,6 +1,8 @@
 ---
 title: Storage
 weight: 6
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/cka-prep/cka/storage/
 ---
 
 This section is a refresher that provides an overview of the primary Kubernetes resources related to storage. At the end of this section, please complete the exercises to put these concepts into practice.

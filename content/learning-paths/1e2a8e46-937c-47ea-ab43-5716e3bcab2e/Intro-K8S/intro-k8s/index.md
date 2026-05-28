@@ -2,6 +2,41 @@
 type: "page"
 title: Introduction to Kubernetes
 weight: 3
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/imp-building-blocks/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/cronjob/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/daemonset/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/deployment/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/ingress/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/pod/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-building-blocks/replicaset/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-details/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-details/features/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-details/imperative-vs-declarative/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-details/kubernetes-is/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-details/kubernetes/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/kubernetes-details/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-containers/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-containers/container-benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-containers/experiences-we-want-to-change/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-containers/history-of-deployment/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-containers/new-idea-concepts/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-containers/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-exoscale-sks/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-exoscale-sks/packaging-and-pricing/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-exoscale-sks/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-exoscale-sks/scalable-kubernetes-service/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-kubernetes/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-kubernetes/kubernetes-plain-english/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-kubernetes/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-kubernetes/without-container/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-managed-kubernetes/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-managed-kubernetes/managed-ecosystem/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-managed-kubernetes/managed-kubenetes/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/end-to-end-kubernetes/intro-kubernetes/why-managed-kubernetes/quiz/
 ---
 
 ## Experiences we want to change!

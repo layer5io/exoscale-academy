@@ -2,6 +2,37 @@
 type: "page"
 title: Introduction to Storage
 weight: 5
+aliases:
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-vs-block/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/block-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/block-storage/benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/block-storage/details/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/block-storage/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/block-storage/use-cases/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/file-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/file-storage/benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/file-storage/details/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/file-storage/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/file-storage/use-cases/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-storage/benefits/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-storage/details/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-storage/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-storage/use-cases/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-vs-block/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/object-vs-block/object-vs-block/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/what-types-of-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/what-types-of-storage/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/what-types-of-storage/types-of-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-cloud-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-cloud-storage/cloud-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-cloud-storage/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-storage/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-storage/defination/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-storage/overview/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-storage/quiz/
+  - /learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/cloud-fundamentals/intro-storage/why-storage/storage-duration/
 ---
 
 ## Storage
@@ -523,5 +554,4 @@ Block storage typically offers lower latency than object storage, making it bett
 Object storage can provide higher throughput than block storage, particularly for large data access requests. Object storage's erasure coding and data replication techniques allow for parallel data access, resulting in faster data transfers.
 - __Workload__:
 Optimization Choosing the proper storage solution for your workload is critical in optimizing performance. Organizations that require high-speed data access may benefit from block storage. In contrast, those with large data volumes may benefit more from object storage's scalability and cost-effectiveness.
-
 
