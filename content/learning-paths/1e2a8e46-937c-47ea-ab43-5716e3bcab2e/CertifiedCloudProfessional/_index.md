@@ -6,4 +6,5 @@ weight: 1
 id: "033b0a08-0ac5-4073-a343-fcabda7730f1"
 categories: "cloud"
 level: "beginner"
+banner: "exoscale-icon.svg"
 ---
