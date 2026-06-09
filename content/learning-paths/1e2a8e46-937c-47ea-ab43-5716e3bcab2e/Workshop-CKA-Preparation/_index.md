@@ -7,6 +7,7 @@ id: "5a817fbd-7754-4bf2-8285-be3074c854ea"
 tags: ["kubernetes", "cka"]
 level: "beginner"
 no_list: true
+banner: "kubernetes-icon.svg"
 ---
 
 Welcome to this hands-on workshop where you'll prepare for the **Certified Kubernetes Administrator** (CKA) certification. This workshop is organized into the following sections, which you can access directly by clicking on the corresponding card. If you want to get the most out of this preparation, follow the sections in order, starting with the presentation of the [Kubernetes certifications](./1.certifications).

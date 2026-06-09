@@ -5,5 +5,5 @@ description: "How to be compliant in the cloud? Learn all about the benefits and
 weight: 8
 id: "d2693f33-9afe-46c0-bf21-65a15ba983ac"
 level: "beginner"
+banner: "exoscale-icon.svg"
 ---
-
