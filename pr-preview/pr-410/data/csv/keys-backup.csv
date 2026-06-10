@@ -1,0 +1,5 @@
+Exported at,2026-04-01,,,,,,,,,,,,
+Category,Function,Feature,Workspace Admin,Team Admin,Organization Admin,Provider Admin,User Role,Support Role,Audit Role,Keychain ID,Key ID,Inserted,Local Provider
+Infrastructure,Create cluster,Allows creating SKS clusters,X,X,X,,X,,,kc-1,key-1,2026-04-01,local
+Infrastructure,Delete cluster,Allows deleting SKS clusters,X,,X,,,,,kc-2,key-2,2026-04-01,local
+Security,Rotate API key,Allows rotating API keys,,X,X,X,,,X,kc-3,key-3,2026-04-01,local
