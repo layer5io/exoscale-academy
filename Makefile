@@ -14,10 +14,12 @@
 
 include .github/build/Makefile.core.mk
 include .github/build/Makefile.show-help.mk
-
 #----------------------------------------------------------------------------
 # Academy
-# ---------------------------------------------------------------------------
+#----------------------------------------------------------------------------
+## ------------------------------------------------------------
+----LOCAL_BUILDS: Show help for available targets
+
 ## Install site dependencies
 setup:
 	npm install
@@ -64,4 +66,4 @@ theme-update:
 	echo "Updating to latest academy-theme..." && \
 	hugo mod get github.com/layer5io/academy-theme
 
-.PHONY: setup build site clean site-fast check-go theme-update
+.PHONY: setup build build-preview site clean lint-fix check-go theme-update
