@@ -225,7 +225,33 @@ Embed videos in a visually distinct `card` using:
 To preview your content locally, run:
 
 ```bash
-hugo server
+# Clean up and verify Go module dependencies
+go mod tidy
+
+# Install necessary tools and modules
+make setup
+
+# Start the local Hugo development server
+make site
+
+# Build the site for production
+make build
+
+# Build the site for local consumption with custom base URL
+make build-preview
+
+# Clean the Hugo cache and restart local setup
+make clean
+
+# Fix Markdown linting issues
+make lint-fix
+
+# Verify Go is installed before starting the local site
+make check-go
+
+# Update the academy-theme package version
+make theme-update
+
 ```
 
 - Open the local URL displayed in your terminal browser.
