@@ -70,4 +70,4 @@ Welcome to this hands-on workshop where you'll prepare for the **Certified Kuber
     >}}
 {{< /hextra/cards >}}
 
-{{< 1e2a8e46-937c-47ea-ab43-5716e3bcab2e/slack-invite link="https://join.slack.com/t/exoscale-org/shared_invite/zt-34s6jetvl-tNP_TpfweeAKNnPb593j9A">}}
+{{< slack-invite link="https://join.slack.com/t/exoscale-org/shared_invite/zt-34s6jetvl-tNP_TpfweeAKNnPb593j9A">}}

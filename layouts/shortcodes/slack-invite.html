@@ -1,0 +1,11 @@
+{{- $link := .Get "link" -}}
+<div style="background-color: #F8F8F8; border: 1px solid #DDD; border-radius: 12px; padding: 24px; max-width: 600px; margin: 2rem auto; box-shadow: 0 2px 6px rgba(0,0,0,0.05); font-family: system-ui, sans-serif; text-align: center;">
+    <h2 style="margin-top: 0; color: #4A154B; font-size: 1.5rem;">💬 Join Our Slack Community</h2>
+    <p style="margin-bottom: 1rem; font-size: 1rem; line-height: 1.5; color: #333;">
+      Got questions about the workshop? Looking for help or want to share your tips & tricks?
+      You're welcome to join our Slack workspace and connect with other participants.
+    </p>
+    <a href="{{ $link | safeURL }}" target="_blank" rel="noopener" style="text-decoration: none; display: inline-block; margin-top: 0.5rem; background-color: #4A154B; color: white; padding: 12px 24px; border-radius: 8px; font-size: 16px; cursor: pointer;">
+      🚀 Join the Slack Community
+    </a>
+</div>
