@@ -6,8 +6,6 @@ weight: 2
 
 ## Data
 
-### Data
-
 Data is the fuel of our society. Can we agree on that? There were many bold statements over the years to underline the importance of data. Data is the new oil; Data is the new gold; all variations you have probably come across if you follow the news, media, or social media. Data is the new water - is a fresh analogy you can find in researching the data topic.
 
 > "Like water, data needs to be accessible, it needs to be clean, and it is needed to survive." - Dan Vesset (IDC)
@@ -23,8 +21,6 @@ We are getting back to our core topic data and databases. The collection of (imp
 The increase in the volume of data we produce every year has reached an almost frightening value. The digital revolution induces the reason for this exponential increase in data production. Keeping track and oversight in this data situation, we have to improve and invent new data tools, or otherwise, we would get lost in data.
 
 ## Volume of Data
-
-### Volume of Data
 
 Statista provides incredible insights into our world via the looking glass of statistics. The mind-boggling statistic about the created volume of data we make worldwide every year can be found just below this paragraph.
 
@@ -48,8 +44,6 @@ Before we jump into the database topic, let's explore one last important facet o
 
 ## Value Chain of Data
 
-### Value Chain of Data
-
 >"Like water, data needs to be accessible, it needs to be clean, and it is needed to survive." - Dan Vesset (IDC)
 
 ![](value_of_data_1.png "")
@@ -63,9 +57,6 @@ Relevance? Think about the tools and the required features to address those task
 Look at Uber and Airbnb and how they successfully challenged their respective industries with an approach based on data, software solutions, and a customer-first mindset focused on convenience. And convenience always wins.
 
 ## Tools for Data
-
-
-### Tools for Data
 
 ![](db_word_cloud.png "Database Word Cloud")
 
@@ -81,8 +72,6 @@ If you want to know the entire history with more details, you can watch it (Hist
 
 ## History of Databases
 
-### History of Databases
-
 __Part 1__ of the History of Database Evolution covers the events until the initiation of an industry around database technologies. This was also illustrated in the last unit and the linked _History of Databases_ YouTube video. 
 
 ![](history_part_1.png "")
@@ -97,8 +86,6 @@ A glimpse of the future can be found in this excellent wired.com blog post infog
 
 
 ## Benefits of Databases
-
-### Benefits of Databases
 
 ![](db_icon_1.png "")
 
@@ -140,8 +127,6 @@ If there are advantages, then there are also disadvantages, and to get a complet
 * Complexity of Backup & Restore
 
 ## Selection of Databases
-
-### Selection of Databases
 
 The prolific database situation makes the pick of a particular technology not easy. Many theorems, models, and concepts support that selection process, meaning no universal solution for database choices is available.
 
@@ -199,8 +184,6 @@ Fortunately, a book supports in a very structured way with a map of all the rele
 
 ## Responsibility and Expertise
 
-### Responsibility and Expertise
-
 Is running a data center your core business? If the answer to this question is yes, you will have a different opinion and see managed databases in a different light. But the majority here will probably answer with no, and then a common view will open regarding the entry question.
 
 ![](datacenter.png "") 
@@ -208,8 +191,6 @@ Is running a data center your core business? If the answer to this question is y
 It is like with utilities. Do you run a wind farm or a hydroelectric power plant to produce your needed electricity? Or do you rely on a managed service from a utility provider? Information Technology (IT) services have become a utility for many areas anyway. So, specialists are defining and often dominating the market. Use those specialists to become a better specialist in your field of expertise.
 
 ## Managed Databases
-
-### Managed Databases
 
 Looking at managed databases specifically, we see the benefits of simplifying the tasks associated with provisioning and maintaining a database. However, it is still likely that you need some level of experience working with databases to interact with them as you build and scale your app.
 
@@ -224,8 +205,6 @@ Running modern applications is a demanding business. Besides the always needed m
 Owning all of it is a CAPEX game; taking care of it is an OPEX game, very demanding businesses, both regarding time and expertise. The time you miss following up on business opportunities is potentially lost business, valid for all who are not in the business of running data centers.
 
 ## Evolution of Data Services
-
-### Evolution of Data Services
 
 There is a rapidly increasing popularity of managed data services, and many companies are on the lookout to find the most fitting service for the tasks at hand. So, not over stressing running a data center but still trying to drive this essential message home. Questions like:
 
@@ -253,8 +232,6 @@ If you want to have a QuickStart with these technologies, go to our DBaaS Docume
 
 ## Exoscale DBaaS Benefits
 
-### Exoscale DBaaS Benefits
-
 Exoscale DBaaS is an excellent solution for everyone looking for a diverse portfolio of open-source data services used in all types of applications and business solutions.
 
 ![](dbaas.png "")
@@ -273,8 +250,6 @@ Choose between a wide range of open-source databases: PostgreSQL, Apache Kafka, 
 You don't have to care about maintenance or upgrades. Launch your database; we take care of the rest.
 
 ## Exoscale DBaaS Features 
-
-### Exoscale DBaaS Features 
 
 ![](dbaas_features.png "")
 
@@ -297,8 +272,6 @@ Easily automate everything with our simple web portal, CLI, API or tools like Te
 All DBaaS (cluster) offerings come with an uptime SLA of 99.99%.
 
 ## Powered by Aiven
-
-### Powered by Aiven
 
 * Our DBaaS is powered by __Aiven__, one of the leading European companies for managing Open Source data infrastructure in the cloud.
 * The partnership offers __Exoscale__ customers an integrated environment for their complete cloud infrastructure – without any security compromise.
