@@ -5,4 +5,5 @@ description: "Understand the basic principles of containers and container orches
 weight: 4
 id: "6bb2ae92-89d6-4e2b-aac2-74512828b68d"
 level: "beginner"
+banner: "kubernetes-icon.svg"
 ---

@@ -6,4 +6,5 @@ weight: 2
 id: "b4b20bf2-a034-4724-9cca-c370c477418e"
 categories: "cloud, infrastructure"
 level: "beginner"
+banner: "exoscale-icon.svg"
 ---
