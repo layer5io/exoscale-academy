@@ -7,13 +7,13 @@ weight: 1
 
 The [CNCF](https://cncf.io) delivers several Kubernetes certifications, which are listed in the following table.
 
-| Certification                                         | Type     ||
+| Certification                                         | Type     | Badge |
 |-------------------------------------------------------|----------|---------------------------------------------|
-| Kubernetes and Cloud Native Associate (KCNA)          | MCQ | <img src="./images/kcna.png" width="100px"> |
-| Kubernetes and Cloud Native Security Associate (KCSA) | MCQ | <img src="./images/kcsa.png" width="100px"> |
-| Certified Kubernetes Application Developer (CKAD)     | Practice | <img src="./images/ckad.png" width="100px"> |
-| Certified Kubernetes Administrator (CKA)              | Practice      | <img src="./images/cka.png" width="100px">  |
-| Certified Kubernetes Security Specialist (CKS)<br/>*passing the CKA is a requirement before passing the CKS| Practice | <img src="./images/cks.png" width="100px">  |
+| Kubernetes and Cloud Native Associate (KCNA)          | MCQ | <img src="./images/kcna.png" alt="KCNA certification badge" style="width:72px;height:72px;object-fit:contain;"> |
+| Kubernetes and Cloud Native Security Associate (KCSA) | MCQ | <img src="./images/kcsa.png" alt="KCSA certification badge" style="width:72px;height:72px;object-fit:contain;"> |
+| Certified Kubernetes Application Developer (CKAD)     | Practice | <img src="./images/ckad.png" alt="CKAD certification badge" style="width:72px;height:72px;object-fit:contain;"> |
+| Certified Kubernetes Administrator (CKA)              | Practice      | <img src="./images/cka.png" alt="CKA certification badge" style="width:72px;height:72px;object-fit:contain;">  |
+| Certified Kubernetes Security Specialist (CKS)<br/>*passing the CKA is a requirement before passing the CKS*| Practice | <img src="./images/cks.png" alt="CKS certification badge" style="width:72px;height:72px;object-fit:contain;">  |
 
 If you pass all those certifications, you become a [https://www.cncf.io/training/kubestronaut/](https://www.cncf.io/training/kubestronaut/).
 
