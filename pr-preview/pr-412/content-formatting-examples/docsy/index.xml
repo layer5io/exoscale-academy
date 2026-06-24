@@ -465,7 +465,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[22 193 275 54 203 397]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-412/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[140 342 232 492 116 63]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-412/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -522,6 +522,6 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[114 268 339 388 425 236]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-412/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[308 81 254 61 186 88]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-412/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item></channel></rss>
