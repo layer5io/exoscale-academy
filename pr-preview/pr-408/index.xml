@@ -314,11 +314,6 @@
  Data
  &lt;a href="#data" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 id="data-1" class="heading-link"&gt;
- Data
- &lt;a href="#data-1" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h3&gt;
 &lt;p&gt;Data is the fuel of our society. Can we agree on that? There were many bold statements over the years to underline the importance of data. Data is the new oil; Data is the new gold; all variations you have probably come across if you follow the news, media, or social media. Data is the new water - is a fresh analogy you can find in researching the data topic.&lt;/p&gt;</description></item><item><title>Pageinfo (Docsy)</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/content-formatting-examples/docsy/docsy-pageinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/content-formatting-examples/docsy/docsy-pageinfo/</guid><description>&lt;p&gt;The Docsy &lt;code&gt;pageinfo&lt;/code&gt; shortcode renders a colored page-level info box. The academy-theme overrides this shortcode.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; pageinfo color=&amp;#34;primary&amp;#34; &amp;gt;}}Notice content here.{{&amp;lt; /pageinfo &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Parameters:&lt;/strong&gt;&lt;/p&gt;
@@ -482,11 +477,6 @@ This is a live `blocks/lead` example.
  Typical Web Application
  &lt;a href="#typical-web-application" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 id="a-typical-web-application" class="heading-link"&gt;
- A Typical Web Application
- &lt;a href="#a-typical-web-application" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h3&gt;
 &lt;p&gt;Our example architecture consists of the following explained components, and it demonstrates the practical usage of several products together and the associated costs.&lt;/p&gt;
 
 &lt;h4 id="application-servers" class="heading-link"&gt;
@@ -624,7 +614,7 @@ This page shows how each shortcode behaves when rendered.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[260 324 417 238 125 395]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[109 222 104 266 288 439]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -932,7 +922,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[143 435 461 331 66 237]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[494 357 411 490 145 44]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1045,10 +1035,10 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
  &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
 
-&lt;h3 id="iaas" class="heading-link"&gt;
+&lt;h2 id="iaas" class="heading-link"&gt;
  IaaS+
  &lt;a href="#iaas" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;I&lt;/strong&gt;nfrastructure &lt;strong&gt;a&lt;/strong&gt;s &lt;strong&gt;a&lt;/strong&gt; &lt;strong&gt;S&lt;/strong&gt;ervice is the cloud service model we support with the Exoscale platform and a bit more, hence, IaaS+.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1058,7 +1048,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[446 359 279 57 281 298]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[352 80 267 465 22 341]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1068,10 +1058,10 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 &lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-01.mp4"&gt;IaaS+&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id="data-centers" class="heading-link"&gt;
+&lt;h2 id="data-centers" class="heading-link"&gt;
  Data Centers
  &lt;a href="#data-centers" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/h2&gt;
 &lt;p&gt;Getting the necessary cloud infrastructure components is easy. In Europe, there is always an Exoscale data center near you.&lt;/p&gt;</description></item><item><title>CSV Table</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/content-formatting-examples/academy-theme/csvtable/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/content-formatting-examples/academy-theme/csvtable/</guid><description>&lt;p&gt;The &lt;code&gt;csvtable&lt;/code&gt; shortcode reads &lt;code&gt;static/data/csv/keys-backup.csv&lt;/code&gt; and renders a permissions table grouped by category. Each role column shows a check or cross indicator.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; csvtable &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The CSV file must be located at &lt;code&gt;static/data/csv/keys-backup.csv&lt;/code&gt; and contain columns for Category, Function, Feature, and various role names.&lt;/p&gt;
@@ -5834,7 +5824,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[320 90 330 187 68 190]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[320 474 415 268 299 25]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -5846,7 +5836,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[97 365 342 376 33 168]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[188 338 21 394 192 183]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution - Audit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
@@ -6199,7 +6189,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[86 131 414 476 487 310]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[340 311 414 100 157 409]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6256,7 +6246,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[12 20 245 230 262 162]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[92 171 66 110 95 128]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-408/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}

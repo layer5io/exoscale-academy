@@ -3,10 +3,10 @@
  &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
 
-&lt;h3 id="iaas" class="heading-link"&gt;
+&lt;h2 id="iaas" class="heading-link"&gt;
  IaaS+
  &lt;a href="#iaas" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;I&lt;/strong&gt;nfrastructure &lt;strong&gt;a&lt;/strong&gt;s &lt;strong&gt;a&lt;/strong&gt; &lt;strong&gt;S&lt;/strong&gt;ervice is the cloud service model we support with the Exoscale platform and a bit more, hence, IaaS+.&lt;/p&gt;
 &lt;p&gt;
 
@@ -16,7 +16,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[446 359 279 57 281 298]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[352 80 267 465 22 341]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -26,8 +26,8 @@
 &lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://sos-de-fra-1.exo.io/exoscale-academy/videos/csa-overview-01.mp4"&gt;IaaS+&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id="data-centers" class="heading-link"&gt;
+&lt;h2 id="data-centers" class="heading-link"&gt;
  Data Centers
  &lt;a href="#data-centers" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/h2&gt;
 &lt;p&gt;Getting the necessary cloud infrastructure components is easy. In Europe, there is always an Exoscale data center near you.&lt;/p&gt;</description></item></channel></rss>
