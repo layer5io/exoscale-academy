@@ -1,5 +1,7 @@
 # Exoscale Academy
 
+[![Hugo](https://img.shields.io/badge/Hugo-Framework-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
+
 Welcome to **Exoscale Academy**, the dedicated cloud education and training platform powered by Layer5. This repository provides a comprehensive framework for creating, organizing, and publishing structured learning paths, challenges and certifications tailored for Exoscale users and cloud practitioners.
 
 ## Design Resources

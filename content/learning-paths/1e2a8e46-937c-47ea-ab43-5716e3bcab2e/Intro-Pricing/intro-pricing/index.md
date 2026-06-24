@@ -6,8 +6,6 @@ weight: 4
 
 ## Typical Web Application
 
-### A Typical Web Application
-
 Our example architecture consists of the following explained components, and it demonstrates the practical usage of several products together and the associated costs. 
 
 #### Application Servers
@@ -41,8 +39,6 @@ responsible for resolving the service domain name (example.com).
 
 
 ## Calculate Product Pricing
-
-### Calculate Product Pricing
 
 Usually, you want to know the cost for a resource on a monthly basis, like you know your cost for other subscriptions like your mobile data plan, Spotify, Netflix and so forth.
 
@@ -99,8 +95,6 @@ LARGE     (50 Zones =  €25/month)
 
 ## Calculate Scenario Pricing
 
-### Calculate Scenario Pricing
-
 For an overall scenario pricing, we have to add up all component prices - like the ones we calculated before - in our scenario, add data transfers to the internet and amount of storage in rest to the equation.
 
 Additional storage costs are associated with the Simple Object Storage (SOS). A scalable, reliable, and cost-effective solution to support your application. Backup or serve your data from any Exoscale zone with no hidden fees, using your existing S3-compatible tooling and a familiar API.
@@ -147,8 +141,6 @@ TOTAL                                   € 569.64/month
 ```
 
 ## Pricing Calculator
-
-### Pricing Calculator
 
 A simple and convenient tool to get product pricing for various configurations
 always available here:

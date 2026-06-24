@@ -35,8 +35,6 @@ Here you can see a system administrator who was woken at 3 am to restart a proce
 
 ## New Ideas & Concepts
 
-### New Ideas & Concepts
-
 As often in IT, great "new" ideas and concepts are recycled or borrowed from others. So it happened that the shipping industry was a big inspiration for optimizing IT infrastructure operations more than two decades ago.
 
 The concept of a container to standardize the packing of goods, make them universal to handle and transport on different means of transportation to improve efficiency and reduce the transportation costs was a real success story for the transportation industry.
@@ -62,8 +60,6 @@ Computer container technology in the IT industry addresses similar challenges to
 In streamlining the processes and the apps' packaging in containers, deploying and running apps as one unit become a more performant and resource-effective process.
 
 ## Container Benefits
-
-### Container Benefits
 
 * __dev and ops separation of concerns__
 create application container images at build/release time rather than deployment time, thereby decoupling applications from infrastructure
@@ -97,8 +93,6 @@ raises abstraction level:
   * __to__ running applications on an OS using logical resources
 
 ## History of Application Deployments
-
-### History of Application Deployments
 
 ![](app_deployments.png "Application Deployments")
 
@@ -141,8 +135,6 @@ Running services in containers tend to produce numerous containers pretty quick.
 
 ## Kubernetes in Plain English
 
-### Kubernetes in Plain English
-
 ![](k8s_logo.png "")
 
 >__Containerization__ is this trend that’s __taking over the world__
@@ -158,8 +150,6 @@ Dan Kohn, former executive director of the CNCF
 
 
 ## Kubernetes ?
-
-### Kubernetes ?
 
 Google open-sourced the Kubernetes project in 2014. Kubernetes combines over 15 years of Google's experience running production workloads at scale with best-of-breed ideas and practices from the community.
 
@@ -180,8 +170,6 @@ The significant change in this new IT world is that well-trained and practiced p
 ![](ivsd.png "Imperative vs Declarative")
 
 ## Features
-
-### Features
 
 ![](k8s_features.png "Kubernetes Features")
 
@@ -207,8 +195,6 @@ Kubernetes can expose a container using the DNS name or using their IP address. 
 Kubernetes allows you to automatically mount a storage system of your choice, such as local storages, public cloud providers, and more.
 
 ## Kubernetes ...
-
-### Kubernetes is ...
 
 ... __providing__ the building blocks for creating developer and infrastructure platforms but preserves user choice and flexibility where it is essential.
 
@@ -257,8 +243,6 @@ Kubernetes comprises independent, composable control processes that continuously
 
 ## Important Building Blocks
 
-### Important Building Blocks
-
 An application running on Kubernetes is a workload. Whether your workload is a single component or several that work together, on Kubernetes, you run it inside a set of Pods. In Kubernetes, a Pod represents a set of running containers on your cluster.
 
 A critical fault on the node where your Pod runs means that all the Pods on that node fail. Kubernetes treats that level of failure as final: you would need to create a new Pod to recover, even if the node later becomes healthy. However, to make life easier, you don't need to manage each Pod directly.
@@ -270,8 +254,6 @@ Kubernetes provides several built-in workload resources: Pods, ReplicaSet, Deplo
 
 
 ## PODs
-
-### PODs
 
 Pods are the basic building blocks to run containers inside of Kubernetes. Every Pod holds at least one container and controls the execution of that container. If all containers terminate, the Pod terminates too. Mounting storage, setting environment variables, and feed information into the container are all functions provided by the Pod.
 
@@ -289,16 +271,11 @@ A Pod can encapsulate an application composed of multiple co-located containers 
 
 ## REPLICASETs
 
-### REPLICASETs
-
 A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time to guarantee the availability of a specified number of identical Pods. However, a Deployment is a higher-level concept that manages ReplicaSets and provides declarative updates to Pods and other useful features. Therefore, Deployments are recommended instead of directly using ReplicaSets.
 
 ![](REPLICASETs.gif "REPLICASETs")
 
 ## DEPLOYMENTs
-
-
-### DEPLOYMENTs
 
 A Deployment is a higher-order abstraction that controls deploying and maintaining a set of Pods. Behind the scenes, it uses a ReplicaSet to keep the Pods running, but it offers sophisticated logic for deploying, updating, and scaling a set of Pods within a cluster. Deployments support rollbacks and rolling updates. Rollouts can be paused if needed.
 
@@ -306,23 +283,17 @@ A Deployment is a higher-order abstraction that controls deploying and maintaini
 
 ## DEAMONSETs
 
-### DEAMONSETs
-
 DaemonSets have many use cases – one frequent pattern is to use DaemonSets to install or configure each host node. DaemonSets provide a way to ensure that a Pod copy is running on every node in the cluster. As a cluster grows and shrinks, the DaemonSet spreads these specially labelled Pods across all nodes.
 
 ![](DAEMONSETs.png "DAEMONSETs")
 
 ## INGRESS
 
-### INGRESS
-
 Route traffic to and from the cluster. Provide a single SSL endpoint for multiple applications. Many implementations of an ingress allow you to customize your platform. Ingresses provide a way to declare that they should channel traffic from the outside of the cluster into destination points within the cluster. One single external Ingress point can accept traffic destined to many internal services.
 
 ![](INGRESS.png "INGRESS")
 
 ## CRONJOBs
-
-### CRONJOBs
 
 Use familiar `cron` syntax to schedule tasks. CronJobs are part of the Batch API for creating short-lived non-server tools. CronJobs provide a method for scheduling the execution of Pods. They are excellent for running periodic tasks like backups, reports, and automated tests.
 
@@ -331,8 +302,6 @@ Use familiar `cron` syntax to schedule tasks. CronJobs are part of the Batch API
 
 
 ## Managed Kubernetes
-
-### Managed Kubernetes
 
 Suppose you don't have the time, the budget, and the human resources to master all the complexity of Kubernetes on your own. In that case, your best option is to select a managed alternative to benefit from the power of Kubernetes in your developer and infrastructure platforms.
 
@@ -379,8 +348,6 @@ Elastisys' Compliant Kubernetes (CK8s) is a security-hardened, CNCF certified Ku
 
 ## Scalable Kubernetes Service
 
-### Scalable, On-demand Kubernetes Cluster
-
 Start with a privacy-minded public cloud to host from single applications to complex architectures. Deploy a production-ready cluster in 90 seconds and manage it with a simple web portal, CLI, API or your choice of tools (Terraform).
 
 ![](exo_sks.png "")
@@ -417,8 +384,6 @@ Deploy your cluster where you need to, in the region that suits your latency, pr
 
 
 ## Packaging & Pricing
-
-### Packaging & Pricing
 
 ![](packaging_pricing.png "Exoscale SKS - Packaging & Pricing")
 
