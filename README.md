@@ -46,7 +46,7 @@ Once imported, the individual Exoscale icons will be available in the Designer's
 
 Before you begin, ensure you have:
 
-- [**Hugo**](https://gohugo.io/getting-started/installing/) (extended version, recommended v0.147.9 or later)
+- [**Node.js & npm**](https://nodejs.org/) (to manage the local Hugo Extended binary)
 - [**Go**](https://go.dev/doc/install) (v1.12 or later)
 
 ## Getting Started
@@ -58,10 +58,25 @@ Before you begin, ensure you have:
    cd exoscale-academy
    ```
 
-2. **(Optional: If contributing from a fork)**
+2. **Fetch dependencies and install local Hugo**
+
+   ```bash
+   go mod tidy
+   make setup
+   ```
+
+3. **Run the local Hugo server**
+
+   ```bash
+   make site
+   ```
+
+   *(This uses the locally installed `hugo-extended` version to prevent version conflicts).*
+
+4. **(Optional: If contributing from a fork)**
    - Edit `go.mod` and update the module path to match your fork. Save and commit.
 
-3. **Organization UID**
+5. **Organization UID**
    - All Exoscale Academy content is namespaced under its Organization ID:
 
      ```
@@ -233,8 +248,14 @@ go mod tidy
 # Install necessary tools and modules
 make setup
 
+# Verify required commands and local dependencies are present
+make check-deps
+
 # Start the local Hugo development server
 make site
+
+# Run site locally in serve mode (without file watching)
+make serve
 
 # Build the site for production
 make build
