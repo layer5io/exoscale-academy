@@ -13,8 +13,8 @@
     "_build": "npm run _hugo-dev --",
     "_check:links": "echo IMPLEMENTATION PENDING for check-links; echo",
     "_hugo": "hugo --cleanDestinationDir",
-    "_hugo-dev": "hugo --cleanDestinationDir -e dev -DFE",
-    "_local": "cross-env HUGO_MODULE_WORKSPACE=exoscale-academy.work",
+    "_hugo-dev": "npm run _hugo -- -e dev -DFE",
+    "_local": "npx cross-env HUGO_MODULE_WORKSPACE=exoscale-academy.work",
     "_serve": "npm run _hugo-dev -- --minify serve --renderToMemory",
     "build:preview": "npm run _hugo-dev -- --minify --baseURL \"${DEPLOY_PRIME_URL:-/}\"",
     "build:production": "npm run _hugo -- --minify",
@@ -22,9 +22,6 @@
     "check:links:all": "HTMLTEST_ARGS= npm run _check:links",
     "check:links": "npm run _check:links",
     "clean": "rm -Rf public/* resources",
-    "dev:build": "npm run _hugo-dev --",
-    "dev:serve": "npm run _hugo-dev -- server --watch=false",
-    "dev:site": "npm run _hugo-dev -- server",
     "local": "npm run _local -- npm run",
     "make:public": "git init -b main public",
     "precheck:links:all": "npm run build",
@@ -35,8 +32,7 @@
     "test": "npm run check:links",
     "update:dep": "npm install --save-dev autoprefixer@latest postcss-cli@latest",
     "update:hugo": "npm install --save-dev --save-exact hugo-extended@latest",
-    "update:pkgs": "npx npm-check-updates -u",
-    "update:theme": "hugo mod get github.com/layer5io/academy-theme"
+    "update:pkgs": "npx npm-check-updates -u"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.27",
