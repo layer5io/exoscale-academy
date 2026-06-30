@@ -33,7 +33,7 @@ check-deps:
 ## Validate Go is installed
 check-go:
 	@echo "Checking if Go is installed..."
-	@command -v go > /dev/null || (echo "Go is not installed. Please install it before proceeding."; exit 1)
+	@command -v go > /dev/null || { echo "Go is not installed. Please install it before proceeding."; exit 1 }
 	@echo "Go is installed."
 
 ## Update the academy-theme package to latest version

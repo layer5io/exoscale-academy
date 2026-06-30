@@ -29,7 +29,7 @@
     "precheck:links": "npm run build",
     "postbuild:preview": "npm run _check:links",
     "postbuild:production": "npm run _check:links",
-    "site": "npm run _hugo -- --minify --watch=false serve",
+    "site": "npm run _hugo -- serve --minify --watch=false",
     "serve": "npm run _serve",
     "test": "npm run check:links",
     "update:dep": "npm install --save-dev autoprefixer@latest postcss-cli@latest",
@@ -43,7 +43,8 @@
     "hugo-extended": "0.158.0",
     "postcss": "^8.5.12",
     "postcss-cli": "^11.0.1",
-    "rtlcss": "^4.3.0"
+    "rtlcss": "^4.3.0",
+    "prettier": "3.0.0"
   },
   "optionalDependencies": {
     "npm-check-updates": "^18.0.1"
