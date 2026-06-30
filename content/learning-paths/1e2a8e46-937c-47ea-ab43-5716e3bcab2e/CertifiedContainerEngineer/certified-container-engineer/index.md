@@ -25,7 +25,7 @@ Containers take virtualization further by sharing the host OS while maintaining 
 [Container](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-container-01.mp4)
 
 
-### Sample App
+## Sample App
 
 This sample app demonstration shows how traditional software deployment looks. A little JavaScript spins up a web server and runs the sample app on the server. It demonstrates how easy it is to run web-based applications, but you must install and run Node.js beforehand. In addition, you have to use the proper versions of the software components and take care of all dependencies (runtime environments, libraries, etc.). Otherwise, the app will not run properly.
 
@@ -152,7 +152,7 @@ Building and running containers is simple: use `docker build` to create a contai
 [DEMO: Dockerfile](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-demo-dockerfile.mp4)
 
 
-### Docker Hub
+## Docker Hub
 
 Docker Hub provides a convenient, publicly available repository for managing, storing, retrieving, and sharing container images. Unlike traditional IT, where custom solutions are often needed, the container ecosystem includes services like Docker Hub by default. For Docker containers, Docker Hub offers a simple, integrated way to use and distribute container images.
 
@@ -186,8 +186,6 @@ Kubernetes provides this orchestration, allowing you to manage containers at sca
 
 
 ## Basic Commands
-
-### Basic Commands
 
 It’s time to get hands-on with Kubernetes. In this section, we’ll introduce some fundamental `kubectl` commands to help you interact with your cluster. 
 ```
@@ -236,8 +234,6 @@ $ kubectl run my-shell -i --rm --tty --image=ubuntu -- bash
 
 ## Cluster
 
-### Cluster Structure
-
 Let's examine the Kubernetes Cluster and its components. Although it is a complex structure, the beauty of SKS is that we manage the complexity. Kubernetes as a managed service remains a very flexible solution because the possibility of shaping the services with add-ons makes it very customizable.
 
 ![](k8s-cluster.png "Kubernetes Cluster Components")
@@ -249,13 +245,12 @@ Let's examine the Kubernetes Cluster and its components. Although it is a comple
 
 ## Resources
 
-### Resources
-
 Before you start deploying applications with Kubernetes, it’s important to understand its core building blocks. In this section, we’ll introduce important Kubernetes resources that form the backbone of scalable and reliable cloud-native applications.
 
 ![](building-blocks-overview.png "Building Blocks Overview")
 
-### Pod
+## Pod
+
 A Pod is the smallest deployable unit in Kubernetes, comprising one or more containers that share storage, networking, and configuration. Containers in a Pod use the same IP address and port space, facilitating easy communication and resource sharing, while remaining isolated from other Pods. Pods are typically used to host tightly coupled application components that need to run together.
 
 ![](icon-pod.png "Kubernetes Pod")
@@ -299,7 +294,7 @@ spec:
 #### VIDEO
 [Pod](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-01.mp4)
 
-### ReplicaSet
+## ReplicaSet
 
 A ReplicaSet in Kubernetes ensures that a specified number of identical Pod replicas are running at all times. It automatically manages Pod replication, creation, and replacement in response to failures or scale changes, providing high availability, scalability, and fault tolerance for applications. ReplicaSets are often used as part of Deployments, allowing easy rolling updates and rollbacks.
 
@@ -352,7 +347,7 @@ spec:
 #### VIDEO
 [ReplicaSet](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-02.mp4)
 
-### Deployment
+## Deployment
 
 A Deployment in Kubernetes automates the management, scaling, and rollout of containerized applications across a cluster. It manages ReplicaSets and Pods, ensuring the actual state matches the desired state. Deployments provide a declarative, reliable way to update and roll back applications as needed.
 
@@ -408,7 +403,7 @@ spec:
 #### VIDEO
 [DEMO: Deployment](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-demo-deployment.mp4)
 
-### DaemonSet
+## DaemonSet
 
 A Kubernetes DaemonSet ensures that a copy of a specific Pod runs on all or selected nodes in a cluster. It’s used to automatically deploy system-level services or background tasks that need to run on each node, such as monitoring agents or log collectors.
 
@@ -459,7 +454,7 @@ spec:
 #### VIDEO
 [DaemonSet](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-04.mp4)
 
-### Job
+## Job
 
 A Job in Kubernetes is a resource that manages the execution of one or more Pods to completion. 
 Unlike Deployments or ReplicaSets, which maintain ongoing applications, a Job ensures that a specified number of Pods run and finish successfully—for example, for a batch task, script, or data processing job. Once the work is complete, the Job ends, making it ideal for one-off or scheduled tasks.
@@ -506,7 +501,7 @@ spec:
 #### VIDEO
 [Job](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-05.mp4)
 
-### CronJob
+## CronJob
 
 A CronJob is a workload object that runs jobs on a recurring schedule, similar to Unix cron jobs. It automates task execution within the cluster at specified times or intervals, making it useful for scheduled tasks like backups, report generation, or sending notifications.
 
@@ -559,7 +554,7 @@ spec:
 [CronJob](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-06.mp4)
 
 
-### StatefulSet
+## StatefulSet
 
 A StatefulSet in Kubernetes is a resource used to manage stateful applications. Unlike Deployments, StatefulSets guarantee stable, unique network identities and persistent storage for each Pod. This makes them ideal for databases or applications that require data to persist across Pod restarts and need ordered deployment, scaling, and updates.
 
@@ -603,7 +598,7 @@ spec:
 [StatefulSet](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-07.mp4)
 
 
-### ConfigMap
+## ConfigMap
 
 A ConfigMap is a key-value store for non-confidential configuration data. It allows you to separate environment-specific config from container images, enabling flexible app configuration without hardcoding values and making applications more portable and easier to manage across environments.
 
@@ -647,7 +642,7 @@ spec:
 [ConfigMap](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-08.mp4)
 
 
-### Secret
+## Secret
 
 A Secret securely stores sensitive information such as passwords, tokens, and keys, keeping them separate from application code and configuration. This separation reduces the risk of accidental exposure or unauthorized access. Unlike ConfigMaps, Secrets are designed specifically for confidential data and are base64-encoded and access-controlled to enhance security within the cluster.
 
@@ -700,7 +695,7 @@ spec:
 [Secret](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-resources-09.mp4)
 
 
-### Service
+## Service
 
 A Service exposes an application running on a set of Pods as a network service. It provides stable IP addresses and a DNS name for Pods, enabling load balancing across them. Services decouple work definitions from Pods, allowing seamless communication without service discovery changes.
 
@@ -780,7 +775,7 @@ spec:
 #### VIDEO
 [DEMO: Service](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-demo-service.mp4)
 
-### Ingress
+## Ingress
 
 Kubernetes Ingress manages external access to services, routing HTTP/HTTPS traffic to the right pods. It supports host and path-based routing, SSL termination, and integrates with reverse proxies, enabling flexible and secure application delivery within the cluster.
 
@@ -849,7 +844,7 @@ spec:
 #### VIDEO
 [DEMO: Ingress](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-demo-ingress.mp4)
 
-### Namespace
+## Namespace
 
 A Namespace in Kubernetes offers a method to partition cluster resources among multiple users, teams, or projects. Namespaces create logical separation within a single cluster, making it possible to manage different environments, set resource quotas, and enforce access controls independently for each group. This approach is ideal for organizing resources efficiently and preventing naming conflicts in large, shared clusters.
 
@@ -893,8 +888,6 @@ spec:
 
 
 ## Workloads
-
-### Workloads
 
 However, you don’t need to manage Pods directly. Instead, you use higher-level workload resources like:
 
@@ -948,7 +941,8 @@ Alternatively, you can copy and modify example manifests directly from the:
 This method may not be available for all resource types.
 
 
-### Update
+## Update
+
 Updating in Kubernetes is a controlled, automated process driven by updating your desired state in manifest files, ensuring reliable and consistent changes with built-in support for rollouts and rollbacks. 
 The update process in Kubernetes is designed to allow changes to applications and resources with minimal disruption.
 
@@ -995,13 +989,7 @@ Failed updates can be quickly undone, restoring previous working versions.
 [DEMO: Update](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-demo-update.mp4)
 
 
-
-
-
-
 ## Storage
-
-### Storage
 
 Kubernetes Volumes provide a way for containers to share and persist data. They are essential for managing storage needs in containerized applications.
 
@@ -1013,7 +1001,7 @@ Reliable data storage is crucial for today’s workloads, whether handling tempo
 [Storage](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-storage-01.mp4)
 
 
-### Volumes
+## Volumes
 
 Kubernetes Volumes provide a way for containers to share and persist data. They are essential for managing storage needs in containerized applications.
 
@@ -1032,7 +1020,7 @@ Used to inject configuration data or sensitive information into containers.
 [Volumes](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-storage-02.mp4)
 
 
-### Persistent Volumes
+## Persistent Volumes
 
 Persistent Volumes in Kubernetes offer durable, reliable storage for stateful applications, ensuring data remains safe even when Pods are deleted or rescheduled.
 
@@ -1096,7 +1084,7 @@ For applications requiring shared access to multiple node files.
 [DEMO: Storage](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-demo-storage.mp4)
 
 
-### Technologies
+## Technologies
 
 Kubernetes supports a variety of storage solutions—local, block, and object—plus cloud-native technologies like OpenEBS, Portworx, and Rook, enabling flexible, scalable, and persistent data management for any containerized application.
 
@@ -1221,8 +1209,6 @@ Exoscale's Block Storage provides high-performance network volumes, making it an
 
 ## Exoscale CSI
 
-### Exoscale CSI
-
 The Exoscale CSI plugin lets you use Exoscale Block Storage with Kubernetes. You can install it easily when setting up your SKS cluster or manually from GitHub. 
 
 #### What is it?
@@ -1264,8 +1250,6 @@ Enable CSI via CLI, portal, or Terraform when setting up or updating a cluster.
 
 ## Managed Solutions
 
-### Managed Solutions
-
 ![](comparison.png "Solutions Comparison")
 
 
@@ -1300,8 +1284,6 @@ Elastisys’ Compliant Kubernetes (CK8s) is a secure, CNCF-certified Kubernetes 
 
 ## Exoscale SKS
 
-### Exoscale SKS
-
 SKS is a fully managed Kubernetes platform from Exoscale that simplifies the deployment, management, and scaling of containerized applications. Exoscale handles cluster setup and maintenance, while SKS integrates smoothly with its networking and storage for high availability and security. Whether you’re new or experienced with Kubernetes, SKS provides a reliable, easy-to-use solution for modern application delivery.
 
 ![](exoscale-sks.png "")
@@ -1324,12 +1306,7 @@ You can deploy your Kubernetes clusters in any Exoscale zone, so you can meet yo
 [Exoscale SKS](https://sos-de-fra-1.exo.io/exoscale-academy/videos/cce-exoscale-sks-01.mp4)
 
 
-
-
-
 ## Operations
-
-### Operations
 
 Debugging IT systems is complex due to increased flexibility and performance demands. Efficient troubleshooting in agile and Kubernetes environments relies on practical CLI strategies across DevOps, monitoring, and operations. Exoscale Managed Kubernetes simplifies lifecycle management, letting teams focus on rapid development and resilient operations with scalable, easy-to-use infrastructure.
 
