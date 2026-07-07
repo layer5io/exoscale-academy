@@ -15,8 +15,13 @@
 include .github/build/Makefile.core.mk
 include .github/build/Makefile.show-help.mk
 
-# Any changes to the main recipes in a repo's Makefile which is subscribed to the "meshery-academy" topic (such as this one)
-# requires a subsequent change to all of the other Makefiles subscribed to this topic.
+# Changes to any main recipe in this Makefile, require a corresponding change in all other repositories subscribed to the 'meshery-academy' topic.
+
+# htmltest is fetched and run on demand via 'go run' (no install step). Pin it for
+# reproducible link checks; leave as 'latest' to always use the newest release.
+HTMLTEST_VERSION ?= latest
+export HTMLTEST_VERSION
+
 # ---------------------------------------------------------------------------
 # Academy
 # ---------------------------------------------------------------------------
@@ -42,10 +47,6 @@ check-go:
 theme-update: check-go check-deps
 	@echo "Updating to latest academy-theme..."
 	npm run update:theme
-
-## Install the htmltest binary used by 'make check-links' (run once per machine).
-install-htmltest: check-go
-	npm run install:htmltest
 
 # ---------------------------------------------------------------------------
 # LOCAL BUILDS: Show help for available targets
@@ -81,7 +82,7 @@ clean:
 	$(MAKE) setup
 	$(MAKE) site
 
-## Check internal links in the built site (run 'make install-htmltest' once first).
+## Check internal links in the built site (htmltest is fetched on demand via 'go run').
 check-links: check-go check-deps
 	npm run check:links
 
@@ -95,7 +96,7 @@ format-check:
 
 ## Fix Markdown linting issues
 lint-fix:
-	npx --yes markdownlint-cli2 "content/**/*.md"
+	npx --yes markdownlint-cli2 --fix "content/**/*.md"
 
 .PHONY: \
 	setup \
@@ -106,7 +107,6 @@ lint-fix:
 	site-no-watch \
 	clean \
 	check-links \
-	install-htmltest \
 	format \
 	format-check \
 	lint-fix \

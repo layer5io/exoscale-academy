@@ -1,33 +1,44 @@
 # htmltest configuration.
-# Checks the built site for broken links, images, and script references.
-# htmltest reads the GENERATED HTML, so a Hugo build must run first
-# (public/ must exist). The `precheck:links` / `postbuild:*` npm hooks
-# handle that ordering for you.
+# Checks the built HTML in public/ for broken links, images, and scripts.
+# External links are skipped at runtime via the -s flag in the check:links script.
 
-# Where the built HTML lives. Must match Hugo's output directory.
 DirectoryPath: "public"
 
-# Validate links/images/scripts that point within the site.
 CheckInternal: true
+CheckExternal: true       # skipped at runtime by -s; left true for when you drop -s
+EnforceHTTPS: true        # still flags real http:// links (e.g. exoscale.com) to fix
 
-# Validate links that point to other sites. This stays enabled here, but
-# the default `check:links` script passes -s to SKIP external checks (fast,
-# deterministic). `check:links:all` clears that and runs external too.
-CheckExternal: true
+# --- Silence intentional or non-blocking findings ---
 
-# Flag http:// links that should be https://.
-EnforceHTTPS: true
+# Hugo serves pages as directories, so a link to "./foo" (no trailing slash)
+# only causes a redirect, not a break. Don't treat these as errors.
+IgnoreDirectoryMissingTrailingSlash: true
 
-# Docs themes frequently emit empty-hash anchors (href="#"); don't flag them.
-IgnoreInternalEmptyHash: true
+# Alt-text issues are an accessibility backlog, not broken links. Empty alt is
+# valid for decorative images. Re-enable (set these false) when you work the
+# accessibility pass.
+IgnoreAltEmpty: true
+IgnoreAltMissing: true
 
-# Cache external-link results (~2 weeks) so repeat runs are fast.
-# Stored under tmp/.htmltest — add that to .gitignore.
-CacheExpires: "336h"
+# Deliberate example URLs in workshop content (intentionally http, not real
+# reachable hosts). These skip HTTPS enforcement; genuine http links elsewhere
+# (exoscale.com, etc.) are NOT listed here, so they still surface for fixing.
+IgnoreHTTPS:
+  - '^http://localhost'
+  - 'votingapp\.(com|cc)'
+  - 'nip\.io'
+  - 'thesecretlivesofdata\.com'
 
 # Directories in public/ to skip entirely (adjust per repo as needed).
-# IgnoreDirs:
-#   - "some-generated-dir"
+# Theme/shortcode demonstration pages full of intentional example links and
+# placeholder image paths. Not real content; skip the whole section.
+IgnoreDirs:
+  - 'content-formatting-examples'
+
+# Cache external-link results for fast repeat runs (stored under tmp/.htmltest;
+# add tmp/ to .gitignore). Harmless under -s.
+CacheExpires: "336h"
+
 
 # Known-noisy or intentionally-unreachable URLs to ignore (regex).
 # IgnoreURLs:
