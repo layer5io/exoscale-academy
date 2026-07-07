@@ -15,6 +15,8 @@
 include .github/build/Makefile.core.mk
 include .github/build/Makefile.show-help.mk
 
+# Any changes to the main recipes in a repo's Makefile which is subscribed to the "meshery-academy" topic (such as this one)
+# requires a subsequent change to all of the other Makefiles subscribed to this topic.
 # ---------------------------------------------------------------------------
 # Academy
 # ---------------------------------------------------------------------------
@@ -41,59 +43,72 @@ theme-update: check-go check-deps
 	@echo "Updating to latest academy-theme..."
 	npm run update:theme
 
-#----------------------------------------------------------------------------
-# LOCAL_BUILDS: Show help for available targets
-#----------------------------------------------------------------------------
+## Install the htmltest binary used by 'make check-links' (run once per machine).
+install-htmltest: check-go
+	npm run install:htmltest
+
+# ---------------------------------------------------------------------------
+# LOCAL BUILDS: Show help for available targets
+# ---------------------------------------------------------------------------
 
 ## Install site dependencies
 setup:
 	npm install
 
-## Build site for local consumption
+## Build the site locally with draft and future content enabled.
 build: check-go check-deps
-	npm run build:production
+	npm run build
 
-## Build site for local consumption
+## Build the site for a deploy preview.
 build-preview: check-go check-deps
 	npm run build:preview
 
-## Build and run site locally with draft and future content enabled.
-serve: check-go check-deps
-	npm run serve
+## Build the site for production.
+build-production: check-go check-deps
+	npm run build:production
 
-## Build and run site locally
+## Build and run the site locally with live reload (draft and future content enabled).
 site: check-go check-deps
 	npm run site
 
-## Empty build cache and run on your local machine.
+## Build and serve the site once with the file-watcher off (no live reload).
+site-no-watch: check-go check-deps
+	npm run site:no-watch
+
+## Empty the build cache, reinstall dependencies, and run the site locally.
 clean:
 	npm run clean
 	$(MAKE) setup
 	$(MAKE) site
 
+## Check internal links in the built site (run 'make install-htmltest' once first).
+check-links: check-go check-deps
+	npm run check:links
+
 ## Format code using Prettier
 format:
 	npm run format
 
+## Check formatting without writing changes.
+format-check:
+	npm run format:check
+
 ## Fix Markdown linting issues
 lint-fix:
-	@echo "Checking for markdownlint-cli2..."
-	@command -v markdownlint-cli2 > /dev/null || { \
-		echo "markdownlint-cli2 not found. Attempting to install globally..."; \
-		command -v npm > /dev/null || { echo "npm is not installed. Please install Node.js/npm and re-run 'make lint-fix'."; exit 1; }; \
-		npm install -g markdownlint-cli2; \
-	}
-	@echo "Running markdownlint-cli2 --fix..."
-	@markdownlint-cli2 --fix "**/*.md" "#node_modules" "#public" "#resources"
+	npx --yes markdownlint-cli2 "content/**/*.md"
 
 .PHONY: \
 	setup \
 	build \
 	build-preview \
-	serve \
+	build-production \
 	site \
+	site-no-watch \
 	clean \
+	check-links \
+	install-htmltest \
 	format \
+	format-check \
 	lint-fix \
 	check-deps \
 	check-go \

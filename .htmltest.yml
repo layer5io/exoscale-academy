@@ -1,0 +1,34 @@
+# htmltest configuration.
+# Checks the built site for broken links, images, and script references.
+# htmltest reads the GENERATED HTML, so a Hugo build must run first
+# (public/ must exist). The `precheck:links` / `postbuild:*` npm hooks
+# handle that ordering for you.
+
+# Where the built HTML lives. Must match Hugo's output directory.
+DirectoryPath: "public"
+
+# Validate links/images/scripts that point within the site.
+CheckInternal: true
+
+# Validate links that point to other sites. This stays enabled here, but
+# the default `check:links` script passes -s to SKIP external checks (fast,
+# deterministic). `check:links:all` clears that and runs external too.
+CheckExternal: true
+
+# Flag http:// links that should be https://.
+EnforceHTTPS: true
+
+# Docs themes frequently emit empty-hash anchors (href="#"); don't flag them.
+IgnoreInternalEmptyHash: true
+
+# Cache external-link results (~2 weeks) so repeat runs are fast.
+# Stored under tmp/.htmltest — add that to .gitignore.
+CacheExpires: "336h"
+
+# Directories in public/ to skip entirely (adjust per repo as needed).
+# IgnoreDirs:
+#   - "some-generated-dir"
+
+# Known-noisy or intentionally-unreachable URLs to ignore (regex).
+# IgnoreURLs:
+#   - "^https://linkedin\\.com/"
