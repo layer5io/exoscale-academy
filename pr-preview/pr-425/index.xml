@@ -614,7 +614,7 @@ This page shows how each shortcode behaves when rendered.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[204 201 103 85 200 488]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[330 362 169 273 374 87]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -922,7 +922,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[207 106 432 294 411 455]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[92 265 40 413 269 487]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1048,7 +1048,7 @@ This sentence is rendered because `params.buildCondition` is set to `examples`.
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[10 474 191 349 212 130]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[221 195 269 183 147 31]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -5824,7 +5824,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[48 431 207 265 405 170]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[126 348 340 135 380 14]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -5836,7 +5836,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[449 28 6 469 173 206]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[72 328 174 122 57 293]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Solution - Audit</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/10.operations/exercises/audit/solution/</guid><description>&lt;ol&gt;
@@ -6189,7 +6189,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[80 131 90 73 56 447]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[215 300 390 293 107 236]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -6246,7 +6246,7 @@ Error from server (ServiceUnavailable): the server is currently unable to handle
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[2 327 24 299 240 223]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
+ &lt;img id="[108 112 414 297 30 57]" src="https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/examples/images/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Usestatic</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/content-formatting-examples/academy-theme/usestatic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-425/content-formatting-examples/academy-theme/usestatic/</guid><description>&lt;p&gt;The &lt;code&gt;usestatic&lt;/code&gt; shortcode resolves a tenant-scoped static file path, prefixing it with the organization UUID configured in &lt;code&gt;params.defined_org&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; usestatic &amp;#34;images/exoscale-icon.png&amp;#34; &amp;gt;}}
