@@ -16,7 +16,6 @@
     "_build": "npm run _hugo-dev",
     "_site": "npm run _hugo-dev -- --minify server",
     "_check:links": "echo \"Skipped: go run github.com/wjdp/htmltest@${HTMLTEST_VERSION:-latest} -s\"",
-    "_local": "npx cross-env HUGO_MODULE_WORKSPACE=exoscale-academy.work",
     "build": "npm run _build",
     "build:preview": "npm run _hugo-dev -- --minify --baseURL \"${DEPLOY_PRIME_URL:-/}\"",
     "build:production": "npm run _hugo -- --minify --gc",
@@ -24,7 +23,6 @@
     "site:no-watch": "npm run _hugo-dev -- --minify --watch=false server",
     "clean": "rm -Rf public/* resources",
     "make:public": "git init -b main public",
-    "local": "npm run _local -- npm run",
     "check:links": "npm run _check:links",
     "precheck:links": "npm run build",
     "postbuild:preview": "npm run _check:links",
@@ -39,7 +37,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.27",
-    "cross-env": "^7.0.3",
     "hugo-extended": "0.158.0",
     "postcss": "^8.5.12",
     "postcss-cli": "^11.0.1",
