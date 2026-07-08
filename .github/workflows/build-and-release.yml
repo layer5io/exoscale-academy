@@ -59,7 +59,7 @@ jobs:
         with:
           orgId: ${{ github.event.inputs.orgId || secrets.ACADEMY_ORG_ID }}
           token: ${{ github.event.inputs.token || secrets.ACADEMY_TOKEN }}
-          academy-name: 'Exoscale Academy'
+          academy-name: ${{ github.event.inputs.academy-name || 'Exoscale Academy' }}
           version: ${{ github.event.inputs.version != '' && github.event.inputs.version || github.ref_name }}
 
       - name: Show response
