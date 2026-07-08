@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Challenge 1 on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-426/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/</link><description>Recent content in Challenge 1 on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-426/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/index.xml" rel="self" type="application/rss+xml"/><item><title>Solution - Ch1</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-426/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-426/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/workshop-cka-preparation/11.challenges/challenge1/solution/</guid><description>&lt;ol&gt;
+&lt;li&gt;Test&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you try to list the Nodes, you&amp;rsquo;ll get an error similar to the following one:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ kubectl get no
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The connection to the server 192.168.64.17:6443 was refused - did you specify the right host or port?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Identification&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As kubectl targets the API Server, first make sure this one is running fine.&lt;/p&gt;
+&lt;p&gt;On the controlplane Node, check the APIServer&amp;rsquo;s logs in &lt;em&gt;/var/log/syslog&lt;/em&gt;. You should see that the API Server cannot start correctly:&lt;/p&gt;</description></item></channel></rss>
