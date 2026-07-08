@@ -1,0 +1,45 @@
+# htmltest configuration.
+# Checks the built HTML in public/ for broken links, images, and scripts.
+# External links are skipped at runtime via the -s flag in the check:links script.
+
+DirectoryPath: "public"
+
+CheckInternal: true
+CheckExternal: true       # skipped at runtime by -s; left true for when you drop -s
+EnforceHTTPS: true        # still flags real http:// links (e.g. exoscale.com) to fix
+
+# --- Silence intentional or non-blocking findings ---
+
+# Hugo serves pages as directories, so a link to "./foo" (no trailing slash)
+# only causes a redirect, not a break. Don't treat these as errors.
+IgnoreDirectoryMissingTrailingSlash: true
+
+# Alt-text issues are an accessibility backlog, not broken links. Empty alt is
+# valid for decorative images. Re-enable (set these false) when you work the
+# accessibility pass.
+IgnoreAltEmpty: true
+IgnoreAltMissing: true
+
+# Deliberate example URLs in workshop content (intentionally http, not real
+# reachable hosts). These skip HTTPS enforcement; genuine http links elsewhere
+# (exoscale.com, etc.) are NOT listed here, so they still surface for fixing.
+IgnoreHTTPS:
+  - '^http://localhost'
+  - 'votingapp\.(com|cc)'
+  - 'nip\.io'
+  - 'thesecretlivesofdata\.com'
+
+# Directories in public/ to skip entirely (adjust per repo as needed).
+# Theme/shortcode demonstration pages full of intentional example links and
+# placeholder image paths. Not real content; skip the whole section.
+IgnoreDirs:
+  - 'content-formatting-examples'
+
+# Cache external-link results for fast repeat runs (stored under tmp/.htmltest;
+# add tmp/ to .gitignore). Harmless under -s.
+CacheExpires: "336h"
+
+
+# Known-noisy or intentionally-unreachable URLs to ignore (regex).
+# IgnoreURLs:
+#   - "^https://linkedin\\.com/"
