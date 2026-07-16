@@ -56,7 +56,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[19 47 374 400 182 454]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[148 217 474 414 354 297]" src="storage_color.jpg" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -96,7 +96,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[125 296 261 434 83 391]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[340 427 205 378 222 449]" src="cloud-computing.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -142,7 +142,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[19 378 469 266 257 113]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[247 313 43 32 343 9]" src="iaas&amp;#43;_arch.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
