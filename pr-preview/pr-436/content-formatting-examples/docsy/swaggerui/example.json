@@ -1,0 +1,69 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Example Academy API",
+    "version": "1.0.0",
+    "description": "A sample API specification for demonstrating the Redoc and SwaggerUI shortcodes."
+  },
+  "paths": {
+    "/api/courses": {
+      "get": {
+        "summary": "List courses",
+        "description": "Returns a list of all available courses.",
+        "responses": {
+          "200": {
+            "description": "A list of courses.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Course"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/courses/{id}": {
+      "get": {
+        "summary": "Get a course",
+        "description": "Returns a single course by ID.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A course object.",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Course" }
+              }
+            }
+          },
+          "404": { "description": "Course not found." }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Course": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "example": "cloud-101" },
+          "title": { "type": "string", "example": "Cloud Fundamentals" },
+          "description": { "type": "string", "example": "An introduction to cloud computing concepts." },
+          "duration": { "type": "string", "example": "2 hours" }
+        }
+      }
+    }
+  }
+}
