@@ -6,18 +6,20 @@ description: Academy theme lab-intro shortcode for storing lab introduction cont
 draft: true
 ---
 
-The `lab-intro` shortcode captures its inner content and stores it on the page scratch pad under the key `lab_intro`. This allows layout templates to retrieve and display lab introduction text in a dedicated section of the page.
+The `lab-intro` shortcode captures its inner content and stores it for output elsewhere on the page, so lab introductions can be authored inline with the rest of the lab while rendering in a dedicated section. It emits nothing at the call site — the stored content is rendered by `lab-outro`, which must appear later in the same file.
 
 ```text
-{{%/* lab-intro */%}}
+{{</* lab-intro */>}}
 Welcome to this hands-on lab. In this exercise, you will learn how to deploy a cloud native application using Kubernetes. By the end of this lab, you will be able to create a cluster, deploy workloads, and expose services.
-{{%/* /lab-intro */%}}
+{{</* /lab-intro */>}}
+
+{{</* lab-outro */>}}
 ```
 
 **Example:**
 
-{{% lab-intro %}}
-Welcome to this hands-on lab. In this exercise, you will learn how to deploy a cloud native application using Kubernetes. By the end of this lab, you will be able to create a cluster, deploy workloads, and expose services.
-{{% /lab-intro %}}
+{{< lab-intro >}}
+Welcome to this hands-on lab. In this exercise, you will learn how to deploy a cloud-native application using Kubernetes. By the end of this lab, you will be able to create a cluster, deploy workloads, and expose services.
+{{< /lab-intro >}}
 
-The content above is stored in the page's scratch pad. Layout templates can access it via `.Page.Scratch.Get "lab_intro"` to render it in a dedicated area.
+{{< lab-outro >}}
