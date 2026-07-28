@@ -38,7 +38,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.27",
     "hugo-extended": "0.158.0",
-    "postcss": "^8.5.12",
+    "postcss": "^8.5.24",
     "postcss-cli": "^11.0.1",
     "prettier": "3.8.3",
     "rtlcss": "^4.3.0"
