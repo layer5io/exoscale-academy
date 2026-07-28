@@ -1,0 +1,10 @@
+Category,Function,Feature,Workspace Admin,Workspace Editor,Team Admin,Team Editor,Org Admin,Org Editor,Provider Admin,Keychain ID,Key ID,Inserted,Local Provider
+Designs,Design,Create and edit cloud native designs,X,X,X,X,X,X,X,KC001,K001,2024-01-01,true
+Designs,Design,Delete designs,X,,X,,X,,X,KC001,K002,2024-01-01,true
+Designs,Design,Share designs with team,X,X,X,X,X,X,X,KC001,K003,2024-01-01,true
+Environments,Environment,Create environments,X,X,X,,X,,X,KC002,K004,2024-01-15,true
+Environments,Environment,Delete environments,X,,X,,X,,X,KC002,K005,2024-01-15,true
+Environments,Environment,View environment details,X,X,X,X,X,X,X,KC002,K006,2024-01-15,true
+Connections,Connection,Register connections,X,,X,,X,,X,KC003,K007,2024-02-01,true
+Connections,Connection,Test connections,X,X,X,X,X,X,X,KC003,K008,2024-02-01,true
+Connections,Connection,Delete connections,X,,X,,X,,X,KC003,K009,2024-02-01,true
