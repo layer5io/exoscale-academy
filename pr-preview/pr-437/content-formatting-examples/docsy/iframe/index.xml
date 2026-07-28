@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iframe on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-437/content-formatting-examples/docsy/iframe/</link><description>Recent content in Iframe on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-437/content-formatting-examples/docsy/iframe/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-437/content-formatting-examples/docsy/iframe/frame-example/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-437/content-formatting-examples/docsy/iframe/frame-example/</guid><description>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+ &lt;meta charset="UTF-8"&gt;
+ &lt;style&gt;
+ body {
+ font-family: system-ui, sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+ margin: 0;
+ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ color: white;
+ text-align: center;
+ }
+ .container { padding: 2rem; }
+ h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+ p { opacity: 0.85; }
+ &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ &lt;div class="container"&gt;
+ &lt;h1&gt;Embedded Frame&lt;/h1&gt;
+ &lt;p&gt;This HTML page is rendered inside a Docsy &lt;code&gt;iframe&lt;/code&gt; shortcode.&lt;/p&gt;
+ &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description></item></channel></rss>
