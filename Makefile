@@ -15,19 +15,39 @@
 include .github/build/Makefile.core.mk
 include .github/build/Makefile.show-help.mk
 
-# Changes to any main recipe in this Makefile, require a corresponding change in all other repositories subscribed to the 'meshery-academy' topic.
-
-# htmltest is fetched and run on demand via 'go run' (no install step). Pin it for
-# reproducible link checks; leave as 'latest' to always use the newest release.
-HTMLTEST_VERSION ?= latest
-export HTMLTEST_VERSION
+# ---------------------------------------------------------------------------
+# SHARED TEMPLATE — PROPAGATE CHANGES
+#
+# This Makefile is a shared template. Any change to a main recipe below must be
+# mirrored in the corresponding Makefile of each repository listed here:
+#
+#   - https://github.com/layer5io/docs
+#   - https://github.com/meshery/meshery/tree/master/docs
+#   - https://github.com/topics/meshery-academy
+#
+# Target names, prerequisites, and the npm scripts they call form the shared
+# contract; keep them identical across repositories. The Docker section,
+# theme-update, the check-go implementation, and any extra check-deps guards are
+# per-repository adaptations and are expected to differ.
+#
+# MAIN TARGETS
+#
+#   setup              Install site dependencies (npm install).
+#   build              Build locally with draft, future, and expired content.
+#   build-preview      Build for a deploy preview (uses DEPLOY_PRIME_URL).
+#   build-production   Build for production. Pass BASE_URL=... to set the base URL.
+#   site               Serve locally with live reload.
+#   serve              Serve locally once, file watcher off (no live reload).
+#   clean              Empty the build cache, reinstall dependencies, run 'site'.
+#   lint / lint-fix    Check or auto-fix Markdown linting issues.
+#   check-links        Check internal links in the built site.
+#   check-deps         Verify required commands and local dependencies.
+#   check-go           Verify Go is installed (required by Hugo Modules).
+#
+# ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
-# Academy
-# ---------------------------------------------------------------------------
-
-# ---------------------------------------------------------------------------
-# MAINTENANCE: Show help for available targets
+# MAINTENANCE
 # ---------------------------------------------------------------------------
 
 ## Verify required commands and local dependencies are present.
@@ -43,13 +63,25 @@ check-go:
 	@command -v go > /dev/null || { echo "Go is not installed. Please install it before proceeding."; exit 1; }
 	@echo "Go is installed."
 
+## Check internal links in the built site.
+check-links: check-go check-deps
+	npm run check:links
+
+## Check Markdown for linting issues.
+lint: check-deps
+	npm run lint
+
+## Fix Markdown linting issues.
+lint-fix: check-deps
+	npm run lint:fix
+
 ## Update the academy-theme package to latest version
 theme-update: check-go check-deps
 	@echo "Updating to latest academy-theme..."
-	npm run update:theme
+	npm run theme:update
 
 # ---------------------------------------------------------------------------
-# LOCAL BUILDS: Show help for available targets
+# LOCAL BUILDS
 # ---------------------------------------------------------------------------
 
 ## Install site dependencies
@@ -66,15 +98,22 @@ build-preview: check-go check-deps
 
 ## Build the site for production.
 build-production: check-go check-deps
-	npm run build:production
+	set -e; \
+	if [ -n "$(BASE_URL)" ]; then \
+		base_url="$(BASE_URL)"; \
+		base_url="$${base_url%/}/"; \
+		npm run build:production -- --baseURL "$$base_url"; \
+	else \
+		npm run build:production; \
+	fi
 
 ## Build and run the site locally with live reload (draft and future content enabled).
 site: check-go check-deps
 	npm run site
 
 ## Build and serve the site once with the file-watcher off (no live reload).
-site-no-watch: check-go check-deps
-	npm run site:no-watch
+serve: check-go check-deps
+	npm run serve
 
 ## Empty the build cache, reinstall dependencies, and run the site locally.
 clean:
@@ -82,33 +121,16 @@ clean:
 	$(MAKE) setup
 	$(MAKE) site
 
-## Check internal links in the built site (htmltest is fetched on demand via 'go run').
-check-links: check-go check-deps
-	npm run check:links
-
-## Format code using Prettier
-format:
-	npm run format
-
-## Check formatting without writing changes.
-format-check:
-	npm run format:check
-
-## Fix Markdown linting issues
-lint-fix:
-	npx --yes markdownlint-cli2 --fix "content/**/*.md"
-
 .PHONY: \
 	setup \
 	build \
 	build-preview \
 	build-production \
 	site \
-	site-no-watch \
+	serve \
 	clean \
 	check-links \
-	format \
-	format-check \
+	lint \
 	lint-fix \
 	check-deps \
 	check-go \
