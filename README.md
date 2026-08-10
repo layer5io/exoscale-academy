@@ -46,8 +46,10 @@ Once imported, the individual Exoscale icons will be available in the Designer's
 
 Before you begin, ensure you have:
 
-- [**Hugo**](https://gohugo.io/getting-started/installing/) (extended version, recommended v0.147.9 or later)
-- [**Go**](https://go.dev/doc/install) (v1.12 or later)
+- [**Go**](https://go.dev/doc/install) (see `go.mod` for the required version)
+- [**Node.js / npm**](https://nodejs.org/) (LTS recommended)
+
+> Hugo Extended is installed locally by `make setup` and does not need to be installed globally.
 
 ## Getting Started
 
@@ -134,7 +136,7 @@ Each level uses `_index.md` files with [Hugo frontmatter](https://gohugo.io/cont
 2. **Delete Example Content**
    - Remove any demo/example files not relevant to your new material.
 
-3. **Organize Contens**
+3. **Organize Contents**
    - Add new folders and markdown files for each learning path, course and module.
 
 4. **Add Assessments**
@@ -222,10 +224,6 @@ Embed videos in a visually distinct `card` using:
 
 > Always use these shortcodes for images, videos, and embedded designs. This keeps assets portable, ensures they resolve correctly for each organization, and integrates properly with the Academy platform’s build and deployment flow.
 
-## Local Development
-
-To preview your content locally, run:
-
 ```bash
 # Clean up and verify Go module dependencies
 go mod tidy
@@ -233,27 +231,38 @@ go mod tidy
 # Install necessary tools and modules
 make setup
 
-# Start the local Hugo development server
+# Start the local Hugo development server with live reload
 make site
 
-# Build the site for production
+# Serve the site once with the file watcher off (no live reload)
+make serve
+
+# Build the site locally with draft and future content enabled
 make build
 
-# Build the site for local consumption with custom base URL
+# Build the site for a deploy preview (honors DEPLOY_PRIME_URL)
 make build-preview
 
-# Clean the Hugo cache and restart local setup
+# Build the site for production (pass BASE_URL=... to set the base URL)
+make build-production
+
+# Empty the build cache, reinstall dependencies, and run the site locally
 make clean
+
+# Check Markdown for linting issues
+make lint
 
 # Fix Markdown linting issues
 make lint-fix
+
+# Check internal links in the built site
+make check-links
 
 # Verify Go is installed before starting the local site
 make check-go
 
 # Update the academy-theme package version
 make theme-update
-
 ```
 
 - Open the local URL displayed in your terminal browser.
