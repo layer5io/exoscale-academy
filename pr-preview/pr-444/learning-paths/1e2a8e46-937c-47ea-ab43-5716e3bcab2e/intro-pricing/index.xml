@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>INTRO Pricing on Exoscale Academy</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-444/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/</link><description>Recent content in INTRO Pricing on Exoscale Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/exoscale-academy/pr-preview/pr-444/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Pricing</title><link>https://layer5io.github.io/exoscale-academy/pr-preview/pr-444/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/intro-pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/exoscale-academy/pr-preview/pr-444/learning-paths/1e2a8e46-937c-47ea-ab43-5716e3bcab2e/intro-pricing/intro-pricing/</guid><description>&lt;h2 id="typical-web-application" class="heading-link"&gt;
+ Typical Web Application
+ &lt;a href="#typical-web-application" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Our example architecture consists of the following explained components, and it demonstrates the practical usage of several products together and the associated costs.&lt;/p&gt;
+
+&lt;h4 id="application-servers" class="heading-link"&gt;
+ Application Servers
+ &lt;a href="#application-servers" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;run the web application. The application reads from the DB servers via the Elastic IP v2, and users access this web service via another Elastic IP v2 that distributes traffic evenly among them. Upload user files to the Public File Bucket. Installed in an Anti-Affinity group.&lt;/p&gt;</description></item></channel></rss>
