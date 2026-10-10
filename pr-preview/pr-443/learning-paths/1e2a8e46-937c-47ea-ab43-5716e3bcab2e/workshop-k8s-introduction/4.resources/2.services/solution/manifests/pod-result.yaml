@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: result
-spec:
-  containers:
-    - image: voting/result:latest
-      name: result
