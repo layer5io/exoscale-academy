@@ -1,0 +1,118 @@
+name: sks-template 
+runtime: yaml
+description: SKS cluster management
+config:
+    zone:
+        type: string
+    version:
+        type: string
+    size:
+        type: integer
+    instanceType:
+        type: string
+    nodepoolSuffix:
+        type: integer
+        default: 0
+outputs:
+    kubeConfig: ${kubeconfig.kubeconfig}
+resources:
+    exoscale-provider:
+        type: pulumi:providers:exoscale
+        defaultProvider: true
+        options:
+            version: 0.59.2
+    securityGroup:
+        type: exoscale:SecurityGroup
+        properties:
+            description: Security group for Kubernetes nodes
+            name: sg-${pulumi.stack}
+    securityGroupRulesNodePorts:
+        type: exoscale:SecurityGroupRule
+        properties:
+            securityGroupId: ${securityGroup.id}
+            type: INGRESS
+            protocol: TCP
+            cidr: 0.0.0.0/0
+            startPort: 30000
+            endPort: 32767
+    securityGroupRulesKubelet:
+        type: exoscale:SecurityGroupRule
+        properties:
+            securityGroupId: ${securityGroup.id}
+            type: INGRESS
+            protocol: TCP
+            userSecurityGroupId: ${securityGroup.id}
+            startPort: 10250
+            endPort: 10251
+    securityGroupRulesPrometheus:
+        type: exoscale:SecurityGroupRule
+        properties:
+            securityGroupId: ${securityGroup.id}
+            type: INGRESS
+            protocol: TCP
+            userSecurityGroupId: ${securityGroup.id}
+            startPort: 9100
+            endPort: 9100
+    securityGroupRulesCiliumVXLAN:
+        type: exoscale:SecurityGroupRule
+        properties:
+            securityGroupId: ${securityGroup.id}
+            type: INGRESS
+            protocol: UDP
+            userSecurityGroupId: ${securityGroup.id}
+            startPort: 8472
+            endPort: 8472
+    securityGroupRulesCiliumHCICMP:
+        type: exoscale:SecurityGroupRule
+        properties:
+            securityGroupId: ${securityGroup.id}
+            type: INGRESS
+            protocol: ICMP
+            userSecurityGroupId: ${securityGroup.id}
+            icmpCode: 0
+            icmpType: 8
+    securityGroupRulesCiliumHCTCP:
+        type: exoscale:SecurityGroupRule
+        properties:
+            securityGroupId: ${securityGroup.id}
+            type: INGRESS
+            protocol: TCP
+            userSecurityGroupId: ${securityGroup.id}
+            startPort: 4240
+            endPort: 4240
+    cluster:
+        type: exoscale:SksCluster
+        properties:
+            autoUpgrade: false
+            cni: cilium
+            description: demo SKS cluster
+            exoscaleCcm: true
+            exoscaleCsi: true
+            metricsServer: true
+            serviceLevel: starter
+            name: sks-${pulumi.stack}
+            zone: ${zone}
+            version: ${version}
+    nodepool:
+        type: exoscale:SksNodepool
+        properties:
+            clusterId: ${cluster.id}
+            name: sks-${pulumi.stack}-${nodepoolSuffix}
+            zone: ${cluster.zone}
+            instanceType: ${instanceType}
+            size: ${size}
+            securityGroupIds:
+            - ${securityGroup.id}
+        options:
+          replaceOnChanges:
+          - name
+    kubeconfig:
+        type: exoscale:SksKubeconfig
+        properties:
+            clusterId: ${cluster.id}
+            earlyRenewalSeconds: 0
+            groups:
+                - system:masters
+            ttlSeconds: 0
+            user: kubernetes-admin
+            zone: ${cluster.zone}

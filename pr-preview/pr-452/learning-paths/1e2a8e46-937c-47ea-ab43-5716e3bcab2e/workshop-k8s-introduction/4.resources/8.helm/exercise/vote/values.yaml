@@ -1,0 +1,18 @@
+registry: voting
+voteui:
+  tag: v1.0.13
+vote:
+  tag: v1.0.10
+worker:
+  tag: v1.0.7
+result:
+  tag: v1.0.12
+resultui:
+  tag: v1.0.11
+tools:
+  tag: v1.0.1
+
+# Add dummy votes on a regular basis
+seed: enabled
+schedule: "*/2 * * * *"
+number_of_votes: 5
