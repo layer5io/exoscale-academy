@@ -1,0 +1,22 @@
+{{ if .Values.seed }}{{ if eq .Values.seed "enabled" }} 
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: seed
+spec:
+  schedule: "{{ .Values.schedule }}"
+  jobTemplate:
+    metadata:
+      name: seed
+    spec:
+      template:
+        spec:
+          containers:
+          - image: voting/tools:seed
+            name: seed
+            env:
+            - name: NUMBER_OF_VOTES
+              value: "{{ .Values.number_of_votes }}"
+            imagePullPolicy: Always
+          restartPolicy: OnFailure
+{{ end }}{{ end }}
