@@ -1,0 +1,6 @@
+config:
+  zone: ch-gva-2  
+  version: "" # latest kubernetes version available is used if left empty
+  size: 3
+  instanceType: standard.medium
+  nodepoolSuffix: 0
